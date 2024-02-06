@@ -133,7 +133,7 @@ def llmao_gen(pretrain_type, output_dir):
             if "sus.json" in file_path:
                 with open(file_path.replace("sus", "metadata")) as json_file:
                     meta_json = json.load(json_file)
-                    code_path = f"d4j_code/{d4j_proj}/{bug_num}/b{bug_num}.java"
+                    code_path = f"buggycode_artifact/{d4j_proj}/{bug_num}/b{bug_num}.java"
                     with open(code_path, "r") as jcode:
                         code = jcode.readlines()
                 with open(file_path) as json_file:

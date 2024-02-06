@@ -5,7 +5,7 @@ import json
 def find_metadata(proj, bug):
     found = False
     current_path = os.getcwd()
-    for subdir, dirs, files in os.walk(f"{current_path}/d4j_code"):
+    for subdir, dirs, files in os.walk(f"{current_path}/buggycode_artifact"):
         for file in files:
             file_path = os.path.join(subdir, file)
             bug_sbfl = subdir.split("/")[-1]

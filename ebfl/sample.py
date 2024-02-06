@@ -24,7 +24,7 @@ class Sample:
         return f"{self.fl_directory}/{self.proj}/{self.id}/sus.json"
 
     def code_path(self):
-        return f"d4j_code/{self.proj}/{self.id}/b{self.id}.java"
+        return f"buggycode_artifact/{self.proj}/{self.id}/b{self.id}.java"
 
     def get_results_path(self):
         if not os.path.exists(f"{self.results_directory}/{self.proj}/{self.id}"):
