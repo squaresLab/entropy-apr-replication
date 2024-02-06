@@ -1,0 +1,13 @@
+diff --git a/src/com/google/javascript/jscomp/TypeInference.java b/src/com/google/javascript/jscomp/TypeInference.java
+index 7e218d88..b72df17e 100644
+--- a/src/com/google/javascript/jscomp/TypeInference.java
++++ b/src/com/google/javascript/jscomp/TypeInference.java
+@@ -1056,7 +1056,7 @@ class TypeInference
+       }
+     }
+     n.setJSType(type);
+-    for (Node arg = constructor.getNext(); arg != null; arg = arg.getNext()) {
++    for (Node arg = constructor.getFirstChild(); arg != null; arg = arg.getNext()) {
+       scope = traverse(arg, scope);
+     }
+     return scope;

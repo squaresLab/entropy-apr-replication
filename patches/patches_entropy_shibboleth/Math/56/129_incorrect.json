@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 56, "file_path": "src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java\t2019-02-21 11:38:18.497404007 +0000", "patched_entropy": {"238": 0.7080078125, "239": 2.822265625}, "original_entropy": {"238": 1.1708984375, "239": 1.4267578125}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 62, "file_path": "src/com/google/javascript/jscomp/LightweightMessageFormatter.java\t2017-05-03 12:06:50.000000000 +0800", "patched_entropy": {"96": 1.94140625, "97": 1.849609375, "98": 5.0078125}, "original_entropy": {"96": 1.751953125, "97": 1.7158203125, "98": 1.314453125}, "correct": false}

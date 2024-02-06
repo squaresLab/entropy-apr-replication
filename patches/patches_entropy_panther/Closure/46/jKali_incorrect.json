@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 46, "file_path": "patches/patches_panther/jKali/Incorrect/Closure/46/patch1-Closure-46_jKali/patch1-Closure-46/jKali/patch1-Closure-46_jKali.patch", "patched_entropy": {"141": 1.611328125, "142": 10.0703125, "146": 14.0625}, "original_entropy": {"141": 0.408203125, "142": 1.7294921875, "146": 0.402099609375}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 43, "file_path": "src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java", "patched_entropy": {"157": 1.38671875, "161": 2.099609375, "165": 1.115234375}, "original_entropy": {"157": 0.43701171875, "161": 0.29052734375, "165": 0.036346435546875}, "correct": true}

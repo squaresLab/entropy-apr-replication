@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 124, "file_path": "src/com/google/javascript/jscomp/ExploitAssigns.java", "patched_entropy": {"212": 0.86083984375, "214": 0.740234375}, "original_entropy": {"212": 1.9013671875, "214": 2.05859375}, "correct": true}

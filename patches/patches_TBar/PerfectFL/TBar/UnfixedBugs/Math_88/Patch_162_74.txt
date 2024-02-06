@@ -1,0 +1,12 @@
+diff --git a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+index 3bcb17f2a..9d68df51c 100644
+--- a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
++++ b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+@@ -340,6 +340,7 @@ class SimplexTableau implements Serializable {
+                     }
+                 }
+             }
++	discardArtificialVariables();
+         }
+         return new RealPointValuePair(coefficients, f.getValue(coefficients));
+     }

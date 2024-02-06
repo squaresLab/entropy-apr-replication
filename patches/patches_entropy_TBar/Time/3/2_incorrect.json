@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 3, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Time_3/Patch_2_1.txt", "patched_entropy": {"638": 6.33203125, "639": 1.3193359375}, "original_entropy": {"638": 0.490478515625, "639": 4.546875}, "correct": false}

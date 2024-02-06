@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 58, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Lang_58/Patch_31_31.txt", "patched_entropy": {"451": 4.125, "452": 3.890625, "455": 0.87158203125, "456": 1.193359375}, "original_entropy": {"451": 1.580078125, "452": 1.6416015625, "455": 0.82177734375, "456": 1.5537109375}, "correct": false}

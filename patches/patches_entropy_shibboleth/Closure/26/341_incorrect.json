@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 26, "file_path": "src/com/google/javascript/jscomp/PeepholeFoldConstants.java", "patched_entropy": {"477": 1.9921875}, "original_entropy": {"477": 0.1004638671875}, "correct": false}

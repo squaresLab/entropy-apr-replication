@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 10, "file_path": "src/main/java/org/apache/commons/lang3/time/FastDateParser.java\t2019-03-31 14:17:19.000000000 -0400", "patched_entropy": {"309": 0.931640625, "310": 1.947265625}, "original_entropy": {"309": 1.6572265625, "310": 4.625}, "correct": false}

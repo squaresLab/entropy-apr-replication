@@ -1,0 +1,15 @@
+diff --git a/src/java/org/apache/commons/lang/time/FastDateFormat.java b/src/java/org/apache/commons/lang/time/FastDateFormat.java
+index 8a26f283..26e22bba 100644
+--- a/src/java/org/apache/commons/lang/time/FastDateFormat.java
++++ b/src/java/org/apache/commons/lang/time/FastDateFormat.java
+@@ -289,9 +289,7 @@ public class FastDateFormat extends Format {
+ 
+         FastDateFormat format = (FastDateFormat) cDateInstanceCache.get(key);
+         if (format == null) {
+-            if (locale == null) {
+-                locale = Locale.getDefault();
+-            }
++            locale = Locale.getDefault();
+             try {
+                 SimpleDateFormat formatter = (SimpleDateFormat) DateFormat.getDateInstance(style, locale);
+                 String pattern = formatter.toPattern();

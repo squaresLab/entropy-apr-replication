@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 9, "file_path": "patches/patches_panther/SequenceR/Incorrect/Chart/9/patch1-Chart-9_SequenceR/patch1-Chart-9/SequenceR/patch1-Chart-9_SequenceR.patch", "patched_entropy": {"943": 3.92578125, "944": 0.47021484375}, "original_entropy": {"943": 1.083984375, "944": 2.150390625}, "correct": false}

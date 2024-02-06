@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 82, "file_path": "patches/patches_panther/SequenceR/Incorrect/Math/82/patch3-Math-82_SequenceR/patch3-Math-82/SequenceR/patch3-Math-82_SequenceR.patch", "patched_entropy": {"81": 1.0791015625, "82": 2.388671875}, "original_entropy": {"81": 0.75732421875, "82": 1.7734375}, "correct": false}

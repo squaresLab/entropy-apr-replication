@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 57, "file_path": "src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java", "patched_entropy": {"98": 2.173828125, "99": 1.59765625}, "original_entropy": {"98": 0.5703125, "99": 1.791015625}, "correct": false}

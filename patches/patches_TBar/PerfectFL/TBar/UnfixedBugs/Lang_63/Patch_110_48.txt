@@ -1,0 +1,22 @@
+diff --git a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+index 127b9279..ad1cc0c3 100644
+--- a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -315,7 +315,7 @@ public class DurationFormatUtils {
+             months += 12;
+             years -= 1;
+         }
+-        milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++        
+         seconds -= reduceAndCorrect(start, end, Calendar.SECOND, seconds);
+         minutes -= reduceAndCorrect(start, end, Calendar.MINUTE, minutes);
+         hours -= reduceAndCorrect(start, end, Calendar.HOUR_OF_DAY, hours);
+@@ -336,6 +336,8 @@ public class DurationFormatUtils {
+                 years = 0;
+             }
+         }
++	milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++
+         if (!Token.containsTokenWithValue(tokens, M)) {
+             days += end.get(Calendar.DAY_OF_YEAR) - start.get(Calendar.DAY_OF_YEAR);
+             months = 0;

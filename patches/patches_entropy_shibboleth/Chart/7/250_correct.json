@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 7, "file_path": "source/org/jfree/data/time/TimePeriodValues.java\t(revision 1086)", "patched_entropy": {"298": 1.447265625, "301": 0.2890625}, "original_entropy": {"298": 0.50537109375, "301": 0.15234375}, "correct": true}

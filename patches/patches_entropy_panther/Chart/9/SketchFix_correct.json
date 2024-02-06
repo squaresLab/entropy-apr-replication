@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 9, "file_path": "patches/patches_panther/SketchFix/Correct/Chart/9/patch1-Chart-9_SketchFix/patch1-Chart-9/SketchFix/patch1-Chart-9_SketchFix.patch", "patched_entropy": {"943": 3.92578125, "944": 1.044921875}, "original_entropy": {"943": 1.083984375, "944": 2.150390625}, "correct": true}

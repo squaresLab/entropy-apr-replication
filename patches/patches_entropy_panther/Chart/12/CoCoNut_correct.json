@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 12, "file_path": "patches/patches_panther/CoCoNut/Correct/Chart/12/patch1-Chart-12_CoCoNut/patch1-Chart-12/CoCoNut/patch1-Chart-12_CoCoNut.patch", "patched_entropy": {"144": 1.005859375, "145": 2.99609375}, "original_entropy": {"144": 0.2093505859375, "145": 0.96142578125}, "correct": true}

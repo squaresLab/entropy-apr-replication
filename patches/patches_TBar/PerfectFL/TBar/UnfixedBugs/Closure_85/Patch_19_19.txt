@@ -1,0 +1,13 @@
+diff --git a/src/com/google/javascript/jscomp/UnreachableCodeElimination.java b/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
+index c2150b14..9d9834d9 100644
+--- a/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
++++ b/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
+@@ -150,7 +150,7 @@ class UnreachableCodeElimination extends AbstractPostOrderCallback
+       return n;
+     }
+ 
+-    if (n.getParent() == null) {
++    if ((n.getParent() == null) && (n.getType() == Token.FUNCTION)) {
+       List<DiGraphEdge<Node,Branch>> outEdges = gNode.getOutEdges();
+       if (outEdges.size() == 1) {
+         return tryRemoveUnconditionalBranching(outEdges.get(0).getDestination().getValue());

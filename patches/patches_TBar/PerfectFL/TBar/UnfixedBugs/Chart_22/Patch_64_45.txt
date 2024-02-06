@@ -1,0 +1,25 @@
+diff --git a/source/org/jfree/data/KeyedObjects2D.java b/source/org/jfree/data/KeyedObjects2D.java
+index d0e832f..0c4e8b2 100644
+--- a/source/org/jfree/data/KeyedObjects2D.java
++++ b/source/org/jfree/data/KeyedObjects2D.java
+@@ -331,19 +331,7 @@ public class KeyedObjects2D implements Cloneable, Serializable {
+         this.rows.remove(rowIndex);
+     }
+ 
+-    /**
+-     * Removes an entire row from the table.
+-     *
+-     * @param rowKey  the row key (<code>null</code> not permitted).
+-     * 
+-     * @throws UnknownKeyException if <code>rowKey</code> is not recognised.
+-     * 
+-     * @see #removeColumn(Comparable)
+-     */
+-    public void removeRow(Comparable rowKey) {
+-        int index = getRowIndex(rowKey);
+-        removeRow(index);
+-    }
++    
+ 
+     /**
+      * Removes an entire column from the table.

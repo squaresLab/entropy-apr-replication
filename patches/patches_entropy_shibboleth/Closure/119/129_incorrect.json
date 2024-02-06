@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 119, "file_path": "src/com/google/javascript/jscomp/AstValidator.java", "patched_entropy": {"156": 1.107421875, "157": 4.72265625, "162": 17.578125, "163": 3.365234375, "489": 0.6298828125}, "original_entropy": {"156": 1.7734375, "157": 1.453125, "162": 0.321044921875, "163": 16.765625, "489": 0.1663818359375}, "correct": false}

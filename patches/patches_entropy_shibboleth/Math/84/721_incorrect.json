@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 84, "file_path": "src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java", "patched_entropy": {"94": 12.4609375, "95": 6.609375}, "original_entropy": {"94": 1.3984375, "95": 15.9453125}, "correct": false}

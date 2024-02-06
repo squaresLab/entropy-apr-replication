@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 15, "file_path": "source/org/jfree/chart/JFreeChart.java", "patched_entropy": {"1218": 11.3984375, "1219": 3.384765625, "1220": 0.9248046875, "1221": 0.412353515625}, "original_entropy": {"1218": 0.822265625, "1219": 15.1328125, "1220": 1.5107421875, "1221": 11.5859375}, "correct": false}

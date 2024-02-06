@@ -1,0 +1,8 @@
+{"line_number": 54, "line_type": "original", "code": "            reporter.cannotStubWithNullThrowable();", "entropy": 1.697265625, "is_bug_line": false, "sus_score": 0.40685, "per_token_entropy": [8.5546875, 3.76953125, 0.0119171142578125, 2.3125, 0.079345703125, 0.1611328125, 0.3447265625, 0.004543304443359375, 0.03314208984375], "tokens": [1468, 29877, 32, 18506, 9816, 1554, 1883, 14085, 473]}
+{"line_number": 54, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.40685, "per_token_entropy": [], "tokens": []}
+{"line_number": 65, "line_type": "original", "code": "}", "entropy": 5.890625, "is_bug_line": false, "sus_score": 0.33069, "per_token_entropy": [5.890625], "tokens": [111]}
+{"line_number": 65, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.33069, "per_token_entropy": [], "tokens": []}
+{"line_number": 14, "line_type": "original", "code": "    ", "entropy": 5.03125, "is_bug_line": false, "sus_score": 0.285, "per_token_entropy": [5.03125], "tokens": [262]}
+{"line_number": 14, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.285, "per_token_entropy": [], "tokens": []}
+{"line_number": 28, "line_type": "original", "code": "    }", "entropy": 4.875, "is_bug_line": false, "sus_score": 0.23133, "per_token_entropy": [5.375, 4.37890625], "tokens": [264, 320]}
+{"line_number": 28, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.23133, "per_token_entropy": [], "tokens": []}

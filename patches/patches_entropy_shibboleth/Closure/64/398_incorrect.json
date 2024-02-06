@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 64, "file_path": "src/com/google/javascript/jscomp/StatementFusion.java", "patched_entropy": {"60": 6.62109375, "61": 8.6015625, "62": 1.8583984375, "63": 2.62890625}, "original_entropy": {"60": 0.176513671875, "61": 4.3125, "62": 4.2421875, "63": 11.328125}, "correct": false}

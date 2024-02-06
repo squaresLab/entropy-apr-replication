@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 24, "file_path": "patches/patches_panther/DLFix/Correct/Chart/24/patch1-Chart-24_DLFix/patch1-Chart-24/DLFix/patch1-Chart-24_DLFix.patch", "patched_entropy": {"125": 5.17578125, "126": 5.0, "127": 2.533203125, "128": 1.0048828125}, "original_entropy": {"125": 1.03515625, "126": 2.013671875, "127": 4.59765625, "128": 5.86328125}, "correct": true}

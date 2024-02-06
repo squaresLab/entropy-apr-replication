@@ -1,0 +1,15 @@
+diff --git a/src/main/java/org/apache/commons/lang3/StringUtils.java b/src/main/java/org/apache/commons/lang3/StringUtils.java
+index dd2f5cf1..9cf11476 100644
+--- a/src/main/java/org/apache/commons/lang3/StringUtils.java
++++ b/src/main/java/org/apache/commons/lang3/StringUtils.java
+@@ -1573,9 +1573,7 @@ public class StringUtils {
+         int strLen = str.length();
+         for (int i = 0; i < strLen; i++) {
+             char ch = str.charAt(i);
+-            if (searchChars.indexOf(ch) < 0) {
+-                    return i;
+-            }
++            return i;
+         }
+         return INDEX_NOT_FOUND;
+     }

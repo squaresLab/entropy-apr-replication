@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 3, "file_path": "patches/patches_panther/SimFix/Correct/Chart/3/patch1-Chart-3_SimFix/patch1-Chart-3/SimFix/patch1-Chart-3_SimFix.patch", "patched_entropy": {"625": 3.751953125}, "original_entropy": {"625": 0.59375}, "correct": true}

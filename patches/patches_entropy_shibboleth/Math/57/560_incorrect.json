@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 57, "file_path": "src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java", "patched_entropy": {"84": 9.2578125, "85": 1.2783203125}, "original_entropy": {"84": 0.01947021484375, "85": 3.142578125}, "correct": false}

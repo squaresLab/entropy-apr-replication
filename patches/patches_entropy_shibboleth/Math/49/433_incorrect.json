@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 49, "file_path": "src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java", "patched_entropy": {"666": 2.138671875, "670": 2.9921875}, "original_entropy": {"666": 0.14404296875, "670": 0.168701171875}, "correct": false}

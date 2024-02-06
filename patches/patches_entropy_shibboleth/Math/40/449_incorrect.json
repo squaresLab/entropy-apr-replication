@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 40, "file_path": "src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java", "patched_entropy": {"263": 1.23828125, "264": 1.7138671875, "265": 1.0048828125}, "original_entropy": {"263": 0.48876953125, "264": 1.8095703125, "265": 0.75439453125}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 62, "file_path": "patches/patches_panther/ConFix/Incorrect/Math/62/patch1-Math-62_ConFix/patch1-Math-62/ConFix/patch1-Math-62_ConFix.patch", "patched_entropy": {"31": 3.16015625, "161": 1.9453125, "162": 1.134765625}, "original_entropy": {"31": 12.6484375, "161": 1.9453125, "162": 0.5087890625}, "correct": false}

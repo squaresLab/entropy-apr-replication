@@ -1,0 +1,1 @@
+{"project": "JacksonDatabind", "bug_id": 52, "file_path": "patches/patches_panther/Developer/Correct/JacksonDatabind/52/patch1#1-JacksonDatabind-52_Developer/patch1#1-JacksonDatabind-52/Developer/patch1#1-JacksonDatabind-52_Developer.patch", "patched_entropy": {"611": 1.2109375, "612": 1.826171875}, "original_entropy": {"611": 1.78125, "612": 0.5498046875}, "correct": true}

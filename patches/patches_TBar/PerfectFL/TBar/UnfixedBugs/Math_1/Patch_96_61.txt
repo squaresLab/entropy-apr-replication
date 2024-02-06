@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/apache/commons/math3/fraction/Fraction.java b/src/main/java/org/apache/commons/math3/fraction/Fraction.java
+index 8065885ec..2487f053e 100644
+--- a/src/main/java/org/apache/commons/math3/fraction/Fraction.java
++++ b/src/main/java/org/apache/commons/math3/fraction/Fraction.java
+@@ -212,7 +212,7 @@ public class Fraction
+             if ((FastMath.abs(p2) > overflow) || (FastMath.abs(q2) > overflow)) {
+                 // in maxDenominator mode, if the last fraction was very close to the actual value
+                 // q2 may overflow in the next iteration; in this case return the last one.
+-                throw new FractionConversionException(value, p2, q2);
++                throw new FractionConversionException(floatValue(), p2, q2);
+             }
+ 
+             double convergent = (double)p2 / (double)q2;

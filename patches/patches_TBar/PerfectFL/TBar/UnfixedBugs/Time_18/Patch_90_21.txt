@@ -1,0 +1,14 @@
+diff --git a/src/main/java/org/joda/time/chrono/GJChronology.java b/src/main/java/org/joda/time/chrono/GJChronology.java
+index 29e559d4..3169e558 100644
+--- a/src/main/java/org/joda/time/chrono/GJChronology.java
++++ b/src/main/java/org/joda/time/chrono/GJChronology.java
+@@ -361,7 +361,8 @@ public final class GJChronology extends AssembledChronology {
+ 
+         // Assume date is Gregorian.
+         long instant;
+-            instant = iGregorianChronology.getDateTimeMillis
++            if (iGregorianChronology == null) return this.iGapDuration;
++	 instant = iGregorianChronology.getDateTimeMillis
+                 (year, monthOfYear, dayOfMonth,
+                  hourOfDay, minuteOfHour, secondOfMinute, millisOfSecond);
+         if (instant < iCutoverMillis) {

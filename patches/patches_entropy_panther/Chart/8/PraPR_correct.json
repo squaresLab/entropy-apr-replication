@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 8, "file_path": "patches/patches_panther/PraPR/Correct/Chart/8/patch1-Chart-8_PraPR/patch1-Chart-8/PraPR/patch1-Chart-8_PraPR.patch", "patched_entropy": {"175": 15.484375, "176": 1.01953125}, "original_entropy": {"175": 1.990234375, "176": 11.5}, "correct": true}

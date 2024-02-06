@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 60, "file_path": "src/main/java/org/apache/commons/math/util/ContinuedFraction.java", "patched_entropy": {"185": 1.4638671875, "186": 5.28515625, "187": 1.2724609375, "188": 0.2027587890625}, "original_entropy": {"185": 0.25341796875, "186": 0.375, "187": 6.81640625, "188": 6.8203125}, "correct": false}

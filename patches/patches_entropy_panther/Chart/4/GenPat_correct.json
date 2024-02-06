@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 4, "file_path": "patches/patches_panther/GenPat/Correct/Chart/4/patch1-Chart-4_GenPat/patch1-Chart-4/GenPat/patch1-Chart-4_GenPat.patch", "patched_entropy": {"4491": 2.359375, "4492": 2.501953125, "4502": 1.2646484375}, "original_entropy": {"4491": 4.27734375, "4492": 1.462890625, "4502": 11.78125}, "correct": true}

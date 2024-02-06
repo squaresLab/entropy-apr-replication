@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 6, "file_path": "src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java", "patched_entropy": {"92": 9.8203125, "93": 3.255859375}, "original_entropy": {"92": 0.000782012939453125, "93": 6.10546875}, "correct": false}

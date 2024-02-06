@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 25, "file_path": "source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java\t2017-05-03 11:40:51.000000000 +0800", "patched_entropy": {"206": 5.51953125, "215": 2.12890625}, "original_entropy": {"206": 0.125, "215": 4.140625}, "correct": false}

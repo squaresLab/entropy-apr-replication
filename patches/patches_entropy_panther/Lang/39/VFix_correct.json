@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 39, "file_path": "patches/patches_panther/VFix/Correct/Lang/39/patch1-Lang-39_VFix/patch1-Lang-39/VFix/patch1-Lang-39_VFix.patch", "patched_entropy": {"3675": 2.826171875, "3681": 1.0205078125}, "original_entropy": {"3675": 0.39892578125, "3681": 1.01953125}, "correct": true}

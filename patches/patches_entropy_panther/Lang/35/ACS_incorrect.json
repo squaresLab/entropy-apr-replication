@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 35, "file_path": "patches/patches_panther/ACS/Incorrect/Lang/35/patch1-Lang-35_ACS/patch1-Lang-35/ACS/patch1-Lang-35_ACS.patch", "patched_entropy": {"3299": 2.306640625, "3573": 2.48828125, "4484": 14.6328125}, "original_entropy": {"3299": 0.0161285400390625, "3573": 1.5009765625, "4484": 6.22265625}, "correct": false}

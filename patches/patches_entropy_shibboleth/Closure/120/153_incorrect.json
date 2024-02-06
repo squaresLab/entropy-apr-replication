@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 120, "file_path": "src/com/google/javascript/jscomp/GlobalVarReferenceMap.java", "patched_entropy": {"83": 0.93310546875, "84": 0.521484375, "85": 15.7578125}, "original_entropy": {"83": 0.157470703125, "84": 0.740234375, "85": 6.1015625}, "correct": false}

@@ -1,0 +1,16 @@
+//**********************************************************
+//org/apache/commons/math/optimization/linear/SimplexTableau.java ------ 337
+//**********************************************************
+===Buggy Code===
+for (int j = getNumObjectiveFunctions(); j < getNumObjectiveFunctions() + i; j++) {
+                    if (tableau.getEntry(basicRow, j) == 1) {
+                         coefficients[i] = 0;
+                    }
+                }
+
+===Patch Code===
+for (int j = getNumObjectiveFunctions(); j < getNumObjectiveFunctions() + i; j++) {
+                    if (tableau.getEntry(basicRow, j) == 1) {
+                         coefficients[i] = 0;
+                    }
+                }

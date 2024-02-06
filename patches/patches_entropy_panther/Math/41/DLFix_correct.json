@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 41, "file_path": "patches/patches_panther/DLFix/Correct/Math/41/patch1-Math-41_DLFix/patch1-Math-41/DLFix/patch1-Math-41_DLFix.patch", "patched_entropy": {"519": 2.263671875, "520": 1.255859375}, "original_entropy": {"519": 0.436279296875, "520": 1.052734375}, "correct": true}

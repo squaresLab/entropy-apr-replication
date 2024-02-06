@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 61, "file_path": "patches/patches_panther/ACS/Correct/Math/61/patch1-Math-61_ACS/patch1-Math-61/ACS/patch1-Math-61_ACS.patch", "patched_entropy": {"22": 0.9091796875, "93": 2.74609375}, "original_entropy": {"22": 1.1064453125, "93": 0.84326171875}, "correct": true}

@@ -1,0 +1,12 @@
+diff --git a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+index 3bcb17f2a..9ab730eeb 100644
+--- a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
++++ b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+@@ -333,6 +333,7 @@ class SimplexTableau implements Serializable {
+                 coefficients[i] =
+                     (basicRow == null ? 0 : getEntry(basicRow, getRhsOffset())) -
+                     (restrictToNonNegative ? 0 : mostNegative);
++	discardArtificialVariables();
+             if (basicRow != null) {
+                 for (int j = getNumObjectiveFunctions(); j < getNumObjectiveFunctions() + i; j++) {
+                     if (tableau.getEntry(basicRow, j) == 1) {

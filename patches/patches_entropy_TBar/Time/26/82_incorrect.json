@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 26, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Time_26/Patch_82_28.txt", "patched_entropy": {"480": 8.4140625, "481": 3.72265625, "482": 5.62890625, "483": 0.9423828125, "484": 0.85498046875}, "original_entropy": {"480": 0.1953125, "481": 5.84765625, "482": 14.6484375, "483": 1.3056640625, "484": 1.1669921875}, "correct": false}

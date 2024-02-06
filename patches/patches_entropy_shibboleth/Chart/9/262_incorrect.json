@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 9, "file_path": "source/org/jfree/data/time/TimeSeries.java", "patched_entropy": {"943": 3.6953125, "944": 2.919921875, "945": 13.203125, "946": 1.9658203125}, "original_entropy": {"943": 1.2080078125, "944": 0.6416015625, "945": 0.23291015625, "946": 2.06640625}, "correct": false}

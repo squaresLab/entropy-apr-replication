@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 15, "file_path": "source/org/jfree/chart/ChartFactory.java\t2019-03-31 14:15:52.000000000 -0400", "patched_entropy": {"693": 0.765625, "694": 1.1259765625}, "original_entropy": {"693": 0.0039043426513671875, "694": 0.64599609375}, "correct": false}

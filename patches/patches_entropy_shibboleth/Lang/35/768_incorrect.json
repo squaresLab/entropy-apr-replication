@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 35, "file_path": "src/main/java/org/apache/commons/lang3/ArrayUtils.java\t2017-05-09 06:17:26.000000000 +0800", "patched_entropy": {"3299": 2.697265625, "3573": 2.80859375}, "original_entropy": {"3299": 0.0161285400390625, "3573": 1.5009765625}, "correct": false}

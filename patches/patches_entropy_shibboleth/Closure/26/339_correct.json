@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 26, "file_path": "src/com/google/javascript/jscomp/ProcessCommonJSModules.java", "patched_entropy": {"127": 1.2919921875, "206": 2.07421875, "207": 1.419921875, "208": 0.324951171875, "227": 0.80419921875}, "original_entropy": {"127": 16.40625, "206": 13.703125, "207": 0.446533203125, "208": 2.35546875, "227": 7.484375}, "correct": true}

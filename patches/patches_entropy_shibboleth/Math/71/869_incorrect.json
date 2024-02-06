@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 71, "file_path": "src/main/java/org/apache/commons/math/ode/events/EventState.java\t2017-03-20 23:59:55.000000000 +0800", "patched_entropy": {"187": 2.5078125, "188": 0.93017578125, "189": 3.578125}, "original_entropy": {"187": 0.481201171875, "188": 0.7158203125, "189": 16.234375}, "correct": false}

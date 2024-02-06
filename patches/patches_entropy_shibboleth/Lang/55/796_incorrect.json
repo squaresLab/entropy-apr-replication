@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 55, "file_path": "src/java/org/apache/commons/lang/time/StopWatch.java\t2019-03-31 14:19:00.000000000 -0400", "patched_entropy": {"117": 0.19921875, "118": 17.484375}, "original_entropy": {"117": 1.2197265625, "118": 1.232421875}, "correct": false}

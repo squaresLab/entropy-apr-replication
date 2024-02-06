@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 80, "file_path": "patches/patches_panther/CapGen/Incorrect/Math/80/patch8-Math-80_CapGen/patch8-Math-80/CapGen/patch8-Math-80_CapGen.patch", "patched_entropy": {"1134": 2.3671875, "1135": 2.5}, "original_entropy": {"1134": 1.7685546875, "1135": 2.837890625}, "correct": false}

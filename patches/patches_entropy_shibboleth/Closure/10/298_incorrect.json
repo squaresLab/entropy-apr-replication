@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 10, "file_path": "src/com/google/javascript/rhino/Token.java", "patched_entropy": {"190": 0.2415771484375, "191": 2.767578125}, "original_entropy": {"190": 0.018829345703125, "191": 0.93603515625}, "correct": false}

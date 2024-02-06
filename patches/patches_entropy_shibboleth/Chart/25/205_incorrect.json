@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 25, "file_path": "source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java", "patched_entropy": {"109": 2.404296875, "110": 0.435546875, "111": 17.21875, "112": 2.205078125}, "original_entropy": {"109": 0.00604248046875, "110": 1.6767578125, "111": 4.58984375, "112": 2.748046875}, "correct": false}

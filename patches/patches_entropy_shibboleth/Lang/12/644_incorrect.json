@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 12, "file_path": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java", "patched_entropy": {"230": 2.490234375, "231": 2.43359375}, "original_entropy": {"230": 0.4375, "231": 2.275390625}, "correct": false}

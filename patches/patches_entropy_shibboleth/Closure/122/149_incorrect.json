@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 122, "file_path": "src/com/google/javascript/jscomp/parsing/IRFactory.java", "patched_entropy": {"251": 2.611328125, "252": 9.0390625}, "original_entropy": {"251": 1.888671875, "252": 2.12109375}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 59, "file_path": "patches/patches_panther/Hercules/Correct/Math/59/patch1-Math-59_Hercules/patch1-Math-59/Hercules/patch1-Math-59_Hercules.patch", "patched_entropy": {"3481": 9.28125, "3482": 1.74609375}, "original_entropy": {"3481": 0.053375244140625, "3482": 5.37890625}, "correct": true}

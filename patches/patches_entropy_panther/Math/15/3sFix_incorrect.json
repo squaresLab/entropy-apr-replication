@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 15, "file_path": "patches/patches_panther/3sFix/Incorrect/Math/15/patch1-Math-15_3sFix/patch1-Math-15/3sFix/patch1-Math-15_3sFix.patch", "patched_entropy": {"1541": 4.63671875, "1542": 3.306640625}, "original_entropy": {"1541": 0.599609375, "1542": 4.46875}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 29, "file_path": "src/main/java/org/apache/commons/lang3/SystemUtils.java", "patched_entropy": {"1671": 1.2939453125, "1672": 12.1015625, "1673": 2.484375, "1674": 0.6416015625}, "original_entropy": {"1671": 0.45263671875, "1672": 0.54931640625, "1673": 2.19921875, "1674": 15.4765625}, "correct": false}

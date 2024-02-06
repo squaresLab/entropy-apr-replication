@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 85, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Closure_85/Patch_186_92.txt", "patched_entropy": {"182": 0.3515625, "183": 0.6728515625, "184": 1.54296875}, "original_entropy": {"182": 0.453125, "183": 0.82275390625, "184": 0.7607421875}, "correct": false}

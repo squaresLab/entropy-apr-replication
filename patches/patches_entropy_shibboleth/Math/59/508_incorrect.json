@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 59, "file_path": "src/main/java/org/apache/commons/math/util/FastMath.java", "patched_entropy": {"3481": 9.28125, "3482": 2.1015625}, "original_entropy": {"3481": 0.053375244140625, "3482": 5.37890625}, "correct": false}

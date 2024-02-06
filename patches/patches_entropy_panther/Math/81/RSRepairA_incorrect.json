@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 81, "file_path": "patches/patches_panther/RSRepairA/Incorrect/Math/81/patch1#1-Math-81_RSRepairA/patch1#1-Math-81/RSRepairA/patch1#1-Math-81_RSRepairA.patch", "patched_entropy": {"1535": 0.73681640625, "1536": 1.6142578125, "1537": 2.498046875}, "original_entropy": {"1535": 0.62744140625, "1536": 1.181640625, "1537": 3.337890625}, "correct": false}

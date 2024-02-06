@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 133, "file_path": "src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java\t2017-05-03 12:08:39.000000000 +0800", "patched_entropy": {"1412": 3.833984375, "1413": 5.890625, "1414": 2.4140625}, "original_entropy": {"1412": 0.489013671875, "1413": 1.125, "1414": 1.3779296875}, "correct": false}

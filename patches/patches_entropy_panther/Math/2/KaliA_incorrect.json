@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 2, "file_path": "patches/patches_panther/KaliA/Incorrect/Math/2/patch1-Math-2_KaliA/patch1-Math-2/KaliA/patch1-Math-2_KaliA.patch", "patched_entropy": {"136": 1.4658203125, "137": 5.2265625}, "original_entropy": {"136": 0.0194854736328125, "137": 1.4208984375}, "correct": false}

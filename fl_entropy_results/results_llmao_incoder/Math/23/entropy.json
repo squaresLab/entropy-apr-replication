@@ -1,0 +1,4 @@
+{"line_number": 146, "line_type": "original", "code": "", "entropy": 14.1484375, "is_bug_line": false, "sus_score": 0.40464, "per_token_entropy": [14.1484375], "tokens": [205]}
+{"line_number": 146, "line_type": "generated", "code": "        double fd = fx;", "entropy": 0.389892578125, "is_bug_line": false, "sus_score": 0.40464, "per_token_entropy": [0.342529296875, 0.190185546875, 1.5302734375, 0.1046142578125, 0.1629638671875, 0.00894927978515625], "tokens": [265, 5359, 76, 1167, 17723, 33]}
+{"line_number": 306, "line_type": "original", "code": "        } else {", "entropy": 0.041412353515625, "is_bug_line": false, "sus_score": 0.33693, "per_token_entropy": [0.041412353515625], "tokens": [10628]}
+{"line_number": 306, "line_type": "generated", "code": "        } else {", "entropy": 0.041412353515625, "is_bug_line": false, "sus_score": 0.33693, "per_token_entropy": [0.041412353515625], "tokens": [10628]}

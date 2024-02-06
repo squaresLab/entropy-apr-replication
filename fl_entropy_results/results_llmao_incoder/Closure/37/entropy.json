@@ -1,0 +1,6 @@
+{"line_number": 211, "line_type": "original", "code": "    @Override", "entropy": 0.64306640625, "is_bug_line": false, "sus_score": 0.36432, "per_token_entropy": [0.64306640625], "tokens": [32505]}
+{"line_number": 211, "line_type": "generated", "code": "    @Override", "entropy": 0.64306640625, "is_bug_line": false, "sus_score": 0.36432, "per_token_entropy": [0.64306640625], "tokens": [32505]}
+{"line_number": 642, "line_type": "original", "code": "  public boolean hasScope() {", "entropy": 1.5029296875, "is_bug_line": false, "sus_score": 0.2917, "per_token_entropy": [1.486328125, 1.4404296875, 0.15673828125, 2.1484375, 2.560546875, 1.2216796875], "tokens": [263, 2844, 11458, 1192, 9233, 4232]}
+{"line_number": 642, "line_type": "generated", "code": "  /** Returns whether there are any scopes. */", "entropy": 1.1787109375, "is_bug_line": false, "sus_score": 0.2917, "per_token_entropy": [1.126953125, 1.53125, 1.8193359375, 1.0546875, 0.5439453125, 1.1767578125, 0.9951171875], "tokens": [47583, 10138, 6657, 9390, 2193, 2019, 47479]}
+{"line_number": 136, "line_type": "original", "code": "", "entropy": 9.359375, "is_bug_line": false, "sus_score": 0.28841, "per_token_entropy": [9.359375], "tokens": [205]}
+{"line_number": 136, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.28841, "per_token_entropy": [], "tokens": []}

@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 11, "file_path": "patches/patches_panther/Nopol2015/Incorrect/Time/11/patch1-Time-11_Nopol2015/patch1-Time-11/Nopol2015/patch1-Time-11_Nopol2015.patch", "patched_entropy": {"371": 2.921875, "373": 0.60888671875}, "original_entropy": {"371": 0.17431640625, "373": 1.6748046875}, "correct": false}

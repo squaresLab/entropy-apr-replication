@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 2, "file_path": "src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java", "patched_entropy": {"137": 6.234375, "138": 3.33984375, "139": 1.6845703125, "140": 1.2685546875}, "original_entropy": {"137": 0.463623046875, "138": 4.58984375, "139": 3.19140625, "140": 13.796875}, "correct": false}

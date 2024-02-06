@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 10, "file_path": "source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java", "patched_entropy": {"64": 0.89990234375}, "original_entropy": {"64": 0.6689453125}, "correct": true}

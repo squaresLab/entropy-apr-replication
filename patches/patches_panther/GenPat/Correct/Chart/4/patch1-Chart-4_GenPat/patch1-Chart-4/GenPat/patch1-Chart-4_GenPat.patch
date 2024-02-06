@@ -1,0 +1,19 @@
+--- XYPlot.java	2020-10-11 16:11:40.000000000 +0200
++++ XYPlot copy.java	2020-11-06 13:09:13.000000000 +0100
+@@ -4489,7 +4489,7 @@
+                                 DatasetUtilities.findRangeBounds(d));
+                     }
+                 }
+-                
++                if(r!=null){
+                     Collection c = r.getAnnotations();
+                     Iterator i = c.iterator();
+                     while (i.hasNext()) {
+@@ -4500,6 +4500,7 @@
+                     }
+             }
+         }
++        }
+ 
+         Iterator it = includedAnnotations.iterator();
+         while (it.hasNext()) {

@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 71, "file_path": "src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java", "patched_entropy": {"62": 0.10467529296875}, "original_entropy": {"62": 1.408203125}, "correct": false}

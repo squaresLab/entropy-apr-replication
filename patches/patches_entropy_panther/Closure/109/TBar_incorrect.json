@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 109, "file_path": "patches/patches_panther/TBar/Incorrect/Closure/109/patch1-Closure-109_TBar/patch1-Closure-109/TBar/patch1-Closure-109_TBar.patch", "patched_entropy": {"1907": 8.3671875, "1908": 4.4453125}, "original_entropy": {"1907": 3.443359375, "1908": 7.5078125}, "correct": false}

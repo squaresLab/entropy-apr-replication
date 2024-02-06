@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 33, "file_path": "patches/patches_panther/Elixir/Correct/Lang/33/patch1-Lang-33_Elixir/patch1-Lang-33/Elixir/patch1-Lang-33_Elixir.patch", "patched_entropy": {"909": 6.77734375, "910": 2.71875, "911": 0.69140625, "912": 3.306640625}, "original_entropy": {"909": 0.497314453125, "910": 5.84765625, "911": 2.421875, "912": 4.35546875}, "correct": true}

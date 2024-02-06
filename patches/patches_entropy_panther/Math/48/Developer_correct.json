@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 48, "file_path": "patches/patches_panther/Developer/Correct/Math/48/patch1#1-Math-48_Developer/patch1#1-Math-48/Developer/patch1#1-Math-48_Developer.patch", "patched_entropy": {"188": 1.49609375, "189": 1.4697265625, "190": 0.1304931640625}, "original_entropy": {"188": 2.375, "189": 5.08203125, "190": 2.513671875}, "correct": true}

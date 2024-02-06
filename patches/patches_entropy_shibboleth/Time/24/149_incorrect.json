@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 24, "file_path": "src/main/java/org/joda/time/LocalDate.java\t2019-03-31 14:23:17.000000000 -0400", "patched_entropy": {"575": 5.1484375, "576": 1.25}, "original_entropy": {"575": 0.1356201171875, "576": 3.4140625}, "correct": false}

@@ -1,0 +1,42 @@
+{"line_number": 90, "line_type": "original", "code": "", "entropy": 0.1461181640625, "is_bug_line": false, "sus_score": 0.5271413922309875, "per_token_entropy": [0.1461181640625], "tokens": [203]}
+{"line_number": 90, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.5271413922309875, "per_token_entropy": [], "tokens": []}
+{"line_number": 106, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.5254037976264954, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 106, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.5254037976264954, "per_token_entropy": [], "tokens": []}
+{"line_number": 1729, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.508051335811615, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 1729, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.508051335811615, "per_token_entropy": [], "tokens": []}
+{"line_number": 146, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4840327203273773, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 146, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4840327203273773, "per_token_entropy": [], "tokens": []}
+{"line_number": 142, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4650565981864929, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 142, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4650565981864929, "per_token_entropy": [], "tokens": []}
+{"line_number": 122, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.46231359243392944, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 122, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.46231359243392944, "per_token_entropy": [], "tokens": []}
+{"line_number": 127, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.45704737305641174, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 127, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.45704737305641174, "per_token_entropy": [], "tokens": []}
+{"line_number": 970, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.45358502864837646, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 970, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.45358502864837646, "per_token_entropy": [], "tokens": []}
+{"line_number": 149, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4513242840766907, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 149, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4513242840766907, "per_token_entropy": [], "tokens": []}
+{"line_number": 145, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4503234624862671, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 145, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4503234624862671, "per_token_entropy": [], "tokens": []}
+{"line_number": 151, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.44583582878112793, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 151, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.44583582878112793, "per_token_entropy": [], "tokens": []}
+{"line_number": 123, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4453648626804352, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 123, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4453648626804352, "per_token_entropy": [], "tokens": []}
+{"line_number": 152, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.44458645582199097, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 152, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.44458645582199097, "per_token_entropy": [], "tokens": []}
+{"line_number": 128, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4428107738494873, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 128, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4428107738494873, "per_token_entropy": [], "tokens": []}
+{"line_number": 139, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4342861473560333, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 139, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4342861473560333, "per_token_entropy": [], "tokens": []}
+{"line_number": 65, "line_type": "original", "code": "     *   </ul>", "entropy": 3.384765625, "is_bug_line": false, "sus_score": 0.4329681992530823, "per_token_entropy": [6.3828125, 2.685546875, 7.45703125, 3.302734375, 0.47265625, 0.01514434814453125], "tokens": [262, 319, 261, 576, 338, 48]}
+{"line_number": 65, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4329681992530823, "per_token_entropy": [], "tokens": []}
+{"line_number": 131, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4254186451435089, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 131, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4254186451435089, "per_token_entropy": [], "tokens": []}
+{"line_number": 137, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.4251532554626465, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 137, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4251532554626465, "per_token_entropy": [], "tokens": []}
+{"line_number": 99, "line_type": "original", "code": "        Arrays.sort(declaredFields, supertypesLast);", "entropy": 0.56005859375, "is_bug_line": false, "sus_score": 0.42392322421073914, "per_token_entropy": [4.796875, 1.3837890625, 0.01169586181640625, 0.00031375885009765625, 0.0016269683837890625, 1.0224609375, 0.004344940185546875, 0.0037746429443359375, 0.049652099609375, 1.3947486877441406e-05, 3.933906555175781e-06, 0.00020134449005126953, 0.0059356689453125], "tokens": [351, 14473, 32, 3323, 26, 26549, 4140, 30, 5154, 581, 1690, 3267, 293]}
+{"line_number": 99, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.42392322421073914, "per_token_entropy": [], "tokens": []}
+{"line_number": 101, "line_type": "original", "code": "    }", "entropy": 3.13671875, "is_bug_line": false, "sus_score": 0.4175868332386017, "per_token_entropy": [3.44921875, 2.82421875], "tokens": [264, 320]}
+{"line_number": 101, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.4175868332386017, "per_token_entropy": [], "tokens": []}
+{"line_number": 121, "line_type": "original", "code": "", "entropy": 0.255859375, "is_bug_line": false, "sus_score": 0.41660842299461365, "per_token_entropy": [0.255859375], "tokens": [203]}
+{"line_number": 121, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.41660842299461365, "per_token_entropy": [], "tokens": []}

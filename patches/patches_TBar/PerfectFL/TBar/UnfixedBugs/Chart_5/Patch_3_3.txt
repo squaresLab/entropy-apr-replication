@@ -1,0 +1,13 @@
+diff --git a/source/org/jfree/data/xy/XYSeries.java b/source/org/jfree/data/xy/XYSeries.java
+index 0b37e6e..8a96071 100644
+--- a/source/org/jfree/data/xy/XYSeries.java
++++ b/source/org/jfree/data/xy/XYSeries.java
+@@ -545,7 +545,7 @@ public class XYSeries extends Series implements Cloneable, Serializable {
+         // if we get to here, we know that duplicate X values are not permitted
+         XYDataItem overwritten = null;
+         int index = indexOf(x);
+-        if (index >= 0 && !this.allowDuplicateXValues) {
++        if (index<0 && !this.allowDuplicateXValues) {
+             XYDataItem existing = (XYDataItem) this.data.get(index);
+             try {
+                 overwritten = (XYDataItem) existing.clone();

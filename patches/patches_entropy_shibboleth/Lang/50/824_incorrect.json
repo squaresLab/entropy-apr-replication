@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 50, "file_path": "src/java/org/apache/commons/lang/time/FastDateFormat.java", "patched_entropy": {"233": 9.09375, "234": 3.337890625, "478": 16.203125, "479": 1.658203125}, "original_entropy": {"233": 0.004833221435546875, "234": 6.796875, "478": 0.025634765625, "479": 14.8359375}, "correct": false}

@@ -1,0 +1,8 @@
+{"line_number": 264, "line_type": "original", "code": "", "entropy": 8.3984375, "is_bug_line": false, "sus_score": 0.30183, "per_token_entropy": [8.3984375], "tokens": [205]}
+{"line_number": 264, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.30183, "per_token_entropy": [], "tokens": []}
+{"line_number": 210, "line_type": "original", "code": "        return;", "entropy": 0.0576171875, "is_bug_line": false, "sus_score": 0.26011, "per_token_entropy": [0.0576171875], "tokens": [25567]}
+{"line_number": 210, "line_type": "generated", "code": "        return;", "entropy": 0.0576171875, "is_bug_line": false, "sus_score": 0.26011, "per_token_entropy": [0.0576171875], "tokens": [25567]}
+{"line_number": 296, "line_type": "original", "code": "}", "entropy": 0.09124755859375, "is_bug_line": false, "sus_score": 0.25356, "per_token_entropy": [0.09124755859375], "tokens": [99]}
+{"line_number": 296, "line_type": "generated", "code": "}", "entropy": 0.09124755859375, "is_bug_line": false, "sus_score": 0.25356, "per_token_entropy": [0.09124755859375], "tokens": [99]}
+{"line_number": 168, "line_type": "original", "code": "      case Token.FUNCTION:", "entropy": 0.65283203125, "is_bug_line": false, "sus_score": 0.22989, "per_token_entropy": [1.693359375, 0.00504302978515625, 0.8955078125, 0.0167388916015625], "tokens": [17384, 24494, 21905, 32]}
+{"line_number": 168, "line_type": "generated", "code": "        computeMayUse(", "entropy": 0.56005859375, "is_bug_line": false, "sus_score": 0.22989, "per_token_entropy": [0.89599609375, 0.24609375, 0.06524658203125, 1.033203125], "tokens": [265, 4084, 7162, 15984]}

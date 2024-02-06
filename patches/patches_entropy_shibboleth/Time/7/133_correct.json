@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 7, "file_path": "src/main/java/org/joda/time/format/DateTimeFormatter.java", "patched_entropy": {"707": 1.2724609375, "710": 1.7353515625}, "original_entropy": {"707": 0.315185546875, "710": 1.7353515625}, "correct": true}

@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 9, "file_path": "patches/patches_panther/ConFix/Incorrect/Time/9/patch1-Time-9_ConFix/patch1-Time-9/ConFix/patch1-Time-9_ConFix.patch", "patched_entropy": {"43": 1.9892578125, "283": 0.69775390625, "284": 2.107421875}, "original_entropy": {"43": 11.8515625, "283": 0.69775390625, "284": 2.228515625}, "correct": false}

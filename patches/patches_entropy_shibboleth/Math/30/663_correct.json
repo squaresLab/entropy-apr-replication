@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 30, "file_path": "src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java", "patched_entropy": {"172": 0.468994140625}, "original_entropy": {"172": 0.95263671875}, "correct": true}

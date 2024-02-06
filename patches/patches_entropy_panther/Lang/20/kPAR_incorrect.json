@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 20, "file_path": "patches/patches_panther/kPAR/Incorrect/Lang/20/patch1#1-Lang-20_kPAR/patch1#1-Lang-20/kPAR/patch1#1-Lang-20_kPAR.patch", "patched_entropy": {"3382": 16.515625, "3383": 0.86083984375}, "original_entropy": {"3382": 0.27587890625, "3383": 14.046875}, "correct": false}

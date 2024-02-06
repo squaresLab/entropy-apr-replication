@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 41, "file_path": "src/java/org/apache/commons/lang/ClassUtils.java", "patched_entropy": {"171": 6.40234375, "172": 1.6943359375}, "original_entropy": {"171": 0.052642822265625, "172": 3.83203125}, "correct": false}

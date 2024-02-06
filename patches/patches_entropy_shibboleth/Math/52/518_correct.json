@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 52, "file_path": "src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java", "patched_entropy": {"343": 3.68359375, "344": 1.05078125, "352": 0.76171875, "359": 2.08203125}, "original_entropy": {"343": 1.8603515625, "344": 1.892578125, "352": 0.943359375, "359": 1.7880859375}, "correct": true}

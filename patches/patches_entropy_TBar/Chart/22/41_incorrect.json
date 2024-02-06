@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 22, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Chart_22/Patch_41_30.txt", "patched_entropy": {"232": 1.796875, "233": 1.7509765625, "234": 1.6748046875}, "original_entropy": {"232": 0.60302734375, "233": 4.81640625, "234": 3.169921875}, "correct": false}

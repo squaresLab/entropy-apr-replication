@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 7, "file_path": "patches/patches_panther/DeepRepair/Correct/Lang/7/patch1-Lang-7_DeepRepair/patch1-Lang-7/DeepRepair/patch1-Lang-7_DeepRepair.patch", "patched_entropy": {"452": 5.140625, "453": 2.02734375}, "original_entropy": {"452": 1.6318359375, "453": 5.94921875}, "correct": true}

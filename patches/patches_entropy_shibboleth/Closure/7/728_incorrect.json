@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 7, "file_path": "src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java", "patched_entropy": {"394": 4.42578125, "395": 8.3828125, "396": 1.8095703125, "397": 1.2607421875}, "original_entropy": {"394": 1.23828125, "395": 5.5625, "396": 1.8564453125, "397": 2.107421875}, "correct": false}

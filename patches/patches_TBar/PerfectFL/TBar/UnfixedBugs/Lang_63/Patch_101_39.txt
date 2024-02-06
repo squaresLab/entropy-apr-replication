@@ -1,0 +1,23 @@
+diff --git a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+index 127b9279..1539872e 100644
+--- a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -298,7 +298,8 @@ public class DurationFormatUtils {
+             minutes += 60;
+             hours -= 1;
+         }
+-        while (hours < 0) {
++        milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++	while (hours < 0) {
+             hours += 24;
+             days -= 1;
+         }
+@@ -315,7 +316,7 @@ public class DurationFormatUtils {
+             months += 12;
+             years -= 1;
+         }
+-        milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++        
+         seconds -= reduceAndCorrect(start, end, Calendar.SECOND, seconds);
+         minutes -= reduceAndCorrect(start, end, Calendar.MINUTE, minutes);
+         hours -= reduceAndCorrect(start, end, Calendar.HOUR_OF_DAY, hours);

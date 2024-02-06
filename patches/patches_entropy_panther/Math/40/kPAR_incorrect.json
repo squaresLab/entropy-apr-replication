@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 40, "file_path": "patches/patches_panther/kPAR/Incorrect/Math/40/patch1-Math-40_kPAR/patch1-Math-40/kPAR/patch1-Math-40_kPAR.patch", "patched_entropy": {"259": 1.87890625, "260": 1.947265625}, "original_entropy": {"259": 1.5703125, "260": 0.86962890625}, "correct": false}

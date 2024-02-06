@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 2, "file_path": "patches/patches_panther/ConFix/Incorrect/Closure/2/patch1-Closure-2_ConFix/patch1-Closure-2/ConFix/patch1-Closure-2_ConFix.patch", "patched_entropy": {"1655": 4.15234375, "1656": 2.9375}, "original_entropy": {"1655": 0.90966796875, "1656": 1.6435546875}, "correct": false}

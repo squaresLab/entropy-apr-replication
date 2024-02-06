@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 43, "file_path": "patches/patches_panther/ConFix/Incorrect/Lang/43/patch1-Lang-43_ConFix/patch1-Lang-43/ConFix/patch1-Lang-43_ConFix.patch", "patched_entropy": {"28": 2.66796875, "421": 2.029296875, "422": 1.5400390625}, "original_entropy": {"28": 11.5078125, "421": 2.029296875, "422": 1.83984375}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 24, "file_path": "patches/patches_panther/Jaid/Correct/Chart/24/patch2-Chart-24_Jaid/patch2-Chart-24/Jaid/patch2-Chart-24_Jaid.patch", "patched_entropy": {"125": 3.12890625, "126": 3.900390625, "127": 0.89892578125}, "original_entropy": {"125": 0.3173828125, "126": 3.998046875, "127": 2.732421875}, "correct": true}

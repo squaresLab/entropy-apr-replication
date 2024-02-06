@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 121, "file_path": "src/com/google/javascript/jscomp/InlineVariables.java", "patched_entropy": {"303": 0.95751953125, "308": 1.220703125, "309": 3.646484375}, "original_entropy": {"303": 0.91015625, "308": 0.440673828125, "309": 1.896484375}, "correct": true}

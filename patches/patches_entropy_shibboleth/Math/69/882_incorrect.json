@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 69, "file_path": "src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java\t2017-05-03 12:10:41.000000000 +0800", "patched_entropy": {"192": 3.9765625, "195": 0.405029296875}, "original_entropy": {"192": 0.039276123046875, "195": 1.1279296875}, "correct": false}

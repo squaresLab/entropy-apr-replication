@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 63, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Lang_63/Patch_115_53.txt", "patched_entropy": {"317": 0.5419921875, "318": 3.6484375, "358": 1.0, "359": 9.3828125}, "original_entropy": {"317": 0.387451171875, "318": 0.82861328125, "358": 8.703125, "359": 0.4404296875}, "correct": false}

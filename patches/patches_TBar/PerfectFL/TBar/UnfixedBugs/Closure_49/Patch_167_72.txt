@@ -1,0 +1,16 @@
+diff --git a/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java b/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java
+index 627271f9..04251ddb 100644
+--- a/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java
++++ b/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java
+@@ -94,7 +94,10 @@ class MakeDeclaredNamesUnique
+         renamer.addDeclaredName(name);
+       }
+       Node functionBody = declarationRoot.getLastChild();
+-      findDeclaredNames(functionBody, null, renamer);
++      if (functionBody != null) {
++	findDeclaredNames(functionBody, null, renamer);
++	}
++
+     }  else 
+     if (declarationRoot.getType() != Token.FUNCTION) {
+       // Add the block declarations

@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 55, "file_path": "src/com/google/javascript/jscomp/FunctionRewriter.java", "patched_entropy": {"78": 7.6875, "79": 4.23828125}, "original_entropy": {"78": 0.039642333984375, "79": 2.529296875}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 27, "file_path": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java\t2019-03-31 14:18:01.000000000 -0400", "patched_entropy": {"488": 6.09765625, "489": 1.0302734375}, "original_entropy": {"488": 0.335693359375, "489": 4.98046875}, "correct": false}

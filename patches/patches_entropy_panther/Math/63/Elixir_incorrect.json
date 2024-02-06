@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 63, "file_path": "patches/patches_panther/Elixir/Incorrect/Math/63/patch1-Math-63_Elixir/patch1-Math-63/Elixir/patch1-Math-63_Elixir.patch", "patched_entropy": {"416": 7.9921875, "417": 1.9267578125}, "original_entropy": {"416": 0.6640625, "417": 5.3984375}, "correct": false}

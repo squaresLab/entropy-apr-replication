@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 21, "file_path": "source/org/jfree/data/Range.java\t2017-05-03 11:40:43.000000000 +0800", "patched_entropy": {"334": 2.640625, "337": 0.935546875}, "original_entropy": {"334": 0.09039306640625, "337": 2.724609375}, "correct": false}

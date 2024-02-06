@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 1, "file_path": "src/com/google/javascript/rhino/Node.java\t2017-05-03 12:04:22.000000000 +0800", "patched_entropy": {"1410": 2.693359375, "1417": 5.4140625}, "original_entropy": {"1410": 0.404541015625, "1417": 5.1171875}, "correct": false}

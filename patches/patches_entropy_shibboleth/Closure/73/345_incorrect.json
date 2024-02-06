@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 73, "file_path": "src/com/google/javascript/jscomp/CodeGenerator.java", "patched_entropy": {"1044": 1.6884765625, "1045": 2.345703125}, "original_entropy": {"1044": 1.0849609375, "1045": 1.4951171875}, "correct": false}

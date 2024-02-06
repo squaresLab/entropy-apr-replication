@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 8, "file_path": "src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java", "patched_entropy": {"188": 5.6328125, "189": 14.1015625, "190": 15.65625}, "original_entropy": {"188": 0.05499267578125, "189": 2.310546875, "190": 5.50390625}, "correct": false}

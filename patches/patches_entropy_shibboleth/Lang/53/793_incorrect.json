@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 53, "file_path": "src/java/org/apache/commons/lang/time/DateUtils.java\t2017-03-20 23:41:58.000000000 +0800", "patched_entropy": {"665": 3.005859375}, "original_entropy": {"665": 0.382080078125}, "correct": false}

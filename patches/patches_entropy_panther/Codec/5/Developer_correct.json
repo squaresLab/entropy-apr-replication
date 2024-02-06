@@ -1,0 +1,1 @@
+{"project": "Codec", "bug_id": 5, "file_path": "patches/patches_panther/Developer/Correct/Codec/5/patch1#1-Codec-5_Developer/patch1#1-Codec-5/Developer/patch1#1-Codec-5_Developer.patch", "patched_entropy": {"585": 0.384033203125, "586": 0.006256103515625, "587": 0.0421142578125}, "original_entropy": {"585": 3.84765625, "586": 4.71875, "587": 3.57421875}, "correct": true}

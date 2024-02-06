@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 115, "file_path": "src/com/google/javascript/jscomp/FunctionInjector.java", "patched_entropy": {"729": 2.146484375, "730": 1.310546875}, "original_entropy": {"729": 1.146484375, "730": 2.056640625}, "correct": false}

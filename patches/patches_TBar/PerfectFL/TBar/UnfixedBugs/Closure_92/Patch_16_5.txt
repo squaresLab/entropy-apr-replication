@@ -1,0 +1,12 @@
+diff --git a/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java b/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+index c929a363..0968e886 100644
+--- a/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
++++ b/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+@@ -787,6 +787,7 @@ class ProcessClosurePrimitives extends AbstractPostOrderCallback
+           // In this case, the name was implicitly provided by two independent
+           // modules. We need to move this code up to a common module.
+           int indexOfDot = namespace.indexOf('.');
++	replace();
+           if (indexOfDot == -1) {
+             // Any old place is fine.
+             compiler.getNodeForCodeInsertion(minimumModule)

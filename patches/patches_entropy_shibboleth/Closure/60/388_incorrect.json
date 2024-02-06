@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 60, "file_path": "src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java\t2017-05-03 12:06:41.000000000 +0800", "patched_entropy": {"1196": 2.77734375, "1198": 2.109375}, "original_entropy": {"1196": 0.23095703125, "1198": 14.0859375}, "correct": false}

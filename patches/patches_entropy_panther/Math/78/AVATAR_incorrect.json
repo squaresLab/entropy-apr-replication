@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 78, "file_path": "patches/patches_panther/AVATAR/Incorrect/Math/78/patch1-Math-78_AVATAR/patch1-Math-78/AVATAR/patch1-Math-78_AVATAR.patch", "patched_entropy": {"268": 1.4775390625, "269": 1.64453125}, "original_entropy": {"268": 1.6611328125, "269": 0.8642578125}, "correct": false}

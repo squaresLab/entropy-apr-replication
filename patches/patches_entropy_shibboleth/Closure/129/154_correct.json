@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 129, "file_path": "src/com/google/javascript/jscomp/PrepareAst.java", "patched_entropy": {"165": 0.767578125, "166": 0.0261993408203125, "167": 1.48828125}, "original_entropy": {"165": 16.640625, "166": 1.939453125, "167": 0.671875}, "correct": true}

@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 26, "file_path": "patches/patches_panther/TBar/Incorrect/Chart/26/patch1-Chart-26_TBar/patch1-Chart-26/TBar/patch1-Chart-26_TBar.patch", "patched_entropy": {"2535": 1.7744140625, "2536": 1.6376953125}, "original_entropy": {"2535": 1.3818359375, "2536": 1.1748046875}, "correct": false}

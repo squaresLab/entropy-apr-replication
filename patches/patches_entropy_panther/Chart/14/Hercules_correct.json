@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 14, "file_path": "patches/patches_panther/Hercules/Correct/Chart/14/patch1#2-Chart-14_Hercules/patch1#2-Chart-14/Hercules/patch1#2-Chart-14_Hercules.patch", "patched_entropy": {"2528": 1.7001953125, "2529": 0.26806640625, "2530": 3.271484375}, "original_entropy": {"2528": 0.26611328125, "2529": 3.912109375, "2530": 2.669921875}, "correct": true}

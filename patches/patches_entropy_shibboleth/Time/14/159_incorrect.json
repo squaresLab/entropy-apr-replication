@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 14, "file_path": "src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java\t2017-05-03 12:11:49.000000000 +0800", "patched_entropy": {"209": 1.6220703125, "210": 2.755859375}, "original_entropy": {"209": 2.509765625, "210": 1.6279296875}, "correct": false}

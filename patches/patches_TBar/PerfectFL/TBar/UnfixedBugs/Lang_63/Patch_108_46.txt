@@ -1,0 +1,20 @@
+diff --git a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+index 127b9279..2a3e08a0 100644
+--- a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -315,12 +315,14 @@ public class DurationFormatUtils {
+             months += 12;
+             years -= 1;
+         }
+-        milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++        
+         seconds -= reduceAndCorrect(start, end, Calendar.SECOND, seconds);
+         minutes -= reduceAndCorrect(start, end, Calendar.MINUTE, minutes);
+         hours -= reduceAndCorrect(start, end, Calendar.HOUR_OF_DAY, hours);
+         days -= reduceAndCorrect(start, end, Calendar.DAY_OF_MONTH, days);
+         months -= reduceAndCorrect(start, end, Calendar.MONTH, months);
++	milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++
+         years -= reduceAndCorrect(start, end, Calendar.YEAR, years);
+ 
+         // This next block of code adds in values that

@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 19, "file_path": "patches/patches_panther/Arja/Incorrect/Chart/19/patch1-Chart-19_Arja/patch1-Chart-19/Arja/patch1-Chart-19_Arja.patch", "patched_entropy": {"163": 1.4443359375, "164": 1.75, "165": 1.4404296875}, "original_entropy": {"163": 0.4912109375, "164": 9.609375, "165": 13.734375}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 35, "file_path": "patches/patches_panther/Arja/Correct/Lang/35/patch1-Lang-35_Arja/patch1-Lang-35/Arja/patch1-Lang-35_Arja.patch", "patched_entropy": {"3294": 5.44140625, "3295": 4.3125, "3573": 4.2734375, "3574": 4.328125}, "original_entropy": {"3294": 0.69189453125, "3295": 7.31640625, "3573": 1.3994140625, "3574": 7.6875}, "correct": true}

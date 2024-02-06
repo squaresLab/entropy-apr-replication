@@ -1,0 +1,21 @@
+diff --git a/src/com/google/javascript/jscomp/CheckGlobalThis.java b/src/com/google/javascript/jscomp/CheckGlobalThis.java
+index 25327afe..1142dc88 100644
+--- a/src/com/google/javascript/jscomp/CheckGlobalThis.java
++++ b/src/com/google/javascript/jscomp/CheckGlobalThis.java
+@@ -122,13 +122,16 @@ final class CheckGlobalThis implements Callback {
+       } else {
+         // Only traverse the right side if it's not an assignment to a prototype
+         // property or subproperty.
+-          if (lhs.getType() == Token.GETPROP &&
++          if (lhs != null) {
++	if (lhs.getType() == Token.GETPROP &&
+               lhs.getLastChild().getString().equals("prototype")) {
+             return false;
+           }
+           if (lhs.getQualifiedName() != null && lhs.getQualifiedName().contains(".prototype.")) {
+             return false;
+           }
++	}
++
+       }
+     }

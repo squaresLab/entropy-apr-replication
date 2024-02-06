@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 26, "file_path": "source/org/jfree/chart/plot/CategoryPlot.java\t2017-05-03 11:40:59.000000000 +0800", "patched_entropy": {"2537": 9.5078125, "2538": 2.29296875}, "original_entropy": {"2537": 0.2205810546875, "2538": 4.01171875}, "correct": false}

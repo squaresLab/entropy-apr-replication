@@ -1,0 +1,13 @@
+diff --git a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+index 127b9279..26abb35b 100644
+--- a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -309,7 +309,7 @@ public class DurationFormatUtils {
+ // 1 month and 26 days, but if I count month-first then it is 1 month and 23 days.
+ // Also it's contextual - if asked for no M in the format then I should probably 
+ // be doing no calculating here.
+-            months -= 1;
++            months -= 1f;
+         }
+         while (months < 0) {
+             months += 12;

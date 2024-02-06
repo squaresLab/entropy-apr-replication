@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 33, "file_path": "patches/patches_panther/SimFix/Correct/Lang/33/patch1-Lang-33_SimFix/patch1-Lang-33/SimFix/patch1-Lang-33_SimFix.patch", "patched_entropy": {"909": 6.77734375, "910": 2.384765625}, "original_entropy": {"909": 0.497314453125, "910": 5.84765625}, "correct": true}

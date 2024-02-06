@@ -1,0 +1,29 @@
+diff --git a/src/com/google/javascript/jscomp/Compiler.java b/src/com/google/javascript/jscomp/Compiler.java
+index b3ca246a..c0f3e52b 100644
+--- a/src/com/google/javascript/jscomp/Compiler.java
++++ b/src/com/google/javascript/jscomp/Compiler.java
+@@ -252,17 +252,19 @@ public class Compiler extends AbstractCompiler {
+           CheckLevel.OFF);
+     }
+ 
+-    if (options.checkGlobalThisLevel.isOn()) {
+-      options.setWarningLevel(
+-          DiagnosticGroups.GLOBAL_THIS,
+-          options.checkGlobalThisLevel);
+-    }
++    
+ 
+     if (options.getLanguageIn() == LanguageMode.ECMASCRIPT5_STRICT) {
+       options.setWarningLevel(
+           DiagnosticGroups.ES5_STRICT,
+           CheckLevel.ERROR);
+     }
++	if (options.checkGlobalThisLevel.isOn()) {
++      options.setWarningLevel(
++          DiagnosticGroups.GLOBAL_THIS,
++          options.checkGlobalThisLevel);
++    }
++
+ 
+     // Initialize the warnings guard.
+     List<WarningsGuard> guards = Lists.newArrayList();

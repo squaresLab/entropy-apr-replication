@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 95, "file_path": "src/java/org/apache/commons/math/distribution/FDistributionImpl.java", "patched_entropy": {"144": 5.96484375, "145": 1.8974609375}, "original_entropy": {"144": 0.1495361328125, "145": 2.12890625}, "correct": false}

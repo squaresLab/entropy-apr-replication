@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 3, "file_path": "src/main/java/org/apache/commons/math3/util/MathArrays.java\t2019-03-31 14:20:09.000000000 -0400", "patched_entropy": {"822": 0.45068359375, "823": 2.74609375}, "original_entropy": {"822": 0.2381591796875, "823": 1.439453125}, "correct": false}

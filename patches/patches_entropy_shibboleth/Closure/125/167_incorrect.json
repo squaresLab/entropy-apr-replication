@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 125, "file_path": "src/com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java", "patched_entropy": {"202": 7.96875}, "original_entropy": {"202": 0.00661468505859375}, "correct": false}

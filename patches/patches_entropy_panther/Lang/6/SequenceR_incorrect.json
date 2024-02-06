@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 6, "file_path": "patches/patches_panther/SequenceR/Incorrect/Lang/6/patch2-Lang-6_SequenceR/patch2-Lang-6/SequenceR/patch2-Lang-6_SequenceR.patch", "patched_entropy": {"94": 3.18359375, "95": 2.53515625}, "original_entropy": {"94": 0.5771484375, "95": 3.8359375}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 119, "file_path": "src/com/google/javascript/jscomp/GlobalNamespace.java", "patched_entropy": {"365": 0.9033203125}, "original_entropy": {"365": 0.445068359375}, "correct": true}

@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 51, "file_path": "src/java/org/apache/commons/lang/BooleanUtils.java", "patched_entropy": {"676": 7.3671875, "677": 0.7783203125, "678": 4.52734375, "681": 1.3955078125}, "original_entropy": {"676": 0.12078857421875, "677": 4.83984375, "678": 1.390625, "681": 2.849609375}, "correct": false}

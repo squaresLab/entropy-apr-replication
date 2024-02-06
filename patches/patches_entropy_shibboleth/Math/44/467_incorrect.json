@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 44, "file_path": "src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java\t2017-05-03 12:10:14.000000000 +0800", "patched_entropy": {"286": 3.318359375, "289": 1.5576171875}, "original_entropy": {"286": 1.1796875, "289": 1.5966796875}, "correct": false}

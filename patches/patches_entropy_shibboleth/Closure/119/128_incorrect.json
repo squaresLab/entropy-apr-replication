@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 119, "file_path": "src/com/google/javascript/jscomp/CheckGlobalNames.java", "patched_entropy": {"157": 0.8486328125, "158": 3.80078125}, "original_entropy": {"157": 1.0693359375, "158": 1.0732421875}, "correct": false}

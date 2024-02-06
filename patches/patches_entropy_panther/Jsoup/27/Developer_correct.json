@@ -1,0 +1,1 @@
+{"project": "Jsoup", "bug_id": 27, "file_path": "patches/patches_panther/Developer/Correct/Jsoup/27/patch1#1-Jsoup-27_Developer/patch1#1-Jsoup-27/Developer/patch1#1-Jsoup-27_Developer.patch", "patched_entropy": {"131": 0.787109375, "133": 2.35546875, "134": 1.9716796875}, "original_entropy": {"131": 0.43017578125, "133": 2.35546875, "134": 0.24169921875}, "correct": true}

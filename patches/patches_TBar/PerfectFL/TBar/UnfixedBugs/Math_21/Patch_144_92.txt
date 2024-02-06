@@ -1,0 +1,15 @@
+diff --git a/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java b/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java
+index 04488e593..01c5248c8 100644
+--- a/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java
++++ b/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java
+@@ -124,8 +124,9 @@ public class RectangularCholeskyDecomposition {
+                 for (int i = r + 1; i < order; ++i) {
+                     final int ii = index[i];
+                     final double e = inverse * c[ii][ir];
+-                    b[i][r] = e;
+                     c[ii][ii] -= e * e;
++	b[i][r] = e;
++                    
+                     for (int j = r + 1; j < i; ++j) {
+                         final int ij = index[j];
+                         final double f = c[ii][ij] - e * b[j][r];

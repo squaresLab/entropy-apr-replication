@@ -1,0 +1,43 @@
+diff --git a/src/com/google/javascript/jscomp/CheckSideEffects.java b/src/com/google/javascript/jscomp/CheckSideEffects.java
+index b9aa412c..6a38cba7 100644
+--- a/src/com/google/javascript/jscomp/CheckSideEffects.java
++++ b/src/com/google/javascript/jscomp/CheckSideEffects.java
+@@ -86,18 +86,6 @@ final class CheckSideEffects extends AbstractPostOrderCallback
+     // I've been unable to think of any cases where this indicates a bug,
+     // and apparently some people like keeping these semicolons around,
+     // so we'll allow it.
+-    if (n.isEmpty() ||
+-        n.isComma()) {
+-      return;
+-    }
+-
+-    if (parent == null) {
+-      return;
+-    }
+-
+-    // Do not try to remove a block or an expr result. We already handle
+-    // these cases when we visit the child, and the peephole passes will
+-    // fix up the tree in more clever ways when these are removed.
+     if (parent.getType() == Token.COMMA) {
+       Node gramps = parent.getParent();
+       if (gramps.isCall() && parent == gramps.getFirstChild()) {
+@@ -126,6 +114,19 @@ final class CheckSideEffects extends AbstractPostOrderCallback
+       return;
+       }
+     }
++	if (n.isEmpty() ||
++        n.isComma()) {
++      return;
++    }
++
++    if (parent == null) {
++      return;
++    }
++
++    // Do not try to remove a block or an expr result. We already handle
++    // these cases when we visit the child, and the peephole passes will
++    // fix up the tree in more clever ways when these are removed.
++    
+ 
+     boolean isResultUsed = NodeUtil.isExpressionResultUsed(n);
+     boolean isSimpleOp = NodeUtil.isSimpleOperatorType(n.getType());

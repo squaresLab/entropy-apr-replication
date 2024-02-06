@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 68, "file_path": "src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java", "patched_entropy": {"886": 1.6494140625, "887": 1.3115234375, "888": 3.240234375}, "original_entropy": {"886": 0.982421875, "887": 0.82763671875, "888": 1.2685546875}, "correct": false}

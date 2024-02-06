@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 1, "file_path": "src/com/google/javascript/jscomp/RemoveUnusedVars.java", "patched_entropy": {"378": 0.62109375, "379": 0.1595458984375, "380": 1.3740234375}, "original_entropy": {"378": 13.265625, "379": 1.7470703125, "380": 16.625}, "correct": true}

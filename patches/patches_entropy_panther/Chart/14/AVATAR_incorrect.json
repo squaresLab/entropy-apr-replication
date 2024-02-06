@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 14, "file_path": "patches/patches_panther/AVATAR/Incorrect/Chart/14/patch1#3-Chart-14_AVATAR/patch1#3-Chart-14/AVATAR/patch1#3-Chart-14_AVATAR.patch", "patched_entropy": {"2528": 2.392578125, "2529": 2.599609375}, "original_entropy": {"2528": 0.108642578125, "2529": 3.029296875}, "correct": false}

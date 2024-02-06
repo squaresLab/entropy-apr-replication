@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 74, "file_path": "src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java\t2019-03-31 14:21:57.000000000 -0400", "patched_entropy": {"238": 2.51171875}, "original_entropy": {"238": 0.7998046875}, "correct": false}

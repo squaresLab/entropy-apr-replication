@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 85, "file_path": "src/java/org/apache/commons/math/distribution/NormalDistributionImpl.java", "patched_entropy": {"180": 5.66015625, "181": 2.568359375}, "original_entropy": {"180": 0.41796875, "181": 5.3828125}, "correct": false}

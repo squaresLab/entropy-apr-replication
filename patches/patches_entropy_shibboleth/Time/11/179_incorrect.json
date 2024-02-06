@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 11, "file_path": "src/main/java/org/joda/time/tz/ZoneInfoCompiler.java", "patched_entropy": {"77": 7.7578125, "78": 2.490234375}, "original_entropy": {"77": 0.0677490234375, "78": 6.3515625}, "correct": false}

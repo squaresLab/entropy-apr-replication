@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 51, "file_path": "patches/patches_panther/Jaid/Incorrect/Lang/51/patch3-Lang-51_Jaid/patch3-Lang-51/Jaid/patch3-Lang-51_Jaid.patch", "patched_entropy": {"671": 2.48828125, "672": 1.8701171875, "673": 2.55078125, "679": 2.685546875}, "original_entropy": {"671": 0.798828125, "672": 1.09375, "673": 1.3935546875, "679": 2.005859375}, "correct": false}

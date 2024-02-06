@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 4, "file_path": "src/main/java/org/joda/time/Partial.java\t2017-05-03 12:11:37.000000000 +0800", "patched_entropy": {"458": 3.84765625, "460": 1.26171875}, "original_entropy": {"458": 0.047088623046875, "460": 0.490234375}, "correct": false}

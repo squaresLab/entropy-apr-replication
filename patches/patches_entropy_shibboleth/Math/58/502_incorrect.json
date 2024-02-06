@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 58, "file_path": "src/main/java/org/apache/commons/math/analysis/function/Gaussian.java\t2017-05-03 12:10:35.000000000 +0800", "patched_entropy": {"181": 2.009765625, "187": 4.37890625}, "original_entropy": {"181": 0.60791015625, "187": 1.9287109375}, "correct": false}

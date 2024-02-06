@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 32, "file_path": "src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java\t2019-02-21 11:38:18.433403737 +0000", "patched_entropy": {"204": 0.6103515625, "205": 0.8544921875}, "original_entropy": {"204": 0.3525390625, "205": 0.81103515625}, "correct": false}

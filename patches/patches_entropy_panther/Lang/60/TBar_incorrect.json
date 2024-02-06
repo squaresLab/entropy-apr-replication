@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 60, "file_path": "patches/patches_panther/TBar/Incorrect/Lang/60/patch1-Lang-60_TBar/patch1-Lang-60/TBar/patch1-Lang-60_TBar.patch", "patched_entropy": {"1113": 1.6669921875, "1114": 1.3583984375}, "original_entropy": {"1113": 0.7041015625, "1114": 3.333984375}, "correct": false}

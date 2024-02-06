@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 133, "file_path": "patches/patches_panther/Hercules/Incorrect/Closure/133/patch1-Closure-133_Hercules/patch1-Closure-133/Hercules/patch1-Closure-133_Hercules.patch", "patched_entropy": {"1837": 0.361572265625, "1838": 2.25390625}, "original_entropy": {"1837": 0.318359375, "1838": 1.740234375}, "correct": false}

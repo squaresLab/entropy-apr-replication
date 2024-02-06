@@ -1,0 +1,24 @@
+//**********************************************************
+//org/apache/commons/math/linear/OpenMapRealVector.java ------ 498
+//**********************************************************
+===Buggy Code===
+public double getLInfNorm() {
+        double max = 0;
+        Iterator iter = entries.iterator();
+        while (iter.hasNext()) {
+            iter.advance();
+            max += iter.value();
+        }
+        return max;
+    }
+
+===Patch Code===
+public double getLInfNorm() {
+        double max = 0;
+        Iterator iter = entries.iterator();
+        while (iter.hasNext()) {
+            iter.advance();
+            max += iter.value();
+        }
+        return max;
+    }

@@ -1,0 +1,16 @@
+diff --git a/src/com/google/javascript/jscomp/TypeInference.java b/src/com/google/javascript/jscomp/TypeInference.java
+index 7e218d88..72108885 100644
+--- a/src/com/google/javascript/jscomp/TypeInference.java
++++ b/src/com/google/javascript/jscomp/TypeInference.java
+@@ -1035,8 +1035,10 @@ class TypeInference
+   private FlowScope traverseNew(Node n, FlowScope scope) {
+ 
+     Node constructor = n.getFirstChild();
+-    scope = traverse(constructor, scope);
++    
+     JSType constructorType = constructor.getJSType();
++	scope = traverse(constructor, scope);
++
+     JSType type = null;
+     if (constructorType != null) {
+       constructorType = constructorType.restrictByNotNullOrUndefined();

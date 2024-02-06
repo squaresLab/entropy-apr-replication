@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 32, "file_path": "src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java", "patched_entropy": {"135": 2.048828125}, "original_entropy": {"135": 2.3984375}, "correct": true}

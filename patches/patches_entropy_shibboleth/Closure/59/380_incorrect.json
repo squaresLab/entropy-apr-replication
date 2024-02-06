@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 59, "file_path": "src/com/google/javascript/jscomp/WarningLevel.java", "patched_entropy": {"78": 1.0966796875}, "original_entropy": {"78": 0.12030029296875}, "correct": false}

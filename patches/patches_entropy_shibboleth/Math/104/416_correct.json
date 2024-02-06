@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 104, "file_path": "src/java/org/apache/commons/math/special/Gamma.java", "patched_entropy": {"36": 1.009765625}, "original_entropy": {"36": 1.2412109375}, "correct": true}

@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 13, "file_path": "patches/patches_panther/3sFix/Incorrect/Chart/13/patch7-Chart-13_3sFix/patch7-Chart-13/3sFix/patch7-Chart-13_3sFix.patch", "patched_entropy": {"449": 3.759765625, "450": 8.2890625}, "original_entropy": {"449": 0.0088958740234375, "450": 5.83203125}, "correct": false}

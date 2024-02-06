@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 5, "file_path": "patches/patches_panther/HDRepair/Correct/Math/5/patch1-Math-5_HDRepair/patch1-Math-5/HDRepair/patch1-Math-5_HDRepair.patch", "patched_entropy": {"304": 6.4921875, "305": 2.4296875}, "original_entropy": {"304": 0.54541015625, "305": 5.76953125}, "correct": true}

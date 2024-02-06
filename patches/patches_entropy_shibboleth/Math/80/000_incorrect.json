@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 80, "file_path": "src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java", "patched_entropy": {"1135": 3.25, "1136": 4.51171875, "1137": 2.552734375}, "original_entropy": {"1135": 0.32568359375, "1136": 0.57275390625, "1137": 3.078125}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 79, "file_path": "src/com/google/javascript/jscomp/VarCheck.java", "patched_entropy": {"121": 4.76953125, "126": 4.72265625, "127": 3.23046875, "220": 1.0634765625}, "original_entropy": {"121": 1.19921875, "126": 0.048431396484375, "127": 5.4765625, "220": 2.845703125}, "correct": true}

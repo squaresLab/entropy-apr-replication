@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 4, "file_path": "src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java", "patched_entropy": {"177": 9.28125, "178": 7.9296875}, "original_entropy": {"177": 0.07269287109375, "178": 4.4609375}, "correct": false}

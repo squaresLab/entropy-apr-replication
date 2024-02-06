@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 12, "file_path": "patches/patches_panther/FixMiner/Incorrect/Chart/12/patch1-Chart-12_FixMiner/patch1-Chart-12/FixMiner/patch1-Chart-12_FixMiner.patch", "patched_entropy": {"159": 2.396484375, "160": 2.17578125}, "original_entropy": {"159": 0.71875, "160": 3.154296875}, "correct": false}

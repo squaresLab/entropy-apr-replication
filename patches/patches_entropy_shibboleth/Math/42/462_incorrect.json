@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 42, "file_path": "src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java", "patched_entropy": {"346": 4.5390625, "347": 3.05078125, "348": 0.1904296875, "349": 0.262451171875}, "original_entropy": {"346": 0.074951171875, "347": 3.3671875, "348": 4.91796875, "349": 14.453125}, "correct": false}

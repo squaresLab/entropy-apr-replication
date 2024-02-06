@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 101, "file_path": "patches/patches_panther/GenPat/Incorrect/Math/101/patch1-Math-101_GenPat/patch1-Math-101/GenPat/patch1-Math-101_GenPat.patch", "patched_entropy": {"324": 2.751953125, "325": 1.6640625, "326": 0.290771484375}, "original_entropy": {"324": 12.734375, "325": 2.634765625, "326": 1.1181640625}, "correct": false}

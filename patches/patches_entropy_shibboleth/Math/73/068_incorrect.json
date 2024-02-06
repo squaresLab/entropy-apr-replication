@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 73, "file_path": "src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java\t2017-05-03 12:10:46.000000000 +0800", "patched_entropy": {"224": 1.83203125, "225": 2.5625}, "original_entropy": {"224": 0.2392578125, "225": 2.126953125}, "correct": false}

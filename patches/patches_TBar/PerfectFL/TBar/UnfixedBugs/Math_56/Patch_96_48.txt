@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java b/src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java
+index 56c9ffebc..1ce15861f 100644
+--- a/src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java
++++ b/src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java
+@@ -239,7 +239,7 @@ public class MultidimensionalCounter implements Iterable<Integer> {
+             count += idx;
+             ++idx;
+         }
+-        --idx;
++        
+         indices[last] = idx;
+ 
+         return indices;

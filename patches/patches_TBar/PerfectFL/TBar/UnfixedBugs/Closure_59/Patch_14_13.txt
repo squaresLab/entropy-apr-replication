@@ -1,0 +1,30 @@
+diff --git a/src/com/google/javascript/jscomp/Compiler.java b/src/com/google/javascript/jscomp/Compiler.java
+index b3ca246a..af5a9bc3 100644
+--- a/src/com/google/javascript/jscomp/Compiler.java
++++ b/src/com/google/javascript/jscomp/Compiler.java
+@@ -252,11 +252,7 @@ public class Compiler extends AbstractCompiler {
+           CheckLevel.OFF);
+     }
+ 
+-    if (options.checkGlobalThisLevel.isOn()) {
+-      options.setWarningLevel(
+-          DiagnosticGroups.GLOBAL_THIS,
+-          options.checkGlobalThisLevel);
+-    }
++    
+ 
+     if (options.getLanguageIn() == LanguageMode.ECMASCRIPT5_STRICT) {
+       options.setWarningLevel(
+@@ -285,6 +281,12 @@ public class Compiler extends AbstractCompiler {
+     }
+ 
+     this.warningsGuard = composedGuards;
++	if (options.checkGlobalThisLevel.isOn()) {
++      options.setWarningLevel(
++          DiagnosticGroups.GLOBAL_THIS,
++          options.checkGlobalThisLevel);
++    }
++
+   }
+ 
+   /**

@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 20, "file_path": "src/main/java/org/apache/commons/lang3/StringUtils.java", "patched_entropy": {"3297": 18.9375, "3298": 0.3720703125}, "original_entropy": {"3297": 0.37060546875, "3298": 15.9453125}, "correct": false}

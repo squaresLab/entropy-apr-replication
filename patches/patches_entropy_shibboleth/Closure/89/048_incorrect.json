@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 89, "file_path": "src/com/google/javascript/jscomp/CollapseProperties.java\t2019-02-22 09:03:18.313221661 +0000", "patched_entropy": {"826": 1.0537109375, "827": 1.8291015625}, "original_entropy": {"826": 0.255859375, "827": 1.84375}, "correct": false}

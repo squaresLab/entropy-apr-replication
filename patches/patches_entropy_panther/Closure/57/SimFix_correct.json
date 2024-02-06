@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 57, "file_path": "patches/patches_panther/SimFix/Correct/Closure/57/patch1-Closure-57_SimFix/patch1-Closure-57/SimFix/patch1-Closure-57_SimFix.patch", "patched_entropy": {"196": 1.7431640625, "197": 1.51953125}, "original_entropy": {"196": 0.70263671875, "197": 1.7822265625}, "correct": true}

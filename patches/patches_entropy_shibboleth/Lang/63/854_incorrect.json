@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 63, "file_path": "src/java/org/apache/commons/lang/time/DurationFormatUtils.java", "patched_entropy": {"436": 2.087890625, "437": 1.44140625}, "original_entropy": {"436": 0.29638671875, "437": 1.287109375}, "correct": false}

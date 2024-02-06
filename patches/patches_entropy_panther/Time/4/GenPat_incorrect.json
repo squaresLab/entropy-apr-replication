@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 4, "file_path": "patches/patches_panther/GenPat/Incorrect/Time/4/patch1-Time-4_GenPat/patch1-Time-4/GenPat/patch1-Time-4_GenPat.patch", "patched_entropy": {"110": 10.578125, "111": 8.4609375}, "original_entropy": {"110": 0.0043792724609375, "111": 7.0703125}, "correct": false}

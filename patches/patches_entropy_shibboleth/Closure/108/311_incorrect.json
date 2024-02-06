@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 108, "file_path": "src/com/google/javascript/jscomp/ScopedAliases.java\t2019-02-21 22:35:19.186085066 +0000", "patched_entropy": {"235": 0.31005859375, "236": 1.8115234375}, "original_entropy": {"235": 0.8046875, "236": 3.45703125}, "correct": false}

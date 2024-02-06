@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 45, "file_path": "src/java/org/apache/commons/lang/WordUtils.java", "patched_entropy": {"621": 3.0, "622": 1.130859375}, "original_entropy": {"621": 0.1549072265625, "622": 2.181640625}, "correct": false}

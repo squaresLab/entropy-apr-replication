@@ -1,0 +1,1 @@
+{"project": "Cli", "bug_id": 5, "file_path": "patches/patches_panther/Developer/Correct/Cli/5/patch1#1-Cli-5_Developer/patch1#1-Cli-5/Developer/patch1#1-Cli-5_Developer.patch", "patched_entropy": {"35": 1.607421875, "36": 0.1981201171875, "37": 0.65283203125}, "original_entropy": {"35": 0.368896484375, "36": 7.22265625, "37": 2.06640625}, "correct": true}

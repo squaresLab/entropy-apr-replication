@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 55, "file_path": "src/java/org/apache/commons/lang/time/StopWatch.java", "patched_entropy": {"117": 0.19921875, "118": 2.814453125, "119": 0.638671875, "120": 0.50634765625}, "original_entropy": {"117": 1.2197265625, "118": 1.28515625, "119": 4.8515625, "120": 14.875}, "correct": false}

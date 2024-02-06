@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 126, "file_path": "src/com/google/javascript/jscomp/MinimizeExitPoints.java", "patched_entropy": {"140": 1.3896484375, "141": 3.830078125, "142": 13.6328125, "143": 1.8505859375}, "original_entropy": {"140": 0.355224609375, "141": 1.701171875, "142": 0.499755859375, "143": 5.46875}, "correct": true}

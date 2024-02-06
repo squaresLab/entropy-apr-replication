@@ -1,0 +1,1 @@
+{"project": "Mockito", "bug_id": 38, "file_path": "src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java", "patched_entropy": {"47": 1.7880859375}, "original_entropy": {"47": 1.7607421875}, "correct": true}

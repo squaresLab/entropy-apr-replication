@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 80, "file_path": "patches/patches_panther/GenPat/Incorrect/Math/80/patch1-Math-80_GenPat/patch1-Math-80/GenPat/patch1-Math-80_GenPat.patch", "patched_entropy": {"829": 1.8212890625, "839": 0.701171875}, "original_entropy": {"829": 0.332763671875, "839": 0.701171875}, "correct": false}

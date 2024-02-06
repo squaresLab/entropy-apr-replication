@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 61, "file_path": "src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java\t2019-02-21 11:38:18.521404108 +0000", "patched_entropy": {"93": 6.484375, "94": 3.763671875, "95": 1.314453125}, "original_entropy": {"93": 0.7021484375, "94": 5.5703125, "95": 1.271484375}, "correct": false}

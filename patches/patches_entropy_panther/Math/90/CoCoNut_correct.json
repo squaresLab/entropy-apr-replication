@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 90, "file_path": "patches/patches_panther/CoCoNut/Correct/Math/90/patch1-Math-90_CoCoNut/patch1-Math-90/CoCoNut/patch1-Math-90_CoCoNut.patch", "patched_entropy": {"120": 1.6298828125, "121": 3.4609375}, "original_entropy": {"120": 1.646484375, "121": 2.068359375}, "correct": true}

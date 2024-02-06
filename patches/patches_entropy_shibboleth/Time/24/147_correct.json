@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 24, "file_path": "src/main/java/org/joda/time/format/DateTimeParserBucket.java", "patched_entropy": {"354": 1.3251953125, "355": 0.344970703125, "356": 1.15234375, "357": 0.01092529296875, "358": 0.298095703125}, "original_entropy": {"354": 0.1904296875, "355": 3.82421875, "356": 2.6796875, "357": 5.109375, "358": 7.3359375}, "correct": true}

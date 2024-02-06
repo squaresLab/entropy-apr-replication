@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 79, "file_path": "src/com/google/javascript/jscomp/Normalize.java\t2019-02-22 09:03:18.293221580 +0000", "patched_entropy": {"498": 4.046875, "499": 1.375}, "original_entropy": {"498": 0.278076171875, "499": 0.94140625}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 5, "file_path": "patches/patches_panther/Jaid/Correct/Math/5/patch3-Math-5_Jaid/patch3-Math-5/Jaid/patch3-Math-5_Jaid.patch", "patched_entropy": {"299": 2.173828125, "300": 2.857421875, "301": 1.220703125}, "original_entropy": {"299": 0.298828125, "300": 1.4296875, "301": 2.77734375}, "correct": true}

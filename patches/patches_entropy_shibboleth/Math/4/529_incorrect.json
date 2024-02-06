@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 4, "file_path": "src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java", "patched_entropy": {"199": 7.22265625, "200": 2.744140625, "201": 0.16943359375, "202": 0.28564453125}, "original_entropy": {"199": 0.038848876953125, "200": 5.9765625, "201": 0.6435546875, "202": 2.162109375}, "correct": false}

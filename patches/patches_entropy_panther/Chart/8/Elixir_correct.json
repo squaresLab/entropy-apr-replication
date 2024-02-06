@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 8, "file_path": "patches/patches_panther/Elixir/Correct/Chart/8/patch1-Chart-8_Elixir/patch1-Chart-8/Elixir/patch1-Chart-8_Elixir.patch", "patched_entropy": {"174": 9.359375, "175": 2.9375}, "original_entropy": {"174": 0.81103515625, "175": 7.4765625}, "correct": true}

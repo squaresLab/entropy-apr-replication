@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 20, "file_path": "src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java", "patched_entropy": {"239": 4.05859375, "240": 3.3671875}, "original_entropy": {"239": 1.443359375, "240": 6.80859375}, "correct": false}

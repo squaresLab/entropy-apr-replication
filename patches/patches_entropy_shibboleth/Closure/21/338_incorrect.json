@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 21, "file_path": "src/com/google/javascript/jscomp/CheckSideEffects.java", "patched_entropy": {"119": 0.61474609375, "120": 2.48046875}, "original_entropy": {"119": 1.138671875, "120": 0.82275390625}, "correct": false}

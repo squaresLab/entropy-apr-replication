@@ -1,0 +1,42 @@
+{"line_number": 1274, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.6223253011703491, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1274, "line_type": "generated", "code": "}", "entropy": 2.154296875, "is_bug_line": false, "sus_score": 0.6223253011703491, "per_token_entropy": [2.154296875], "tokens": [99]}
+{"line_number": 1211, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5368779301643372, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1211, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5368779301643372, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1000, "line_type": "original", "code": "", "entropy": 9.328125, "is_bug_line": false, "sus_score": 0.5347992181777954, "per_token_entropy": [9.328125], "tokens": [205]}
+{"line_number": 1000, "line_type": "generated", "code": "  /**", "entropy": 1.3837890625, "is_bug_line": false, "sus_score": 0.5347992181777954, "per_token_entropy": [1.3837890625], "tokens": [7070]}
+{"line_number": 1293, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5339481830596924, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1293, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5339481830596924, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1460, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5332252979278564, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1460, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5332252979278564, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1195, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5324525833129883, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1195, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5324525833129883, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 848, "line_type": "original", "code": "   * <ul>", "entropy": 0.17626953125, "is_bug_line": false, "sus_score": 0.532061755657196, "per_token_entropy": [0.13525390625, 0.2174072265625], "tokens": [3011, 13145]}
+{"line_number": 848, "line_type": "generated", "code": "   * <ul>", "entropy": 0.17626953125, "is_bug_line": false, "sus_score": 0.532061755657196, "per_token_entropy": [0.13525390625, 0.2174072265625], "tokens": [3011, 13145]}
+{"line_number": 1086, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5318088531494141, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1086, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5318088531494141, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1286, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5317890048027039, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1286, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5317890048027039, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1457, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5260688662528992, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1457, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5260688662528992, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1303, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5260211825370789, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1303, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5260211825370789, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1289, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.524763822555542, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1289, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.524763822555542, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1480, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.518771231174469, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1480, "line_type": "generated", "code": "}", "entropy": 2.154296875, "is_bug_line": false, "sus_score": 0.518771231174469, "per_token_entropy": [2.154296875], "tokens": [99]}
+{"line_number": 1360, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5176652669906616, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1360, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5176652669906616, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1294, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5173678994178772, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1294, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5173678994178772, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1210, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5168924927711487, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1210, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5168924927711487, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1367, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5150618553161621, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1367, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5150618553161621, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1700, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5147724151611328, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1700, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5147724151611328, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1090, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5135846138000488, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1090, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5135846138000488, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 1197, "line_type": "original", "code": "", "entropy": 9.3203125, "is_bug_line": false, "sus_score": 0.5132287740707397, "per_token_entropy": [9.3203125], "tokens": [205]}
+{"line_number": 1197, "line_type": "generated", "code": "/**", "entropy": 1.232421875, "is_bug_line": false, "sus_score": 0.5132287740707397, "per_token_entropy": [1.232421875], "tokens": [1437]}
+{"line_number": 902, "line_type": "original", "code": "    // all type", "entropy": 1.1875, "is_bug_line": false, "sus_score": 0.512963056564331, "per_token_entropy": [0.05950927734375, 1.833984375, 1.669921875], "tokens": [2834, 1199, 459]}
+{"line_number": 902, "line_type": "generated", "code": "    // all", "entropy": 0.9541015625, "is_bug_line": false, "sus_score": 0.512963056564331, "per_token_entropy": [0.0594482421875, 1.8486328125], "tokens": [2834, 445]}

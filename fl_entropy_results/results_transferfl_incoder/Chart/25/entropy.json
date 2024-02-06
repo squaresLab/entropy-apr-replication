@@ -1,0 +1,42 @@
+{"line_number": 1393, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 1393, "line_type": "generated", "code": "</code>", "entropy": 2.068359375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.068359375], "tokens": [3361]}
+{"line_number": 1373, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 1373, "line_type": "generated", "code": "<|/ file filename=StatisticalBarRenderer.java |>", "entropy": 0.5009765625, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.833984375, 7.665157318115234e-05, 1.26953125, 0.0458984375, 0.0006284713745117188, 0.00897216796875, 0.030975341796875, 0.0002181529998779297, 6.73532485961914e-05, 0.81787109375], "tokens": [5, 7003, 32854, 35388, 281, 6217, 16226, 2231, 34060, 6]}
+{"line_number": 1219, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 1219, "line_type": "generated", "code": "</code>", "entropy": 2.068359375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.068359375], "tokens": [3361]}
+{"line_number": 2558, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2558, "line_type": "generated", "code": "/* JavaBegin class */", "entropy": 1.1630859375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.26171875, 2.578125, 0.74755859375, 0.9658203125, 3.0159950256347656e-05, 0.8251953125, 0.75830078125], "tokens": [1302, 8778, 2663, 77, 366, 752, 1745]}
+{"line_number": 2559, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2559, "line_type": "generated", "code": "</code>", "entropy": 2.068359375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.068359375], "tokens": [3361]}
+{"line_number": 2672, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2672, "line_type": "generated", "code": "/* ", "entropy": 2.255859375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.255859375], "tokens": [1302]}
+{"line_number": 2673, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2673, "line_type": "generated", "code": "</code>", "entropy": 2.068359375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.068359375], "tokens": [3361]}
+{"line_number": 2850, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2850, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [], "tokens": []}
+{"line_number": 2851, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2851, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [], "tokens": []}
+{"line_number": 2854, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2854, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [], "tokens": []}
+{"line_number": 2855, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2855, "line_type": "generated", "code": "</code>", "entropy": 2.068359375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.068359375], "tokens": [3361]}
+{"line_number": 2860, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2860, "line_type": "generated", "code": "        ", "entropy": 3.365234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [3.365234375], "tokens": [265]}
+{"line_number": 2861, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2861, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [], "tokens": []}
+{"line_number": 2862, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2862, "line_type": "generated", "code": "</code>", "entropy": 2.068359375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.068359375], "tokens": [3361]}
+{"line_number": 2868, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2868, "line_type": "generated", "code": "               ", "entropy": 3.115234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [3.115234375], "tokens": [2459]}
+{"line_number": 564, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 564, "line_type": "generated", "code": "/**", "entropy": 1.8486328125, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [1.8486328125], "tokens": [1437]}
+{"line_number": 576, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 576, "line_type": "generated", "code": "</code>", "entropy": 2.068359375, "is_bug_line": false, "sus_score": 0.3784428536891937, "per_token_entropy": [2.068359375], "tokens": [3361]}
+{"line_number": 1318, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.37843072414398193, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 1318, "line_type": "generated", "code": "/**", "entropy": 1.8486328125, "is_bug_line": false, "sus_score": 0.37843072414398193, "per_token_entropy": [1.8486328125], "tokens": [1437]}
+{"line_number": 2867, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.37819379568099976, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2867, "line_type": "generated", "code": "/**", "entropy": 1.8486328125, "is_bug_line": false, "sus_score": 0.37819379568099976, "per_token_entropy": [1.8486328125], "tokens": [1437]}
+{"line_number": 2560, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.37793979048728943, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 2560, "line_type": "generated", "code": "/**", "entropy": 1.8486328125, "is_bug_line": false, "sus_score": 0.37793979048728943, "per_token_entropy": [1.8486328125], "tokens": [1437]}
+{"line_number": 574, "line_type": "original", "code": "", "entropy": 9.5234375, "is_bug_line": false, "sus_score": 0.37738391757011414, "per_token_entropy": [9.5234375], "tokens": [205]}
+{"line_number": 574, "line_type": "generated", "code": "/* ======================================================================", "entropy": 1.2109375, "is_bug_line": false, "sus_score": 0.37738391757011414, "per_token_entropy": [2.26171875, 2.564453125, 0.0007424354553222656, 0.018310546875], "tokens": [1302, 9872, 583, 384]}

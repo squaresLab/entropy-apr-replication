@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 7, "file_path": "patches/patches_panther/DLFix/Correct/Time/7/patch1-Time-7_DLFix/patch1-Time-7/DLFix/patch1-Time-7_DLFix.patch", "patched_entropy": {"709": 1.337890625, "710": 1.1728515625}, "original_entropy": {"709": 0.88671875, "710": 3.00390625}, "correct": true}

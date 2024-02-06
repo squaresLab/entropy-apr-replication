@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 53, "file_path": "patches/patches_panther/SimFix/Correct/Math/53/patch1-Math-53_SimFix/patch1-Math-53/SimFix/patch1-Math-53_SimFix.patch", "patched_entropy": {"152": 2.478515625, "153": 2.021484375, "154": 1.28125}, "original_entropy": {"152": 0.422119140625, "153": 3.591796875, "154": 3.83203125}, "correct": true}

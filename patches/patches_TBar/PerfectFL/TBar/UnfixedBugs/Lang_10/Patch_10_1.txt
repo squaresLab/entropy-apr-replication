@@ -1,0 +1,20 @@
+//**********************************************************
+//org/apache/commons/lang3/time/FastDateParser.java ------ 307
+//**********************************************************
+===Buggy Code===
+if(Character.isWhitespace(c)) {
+                if(!wasWhite) {
+                    wasWhite= true;
+                    regex.append("\\s*+");
+                }
+                continue;
+            }
+
+===Patch Code===
+if(Character.isWhitespace(c)) {
+                if(!wasWhite) {
+                    wasWhite= true;
+                    regex.append("\\s*+");
+                }
+                continue;
+            }

@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 10, "file_path": "patches/patches_panther/Developer/Correct/Time/10/patch1#1-Time-10_Developer/patch1#1-Time-10/Developer/patch1#1-Time-10_Developer.patch", "patched_entropy": {"51": 1.298828125, "103": 2.119140625, "104": 1.064453125}, "original_entropy": {"51": 17.265625, "103": 2.119140625, "104": 0.791015625}, "correct": true}

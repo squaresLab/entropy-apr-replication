@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 80, "file_path": "patches/patches_panther/FixMiner/Incorrect/Math/80/patch1-Math-80_FixMiner/patch1-Math-80/FixMiner/patch1-Math-80_FixMiner.patch", "patched_entropy": {"839": 15.09375, "840": 3.158203125}, "original_entropy": {"839": 3.87890625, "840": 16.109375}, "correct": false}

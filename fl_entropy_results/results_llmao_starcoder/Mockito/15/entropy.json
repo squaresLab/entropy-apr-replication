@@ -1,0 +1,6 @@
+{"line_number": 39, "line_type": "original", "code": "", "entropy": 0.08441162109375, "is_bug_line": false, "sus_score": 0.14759, "per_token_entropy": [0.08441162109375], "tokens": [203]}
+{"line_number": 39, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.14759, "per_token_entropy": [], "tokens": []}
+{"line_number": 35, "line_type": "original", "code": "            public boolean thenInject() {", "entropy": 1.833984375, "is_bug_line": false, "sus_score": 0.13139, "per_token_entropy": [6.734375, 3.77734375, 1.244140625, 0.72607421875, 0.11175537109375, 0.04833984375, 0.1949462890625], "tokens": [1468, 562, 1905, 1615, 8826, 346, 301]}
+{"line_number": 35, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.13139, "per_token_entropy": [], "tokens": []}
+{"line_number": 32, "line_type": "original", "code": "        }", "entropy": 3.87109375, "is_bug_line": false, "sus_score": 0.09178, "per_token_entropy": [6.4609375, 1.283203125], "tokens": [351, 320]}
+{"line_number": 32, "line_type": "generated", "code": "", "entropy": "10", "is_bug_line": false, "sus_score": 0.09178, "per_token_entropy": [], "tokens": []}

@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 130, "file_path": "patches/patches_panther/KaliA/Incorrect/Closure/130/patch1-Closure-130_KaliA/patch1-Closure-130/KaliA/patch1-Closure-130_KaliA.patch", "patched_entropy": {"475": 9.9921875, "476": 4.98046875}, "original_entropy": {"475": 0.7470703125, "476": 4.3671875}, "correct": false}

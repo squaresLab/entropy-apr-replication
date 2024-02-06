@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 19, "file_path": "patches/patches_panther/ACS/Correct/Chart/19/patch1-Chart-19_ACS/patch1-Chart-19/ACS/patch1-Chart-19_ACS.patch", "patched_entropy": {"697": 2.53125, "980": 2.658203125}, "original_entropy": {"697": 0.434326171875, "980": 4.3359375}, "correct": true}

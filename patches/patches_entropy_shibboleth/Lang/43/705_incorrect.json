@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 43, "file_path": "src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java", "patched_entropy": {"420": 0.5498046875}, "original_entropy": {"420": 0.313232421875}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 7, "file_path": "patches/patches_panther/GenProgA/Incorrect/Lang/7/patch1#1-Lang-7_GenProgA/patch1#1-Lang-7/GenProgA/patch1#1-Lang-7_GenProgA.patch", "patched_entropy": {"452": 5.140625, "453": 2.318359375, "454": 7.890625}, "original_entropy": {"452": 1.6318359375, "453": 5.94921875, "454": 0.3505859375}, "correct": false}

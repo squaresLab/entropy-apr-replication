@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 130, "file_path": "src/com/google/javascript/jscomp/ReferenceCollectingCallback.java", "patched_entropy": {"475": 9.9921875, "476": 4.98046875}, "original_entropy": {"475": 0.7470703125, "476": 4.3671875}, "correct": false}

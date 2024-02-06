@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 58, "file_path": "src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java\t2019-02-21 11:38:18.513404074 +0000", "patched_entropy": {"312": 5.9375, "313": 1.5517578125}, "original_entropy": {"312": 0.03192138671875, "313": 3.576171875}, "correct": false}

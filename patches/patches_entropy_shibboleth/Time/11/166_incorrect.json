@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 11, "file_path": "src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java\t2017-03-21 00:13:38.000000000 +0800", "patched_entropy": {"371": 2.859375}, "original_entropy": {"371": 0.17431640625}, "correct": false}

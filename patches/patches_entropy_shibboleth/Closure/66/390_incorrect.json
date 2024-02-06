@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 66, "file_path": "src/com/google/javascript/jscomp/TypeCheck.java\t2017-05-03 12:06:59.000000000 +0800", "patched_entropy": {"821": 2.107421875, "823": 0.9921875}, "original_entropy": {"821": 0.984375, "823": 0.75146484375}, "correct": false}

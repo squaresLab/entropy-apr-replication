@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 71, "file_path": "src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java", "patched_entropy": {"179": 0.84765625, "180": 0.1595458984375, "181": 0.8515625}, "original_entropy": {"179": 1.8251953125, "180": 2.61328125, "181": 1.029296875}, "correct": true}

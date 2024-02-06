@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 6, "file_path": "source/org/jfree/chart/util/ShapeList.java\t2020-11-06 21:17:43.000000000 +0800", "patched_entropy": {"80": 7.46875, "81": 5.3046875}, "original_entropy": {"80": 0.10540771484375, "81": 6.296875}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 114, "file_path": "src/com/google/javascript/jscomp/NameAnalyzer.java", "patched_entropy": {"577": 1.1943359375}, "original_entropy": {"577": 0.46435546875}, "correct": true}

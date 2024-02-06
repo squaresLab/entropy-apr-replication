@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 123, "file_path": "patches/patches_panther/SequenceR/Incorrect/Closure/123/patch1-Closure-123_SequenceR/patch1-Closure-123/SequenceR/patch1-Closure-123_SequenceR.patch", "patched_entropy": {"284": 0.82763671875, "285": 2.318359375}, "original_entropy": {"284": 1.0556640625, "285": 1.1953125}, "correct": false}

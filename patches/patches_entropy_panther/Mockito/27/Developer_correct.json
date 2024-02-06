@@ -1,0 +1,1 @@
+{"project": "Mockito", "bug_id": 27, "file_path": "patches/patches_panther/Developer/Correct/Mockito/27/patch1#1-Mockito-27_Developer/patch1#1-Mockito-27/Developer/patch1#1-Mockito-27_Developer.patch", "patched_entropy": {"63": 1.197265625, "64": 5.0703125, "65": 1.947265625}, "original_entropy": {"63": 0.712890625, "64": 0.3525390625, "65": 2.798828125}, "correct": true}

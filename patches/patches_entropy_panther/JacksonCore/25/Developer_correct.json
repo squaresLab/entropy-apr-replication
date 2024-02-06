@@ -1,0 +1,1 @@
+{"project": "JacksonCore", "bug_id": 25, "file_path": "patches/patches_panther/Developer/Correct/JacksonCore/25/patch1#1-JacksonCore-25_Developer/patch1#1-JacksonCore-25/Developer/patch1#1-JacksonCore-25_Developer.patch", "patched_entropy": {"1962": 2.869140625, "1963": 1.71484375}, "original_entropy": {"1962": 0.91796875, "1963": 1.5634765625}, "correct": true}

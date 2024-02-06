@@ -1,0 +1,13 @@
+diff --git a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+index 127b9279..a2f41466 100644
+--- a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -303,7 +303,7 @@ public class DurationFormatUtils {
+             days -= 1;
+         }
+         while (days < 0) {
+-            days += 31;
++            days += 31f;
+ //days += 31; // TODO: Need tests to show this is bad and the new code is good.
+ // HEN: It's a tricky subject. Jan 15th to March 10th. If I count days-first it is 
+ // 1 month and 26 days, but if I count month-first then it is 1 month and 23 days.

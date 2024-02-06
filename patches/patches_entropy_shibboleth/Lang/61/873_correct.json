@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 61, "file_path": "src/java/org/apache/commons/lang/text/StrBuilder.java", "patched_entropy": {"1775": 0.9951171875}, "original_entropy": {"1775": 0.77490234375}, "correct": true}

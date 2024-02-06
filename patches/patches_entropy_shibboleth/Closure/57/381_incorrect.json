@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 57, "file_path": "src/com/google/javascript/jscomp/ClosureCodingConvention.java", "patched_entropy": {"196": 1.7431640625, "197": 1.478515625}, "original_entropy": {"196": 0.70263671875, "197": 1.7822265625}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 13, "file_path": "source/org/jfree/chart/block/BorderArrangement.java", "patched_entropy": {"449": 6.6484375, "451": 1.681640625, "452": 1.9443359375, "453": 0.1258544921875}, "original_entropy": {"449": 0.0155487060546875, "451": 2.25390625, "452": 3.03515625, "453": 2.021484375}, "correct": false}

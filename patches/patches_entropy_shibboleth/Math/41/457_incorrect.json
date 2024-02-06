@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 41, "file_path": "src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java", "patched_entropy": {"216": 6.11328125, "217": 3.64453125, "218": 0.2900390625, "219": 0.7275390625}, "original_entropy": {"216": 0.05841064453125, "217": 6.1015625, "218": 1.5341796875, "219": 4.6015625}, "correct": false}

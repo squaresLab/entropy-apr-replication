@@ -1,0 +1,17 @@
+org.apache.commons.lang3.RandomStringUtils@248 0.6176717281341553
+org.apache.commons.lang3.RandomStringUtils@231 0.47158318758010864
+org.apache.commons.lang3.RandomStringUtils@227 0.471459299325943
+org.apache.commons.lang3.RandomStringUtils@228 0.45958182215690613
+org.apache.commons.lang3.RandomStringUtils@321 0.45236754417419434
+org.apache.commons.lang3.RandomStringUtils@232 0.4307555854320526
+org.apache.commons.lang3.RandomStringUtils@241 0.41893288493156433
+org.apache.commons.lang3.RandomStringUtils@233 0.4140186905860901
+org.apache.commons.lang3.RandomStringUtils@225 0.384477436542511
+org.apache.commons.lang3.RandomStringUtils@243 0.37693583965301514
+org.apache.commons.lang3.RandomStringUtils@245 0.37648651003837585
+org.apache.commons.lang3.RandomStringUtils@240 0.3565867245197296
+org.apache.commons.lang3.RandomStringUtils@69 0.35335400700569153
+org.apache.commons.lang3.RandomStringUtils@318 0.3483023941516876
+org.apache.commons.lang3.RandomStringUtils@143 0.33664077520370483
+org.apache.commons.lang3.RandomStringUtils@163 0.33449918031692505
+org.apache.commons.lang3.RandomStringUtils@43 0.265508234500885

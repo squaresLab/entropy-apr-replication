@@ -1,0 +1,20 @@
+diff --git a/source/org/jfree/chart/plot/MultiplePiePlot.java b/source/org/jfree/chart/plot/MultiplePiePlot.java
+index fedc205..d6bf354 100644
+--- a/source/org/jfree/chart/plot/MultiplePiePlot.java
++++ b/source/org/jfree/chart/plot/MultiplePiePlot.java
+@@ -142,11 +142,13 @@ public class MultiplePiePlot extends Plot implements Cloneable, Serializable {
+      */
+     public MultiplePiePlot(CategoryDataset dataset) {
+         super();
+-        this.dataset = dataset;
++        
+         PiePlot piePlot = new PiePlot(null);
+         this.pieChart = new JFreeChart(piePlot);
+         this.pieChart.removeLegend();
+-        this.dataExtractOrder = TableOrder.BY_COLUMN;
++        this.dataExtractOrder = TableOrder.BY_COLUMN;
++	this.dataset = dataset;
++
+         this.pieChart.setBackgroundPaint(null);
+         TextTitle seriesTitle = new TextTitle("Series Title",
+                 new Font("SansSerif", Font.BOLD, 12));

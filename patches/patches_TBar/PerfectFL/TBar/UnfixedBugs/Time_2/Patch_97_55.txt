@@ -1,0 +1,16 @@
+diff --git a/src/main/java/org/joda/time/Partial.java b/src/main/java/org/joda/time/Partial.java
+index b9ec964f..1328003b 100644
+--- a/src/main/java/org/joda/time/Partial.java
++++ b/src/main/java/org/joda/time/Partial.java
+@@ -446,7 +446,10 @@ public final class Partial
+                         if (compare > 0) {
+                             break;
+                         } else if (compare == 0) {
+-                            DurationField rangeField = fieldType.getRangeDurationType().getField(iChronology);
++                            if (iChronology == null) {
++	    throw new IllegalArgumentException("Null 'iChronology' argument.");
++	}
++DurationField rangeField = fieldType.getRangeDurationType().getField(iChronology);
+                             DurationField loopRangeField = loopType.getRangeDurationType().getField(iChronology);
+                             if (rangeField.compareTo(loopRangeField) > 0) {
+                                 break;

@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 70, "file_path": "patches/patches_panther/PraPR/Correct/Closure/70/patch1-Closure-70_PraPR/patch1-Closure-70/PraPR/patch1-Closure-70_PraPR.patch", "patched_entropy": {"1744": 2.583984375, "1746": 1.2470703125}, "original_entropy": {"1744": 0.16162109375, "1746": 0.09527587890625}, "correct": true}

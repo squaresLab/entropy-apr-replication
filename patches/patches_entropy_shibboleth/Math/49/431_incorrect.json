@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 49, "file_path": "src/main/java/org/apache/commons/math/MathRuntimeException.java", "patched_entropy": {"131": 9.015625, "132": 2.841796875}, "original_entropy": {"131": 1.4267578125, "132": 4.55078125}, "correct": false}

@@ -1,0 +1,17 @@
+diff --git a/src/com/google/javascript/jscomp/Compiler.java b/src/com/google/javascript/jscomp/Compiler.java
+index 8898f77f..7f74f980 100644
+--- a/src/com/google/javascript/jscomp/Compiler.java
++++ b/src/com/google/javascript/jscomp/Compiler.java
+@@ -1285,7 +1285,11 @@ public class Compiler extends AbstractCompiler {
+ 
+       // Check if the sources need to be re-ordered.
+       boolean staleInputs = false;
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++      if ((options.dependencyOptions.needsManagement() && options.closurePass) && !(options.getTweakProcessing().shouldStrip() ||
++        !options.stripTypes.isEmpty() ||
++        !options.stripNameSuffixes.isEmpty() ||
++        !options.stripTypePrefixes.isEmpty() ||
++        !options.stripNamePrefixes.isEmpty())) {
+         for (CompilerInput input : inputs) {
+           // Forward-declare all the provided types, so that they
+           // are not flagged even if they are dropped from the process.

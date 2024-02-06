@@ -1,0 +1,13 @@
+diff --git a/src/com/google/javascript/jscomp/CheckSideEffects.java b/src/com/google/javascript/jscomp/CheckSideEffects.java
+index 0d1e95a0..18136547 100644
+--- a/src/com/google/javascript/jscomp/CheckSideEffects.java
++++ b/src/com/google/javascript/jscomp/CheckSideEffects.java
+@@ -98,7 +98,8 @@ final class CheckSideEffects extends AbstractPostOrderCallback
+     // Do not try to remove a block or an expr result. We already handle
+     // these cases when we visit the child, and the peephole passes will
+     // fix up the tree in more clever ways when these are removed.
+-    if (n.isExprResult()) {
++    if ((n.isExprResult()) || !(n.isEmpty() ||
++        n.isComma())) {
+       return;
+     }

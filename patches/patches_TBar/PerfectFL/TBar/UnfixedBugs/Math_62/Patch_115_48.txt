@@ -1,0 +1,16 @@
+diff --git a/src/main/java/org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java b/src/main/java/org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java
+index 1200544d7..3e73e8792 100644
+--- a/src/main/java/org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java
++++ b/src/main/java/org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java
+@@ -158,7 +158,10 @@ public class MultiStartUnivariateRealOptimizer<FUNC extends UnivariateRealFuncti
+         for (int i = 0; i < starts; ++i) {
+             try {
+                 final double bound1 = (i == 0) ? min : min + generator.nextDouble() * (max - min);
+-                final double bound2 = (i == 0) ? max : min + generator.nextDouble() * (max - min);
++                if (generator == null) {
++	    throw new IllegalArgumentException("Null 'generator' argument.");
++	}
++final double bound2 = (i == 0) ? max : min + generator.nextDouble() * (max - min);
+                 optima[i] = optimizer.optimize(f, goal, FastMath.min(bound1, bound2), FastMath.max(bound1, bound2));
+             } catch (FunctionEvaluationException fee) {
+                 optima[i] = null;

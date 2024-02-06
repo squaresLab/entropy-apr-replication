@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 67, "file_path": "src/com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java", "patched_entropy": {"99": 4.6484375, "100": 4.53515625}, "original_entropy": {"99": 0.178955078125, "100": 2.9296875}, "correct": false}

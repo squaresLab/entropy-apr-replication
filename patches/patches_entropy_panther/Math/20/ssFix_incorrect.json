@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 20, "file_path": "patches/patches_panther/ssFix/Incorrect/Math/20/patch1-Math-20_ssFix/patch1-Math-20/ssFix/patch1-Math-20_ssFix.patch", "patched_entropy": {"561": 5.05859375, "562": 2.98828125}, "original_entropy": {"561": 2.08203125, "562": 4.8828125}, "correct": false}

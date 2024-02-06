@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 46, "file_path": "patches/patches_panther/kPAR/Incorrect/Closure/46/patch1-Closure-46_kPAR/patch1-Closure-46/kPAR/patch1-Closure-46_kPAR.patch", "patched_entropy": {"141": 1.611328125, "142": 3.619140625}, "original_entropy": {"141": 0.408203125, "142": 1.7294921875}, "correct": false}

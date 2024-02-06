@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 6, "file_path": "src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java\t2017-08-23 00:17:57.157142267 +0800", "patched_entropy": {"75": 2.216796875, "76": 3.486328125}, "original_entropy": {"75": 0.0850830078125, "76": 1.119140625}, "correct": false}

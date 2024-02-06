@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 24, "file_path": "src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java\t2019-03-31 14:19:56.000000000 -0400", "patched_entropy": {"210": 1.7939453125, "261": 4.484375, "262": 2.39453125}, "original_entropy": {"210": 0.6201171875, "261": 4.484375, "262": 0.2626953125}, "correct": false}

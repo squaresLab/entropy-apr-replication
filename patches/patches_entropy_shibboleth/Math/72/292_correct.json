@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 72, "file_path": "src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java", "patched_entropy": {"114": 0.477294921875, "126": 0.356201171875}, "original_entropy": {"114": 0.53759765625, "126": 1.341796875}, "correct": true}

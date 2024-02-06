@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 1, "file_path": "src/main/java/org/apache/commons/math3/fraction/BigFraction.java", "patched_entropy": {"302": 3.513671875, "303": 1.7802734375, "304": 9.75, "305": 2.13671875}, "original_entropy": {"302": 0.415283203125, "303": 0.79833984375, "304": 3.326171875, "305": 1.298828125}, "correct": false}

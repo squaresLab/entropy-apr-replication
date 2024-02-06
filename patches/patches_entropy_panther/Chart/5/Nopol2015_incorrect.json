@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 5, "file_path": "patches/patches_panther/Nopol2015/Incorrect/Chart/5/patch1-Chart-5_Nopol2015/patch1-Chart-5/Nopol2015/patch1-Chart-5_Nopol2015.patch", "patched_entropy": {"562": 1.1875, "563": 1.54296875}, "original_entropy": {"562": 0.416015625, "563": 0.72021484375}, "correct": false}

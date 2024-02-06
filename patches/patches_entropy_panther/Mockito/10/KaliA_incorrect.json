@@ -1,0 +1,1 @@
+{"project": "Mockito", "bug_id": 10, "file_path": "patches/patches_panther/KaliA/Incorrect/Mockito/10/patch1-Mockito-10_KaliA/patch1-Mockito-10/KaliA/patch1-Mockito-10_KaliA.patch", "patched_entropy": {"62": 4.84375, "63": 7.75390625, "64": 5.5625, "65": 1.5458984375}, "original_entropy": {"62": 1.31640625, "63": 4.375, "64": 3.08984375, "65": 6.28125}, "correct": false}

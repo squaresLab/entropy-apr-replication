@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 12, "file_path": "source/org/jfree/chart/plot/MultiplePiePlot.java", "patched_entropy": {"144": 2.52734375, "145": 0.85986328125, "146": 0.45654296875}, "original_entropy": {"144": 0.27734375, "145": 1.119140625, "146": 1.4521484375}, "correct": false}

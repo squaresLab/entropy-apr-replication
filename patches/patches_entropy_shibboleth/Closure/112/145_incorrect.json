@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 112, "file_path": "src/com/google/javascript/jscomp/TypeInference.java", "patched_entropy": {"1061": 0.60107421875, "1062": 3.201171875, "1063": 0.2174072265625}, "original_entropy": {"1061": 0.81005859375, "1062": 3.427734375, "1063": 2.45703125}, "correct": false}

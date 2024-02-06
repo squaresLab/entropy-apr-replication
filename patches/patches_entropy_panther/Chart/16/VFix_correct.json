@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 16, "file_path": "patches/patches_panther/VFix/Correct/Chart/16/patch1-Chart-16_VFix/patch1-Chart-16/VFix/patch1-Chart-16_VFix.patch", "patched_entropy": {"206": 0.378173828125, "207": 2.90234375}, "original_entropy": {"206": 2.349609375, "207": 1.392578125}, "correct": true}

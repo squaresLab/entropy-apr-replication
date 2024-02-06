@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 85, "file_path": "src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java", "patched_entropy": {"99": 2.53125, "100": 4.86328125, "101": 0.88720703125}, "original_entropy": {"99": 0.007007598876953125, "100": 3.306640625, "101": 3.8125}, "correct": false}

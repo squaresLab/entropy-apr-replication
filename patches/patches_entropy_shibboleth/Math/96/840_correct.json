@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 96, "file_path": "src/java/org/apache/commons/math/complex/Complex.java", "patched_entropy": {"257": 0.703125}, "original_entropy": {"257": 0.444580078125}, "correct": true}

@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 22, "file_path": "src/main/java/org/apache/commons/lang3/math/Fraction.java", "patched_entropy": {"583": 7.546875, "584": 3.521484375, "585": 3.373046875, "586": 5.62890625}, "original_entropy": {"583": 1.015625, "584": 5.08203125, "585": 7.80078125, "586": 1.4853515625}, "correct": false}

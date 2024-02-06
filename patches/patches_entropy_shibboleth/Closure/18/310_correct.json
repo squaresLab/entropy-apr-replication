@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 18, "file_path": "src/com/google/javascript/jscomp/Compiler.java", "patched_entropy": {"1287": 0.284423828125}, "original_entropy": {"1287": 0.338134765625}, "correct": true}

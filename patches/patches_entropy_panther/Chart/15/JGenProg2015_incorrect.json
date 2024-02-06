@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 15, "file_path": "patches/patches_panther/JGenProg2015/Incorrect/Chart/15/patch1-Chart-15_JGenProg2015/patch1-Chart-15/JGenProg2015/patch1-Chart-15_JGenProg2015.patch", "patched_entropy": {"1218": 11.3984375, "1219": 2.62109375}, "original_entropy": {"1218": 0.822265625, "1219": 15.1328125}, "correct": false}

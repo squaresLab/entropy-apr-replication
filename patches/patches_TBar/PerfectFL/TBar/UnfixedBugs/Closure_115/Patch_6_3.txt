@@ -1,0 +1,16 @@
+diff --git a/src/com/google/javascript/jscomp/FunctionInjector.java b/src/com/google/javascript/jscomp/FunctionInjector.java
+index 73d6a4b3..2a3df4b2 100644
+--- a/src/com/google/javascript/jscomp/FunctionInjector.java
++++ b/src/com/google/javascript/jscomp/FunctionInjector.java
+@@ -692,7 +692,10 @@ class FunctionInjector {
+       return CanInlineResult.NO;
+     }
+ 
+-    Node block = fnNode.getLastChild();
++    if (fnNode == null) {
++	    return null;
++	}
++Node block = fnNode.getLastChild();
+ 
+     boolean hasSideEffects = false;
+     if (block.hasChildren()) {

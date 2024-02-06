@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 10, "file_path": "src/main/java/org/apache/commons/lang3/event/EventListenerSupport.java", "patched_entropy": {"143": 1.4375}, "original_entropy": {"143": 0.39599609375}, "correct": false}

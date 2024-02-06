@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 58, "file_path": "src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java", "patched_entropy": {"619": 2.69921875, "621": 1.08203125}, "original_entropy": {"619": 0.44677734375, "621": 2.8671875}, "correct": false}

@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 24, "file_path": "src/main/java/org/joda/time/chrono/BasicChronology.java", "patched_entropy": {"517": 5.90234375, "518": 3.625}, "original_entropy": {"517": 1.5498046875, "518": 4.62109375}, "correct": false}

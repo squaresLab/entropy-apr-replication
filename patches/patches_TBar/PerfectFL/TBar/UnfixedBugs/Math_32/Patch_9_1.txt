@@ -1,0 +1,23 @@
+diff --git a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+index c6e7cf18c..8472444bf 100644
+--- a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
++++ b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+@@ -133,7 +133,8 @@ public class PolygonsSet extends AbstractRegion<Euclidean2D, Euclidean1D> {
+ 
+         if (v.length == 0) {
+             final BSPTree<Euclidean2D> tree = getTree(false);
+-            if ((Boolean) tree.getAttribute()) {
++            if (tree != null) {
++	if ((Boolean) tree.getAttribute()) {
+                 // the instance covers the whole space
+                 setSize(Double.POSITIVE_INFINITY);
+                 setBarycenter(Vector2D.NaN);
+@@ -141,6 +142,8 @@ public class PolygonsSet extends AbstractRegion<Euclidean2D, Euclidean1D> {
+                 setSize(0);
+                 setBarycenter(new Vector2D(0, 0));
+             }
++	}
++
+         } else if (v[0][0] == null) {
+             // there is at least one open-loop: the polygon is infinite
+             setSize(Double.POSITIVE_INFINITY);

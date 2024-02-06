@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 70, "file_path": "src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java", "patched_entropy": {"71": 0.5078125}, "original_entropy": {"71": 2.087890625}, "correct": true}

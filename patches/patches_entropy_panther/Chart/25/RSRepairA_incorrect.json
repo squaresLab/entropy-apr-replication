@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 25, "file_path": "patches/patches_panther/RSRepairA/Incorrect/Chart/25/patch1#2-Chart-25_RSRepairA/patch1#2-Chart-25/RSRepairA/patch1#2-Chart-25_RSRepairA.patch", "patched_entropy": {"253": 4.96875, "254": 1.3857421875, "255": 1.8115234375}, "original_entropy": {"253": 0.300048828125, "254": 6.8046875, "255": 11.28125}, "correct": false}

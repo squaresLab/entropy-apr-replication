@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 20, "file_path": "patches/patches_panther/DynaMoth/Incorrect/Math/20/patch1-Math-20_DynaMoth/patch1-Math-20/DynaMoth/patch1-Math-20_DynaMoth.patch", "patched_entropy": {"786": 1.44140625, "787": 3.5390625}, "original_entropy": {"786": 1.3349609375, "787": 0.6650390625}, "correct": false}

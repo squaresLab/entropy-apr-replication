@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 1, "file_path": "source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java", "patched_entropy": {"1796": 6.6875, "1797": 1.287109375, "1798": 1.615234375, "1799": 4.0546875}, "original_entropy": {"1796": 1.0673828125, "1797": 2.703125, "1798": 5.51953125, "1799": 1.7666015625}, "correct": false}

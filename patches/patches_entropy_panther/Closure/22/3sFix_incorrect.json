@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 22, "file_path": "patches/patches_panther/3sFix/Incorrect/Closure/22/patch3-Closure-22_3sFix/patch3-Closure-22/3sFix/patch3-Closure-22_3sFix.patch", "patched_entropy": {"110": 1.8154296875, "111": 3.640625}, "original_entropy": {"110": 2.05859375, "111": 1.0361328125}, "correct": false}

@@ -1,0 +1,12 @@
+diff --git a/source/org/jfree/chart/renderer/GrayPaintScale.java b/source/org/jfree/chart/renderer/GrayPaintScale.java
+index 1e1e075..aa3e7a2 100644
+--- a/source/org/jfree/chart/renderer/GrayPaintScale.java
++++ b/source/org/jfree/chart/renderer/GrayPaintScale.java
+@@ -124,7 +124,7 @@ public class GrayPaintScale
+         double v = Math.max(value, this.lowerBound);
+         v = Math.min(v, this.upperBound);
+         int g = (int) ((value - this.lowerBound) / (this.upperBound 
+-                - this.lowerBound) * 255.0);
++                - v) * 255.0);
+         return new Color(g, g, g);
+     }

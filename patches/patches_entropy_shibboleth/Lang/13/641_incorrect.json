@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 13, "file_path": "src/main/java/org/apache/commons/lang3/SerializationUtils.java", "patched_entropy": {"98": 1.47265625, "99": 3.84375}, "original_entropy": {"98": 0.2529296875, "99": 1.4599609375}, "correct": false}

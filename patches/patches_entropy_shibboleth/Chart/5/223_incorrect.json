@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 5, "file_path": "source//org/jfree/data/xy/XYSeries.java", "patched_entropy": {"563": 5.73046875, "564": 1.4228515625}, "original_entropy": {"563": 0.364501953125, "564": 5.21875}, "correct": false}

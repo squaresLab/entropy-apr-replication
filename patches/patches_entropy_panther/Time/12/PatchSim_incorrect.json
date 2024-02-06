@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 12, "file_path": "patches/patches_panther/PatchSim/Incorrect/Time/12/patch1-Time-12_PatchSim/patch1-Time-12/PatchSim/patch1-Time-12_PatchSim.patch", "patched_entropy": {"662": 7.19921875, "663": 2.955078125}, "original_entropy": {"662": 0.013397216796875, "663": 4.2109375}, "correct": false}

@@ -1,0 +1,14 @@
+diff --git a/src/com/google/javascript/jscomp/UnreachableCodeElimination.java b/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
+index c2150b14..918ec727 100644
+--- a/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
++++ b/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
+@@ -159,7 +159,8 @@ class UnreachableCodeElimination extends AbstractPostOrderCallback
+     switch (n.getType()) {
+       case Token.BLOCK:
+         if (n.hasChildren()) {
+-          Node first = n.getFirstChild();
++          removeDeadExprStatementSafely(n);
++	Node first = n.getFirstChild();
+           return tryRemoveUnconditionalBranching(first);
+         } else {
+           return tryRemoveUnconditionalBranching(ControlFlowAnalysis.computeFollowNode(n));

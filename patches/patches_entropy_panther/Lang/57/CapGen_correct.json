@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 57, "file_path": "patches/patches_panther/CapGen/Correct/Lang/57/patch1-Lang-57_CapGen/patch1-Lang-57/CapGen/patch1-Lang-57_CapGen.patch", "patched_entropy": {"222": 8.25, "223": 1.9462890625}, "original_entropy": {"222": 0.3935546875, "223": 5.46484375}, "correct": true}

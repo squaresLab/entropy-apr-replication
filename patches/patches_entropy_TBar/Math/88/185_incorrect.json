@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 88, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Math_88/Patch_185_92.txt", "patched_entropy": {"336": 1.970703125, "337": 1.65625}, "original_entropy": {"336": 0.87744140625, "337": 1.1630859375}, "correct": false}

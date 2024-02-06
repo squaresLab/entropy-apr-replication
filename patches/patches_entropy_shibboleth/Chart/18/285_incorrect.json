@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 18, "file_path": "source/org/jfree/data/DefaultKeyedValues.java", "patched_entropy": {"317": 0.1856689453125, "318": 1.666015625}, "original_entropy": {"317": 0.85595703125, "318": 2.26953125}, "correct": false}

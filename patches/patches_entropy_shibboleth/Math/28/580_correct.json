@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 28, "file_path": "src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java", "patched_entropy": {"118": 0.5888671875, "127": 4.5703125, "137": 1.2314453125, "151": 4.06640625}, "original_entropy": {"118": 0.5673828125, "127": 14.3671875, "137": 2.919921875, "151": 5.41796875}, "correct": true}

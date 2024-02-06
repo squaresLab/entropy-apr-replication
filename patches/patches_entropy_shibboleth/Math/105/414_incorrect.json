@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 105, "file_path": "src/java/org/apache/commons/math/stat/regression/SimpleRegression.java\t2017-03-21 00:13:08.000000000 +0800", "patched_entropy": {"107": 2.833984375}, "original_entropy": {"107": 0.07843017578125}, "correct": false}

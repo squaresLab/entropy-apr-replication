@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 19, "file_path": "source/org/jfree/chart/util/AbstractObjectList.java\t2019-03-31 14:16:10.000000000 -0400", "patched_entropy": {"163": 1.4443359375, "164": 1.767578125, "165": 1.1748046875}, "original_entropy": {"163": 0.4912109375, "164": 9.609375, "165": 14.546875}, "correct": false}

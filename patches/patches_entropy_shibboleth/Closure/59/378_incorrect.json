@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 59, "file_path": "src/com/google/javascript/jscomp/DefaultPassConfig.java", "patched_entropy": {"262": 6.6328125, "263": 7.94140625, "264": 3.572265625, "265": 1.3037109375}, "original_entropy": {"262": 0.042999267578125, "263": 6.8046875, "264": 10.5546875, "265": 0.388427734375}, "correct": false}

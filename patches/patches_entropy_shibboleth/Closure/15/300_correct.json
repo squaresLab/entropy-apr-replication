@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 15, "file_path": "src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java", "patched_entropy": {"101": 1.1650390625, "102": 0.121826171875, "103": 1.337890625}, "original_entropy": {"101": 15.4453125, "102": 0.93603515625, "103": 1.8427734375}, "correct": true}

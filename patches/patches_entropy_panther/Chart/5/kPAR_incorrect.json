@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 5, "file_path": "patches/patches_panther/kPAR/Incorrect/Chart/5/patch1-Chart-5_kPAR/patch1-Chart-5/kPAR/patch1-Chart-5_kPAR.patch", "patched_entropy": {"562": 1.1875, "563": 1.5595703125}, "original_entropy": {"562": 0.416015625, "563": 0.72021484375}, "correct": false}

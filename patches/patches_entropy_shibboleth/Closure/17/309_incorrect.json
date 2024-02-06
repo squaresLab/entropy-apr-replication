@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 17, "file_path": "src/com/google/javascript/jscomp/TypedScopeCreator.java\t2017-05-03 12:05:19.000000000 +0800", "patched_entropy": {"1294": 3.23046875, "1296": 1.849609375}, "original_entropy": {"1294": 0.4521484375, "1296": 0.95703125}, "correct": false}

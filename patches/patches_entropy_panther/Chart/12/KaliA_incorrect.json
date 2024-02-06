@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 12, "file_path": "patches/patches_panther/KaliA/Incorrect/Chart/12/patch1-Chart-12_KaliA/patch1-Chart-12/KaliA/patch1-Chart-12_KaliA.patch", "patched_entropy": {"159": 2.396484375, "160": 8.203125, "161": 3.353515625, "162": 0.9873046875}, "original_entropy": {"159": 0.71875, "160": 3.154296875, "161": 4.71875, "162": 3.5859375}, "correct": false}

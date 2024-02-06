@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 14, "file_path": "src/com/google/javascript/jscomp/ControlFlowAnalysis.java\t2017-05-03 12:05:06.000000000 +0800", "patched_entropy": {"663": 2.494140625, "667": 6.0703125}, "original_entropy": {"663": 0.10528564453125, "667": 0.6533203125}, "correct": false}

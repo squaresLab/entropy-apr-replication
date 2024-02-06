@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 2, "file_path": "src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java", "patched_entropy": {"292": 0.412353515625, "293": 7.58203125, "294": 1.7587890625, "295": 0.1414794921875}, "original_entropy": {"292": 0.1558837890625, "293": 1.4091796875, "294": 0.9794921875, "295": 3.560546875}, "correct": false}

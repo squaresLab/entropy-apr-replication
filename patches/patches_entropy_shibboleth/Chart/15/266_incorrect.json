@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 15, "file_path": "source/org/jfree/chart/plot/PiePlot3D.java", "patched_entropy": {"279": 13.6953125, "280": 2.05078125, "281": 7.2890625, "282": 2.6328125, "283": 2.427734375}, "original_entropy": {"279": 1.7783203125, "280": 12.96875, "281": 0.73974609375, "282": 5.01953125, "283": 0.55615234375}, "correct": false}

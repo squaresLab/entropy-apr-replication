@@ -1,0 +1,1 @@
+{"project": "Csv", "bug_id": 10, "file_path": "patches/patches_panther/Developer/Correct/Csv/10/patch1#1-Csv-10_Developer/patch1#1-Csv-10/Developer/patch1#1-Csv-10_Developer.patch", "patched_entropy": {"69": 0.74169921875, "70": 1.2421875, "71": 0.11572265625}, "original_entropy": {"69": 3.87890625, "70": 15.21875, "71": 4.62109375}, "correct": true}

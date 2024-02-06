@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 25, "file_path": "/home/TBar/OUTPUT/PerfectFL/TBar/UnfixedBugs/Chart_25/Patch_119_40.txt", "patched_entropy": {"403": 0.556640625, "404": 0.64404296875, "405": 1.66796875, "406": 0.88623046875, "407": 1.203125}, "original_entropy": {"403": 0.37548828125, "404": 2.935546875, "405": 1.5234375, "406": 2.0, "407": 11.640625}, "correct": false}

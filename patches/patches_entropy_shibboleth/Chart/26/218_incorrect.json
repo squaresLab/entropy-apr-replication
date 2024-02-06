@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 26, "file_path": "source/org/jfree/chart/axis/Axis.java", "patched_entropy": {"1189": 3.189453125}, "original_entropy": {"1189": 0.609375}, "correct": false}

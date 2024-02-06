@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 80, "file_path": "patches/patches_panther/TBar/Incorrect/Math/80/patch1-Math-80_TBar/patch1-Math-80/TBar/patch1-Math-80_TBar.patch", "patched_entropy": {"1134": 2.3671875, "1135": 3.259765625}, "original_entropy": {"1134": 1.7685546875, "1135": 2.837890625}, "correct": false}

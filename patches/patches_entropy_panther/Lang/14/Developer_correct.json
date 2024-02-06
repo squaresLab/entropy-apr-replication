@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 14, "file_path": "patches/patches_panther/Developer/Correct/Lang/14/patch1#1-Lang-14_Developer/patch1#1-Lang-14/Developer/patch1#1-Lang-14_Developer.patch", "patched_entropy": {"787": 0.27294921875, "789": 0.4970703125, "790": 0.2470703125}, "original_entropy": {"787": 1.1474609375, "789": 16.875, "790": 7.66796875}, "correct": true}

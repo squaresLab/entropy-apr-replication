@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 49, "file_path": "src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java", "patched_entropy": {"398": 0.54248046875, "399": 2.03515625, "400": 2.66796875, "401": 1.1962890625}, "original_entropy": {"398": 0.6923828125, "399": 3.599609375, "400": 8.1640625, "401": 14.1015625}, "correct": false}

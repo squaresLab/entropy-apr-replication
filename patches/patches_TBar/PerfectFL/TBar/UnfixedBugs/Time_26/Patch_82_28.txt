@@ -1,0 +1,16 @@
+diff --git a/src/main/java/org/joda/time/chrono/ZonedChronology.java b/src/main/java/org/joda/time/chrono/ZonedChronology.java
+index f165f3dd..e949aa61 100644
+--- a/src/main/java/org/joda/time/chrono/ZonedChronology.java
++++ b/src/main/java/org/joda/time/chrono/ZonedChronology.java
+@@ -478,7 +478,10 @@ public final class ZonedChronology extends AssembledChronology {
+             // cannot verify that new value stuck because set may be lenient
+             long localInstant = iZone.convertUTCToLocal(instant);
+             localInstant = iField.set(localInstant, text, locale);
+-            return iZone.convertLocalToUTC(localInstant, false);
++            if (iZone == null) {
++	    return 0;
++	}
++return iZone.convertLocalToUTC(localInstant, false);
+         }
+ 
+         public int getDifference(long minuendInstant, long subtrahendInstant) {

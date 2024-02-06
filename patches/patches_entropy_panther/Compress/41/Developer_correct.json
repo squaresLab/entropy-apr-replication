@@ -1,0 +1,1 @@
+{"project": "Compress", "bug_id": 41, "file_path": "patches/patches_panther/Developer/Correct/Compress/41/patch1#1-Compress-41_Developer/patch1#1-Compress-41/Developer/patch1#1-Compress-41_Developer.patch", "patched_entropy": {"246": 0.452392578125, "249": 5.9765625, "250": 2.025390625}, "original_entropy": {"246": 2.8515625, "249": 5.9765625, "250": 11.7578125}, "correct": true}

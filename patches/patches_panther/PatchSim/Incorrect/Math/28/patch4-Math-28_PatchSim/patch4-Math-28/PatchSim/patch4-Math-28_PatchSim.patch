@@ -1,0 +1,11 @@
+--- /Users/haoye.tian/Downloads/ODS/data/PS/incorrect/Patch198/Math_28/SimplexSolver/Math_28_SimplexSolver_s.java	2020-08-13 10:38:58.000000000 +0200
++++ /Users/haoye.tian/Downloads/ODS/data/PS/incorrect/Patch198/Math_28/SimplexSolver/Math_28_SimplexSolver_t.java	2020-08-13 10:38:58.000000000 +0200
+@@ -112,7 +112,7 @@
+ 
+         if (minRatioPositions.size() == 0) {
+             return null;
+-        } else if (minRatioPositions.size() > 1) {
++  } else if (minRatioPositions.size() > 1&&!(minRatioPositions.size()>(double)0.0)) {
+             // there's a degeneracy as indicated by a tie in the minimum ratio test
+ 
+             // 1. check if there's an artificial variable that can be forced out of the basis

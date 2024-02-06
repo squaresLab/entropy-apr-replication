@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 39, "file_path": "patches/patches_panther/Nopol2015/Incorrect/Lang/39/patch1-Lang-39_Nopol2015/patch1-Lang-39/Nopol2015/patch1-Lang-39_Nopol2015.patch", "patched_entropy": {"3674": 3.408203125, "3681": 1.142578125}, "original_entropy": {"3674": 0.8828125, "3681": 0.76611328125}, "correct": false}

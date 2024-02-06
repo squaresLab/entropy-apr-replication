@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 39, "file_path": "src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java\t2017-05-03 12:09:50.000000000 +0800", "patched_entropy": {"263": 2.919921875, "266": 0.59375}, "original_entropy": {"263": 0.02813720703125, "266": 0.57080078125}, "correct": false}

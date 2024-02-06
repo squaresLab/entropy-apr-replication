@@ -1,0 +1,1 @@
+{"project": "Time", "bug_id": 14, "file_path": "patches/patches_panther/Hercules/Incorrect/Time/14/patch1-Time-14_Hercules/patch1-Time-14/Hercules/patch1-Time-14_Hercules.patch", "patched_entropy": {"518": 1.6455078125, "519": 3.04296875}, "original_entropy": {"518": 0.1927490234375, "519": 1.8779296875}, "correct": false}

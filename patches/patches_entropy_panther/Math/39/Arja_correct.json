@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 39, "file_path": "patches/patches_panther/Arja/Correct/Math/39/patch1-Math-39_Arja/patch1-Math-39/Arja/patch1-Math-39_Arja.patch", "patched_entropy": {"252": 0.5234375, "253": 1.6064453125, "254": 3.0390625, "255": 3.822265625}, "original_entropy": {"252": 14.796875, "253": 2.166015625, "254": 0.54052734375, "255": 1.6376953125}, "correct": true}

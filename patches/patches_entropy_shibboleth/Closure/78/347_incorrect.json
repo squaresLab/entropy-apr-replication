@@ -1,0 +1,1 @@
+{"project": "Closure", "bug_id": 78, "file_path": "src/com/google/javascript/jscomp/AbstractPeepholeOptimization.java", "patched_entropy": {"53": 6.94921875, "54": 6.12109375}, "original_entropy": {"53": 0.25830078125, "54": 6.4609375}, "correct": false}

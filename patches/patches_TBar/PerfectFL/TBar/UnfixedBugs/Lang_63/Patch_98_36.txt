@@ -1,0 +1,23 @@
+diff --git a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+index 127b9279..ecb8994a 100644
+--- a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -286,7 +286,8 @@ public class DurationFormatUtils {
+         int years = end.get(Calendar.YEAR) - start.get(Calendar.YEAR);
+ 
+         // each initial estimate is adjusted in case it is under 0
+-        while (milliseconds < 0) {
++        milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++	while (milliseconds < 0) {
+             milliseconds += 1000;
+             seconds -= 1;
+         }
+@@ -315,7 +316,7 @@ public class DurationFormatUtils {
+             months += 12;
+             years -= 1;
+         }
+-        milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
++        
+         seconds -= reduceAndCorrect(start, end, Calendar.SECOND, seconds);
+         minutes -= reduceAndCorrect(start, end, Calendar.MINUTE, minutes);
+         hours -= reduceAndCorrect(start, end, Calendar.HOUR_OF_DAY, hours);

@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 50, "file_path": "src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java", "patched_entropy": {"186": 5.0625, "187": 1.3291015625, "188": 2.244140625, "193": 1.9130859375}, "original_entropy": {"186": 1.4169921875, "187": 0.2437744140625, "188": 1.5673828125, "193": 1.7431640625}, "correct": false}

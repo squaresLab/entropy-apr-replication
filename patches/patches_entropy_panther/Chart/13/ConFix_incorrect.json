@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 13, "file_path": "patches/patches_panther/ConFix/Incorrect/Chart/13/patch1-Chart-13_ConFix/patch1-Chart-13/ConFix/patch1-Chart-13_ConFix.patch", "patched_entropy": {"57": 2.654296875, "449": 1.455078125, "450": 2.0234375}, "original_entropy": {"57": 15.4609375, "449": 1.455078125, "450": 0.22900390625}, "correct": false}

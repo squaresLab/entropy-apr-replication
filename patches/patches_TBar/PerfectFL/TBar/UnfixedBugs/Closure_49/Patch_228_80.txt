@@ -1,0 +1,23 @@
+diff --git a/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java b/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java
+index 627271f9..4c509e6f 100644
+--- a/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java
++++ b/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java
+@@ -154,7 +154,8 @@ class MakeDeclaredNamesUnique
+ 
+   @Override
+   public void visit(NodeTraversal t, Node n, Node parent) {
+-    switch (n.getType()) {
++    if (n != null) {
++	switch (n.getType()) {
+       case Token.NAME:
+         String newName = getReplacementName(n.getString());
+         if (newName != null) {
+@@ -183,6 +184,8 @@ class MakeDeclaredNamesUnique
+         nameStack.pop();
+         break;
+     }
++	}
++
+   }
+ 
+   /**

@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 15, "file_path": "patches/patches_panther/PatchSim/Incorrect/Chart/15/patch2-Chart-15_PatchSim/patch2-Chart-15/PatchSim/patch2-Chart-15_PatchSim.patch", "patched_entropy": {"229": 5.55078125, "230": 3.201171875}, "original_entropy": {"229": 0.251708984375, "230": 1.44921875}, "correct": false}

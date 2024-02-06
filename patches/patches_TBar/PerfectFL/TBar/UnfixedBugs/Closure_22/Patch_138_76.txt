@@ -1,0 +1,13 @@
+diff --git a/src/com/google/javascript/jscomp/CheckSideEffects.java b/src/com/google/javascript/jscomp/CheckSideEffects.java
+index b9aa412c..e2122145 100644
+--- a/src/com/google/javascript/jscomp/CheckSideEffects.java
++++ b/src/com/google/javascript/jscomp/CheckSideEffects.java
+@@ -100,7 +100,7 @@ final class CheckSideEffects extends AbstractPostOrderCallback
+     // fix up the tree in more clever ways when these are removed.
+     if (parent.getType() == Token.COMMA) {
+       Node gramps = parent.getParent();
+-      if (gramps.isCall() && parent == gramps.getFirstChild()) {
++      if (gramps.isCall() && parent!=gramps.getFirstChild()) {
+         if (n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString())) {
+       return;
+         }

@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 77, "file_path": "src/main/java/org/apache/commons/math/linear/ArrayRealVector.java\t2020-10-10 17:48:41.000000000 +0200", "patched_entropy": {"720": 6.11328125, "721": 3.015625}, "original_entropy": {"720": 1.3349609375, "721": 5.90625}, "correct": false}

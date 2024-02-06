@@ -1,0 +1,1 @@
+{"project": "Chart", "bug_id": 22, "file_path": "source/org/jfree/data/KeyedObjects2D.java", "patched_entropy": {"344": 1.8447265625, "345": 2.0625, "346": 0.5087890625}, "original_entropy": {"344": 0.57568359375, "345": 8.34375, "346": 13.1953125}, "correct": false}

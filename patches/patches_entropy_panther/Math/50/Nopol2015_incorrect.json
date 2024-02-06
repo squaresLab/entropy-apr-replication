@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 50, "file_path": "patches/patches_panther/Nopol2015/Incorrect/Math/50/patch1-Math-50_Nopol2015/patch1-Math-50/Nopol2015/patch1-Math-50_Nopol2015.patch", "patched_entropy": {"186": 5.10546875, "191": 2.275390625}, "original_entropy": {"186": 1.4169921875, "191": 4.09375}, "correct": false}

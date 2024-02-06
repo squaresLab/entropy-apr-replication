@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 41, "file_path": "src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java", "patched_entropy": {"519": 0.23974609375}, "original_entropy": {"519": 0.5302734375}, "correct": true}

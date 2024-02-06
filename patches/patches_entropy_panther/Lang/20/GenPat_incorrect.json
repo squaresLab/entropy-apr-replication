@@ -1,0 +1,1 @@
+{"project": "Lang", "bug_id": 20, "file_path": "patches/patches_panther/GenPat/Incorrect/Lang/20/patch1-Lang-20_GenPat/patch1-Lang-20/GenPat/patch1-Lang-20_GenPat.patch", "patched_entropy": {"3382": 16.515625, "3383": 4.25, "3384": 1.3916015625}, "original_entropy": {"3382": 0.27587890625, "3383": 13.578125, "3384": 1.2119140625}, "correct": false}

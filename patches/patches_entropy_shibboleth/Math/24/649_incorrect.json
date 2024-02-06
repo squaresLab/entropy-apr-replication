@@ -1,0 +1,1 @@
+{"project": "Math", "bug_id": 24, "file_path": "src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java\t2017-05-03 12:09:33.000000000 +0800", "patched_entropy": {"145": 3.814453125, "148": 3.296875}, "original_entropy": {"145": 0.0262298583984375, "148": 2.55859375}, "correct": false}
