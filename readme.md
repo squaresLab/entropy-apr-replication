@@ -11,10 +11,15 @@ RQ2-3 Patch classification: Run the interactive jupyter notebook analysis_notebo
 
 
 III. Rerun entropy from scratch
+
 `python3 fl_scores/process_llmao_prior.py`
+
 `python3 fl_scores/process_sbfl.py`
+
 `python3 fl_scores/process_transfer.py`
 
 `python3 patches/shib_panther_patch_entropy.py`
+
 `python3 patches/generate_tbar_patches.py`
+
 `python3 patches/tbar_patch_entropy.py`
