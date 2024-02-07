@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,295,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,294,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,293,done = iterator1.isDone() && iterator2.isDone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,292,iterator2.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,291,iterator1.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,288,if (!Arrays.equals(d1, d2)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,285,if (seg1 != seg2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,284,int seg2 = iterator2.currentSegment(d2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,283,int seg1 = iterator1.currentSegment(d1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,280,if (iterator1.isDone() != iterator2.isDone()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,279,while (!done) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,278,boolean done = iterator1.isDone() && iterator2.isDone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,277,double[] d2 = new double[6];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,276,double[] d1 = new double[6];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,275,PathIterator iterator2 = p1.getPathIterator(null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,274,PathIterator iterator1 = p1.getPathIterator(null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,271,if (p1.getWindingRule() != p2.getWindingRule()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,268,if (p2 == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,265,if (p1 == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,594,return (x + width >= x0 && y + height >= y0 && x <= x0 + rect1.getWidth()
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,593,double height = rect2.getHeight();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,592,double y = rect2.getY();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,591,double width = rect2.getWidth();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,590,double x = rect2.getX();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,588,double y0 = rect1.getY();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,587,double x0 = rect1.getX();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,569,return ((x >= x0) && (y >= y0)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,567,double h = rect2.getHeight();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,566,double w = rect2.getWidth();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,565,double y = rect2.getY();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,564,double x = rect2.getX();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,563,double y0 = rect1.getY();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,562,double x0 = rect1.getX();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,547,return new Point2D.Double(x, y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,546,y = Math.max(area.getMinY(), Math.min(y, area.getMaxY()));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,545,x = Math.max(area.getMinX(), Math.min(x, area.getMaxX()));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,526,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,524,result.closePath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,523,result.lineTo(x2 - width / 2.0f, y2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,522,result.lineTo(x2 + width / 2.0f, y2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,521,result.lineTo(x1 + width / 2.0f, y1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,520,result.moveTo(x1 - width / 2.0f, y1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,517,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,516,result.closePath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,515,result.lineTo(x2 - dx, y2 + dy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,514,result.lineTo(x2 + dx, y2 - dy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,513,result.lineTo(x1 + dx, y1 - dy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,512,result.moveTo(x1 - dx, y1 + dy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,511,float dy = (float) Math.cos(theta) * width;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,510,float dx = (float) Math.sin(theta) * width;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,509,double theta = Math.atan((y2 - y1) / (x2 - x1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,508,if ((x2 - x1) != 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,507,float y2 = (float) line.getY2();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,506,float y1 = (float) line.getY1();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,505,float x2 = (float) line.getX2();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,504,float x1 = (float) line.getX1();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,503,GeneralPath result = new GeneralPath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,489,return p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,488,p0.closePath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,487,p0.lineTo(-s, -s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,486,p0.lineTo(s, -s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,485,p0.moveTo(0.0f, s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,484,GeneralPath p0 = new GeneralPath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,473,return p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,472,p0.closePath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,471,p0.lineTo(-s, s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,470,p0.lineTo(s, s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,469,p0.moveTo(0.0f, -s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,468,GeneralPath p0 = new GeneralPath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,457,return p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,456,p0.closePath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,455,p0.lineTo(-s, 0.0f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,454,p0.lineTo(0.0f, s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,453,p0.lineTo(s, 0.0f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,452,p0.moveTo(0.0f, -s);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,451,GeneralPath p0 = new GeneralPath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,440,return p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,439,p0.closePath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,438,p0.lineTo(-l, -t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,437,p0.lineTo(-t, -t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,436,p0.lineTo(-t, -l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,435,p0.lineTo(t, -l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,434,p0.lineTo(t, -t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,433,p0.lineTo(l, -t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,432,p0.lineTo(l, t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,431,p0.lineTo(t, t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,430,p0.lineTo(t, l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,429,p0.lineTo(-t, l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,428,p0.lineTo(-t, t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,427,p0.moveTo(-l, t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,426,GeneralPath p0 = new GeneralPath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,414,return p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,413,p0.closePath();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,412,p0.lineTo(-t * SQRT2, 0.0f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,411,p0.lineTo(-l - t, l - t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,410,p0.lineTo(-l + t, l + t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,409,p0.lineTo(0.0f, t * SQRT2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,408,p0.lineTo(l - t, l + t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,407,p0.lineTo(l + t, l - t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/11/source/org/jfree/chart/util/ShapeUtilities.java,406,p0.lineTo(t * SQRT2, 0.0f);

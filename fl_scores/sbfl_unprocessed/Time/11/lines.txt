@@ -1,0 +1,45 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/GregorianChronology.java,209,leapYears = ((year + 3) >> 2) - leapYears + ((leapYears + 3) >> 2) - 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,289,return values;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,278,if (duration != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,277,int[] values = new int[size];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,276,int size = period.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/DateTimeUtils.java,317,return PeriodType.standard();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/DateTimeUtils.java,86,return cMillisProvider.getMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,713,return getPeriodType().getIndexedField(this, PeriodType.MONTH_INDEX);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,704,return getPeriodType().getIndexedField(this, PeriodType.YEAR_INDEX);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,299,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,298,super(0L, null, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,675,return (realIndex == -1 ? 0 : period.getValue(realIndex));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,674,int realIndex = iIndices[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,173,cYMD = type;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,169,DurationFieldType.days(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,168,DurationFieldType.years(), DurationFieldType.months(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,165,type = new PeriodType(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,116,return type;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,114,cStandard = type;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,110,DurationFieldType.seconds(), DurationFieldType.millis(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,109,DurationFieldType.hours(), DurationFieldType.minutes(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,108,DurationFieldType.weeks(), DurationFieldType.days(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,107,DurationFieldType.years(), DurationFieldType.months(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,104,type = new PeriodType(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,103,if (type == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,102,PeriodType type = cStandard;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,599,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,598,iIndices = indices;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,597,iTypes = types;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,596,iName = name;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,595,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,329,return iValues[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,259,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,258,iValues = chrono.get(this, duration);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,257,iType = type;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,256,chrono = DateTimeUtils.getChronology(chrono);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,255,type = checkPeriodType(type);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,254,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/field/MillisDurationField.java,117,return FieldUtils.safeAdd(instant, value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/field/FieldUtils.java,188,return (int) value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/field/FieldUtils.java,187,if (Integer.MIN_VALUE <= value && value <= Integer.MAX_VALUE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/field/FieldUtils.java,106,return diff;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/field/FieldUtils.java,102,if ((val1 ^ diff) < 0 && (val1 ^ val2) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/field/FieldUtils.java,100,long diff = val1 - val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java,78,return cVerbose.get();

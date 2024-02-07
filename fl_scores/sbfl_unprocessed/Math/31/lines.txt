@@ -1,0 +1,92 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/ConvergenceException.java,50,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/ConvergenceException.java,49,getContext().addMessage(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/ConvergenceException.java,48,Object ... args) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/util/ContinuedFraction.java,177,throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,74,return context;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,70,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,69,this(LocalizedFormats.ILLEGAL_STATE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,48,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,47,context.addMessage(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,46,context = new ExceptionContext(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,45,Object ... args) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,86,return context.getLocalizedMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,80,return context.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,233,return ( 2 * (denominatorDF * denominatorDF) * (numeratorDF + denominatorDF - 2) ) /
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,231,final double denomDFMinusTwo = denominatorDF - 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,230,final double numeratorDF = getNumeratorDegreesOfFreedom();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,194,return denominatorDF / (denominatorDF - 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,178,return solverAbsoluteAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,260,return Double.POSITIVE_INFINITY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,248,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,229,if (denominatorDF > 4) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,227,final double denominatorDF = getDenominatorDegreesOfFreedom();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,218,return numericalVariance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,216,numericalVarianceIsCalculated = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,215,numericalVariance = calculateNumericalVariance();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,214,if (!numericalVarianceIsCalculated) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,193,if (denominatorDF > 2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,191,final double denominatorDF = getDenominatorDegreesOfFreedom();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,163,return numeratorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,145,ret = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,149,return probabilityOfSuccess > 0.0 ? numberOfTrials : 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,137,return probabilityOfSuccess < 1.0 ? 0 : numberOfTrials;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,125,return numberOfTrials * p * (1 - p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,124,final double p = probabilityOfSuccess;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,114,return numberOfTrials * probabilityOfSuccess;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,172,return denominatorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,101,ret = 1.0 - Beta.regularizedBeta(probabilityOfSuccess,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,98,} else if (x >= numberOfTrials) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,96,if (x < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,150,ret = Beta.regularizedBeta((n * x) / (m + n * x),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,148,double m = denominatorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,147,double n = numeratorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,60,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,59,numberOfTrials = trials;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,58,probabilityOfSuccess = p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,54,if (p < 0 || p > 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,50,if (trials < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java,49,public BinomialDistribution(int trials, double p) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,129,ret = 1.0 - regularizedBeta(1.0 - x, b, a, epsilon, maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,154,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,144,if (x <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,112,upper = ((int) Math.ceil(tmp)) - 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,111,if (tmp < upper) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,110,tmp = mu + k * sigma;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,109,k = 1.0 / k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,107,lower = ((int) Math.ceil(tmp)) - 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,106,if (tmp > lower) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,105,double tmp = mu - k * sigma;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,104,double k = FastMath.sqrt((1.0 - p) / p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,201,result = cumulativeProbability(argument);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,200,double result = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,143,double pm = checkedCumulativeProbability(xm);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,134,if (xm < lower || xm > upper) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,133,int xm = (lower + upper) / 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,154,ret = FastMath.exp((a * FastMath.log(x)) + (b * FastMath.log(1.0 - x)) -
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,131,ContinuedFraction fraction = new ContinuedFraction() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,128,} else if (x > (a + 1.0) / (a + b + 2.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,201,ret = Gamma.logGamma(a) + Gamma.logGamma(b) -
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,205,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,195,if (Double.isNaN(a) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,120,if (Double.isNaN(x) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/special/Beta.java,50,return regularizedBeta(x, a, b, DEFAULT_EPSILON, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/analysis/solvers/BrentSolver.java,108,double yMax = computeObjectiveValue(max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,100,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,99,solverAbsoluteAccuracy = inverseCumAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,98,this.denominatorDegreesOfFreedom = denominatorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,97,this.numeratorDegreesOfFreedom = numeratorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,93,if (denominatorDegreesOfFreedom <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,89,if (numeratorDegreesOfFreedom <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,55,private boolean numericalVarianceIsCalculated = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,52,private double numericalVariance = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,88,throws NotStrictlyPositiveException {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,70,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/FDistribution.java,68,this(numeratorDegreesOfFreedom, denominatorDegreesOfFreedom,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,132,while (lower + 1 < upper) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,116,return solveInverseCumulativeProbability(p, lower, upper);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,103,if (chebyshevApplies) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,101,final boolean chebyshevApplies = !(Double.isInfinite(mu) || Double.isNaN(mu) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,100,final double sigma = FastMath.sqrt(getNumericalVariance());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,99,final double mu = getNumericalMean();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/util/FastMath.java,834,return 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/31/src/main/java/org/apache/commons/math3/util/FastMath.java,830,if (hiPrec != null) {

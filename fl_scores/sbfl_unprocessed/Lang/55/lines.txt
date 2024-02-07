@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,181,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,180,this.runningState = STATE_SUSPENDED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,179,stopTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,176,if(this.runningState != STATE_RUNNING) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,210,return this.stopTime - this.startTime;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,209,if(this.runningState == STATE_STOPPED || this.runningState == STATE_SUSPENDED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,120,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,119,this.runningState = STATE_STOPPED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,118,stopTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,115,if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,105,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,104,this.runningState = STATE_RUNNING;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,103,startTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,102,stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,99,if(this.runningState != STATE_UNSTARTED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,96,if(this.runningState == STATE_STOPPED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,86,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,79,private long stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,75,private long startTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,70,private int splitState   = STATE_UNSPLIT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,65,private int runningState = STATE_UNSTARTED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,85,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,260,return DurationFormatUtils.formatDurationHMS(getSplitTime());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,247,return DurationFormatUtils.formatDurationHMS(getTime());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,235,return this.stopTime - this.startTime;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,233,throw new IllegalStateException("Stopwatch must be split to get the split time. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,232,if(this.splitState != STATE_SPLIT) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,218,throw new RuntimeException("Illegal running state has occured. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,216,return System.currentTimeMillis() - this.startTime;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,215,if(this.runningState == STATE_RUNNING) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,213,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,212,if(this.runningState == STATE_UNSTARTED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,198,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,197,this.runningState = STATE_RUNNING;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,196,stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,195,startTime += (System.currentTimeMillis() - stopTime);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,193,throw new IllegalStateException("Stopwatch must be suspended to resume. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,192,if(this.runningState != STATE_SUSPENDED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,177,throw new IllegalStateException("Stopwatch must be running to suspend. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,165,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,164,this.splitState = STATE_UNSPLIT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,163,stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,161,throw new IllegalStateException("Stopwatch has not been split. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,160,if(this.splitState != STATE_SPLIT) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,149,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,148,this.splitState = STATE_SPLIT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,147,stopTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,145,throw new IllegalStateException("Stopwatch is not running. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,144,if(this.runningState != STATE_RUNNING) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,132,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,131,stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,130,startTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,129,this.splitState   = STATE_UNSPLIT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,128,this.runningState = STATE_UNSTARTED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,116,throw new IllegalStateException("Stopwatch is not running. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,100,throw new IllegalStateException("Stopwatch already started. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,97,throw new IllegalStateException("Stopwatch must be reset before being restarted. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,181,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,180,this.runningState = STATE_SUSPENDED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,179,stopTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,176,if(this.runningState != STATE_RUNNING) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,210,return this.stopTime - this.startTime;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,209,if(this.runningState == STATE_STOPPED || this.runningState == STATE_SUSPENDED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,120,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,119,this.runningState = STATE_STOPPED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,118,stopTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,115,if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,105,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,104,this.runningState = STATE_RUNNING;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,103,startTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,102,stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,99,if(this.runningState != STATE_UNSTARTED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,96,if(this.runningState == STATE_STOPPED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,86,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,79,private long stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,75,private long startTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,70,private int splitState   = STATE_UNSPLIT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,65,private int runningState = STATE_UNSTARTED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,85,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,260,return DurationFormatUtils.formatDurationHMS(getSplitTime());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,247,return DurationFormatUtils.formatDurationHMS(getTime());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,235,return this.stopTime - this.startTime;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,233,throw new IllegalStateException("Stopwatch must be split to get the split time. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,232,if(this.splitState != STATE_SPLIT) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,218,throw new RuntimeException("Illegal running state has occured. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,216,return System.currentTimeMillis() - this.startTime;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,215,if(this.runningState == STATE_RUNNING) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,213,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,212,if(this.runningState == STATE_UNSTARTED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,198,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,197,this.runningState = STATE_RUNNING;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,196,stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,195,startTime += (System.currentTimeMillis() - stopTime);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,193,throw new IllegalStateException("Stopwatch must be suspended to resume. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,192,if(this.runningState != STATE_SUSPENDED) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,177,throw new IllegalStateException("Stopwatch must be running to suspend. ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,165,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,164,this.splitState = STATE_UNSPLIT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,163,stopTime = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/55/src/java/org/apache/commons/lang/time/StopWatch.java,161,throw new IllegalStateException("Stopwatch has not been split. ");

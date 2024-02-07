@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,68,return (point == null) ? null : point.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,347,columnsToDrop.add(col);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,181,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/util/MathUtils.java,333,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/util/MathUtils.java,330,if (o == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,367,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,366,this.numArtificialVariables = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,365,this.tableau = new Array2DRowRealMatrix(matrix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,362,columnLabels.remove((int) columnsToDrop.get(i));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,361,for (int i = columnsToDrop.size() - 1; i >= 0; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,356,matrix[i - 1][col++] = tableau.getEntry(i, j);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,355,if (!columnsToDrop.contains(j)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,354,for (int j = 0; j < getWidth(); j++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,353,int col = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,352,for (int i = 1; i < getHeight(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,351,double[][] matrix = new double[getHeight() - 1][getWidth() - columnsToDrop.size()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,346,if (getBasicRow(col) == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,345,int col = i + getArtificialVariableOffset();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,344,for (int i = 0; i < getNumArtificialVariables(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,338,if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,337,final double entry = tableau.getEntry(0, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,336,for (int i = getNumObjectiveFunctions(); i < getArtificialVariableOffset(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,333,columnsToDrop.add(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,332,List<Integer> columnsToDrop = new ArrayList<Integer>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,526,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,525,setSubMatrix(in, 0, 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,289,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,285,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,283,System.arraycopy(subMatrix[i], 0, data[i + row], column, nCols);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,280,if (subMatrix[i].length != nCols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,279,for (int i = 0; i < data.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,278,data = new double[subMatrix.length][nCols];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,275,if (nCols == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,274,final int nCols = subMatrix[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,270,if (nRows == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,269,final int nRows = subMatrix.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,268,MathUtils.checkNotNull(subMatrix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,265,if (column > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,262,if (row > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,261,if (data == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,75,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,74,copyIn(d);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,73,throws DimensionMismatchException, NoDataException, NullArgumentException {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,174,doIteration(tableau);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,44,protected AbstractRealMatrix() {}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/util/Precision.java,92,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,424,return new RealPointValuePair(coefficients, f.getValue(coefficients));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,419,coefficients[i] =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,418,basicRows.add(basicRow);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,413,if (basicRows.contains(basicRow)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,409,Integer basicRow = getBasicRow(colIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,405,if (colIndex < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,404,int colIndex = columnLabels.indexOf("x" + i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,403,for (int i = 0; i < coefficients.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,402,double[] coefficients = new double[getOriginalNumDecisionVariables()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,401,Set<Integer> basicRows = new HashSet<Integer>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,399,double mostNegative = negativeVarBasicRow == null ? 0 : getEntry(negativeVarBasicRow, getRhsOffset());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,398,Integer negativeVarBasicRow = negativeVarColumn > 0 ? getBasicRow(negativeVarColumn) : null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,397,int negativeVarColumn = columnLabels.indexOf(NEGATIVE_VAR_COLUMN_LABEL);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,320,return row;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,317,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/LinearObjectiveFunction.java,92,return coefficients.dotProduct(new ArrayRealVector(point, false)) + constantTerm;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,47,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,46,this.value = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,45,this.point = (point == null) ? null : point.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,44,public RealPointValuePair(final double[] point, final double value) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,197,return tableau.getSolution();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,178,if (!Precision.equals(tableau.getEntry(0, tableau.getRhsOffset()), 0d, epsilon)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,173,while (!tableau.isOptimal()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,454,return dot;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,452,dot += data[i] * vData[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,451,for (int i = 0; i < data.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,450,double dot = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,449,checkVectorDimensions(vData.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,448,final double[] vData = ((ArrayRealVector) v).data;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,447,if (v instanceof ArrayRealVector) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,194,while (!tableau.isOptimal()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,192,tableau.dropPhase1Objective();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/util/Precision.java,285,yInt = SGN_MASK - yInt;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/util/Precision.java,68,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,456,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,454,tableau.setRowVector(minuendRow, tableau.getRowVector(minuendRow)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,440,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,438,tableau.setEntry(dividendRow, j, tableau.getEntry(dividendRow, j) / divisor);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,437,for (int j = 0; j < getWidth(); j++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,385,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,328,if (getNumObjectiveFunctions() == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,316,} else if (!Precision.equals(entry, 0d, maxUlps)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,315,row = i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,314,if (Precision.equals(entry, 1d, maxUlps) && (row == null)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,313,final double entry = getEntry(i, col);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,312,for (int i = 0; i < getHeight(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,311,Integer row = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,156,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,153,tableau.subtractRow(i, pivotRow, multiplier);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,152,double multiplier = tableau.getEntry(i, pivotCol);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,151,if (i != pivotRow) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,150,for (int i = 0; i < tableau.getHeight(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,147,tableau.divideRow(pivotRow, pivotVal);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/42/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java,146,double pivotVal = tableau.getEntry(pivotRow, pivotCol);

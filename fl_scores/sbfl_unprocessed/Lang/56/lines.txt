@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,201,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,200,super.printStackTrace(out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,194,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,193,delegate.printStackTrace(out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,116,return cause.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,115,} else if (cause != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,113,if (super.getMessage() != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,102,return cause;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,83,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,82,this.cause = cause;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,81,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,53,private Throwable cause = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,47,protected NestableDelegate delegate = new NestableDelegate(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,66,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,65,super(cause);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,133,serialize(obj, baos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,132,ByteArrayOutputStream baos = new ByteArrayOutputStream(512);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,113,try {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,111,throw new SerializationException(ex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,110,} catch (IOException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,108,out.writeObject(obj);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,107,out = new ObjectOutputStream(outputStream);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,104,ObjectOutputStream out = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,101,if (outputStream == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,167,return getInstance(pattern, null, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,991,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,984,if (
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,983,FastDateFormat other = (FastDateFormat) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,980,if (obj instanceof FastDateFormat == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,547,timeZone = TimeZone.getDefault();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,553,locale = Locale.getDefault();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,1008,return total;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,1007,total += (mLocaleForced ? 1 : 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,1006,total += mLocale.hashCode();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,1005,total += (mTimeZoneForced ? 1 : 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,1004,total += mTimeZone.hashCode();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,1003,total += mPattern.hashCode();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,1002,int total = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,220,return format;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,215,if (format == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,214,FastDateFormat format = (FastDateFormat) cInstanceCache.get(emptyFormat);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,213,FastDateFormat emptyFormat = new FastDateFormat(pattern, timeZone, locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,556,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,555,mLocale = locale;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,552,if (locale == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,551,mLocaleForced = (locale != null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,549,mTimeZone = timeZone;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,546,if (timeZone == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,545,mTimeZoneForced = (timeZone != null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,543,mPattern = pattern;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,540,if (pattern == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/time/FastDateFormat.java,539,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,187,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,186,delegate.printStackTrace(out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,180,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,179,delegate.printStackTrace();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,172,return delegate.indexOfThrowable(type, fromIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,165,return delegate.indexOfThrowable(type, 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,158,return delegate.getThrowables();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,151,return delegate.getThrowableCount();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,144,return delegate.getThrowable(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,137,return delegate.getMessages();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,129,return delegate.getMessage(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,127,return super.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,126,if (index == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,118,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,114,return super.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,96,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,95,this.cause = cause;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,94,super(msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,71,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,70,super(msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,61,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,60,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,78,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,77,super(msg, cause);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,55,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,54,super(msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,45,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationException.java,44,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,192,return deserialize(bais);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,191,ByteArrayInputStream bais = new ByteArrayInputStream(objectData);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,189,throw new IllegalArgumentException("The byte[] must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,188,if (objectData == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,169,try {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,167,throw new SerializationException(ex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,166,} catch (IOException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,165,throw new SerializationException(ex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,164,} catch (ClassNotFoundException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,173,} catch (IOException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,175,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,171,in.close();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,170,if (in != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,162,return in.readObject();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,161,in = new ObjectInputStream(inputStream);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,158,ObjectInputStream in = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,156,throw new IllegalArgumentException("The InputStream must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,155,if (inputStream == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,134,return baos.toByteArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/56/src/java/org/apache/commons/lang/SerializationUtils.java,121,}

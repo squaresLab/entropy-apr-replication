@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/util/FastMath.java,1542,return pow(-x, y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,134,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,133,setSeed(seed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,132,mt = new int[N];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,131,public MersenneTwister(long seed) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,217,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,216,setSeed(new int[] { (int) (seed >>> 32), (int) (seed & 0xffffffffl) });
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,207,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,205,clear(); // Clear normal deviate cache
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,203,mt[0] = 0x80000000; // MSB is 1; assuring non-zero initial array
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,199,i = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,198,mt[0] = mt[N - 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,197,if (i >= N) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,196,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,195,mt[i]   = (int) (l & 0xffffffffL);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,194,long l  = (l0 ^ ((l1 ^ (l1 >> 30)) * 1566083941l)) - i; // non linear
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,193,long l1 = (mt[i-1] & 0x7fffffffl) | ((mt[i-1] < 0) ? 0x80000000l : 0x0l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,192,long l0 = (mt[i] & 0x7fffffffl)   | ((mt[i]   < 0) ? 0x80000000l : 0x0l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,191,for (int k = N - 1; k != 0; k--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,187,j = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,186,if (j >= seed.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,184,i = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,183,mt[0] = mt[N - 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,182,if (i >= N) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,181,i++; j++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,180,mt[i]   = (int) (l & 0xffffffffl);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,179,long l  = (l0 ^ ((l1 ^ (l1 >> 30)) * 1664525l)) + seed[j] + j; // non linear
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,178,long l1 = (mt[i-1] & 0x7fffffffl) | ((mt[i-1] < 0) ? 0x80000000l : 0x0l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,177,long l0 = (mt[i] & 0x7fffffffl)   | ((mt[i]   < 0) ? 0x80000000l : 0x0l);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,176,for (int k = FastMath.max(N, seed.length); k != 0; k--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,174,int j = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,173,int i = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,172,setSeed(19650218);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,167,if (seed == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,155,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,154,clear(); // Clear normal deviate cache
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,151,mt[mti]= (int) longMT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,150,longMT = (1812433253l * (longMT ^ (longMT >> 30)) + mti) & 0xffffffffL;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,147,for (mti = 1; mti < N; ++mti) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,146,mt[0]= (int) longMT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/random/MersenneTwister.java,144,long longMT = seed;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1488,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1485,return DfpField.FLAG_INEXACT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1484,field.setIEEEFlagsBits(DfpField.FLAG_INEXACT);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1482,if (n != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1476,if (exp > MAX_EXP) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1470,if (exp < MIN_EXP) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1463,if (rh != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1460,mant[i] = r - rh * RADIX;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1459,rh = r / RADIX;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1458,final int r = mant[i] + rh;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1457,for (int i = 0; i < mant.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1456,int rh = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1454,if (inc) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1438,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1437,inc = n > 5000 || (n == 5000 && (mant[0] & 1) == 1);  // round half-even
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1419,switch (field.getRoundingMode()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,1418,boolean inc = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,642,return field.getRadixDigits();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,533,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,530,round((striped[q] - '0')*1000);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,528,if (q < striped.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,526,exp = (decimalPos+sciexp) / rsize;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,522,q += 4;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,518,mant[i] = (striped[q]   - '0') * 1000 +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,517,for (i = mant.length - 1; i >= 0; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,511,striped[++p] = '0';
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,510,for (i = 0; i < rsize; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,509,while ((p - q) < (mant.length * rsize)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,506,decimalPos += i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,505,q -= i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,504,int i = ((rsize * 100) - decimalPos - sciexp % rsize) % rsize;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,498,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,497,if (striped[p] != '0') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,496,while (p > q) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,494,p = significantDigits-1+offset;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,493,q = offset;  // set q to point to first sig digit
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,488,if (!decimalFound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,483,if (decimalFound && significantDigits == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,475,significantDigits--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,474,if (striped[q] == '0') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,471,if (q == offset) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,470,q--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,468,if (decimalFound && q != offset) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,463,significantDigits++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,462,p++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,461,q++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,460,striped[q] = fpdecimal.charAt(p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,455,if (fpdecimal.charAt(p) < '0' || fpdecimal.charAt(p) > '9') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,452,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,451,p++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,450,decimalPos = significantDigits;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,449,decimalFound = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,448,if (fpdecimal.charAt(p) == '.') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,445,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,444,if (q == mant.length*rsize+offset+1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,440,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,439,if (p == (fpdecimal.length())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,437,int significantDigits=0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/15/src/main/java/org/apache/commons/math3/dfp/Dfp.java,436,striped[3] = '0';

@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,350,return factorials[n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,346,if (result == Long.MAX_VALUE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,345,long result = Math.round(factorialDouble(n));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,401,return logSum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,399,logSum += Math.log((double)i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,398,for (int i = 2; i <= n; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,397,double logSum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,394,if (n < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,377,return Math.floor(Math.exp(factorialLog(n)) + 0.5);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,374,if (n < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1073,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1071,ret = addAndCheck(a, -b, msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1067,throw new ArithmeticException(msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1065,ret = a - b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1064,if (a < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1063,if (b == Long.MIN_VALUE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1062,String msg = "overflow: subtract";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1047,return (int)s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1045,throw new ArithmeticException("overflow: subtract");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1044,if (s < Integer.MIN_VALUE || s > Integer.MAX_VALUE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1043,long s = (long)x - (long)y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1029,return (Math.exp(x) - Math.exp(-x)) / 2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1018,return (x == ZS) ? ZS : (x > ZS) ? PS : NS;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,1003,return (x == 0L) ? 0L : (x > 0L) ? 1L : -1L;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,989,return (x == 0) ? 0 : (x > 0) ? 1 : -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,975,return (x == 0.0F) ? 0.0F : (x > 0.0F) ? 1.0F : -1.0F;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,973,return Float.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,972,if (Float.isNaN(x)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,957,return (x == 0.0) ? 0.0 : (x > 0.0) ? 1.0 : -1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,955,return Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,954,if (Double.isNaN(x)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,938,return (x == ZB) ? ZB : (x > ZB) ? PB : NB;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,924,return unscaled;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,922,throw new IllegalArgumentException("Invalid rounding method.");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,920,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,919,unscaled = Math.ceil(nextAfter(unscaled,  Double.POSITIVE_INFINITY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,915,throw new ArithmeticException("Inexact result from rounding");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,914,if (unscaled != Math.floor(unscaled)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,911,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,909,unscaled = Math.floor(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,907,unscaled = Math.ceil(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,906,if (fraction >= 0.5) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,905,double fraction = unscaled - Math.floor(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,904,unscaled = nextAfter(unscaled, Double.POSITIVE_INFINITY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,901,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,898,unscaled = Math.ceil(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,896,unscaled = Math.floor(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,894,if (Math.floor(unscaled) / 2.0 == Math.floor(Math
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,891,unscaled = Math.floor(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,890,} else if (fraction < 0.5) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,889,unscaled = Math.ceil(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,888,if (fraction > 0.5) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,887,double fraction = unscaled - Math.floor(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,884,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,882,unscaled = Math.floor(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,880,unscaled = Math.ceil(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,879,if (fraction > 0.5) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,878,double fraction = unscaled - Math.floor(unscaled);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,877,unscaled = nextAfter(unscaled, Double.NEGATIVE_INFINITY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,875,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,873,unscaled = Math.floor(nextAfter(unscaled, Double.NEGATIVE_INFINITY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,871,unscaled = Math.ceil(nextAfter(unscaled, Double.POSITIVE_INFINITY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,870,if (sign == -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,868,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,867,unscaled = Math.floor(nextAfter(unscaled, Double.NEGATIVE_INFINITY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,865,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,863,unscaled = Math.ceil(nextAfter(unscaled, Double.POSITIVE_INFINITY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,861,unscaled = Math.floor(nextAfter(unscaled, Double.NEGATIVE_INFINITY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,860,if (sign == -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,858,switch (roundingMethod) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,841,return (float)roundUnscaled(x * factor, sign, roundingMethod) / factor;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,840,float factor = (float)Math.pow(10.0f, scale) * sign;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,839,float sign = indicator(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,823,return round(x, scale, BigDecimal.ROUND_HALF_UP);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,808,return Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,806,return x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,805,if (Double.isInfinite(x)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,804,} catch (NumberFormatException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,800,return (new BigDecimal
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,783,return round(x, scale, BigDecimal.ROUND_HALF_UP);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,770,return a - TWO_PI * Math.floor((a + Math.PI - center) / TWO_PI);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,746,return Double.longBitsToDouble(newBits);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,745,final long newBits = rest | (exponent + (((long) scaleFactor) << 52));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,742,final long rest     = bits & 0x800fffffffffffffL;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,741,final long exponent = bits & 0x7ff0000000000000L;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,740,final long bits     = Double.doubleToLongBits(d);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,736,return d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,735,if ((d == 0) || Double.isNaN(d) || Double.isInfinite(d)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,716,return Double.longBitsToDouble(sign |
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,712,return Double.longBitsToDouble(sign |
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,711,if (mantissa == 0L) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,706,return Double.longBitsToDouble(sign |
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,703,return Double.longBitsToDouble(sign |
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,702,if (mantissa == 0x000fffffffffffffL) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,700,if (d * (direction - d) >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,698,long mantissa = bits & 0x000fffffffffffffL;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,697,long exponent = bits & 0x7ff0000000000000L;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,696,long sign     = bits & 0x8000000000000000L;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,695,long bits     = Double.doubleToLongBits(d);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/93/src/java/org/apache/commons/math/util/MathUtils.java,689,return (direction < 0) ? -Double.MIN_VALUE : Double.MIN_VALUE;

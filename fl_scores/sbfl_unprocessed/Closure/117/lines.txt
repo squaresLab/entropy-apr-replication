@@ -1,0 +1,90 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1459,return res;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1446,return new NodeMismatch(this, node2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1430,return "Node tree inequality:" +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/TypeInference.java,930,scope.inferQualifiedSlot(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,146,return Iterables.getOnlyElement(modulesByDepth.get(0));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,241,return m1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,589,n = n.next;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,1578,return input.getAstRoot(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,1577,putCompilerInput(input.getInputId(), input);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,1575,CompilerInput input = new CompilerInput(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,554,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,139,return modules.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1662,return children;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1661,last = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1660,first = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1658,child.parent = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1657,for (Node child = first; child != null; child = child.getNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,1656,Node children = first;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,2257,return inputs.get(0).getAstRoot(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,2253,if (inputs.isEmpty()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,240,if (m2 == m1 || dependsOn(m2, m1)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,512,return d1 < d2 ? -1 : d2 == d1 ? m1.getName().compareTo(m2.getName()) : 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,511,int d2 = m2.getDepth();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,510,int d1 = m1.getDepth();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,2262,return moduleInputs.get(0).getAstRoot(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,2261,if (moduleInputs.size() > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,2260,List<CompilerInput> moduleInputs = module.getInputs();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,304,call.addChildToBack(arg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,303,Preconditions.checkState(mayBeExpression(arg));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Scope.java,419,return depth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,629,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,626,if (last == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,625,first = children;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,624,lastSib.next = first;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,623,Node lastSib = children.getLastSibling();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,621,child.parent = this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,620,Preconditions.checkArgument(child.parent == null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/Node.java,619,for (Node child = children; child != null; child = child.next) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,508,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,507,if (m1 == m2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,286,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,285,addDeps(deps, dep);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,284,deps.add(dep);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/TypeValidator.java,751,return objectType.toString() + "." + propName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,198,return deps.contains(m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,195,dependencyMap.put(src, deps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,194,deps = getTransitiveDepsDeepestFirst(src);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,193,if (deps == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,192,Set<JSModule> deps = dependencyMap.get(src);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,306,return call;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,302,for (Node arg : args) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,301,Node call = new Node(Token.CALL, target);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,287,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,283,for (JSModule dep : m.getDependencies()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,276,return deps;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,275,dependencyMap.put(m, deps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,274,addDeps(deps, m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,273,deps = new TreeSet<JSModule>(new InverseDepthComparator());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,270,if (deps != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,269,Set<JSModule> deps = dependencyMap.get(m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,2252,if (module == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,417,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/Compiler.java,410,this.moduleGraph = new JSModuleGraph(modules);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,107,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,106,depth = Math.max(depth, depDepth + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,100,if (depDepth < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,99,int depDepth = dep.getDepth();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModule.java,302,return depth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModule.java,136,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModule.java,135,deps.add(dep);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModule.java,134,Preconditions.checkState(dep != this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModule.java,133,Preconditions.checkNotNull(dep);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,951,return recordDescription(token);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,946,if (!jsdocBuilder.recordVisibility(Visibility.PRIVATE)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/NodeUtil.java,2400,current = current.getFirstChild()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/NodeUtil.java,2404,Preconditions.checkState(current.isGetProp());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/JSModuleGraph.java,121,return modules;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java,727,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,325,return new Node(Token.GETPROP, target, prop);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,324,Preconditions.checkState(prop.isString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,323,Preconditions.checkState(mayBeExpression(target));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/NodeUtil.java,2402,return current;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/NodeUtil.java,2401,if (current.isName() || current.isThis()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/jscomp/NodeUtil.java,2399,for (Node current = qName; true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/JSDocInfoBuilder.java,263,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/JSDocInfoBuilder.java,262,currentInfo.setVisibility(visibility);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/JSDocInfoBuilder.java,261,populated = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/JSDocInfoBuilder.java,260,if (currentInfo.getVisibility() == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,492,return n.isName() || n.isGetProp() || n.isGetElem();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/117/src/com/google/javascript/rhino/IR.java,337,return new Node(Token.ASSIGN, target, expr);

@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,166,return this.dataset;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/data/general/AbstractDataset.java,161,return list.contains(listener);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/data/general/AbstractDataset.java,160,List list = Arrays.asList(this.listenerList.getListenerList());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,136,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,135,this(null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,158,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,157,this.sectionPaints = new HashMap();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,156,this.aggregatedItemsPaint = Color.lightGray;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,155,this.aggregatedItemsKey = "Other";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,154,this.pieChart.setTitle(seriesTitle);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,153,seriesTitle.setPosition(RectangleEdge.BOTTOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,151,TextTitle seriesTitle = new TextTitle("Series Title",
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,150,this.pieChart.setBackgroundPaint(null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,149,this.dataExtractOrder = TableOrder.BY_COLUMN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,148,this.pieChart.removeLegend();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,147,this.pieChart = new JFreeChart(piePlot);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,146,PiePlot piePlot = new PiePlot(null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,145,this.dataset = dataset;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,111,private double limit = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/MultiplePiePlot.java,144,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,797,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,796,fireChartChanged();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,795,this.subtitles.remove(title);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,665,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,664,removeSubtitle(getLegend());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/title/LegendTitle.java,542,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,972,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,962,fireChartChanged();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,961,this.backgroundPaint = paint;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,960,if (!this.backgroundPaint.equals(paint)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,959,if (this.backgroundPaint != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,579,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,578,fireChartChanged();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,576,title.addChangeListener(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,575,if (title != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,574,this.title = title;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,571,if (this.title != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,647,return (LegendTitle) subtitle;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,646,if (seen == index) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,645,if (subtitle instanceof LegendTitle) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,644,Title subtitle = (Title) iterator.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,643,while (iterator.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,642,Iterator iterator = this.subtitles.iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,641,int seen = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,628,return getLegend(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,1488,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,1487,notifyListeners(event);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,1486,ChartChangeEvent event = new ChartChangeEvent(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,328,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/JFreeChart.java,327,this(null, null, plot, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/title/LegendTitle.java,541,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/StandardPieSectionLabelGenerator.java,143,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/StandardPieSectionLabelGenerator.java,142,this.attributedLabels = new ObjectList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/StandardPieSectionLabelGenerator.java,141,super(labelFormat, numberFormat, percentFormat);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/StandardPieSectionLabelGenerator.java,92,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/StandardPieSectionLabelGenerator.java,90,this(DEFAULT_SECTION_LABEL_FORMAT, NumberFormat.getNumberInstance(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,99,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,97,this.percentFormat = percentFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,96,this.numberFormat = numberFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,95,this.labelFormat = labelFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,90,if (percentFormat == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,87,if (numberFormat == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,84,if (labelFormat == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java,82,NumberFormat percentFormat) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/StrokeMap.java,77,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/StrokeMap.java,76,this.store = new TreeMap();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/StrokeMap.java,75,public StrokeMap() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/PaintMap.java,79,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/PaintMap.java,78,this.store = new HashMap();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/PaintMap.java,77,public PaintMap() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PieLabelDistributor.java,64,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PieLabelDistributor.java,55,private double minGap = 4.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PieLabelDistributor.java,63,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,553,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,552,this.ignoreZeroValues = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,551,this.ignoreNullValues = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,549,this.legendItemShape = Plot.DEFAULT_LEGEND_ITEM_CIRCLE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,548,this.legendLabelURLGenerator = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,547,this.legendLabelToolTipGenerator = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,546,this.legendLabelGenerator = new StandardPieSectionLabelGenerator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,545,this.urlGenerator = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,544,this.toolTipGenerator = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,542,this.labelPadding = new RectangleInsets(2, 2, 2, 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,540,this.simpleLabelOffset = new RectangleInsets(UnitType.RELATIVE, 0.18,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,539,this.simpleLabels = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,537,this.labelDistributor = new PieLabelDistributor(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,536,this.labelLinksVisible = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,535,this.labelShadowPaint = DEFAULT_LABEL_SHADOW_PAINT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,534,this.labelOutlineStroke = DEFAULT_LABEL_OUTLINE_STROKE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,533,this.labelOutlinePaint = DEFAULT_LABEL_OUTLINE_PAINT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,532,this.labelBackgroundPaint = DEFAULT_LABEL_BACKGROUND_PAINT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,531,this.labelPaint = DEFAULT_LABEL_PAINT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,530,this.labelFont = DEFAULT_LABEL_FONT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,529,this.labelGenerator = new StandardPieSectionLabelGenerator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,527,this.explodePercentages = new TreeMap();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,525,this.baseSectionOutlineStroke = DEFAULT_OUTLINE_STROKE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,524,this.sectionOutlineStrokeMap = new StrokeMap();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,522,this.baseSectionOutlinePaint = DEFAULT_OUTLINE_PAINT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,521,this.sectionOutlinePaintMap = new PaintMap();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/12/source/org/jfree/chart/plot/PiePlot.java,520,this.sectionOutlinesVisible = true;

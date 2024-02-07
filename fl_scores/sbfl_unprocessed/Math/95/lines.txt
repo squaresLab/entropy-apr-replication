@@ -1,0 +1,91 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverUtils.java,179,throw new IllegalArgumentException
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverUtils.java,178,if (initial < lowerBound || initial > upperBound || lowerBound >= upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverUtils.java,174,if (maximumIterations <= 0)  {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverUtils.java,171,if (function == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverUtils.java,128,return bracket( function, initial, lowerBound, upperBound,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,148,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,147,ret = d / (d - 2.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,145,double d = getDenominatorDegreesOfFreedom();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,132,return Double.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,119,return 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,84,bracket = UnivariateRealSolverUtils.bracket(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,82,double[] bracket = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,81,double upperBound = getDomainUpperBound(p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,80,double lowerBound = getDomainLowerBound(p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,67,UnivariateRealFunction rootFindingFunction =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,106,return super.inverseCumulativeProbability(p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,61,if (p < 0.0 || p > 1.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,103,if (p == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,100,if (p == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,78,ret = Beta.regularizedBeta((n * x) / (m + n * x),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,76,double m = getDenominatorDegreesOfFreedom();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,75,double n = getNumeratorDegreesOfFreedom();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,192,return denominatorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,170,return numeratorDegreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,82,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,72,if (x <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,185,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,184,this.denominatorDegreesOfFreedom = degreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,180,if (degreesOfFreedom <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,163,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,162,this.numeratorDegreesOfFreedom = degreesOfFreedom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,158,if (degreesOfFreedom <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,53,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,52,setDenominatorDegreesOfFreedom(denominatorDegreesOfFreedom);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,51,setNumeratorDegreesOfFreedom(numeratorDegreesOfFreedom);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/FDistributionImpl.java,50,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,204,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,200,ret = Gamma.logGamma(a) + Gamma.logGamma(b) -
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,197,if (Double.isNaN(a) || Double.isNaN(b) || (a <= 0.0) || (b <= 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,161,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,156,ret = Math.exp((a * Math.log(x)) + (b * Math.log(1.0 - x)) -
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,133,ContinuedFraction fraction = new ContinuedFraction() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,130,} else if (x > (a + 1.0) / (a + b + 2.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,126,if (Double.isNaN(x) || Double.isNaN(a) || Double.isNaN(b) || (x < 0) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Beta.java,59,return regularizedBeta(x, a, b, DEFAULT_EPSILON, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractDistribution.java,39,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractDistribution.java,38,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,46,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,45,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,106,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,102,ret = ((x + .5) * Math.log(tmp)) - tmp +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,101,double tmp = x + g + .5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,99,sum = sum + lanczos[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,97,sum = sum + (lanczos[i] / (x + i));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,96,for (int i = lanczos.length - 1; i > 0; --i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,95,double sum = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,93,double g = 607.0 / 128.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/special/Gamma.java,90,if (Double.isNaN(x) || (x <= 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,178,return c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,172,if (n >= maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,170,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,169,q1 = q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,168,q0 = q1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,167,p1 = p2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,166,p0 = p1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,165,c = p2 / q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,162,relativeError = Math.abs(r / c - 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,161,double r = p2 / q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,146,if (Double.isInfinite(p2) || Double.isInfinite(q2)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,145,double q2 = a * q1 + b * q0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,144,double p2 = a * p1 + b * p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,143,double b = getB(n, x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,142,double a = getA(n, x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,141,++n;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,140,while (n < maxIterations && relativeError > epsilon) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,139,double relativeError = Double.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,138,int n = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,137,double c = p1 / q1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,136,double q1 = 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,135,double q0 = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,134,double p1 = getA(0, x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,133,double p0 = 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,52,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/util/ContinuedFraction.java,51,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java,87,return new SecantSolver(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java,77,return new NewtonSolver(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java,65,return new BrentSolver(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java,55,return new BisectionSolver(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java,45,return newBrentSolver(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java,33,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/95/src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java,32,public UnivariateRealSolverFactoryImpl() {

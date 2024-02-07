@@ -1,0 +1,86 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java,53,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java,52,this.entries = new OpenIntToDoubleHashMap(0.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java,51,this.columns = columnDimension;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java,50,this.rows = rowDimension;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java,49,super(rowDimension, columnDimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,60,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,57,if (columnDimension < 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,54,if (rowDimension < 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,53,protected AbstractRealMatrix(final int rowDimension, final int columnDimension) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/RealLinearOperator.java,52,public abstract class RealLinearOperator {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,383,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,377,} catch (MissingResourceException mre) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,379,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,374,return bundle.getString(toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,372,if (bundle.getLocale().getLanguage().equals(locale.getLanguage())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,370,ResourceBundle bundle =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,364,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,360,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,359,this.sourceFormat = sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,358,private LocalizedFormats(final String sourceFormat) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,54,return list.toArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,50,list.add(o);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,47,list.add(oR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,46,for (Object oR : flatten((Object[]) o)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,45,if (o instanceof Object[]) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,44,for (Object o : array) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,43,if (array != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,42,final List<Object> list = new ArrayList<Object>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,32,private ArgUtils() {}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NoDataException.java,46,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NoDataException.java,45,super(specific);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NoDataException.java,38,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NoDataException.java,37,this(LocalizedFormats.NO_DATA);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,85,return min;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,78,return boundIsAllowed;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,72,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,71,this.boundIsAllowed = boundIsAllowed;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,70,this.min = min;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,68,super(specific, wrong, min);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,54,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooSmallException.java,50,this(boundIsAllowed ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NotStrictlyPositiveException.java,49,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NotStrictlyPositiveException.java,48,super(specific, value, 0, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NotStrictlyPositiveException.java,39,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NotStrictlyPositiveException.java,38,super(value, 0, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,84,return max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,77,return boundIsAllowed;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,71,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,70,this.boundIsAllowed = boundIsAllowed;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,69,this.max = max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,67,super(specific, wrong, max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,54,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/exception/NumberIsTooLargeException.java,50,this(boundIsAllowed ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,865,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,862,data[i] = a * data[i] + b * y.getEntry(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,861,for (int i = 0; i < this.data.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,860,checkVectorDimensions(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,859,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,857,data[i] = a * data[i] + b * yData[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,856,for (int i = 0; i < this.data.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,855,checkVectorDimensions(yData.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,854,final double[] yData = ((ArrayRealVector) y).data;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,853,if (y instanceof ArrayRealVector) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,847,return copy().combineToSelf(a, b, y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,841,return MathUtils.hash(data);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,839,return 9;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,838,if (isNaN()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,827,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,824,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,823,if (data[i] != rhs.getEntry(i)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,822,for (int i = 0; i < data.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,819,return this.isNaN();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,818,if (rhs.isNaN()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,815,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,814,if (data.length != rhs.getDimension()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,813,RealVector rhs = (RealVector) other;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,810,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,809,if (other == null || !(other instanceof RealVector)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,806,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,805,if (this == other) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,786,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,782,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,781,if (Double.isInfinite(v)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/45/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,780,for (double v : data) {

@@ -1,0 +1,86 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/rhino/Node.java,1459,return res;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/rhino/Node.java,1446,return new NodeMismatch(this, node2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/rhino/Node.java,1430,return "Node tree inequality:" +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionInjector.java,731,return CanInlineResult.NO;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/rhino/Token.java,202,case NOT:             return "NOT";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/NodeUtil.java,1149,return !isConstantName(n)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,216,decomposeSubExpressions(parent.getFirstChild(), child, state);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,193,} else if (parentType == Token.CALL
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionInjector.java,730,if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionInjector.java,729,if (cArg != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,74,return replacement;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,73,parent.replaceChild(node, replacement);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,72,Node replacement = replacementTemplate.cloneTree();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,67,Preconditions.checkState(!parent.isFunction()
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionInjector.java,728,if (fnParam != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,495,tempNameValue = expr;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,491,parent.replaceChild(expr, replacementValueNode);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,614,return name;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,613,this.knownConstants.add(name);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,610,String name = tempNamePrefix + "_const"
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,507,return firstExtractedNode;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,505,firstExtractedNode = tempVarNode;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,504,if (firstExtractedNode == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,502,injectionPointParent.addChildBefore(tempVarNode, injectionPoint);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,501,Node injectionPointParent = injectionPoint.getParent();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,499,Node tempVarNode = NodeUtil.newVarNode(tempName, tempNameValue);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,474,if (isLhsOfAssignOp) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,468,Node replacementValueNode = IR.name(tempName).srcref(expr);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,467,String tempName = getTempConstantValueName();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,455,if (isLhsOfAssignOp && NodeUtil.isGet(expr)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,447,Node firstExtractedNode = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,443,boolean isLhsOfAssignOp = NodeUtil.isAssignmentOp(parent)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,441,Node parent = expr.getParent();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,325,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,322,state.extractBeforeStatement = extractExpression(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,321,state.sideEffects = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,318,if (isExpressionTreeUnsafe(n, state.sideEffects)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,313,decomposeSubExpressions(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,307,Preconditions.checkState(!NodeUtil.isObjectLitKey(n));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,303,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,302,if (n == null || n == stopNode) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,165,parent = child.getParent()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,164,child = parent,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,163,grandchild = child,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,169,if (parentType == Token.ASSIGN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,167,Preconditions.checkState(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,166,int parentType = parent.getType();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,269,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,259,child = parent, parent = child.getParent()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,260,if (isConditionalOp(parent)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,258,parent != expressionRoot;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,257,for (Node child = subExpression, parent = child.getParent();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,255,Node result = subExpression;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,235,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,225,if (nonconditionalExpr == subExpression) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,162,parent != expressionRoot;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,161,parent = child.getParent();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,160,child = nonconditionalExpr,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,159,for (Node grandchild = null,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,156,state.extractBeforeStatement = exprInjectionPoint;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,155,state.sideEffects = hasFollowingSideEffects;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,154,DecompositionState state = new DecompositionState();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,153,Node exprInjectionPoint = findInjectionPoint(nonconditionalExpr);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,150,boolean hasFollowingSideEffects = NodeUtil.mayHaveSideEffects(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,147,Node nonconditionalExpr = findNonconditionalParent(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,102,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,101,compiler.reportCodeChange();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,100,exposeExpression(expressionRoot, expression);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,99,Preconditions.checkState(expressionRoot != null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,98,Node expressionRoot = findExpressionRoot(expression);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,90,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,84,if (i > MAX_INTERATIONS) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,83,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,82,exposeExpression(expression);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,81,while (DecompositionType.DECOMPOSABLE == canExposeExpression(expression)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/ExpressionDecomposer.java,80,int i = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,290,safe = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/InlineFunctions.java,806,injector.maybePrepareCall(ref.callNode);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionToBlockMutator.java,409,block.replaceChild(ret, resultNode);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionToBlockMutator.java,408,resultNode.copyInformationFromForTree(ret);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,132,cArg = cArg.getNext();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,131,argMap.put(fnArg.getString(), cArg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionToBlockMutator.java,411,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionToBlockMutator.java,405,if (resultNode == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionToBlockMutator.java,403,Node resultNode = getReplacementReturnStatement(ret, resultName);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/115/src/com/google/javascript/jscomp/FunctionToBlockMutator.java,402,Preconditions.checkArgument(ret.isReturn());

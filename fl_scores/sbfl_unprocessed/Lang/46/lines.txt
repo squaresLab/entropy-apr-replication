@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,246,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,245,out.write('/');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,244,out.write('\\');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,86,return escapeJavaStyleString(str, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,253,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,248,out.write(ch);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,228,switch (ch) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,197,} else if (ch < 32) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,195,} else if (ch > 0x7f) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,193,} else if (ch > 0xff) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,191,if (ch > 0xfff) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,188,char ch = str.charAt(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,187,for (int i = 0; i < sz; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,186,sz = str.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,182,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,179,if (out == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,161,return writer.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,160,escapeJavaStyleString(writer, str, escapeSingleQuotes);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,159,StringWriter writer = new StringWriter(str.length() * 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,155,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,200,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,199,super.printStackTrace(out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,193,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,192,delegate.printStackTrace(out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,186,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,185,delegate.printStackTrace(out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,179,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,178,delegate.printStackTrace();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,171,return delegate.indexOfThrowable(type, fromIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,164,return delegate.indexOfThrowable(type, 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,157,return delegate.getThrowables();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,150,return delegate.getThrowableCount();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,143,return delegate.getThrowable(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,136,return delegate.getMessages();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,129,return delegate.getMessage(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,127,return super.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,126,if (index == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,118,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,116,return cause.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,115,} else if (cause != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,114,return super.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,113,if (super.getMessage() != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,102,return cause;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,96,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,95,this.cause = cause;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,94,super(msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,83,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,82,this.cause = cause;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,81,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,71,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,70,super(msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,61,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,53,private Throwable cause = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,47,protected NestableDelegate delegate = new NestableDelegate(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/exception/NestableRuntimeException.java,60,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,860,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,859,out.write(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,856,str = StringUtils.replace(quoteless, CSV_QUOTE_STR + CSV_QUOTE_STR, CSV_QUOTE_STR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,854,if ( StringUtils.containsAny(quoteless, CSV_SEARCH_CHARS) ) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,852,String quoteless = str.substring(1, str.length() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,848,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,847,out.write(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,846,if ( str.charAt(0) != CSV_QUOTE || str.charAt(str.length() - 1) != CSV_QUOTE ) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,844,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,843,out.write(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,842,if (str.length() < 2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,840,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,839,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,811,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,810,ioe.printStackTrace();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,808,} catch (IOException ioe) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,807,return writer.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,806,unescapeCsv(writer, str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,805,StringWriter writer = new StringWriter();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,802,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,801,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,776,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,775,out.write(CSV_QUOTE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,773,out.write(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,771,out.write(CSV_QUOTE); // escape double quote
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,770,if (c == CSV_QUOTE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,769,char c = str.charAt(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,768,for (int i = 0; i < str.length(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,767,out.write(CSV_QUOTE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,765,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,763,out.write(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,762,if (str != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,761,if (StringUtils.containsNone(str, CSV_SEARCH_CHARS)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,733,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,732,ioe.printStackTrace();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,730,} catch (IOException ioe) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,729,return writer.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,728,escapeCsv(writer, str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,727,StringWriter writer = new StringWriter();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,724,return str;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,723,if (StringUtils.containsNone(str, CSV_SEARCH_CHARS)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,695,return StringUtils.replace(str, "'", "''");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,693,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,692,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/46/src/java/org/apache/commons/lang/StringEscapeUtils.java,669,return Entities.XML.unescape(str);

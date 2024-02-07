@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/UnknownKeyException.java,57,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/UnknownKeyException.java,56,super(message);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,268,throw new UnknownKeyException("The key (" + key.toString()
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,267,if (index < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,266,int index = getIndex(key);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,171,throw new UnknownKeyException("The key (" + key
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,378,rowData.removeValue(columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,377,KeyedObjects rowData = (KeyedObjects) iterator.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,376,while (iterator.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,375,Iterator iterator = this.rows.iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,371,if (index < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,370,int index = getColumnIndex(columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,135,if (ko.getKey().equals(key)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,134,KeyedObject ko = (KeyedObject) iterator.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,85,return this.key;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,210,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,208,this.data.add(ko);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,207,KeyedObject ko = new KeyedObject(key, object);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,202,if (keyIndex >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,201,int keyIndex = getIndex(key);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,140,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,133,while (iterator.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,132,Iterator iterator = this.data.iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,131,int i = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,128,if (key == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,69,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,68,this.data = new java.util.ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,67,public KeyedObjects() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,284,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,281,this.columnKeys.add(columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,280,if (columnIndex < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,279,int columnIndex = this.columnKeys.indexOf(columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,278,row.setObject(columnKey, object);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,276,this.rows.add(row);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,275,row = new KeyedObjects();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,274,this.rowKeys.add(rowKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,270,if (rowIndex >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,269,int rowIndex = this.rowKeys.indexOf(rowKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,265,if (columnKey == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,262,if (rowKey == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,77,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,76,this.object = object;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,75,this.key = key;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,74,public KeyedObject(Comparable key, Object object) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,272,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,271,removeValue(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,253,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,252,this.data.remove(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,77,return this.data.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,379,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,357,removeColumn(columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,356,Comparable columnKey = getColumnKey(columnIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,346,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,345,removeRow(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,344,int index = getRowIndex(rowKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,320,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,314,this.rows.remove(rowIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,313,this.rowKeys.remove(rowIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,312,if (allNull) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,305,item++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,306,if (row.getObject(item) != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,304,for (int item = 0, itemCount = row.getItemCount(); item < itemCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,302,KeyedObjects row = (KeyedObjects) this.rows.get(rowIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,301,int rowIndex = getRowIndex(rowKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,300,boolean allNull = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,297,setObject(null, rowKey, columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,78,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,77,this.rows = new java.util.ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,76,this.columnKeys = new java.util.ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,75,this.rowKeys = new java.util.ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,74,public KeyedObjects2D() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,139,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,138,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,136,return i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,233,return rowData.getObject(columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,232,KeyedObjects rowData = (KeyedObjects) this.rows.get(row);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,231,if (row >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,227,if (column < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,226,int column = this.columnKeys.indexOf(columnKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,222,if (row < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,221,int row = this.rowKeys.indexOf(rowKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,218,if (columnKey == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,215,if (rowKey == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,95,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,93,result = kobj.getObject();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,92,if (kobj != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,91,KeyedObject kobj = (KeyedObject) this.data.get(item);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,90,Object result = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,94,return this.object;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,332,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,331,this.rows.remove(rowIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects2D.java,330,this.rowKeys.remove(rowIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,174,return getObject(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,170,if (index < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,169,int index = getIndex(key);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,205,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,204,ko.setObject(object);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObjects.java,203,KeyedObject ko = (KeyedObject) this.data.get(keyIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,104,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/22/source/org/jfree/data/KeyedObject.java,103,this.object = object;

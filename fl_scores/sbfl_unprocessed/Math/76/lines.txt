@@ -1,0 +1,86 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,143,--p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,288,return cachedVt;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,284,cachedVt = getV().transpose();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,283,if (cachedVt == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,206,return m;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,204,m.setEntry(i, i, diagonal[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,203,for (int i = 0; i < diagonal.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,202,final RealMatrix m = createRealMatrix(diagonal.length, diagonal.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,223,return cachedS;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,220,cachedS = MatrixUtils.createRealDiagonalMatrix(singularValues);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,217,if (cachedS == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,182,wData[i] = new double[p];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,640,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,633,if ((left.getRowDimension()    != right.getRowDimension()) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,572,return visitor.end();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,569,visitor.visit(i, j, data[i][j]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,568,for (int i = 0; i < rows; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,567,for (int j = 0; j < columns; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,566,visitor.start(rows, columns, 0, rows - 1, 0, columns - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,565,final int columns = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,564,final int rows    = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,505,return visitor.end();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,502,visitor.visit(i, j, rowI[j]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,501,for (int j = 0; j < columns; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,500,final double[] rowI = data[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,499,for (int i = 0; i < rows; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,498,visitor.start(rows, columns, 0, rows - 1, 0, columns - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,497,final int columns = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,496,final int rows    = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,266,return new Array2DRowRealMatrix(outData, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,262,outDataRow[col] = dataRow[col] - mRow[col];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,261,for (int col = 0; col < columnCount; col++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,260,final double[] outDataRow = outData[row];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,259,final double[] mRow       = m.data[row];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,258,final double[] dataRow    = data[row];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,257,for (int row = 0; row < rowCount; row++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,256,final double[][] outData = new double[rowCount][columnCount];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,255,final int columnCount = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,254,final int rowCount    = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,252,MatrixUtils.checkSubtractionCompatible(this, m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,235,return subtract((Array2DRowRealMatrix) m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,919,return walkInRowOrder(visitor);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,616,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,606,walkInOptimizedOrder(new DefaultRealMatrixPreservingVisitor() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,605,final RealMatrix out = createMatrix(nCols, nRows);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,604,final int nCols = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,603,final int nRows = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java,195,return walkInColumnOrder(new RealMatrixPreservingVisitor() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/DefaultRealMatrixPreservingVisitor.java,44,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/DefaultRealMatrixPreservingVisitor.java,35,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/DefaultRealMatrixPreservingVisitor.java,30,public class DefaultRealMatrixPreservingVisitor implements RealMatrixPreservingVisitor {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,196,return cachedU;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,186,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,184,cachedU =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,181,for (int i = p; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,178,wData[p - 1][j] = ei1[j] * mainBidiagonal[p - 1] / singularValues[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,177,for (int j = 0; j < p; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,166,for (int i = 0; i < p - 1; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,165,double[] ei1 = eData[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,164,final double[][] wData = new double[m][p];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,163,final double[][] eData = e.getData();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,161,final RealMatrix e =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,159,if (m >= n) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,158,final int p = singularValues.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java,156,if (cachedU == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,196,cachedV.addToEntry(i, j, -beta * hK[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,195,for (int i = k; i < n; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,193,beta /= diagonal[k - diagOffset] * hK[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,191,beta -= cachedV.getEntry(i, j) * hK[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,190,for (int i = k; i < n; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,189,double beta = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,188,for (int j = k; j < n; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,127,return cachedU;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,120,if (diagOffset > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,115,cachedU.addToEntry(i, j, -alpha * householderVectors[i][k - diagOffset]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,114,for (int i = k; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,112,alpha /= diagonal[k - diagOffset] * hK[k - diagOffset];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,110,alpha -= cachedU.getEntry(i, j) * householderVectors[i][k - diagOffset];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,109,for (int i = k; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,108,double alpha = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,107,for (int j = k; j < m; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,106,if (hK[k - diagOffset] != 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,105,cachedU.setEntry(k, k, 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,104,final double[] hK = householderVectors[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,103,for (int k = p - 1; k >= diagOffset; --k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/76/src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java,98,for (int k = m - 1; k >= p; --k) {

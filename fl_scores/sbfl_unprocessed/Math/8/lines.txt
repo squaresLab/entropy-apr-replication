@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,190,out[i] = sample();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,189,for (int i = 0; i < sampleSize; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,187,final T[]out = (T[]) java.lang.reflect.Array.newInstance(singletons.get(0).getClass(), sampleSize);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,182,if (sampleSize <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,70,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,69,this(new Well19937c(), samples);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,111,return z4 >>> (32 - bits);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,109,z4 = z4 ^ ((z4 << 15) & 0x9b868000);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,108,z4 = z4 ^ ((z4 <<  7) & 0xe46e1700);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,103,index        = indexRm1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,102,v[indexRm2] &= 0x80000000;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,101,v[indexRm1]  = z4;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,100,v[index]     = z3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,98,int z4 = z0 ^ (z1 ^ (z1 << 9)) ^ (z2 ^ (z2 << 21)) ^ (z3 ^ (z3 >>> 21));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,97,final int z3 = z1      ^ z2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,96,final int z2 = (vM2 >>> 9) ^ (vM3 ^ (vM3 >>> 1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,95,final int z1 = (v0 ^ (v0 << 25))  ^ (vM1 ^ (vM1 >>> 27));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,94,final int z0 = (0x80000000 & v[indexRm1]) ^ (0x7FFFFFFF & v[indexRm2]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,92,final int vM3      = v[i3[index]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,91,final int vM2      = v[i2[index]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,90,final int vM1      = v[i1[index]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,89,final int v0       = v[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,87,final int indexRm2 = iRm2[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,86,final int indexRm1 = iRm1[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,92,return (high | low) * 0x1.0p-52d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,91,final int  low  = next(26);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,90,final long high = ((long) next(26)) << 26;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,163,return singletons.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,162,if (randomValue < sum) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,161,sum += probabilities[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,160,for (int i = 0; i < probabilities.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,158,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,157,final double randomValue = random.nextDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,99,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,98,innerDistribution = new DiscreteDistribution<Double>(rng, samples);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,95,samples.add(new Pair<Double, Double>(singletons[i], probabilities[i]));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,94,for (int i = 0; i < singletons.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,92,List<Pair<Double, Double>> samples = new ArrayList<Pair<Double, Double>>(singletons.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,88,if (singletons.length != probabilities.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,87,super(rng);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,67,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java,66,this(new Well19937c(), singletons, probabilities);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,78,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,77,random = rng;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,76,protected AbstractRealDistribution(RandomGenerator rng) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,60,private double solverAbsoluteAccuracy = SOLVER_DEFAULT_ABSOLUTE_ACCURACY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,50,@Deprecated
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/Pair.java,74,return value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/Pair.java,65,return key;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/Pair.java,48,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/Pair.java,47,value = v;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/Pair.java,46,key = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/Pair.java,45,public Pair(K k, V v) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1276,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1273,out[i] = values[i] * normalizedSum / sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1270,if (Double.isNaN(values[i])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1269,for (int i = 0; i < len; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1266,if (sum == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1263,sum += values[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1262,if (!Double.isNaN(values[i])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1259,if (Double.isInfinite(values[i])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1258,for (int i = 0; i < len; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1257,double[] out = new double[len];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1256,final int len = values.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1255,double sum = 0d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1252,if (Double.isNaN(normalizedSum)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/util/MathArrays.java,1249,if (Double.isInfinite(normalizedSum)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/RandomDataImpl.java,116,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/RandomDataImpl.java,115,delegate = new RandomDataGenerator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/RandomDataImpl.java,114,public RandomDataImpl() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,58,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/Well19937c.java,57,super(K, M1, M2, M3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,132,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,121,private SecureRandom secRand = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,118,private RandomGenerator rand = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,131,public RandomDataGenerator() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,171,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,170,nextGaussian = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,41,nextGaussian = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,40,public BitsStreamGenerator() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,180,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,179,setSeed(new int[] { (int) (seed >>> 32), (int) (seed & 0xffffffffl) });
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,170,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,169,clear();  // Clear normal deviate cache
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,168,index = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,164,v[i] = (int) ((1812433253l * (l ^ (l >> 30)) + i) & 0xffffffffL);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,163,final long l = v[i - seed.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,162,for (int i = seed.length; i < v.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,161,if (seed.length < v.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,159,System.arraycopy(seed, 0, v, 0, Math.min(seed.length, v.length));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,156,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,155,setSeed(System.currentTimeMillis() + System.identityHashCode(this));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,154,if (seed == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,122,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,120,setSeed(seed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,116,i3[j]   = (j + m3)    % r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,115,i2[j]   = (j + m2)    % r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,114,i1[j]   = (j + m1)    % r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/8/src/main/java/org/apache/commons/math3/random/AbstractWell.java,113,iRm2[j] = (j + r - 2) % r;

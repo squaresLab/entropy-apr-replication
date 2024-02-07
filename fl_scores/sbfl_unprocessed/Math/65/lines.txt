@@ -1,0 +1,73 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,323,return errors;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,321,errors[i] = Math.sqrt(covar[i][i]) * c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,320,for (int i = 0; i < errors.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,319,double[][] covar = getCovariances();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,318,final double c = Math.sqrt(getChiSquare() / (rows - cols));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,317,double[] errors = new double[cols];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,294,return inverse.getData();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,260,return chiSquare;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,258,chiSquare += residual * residual / residualsWeights[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,257,final double residual = residuals[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,256,for (int i = 0; i < rows; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,255,double chiSquare = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,355,return data[row][column];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,140,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,138,data = d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,133,if (d[r].length != nCols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,132,for (int r = 1; r < nRows; r++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,128,if (nCols == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,127,final int nCols = d[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,123,if (nRows == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,122,final int nRows = d.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,119,if (d == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,116,if (copyArray) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,115,throws IllegalArgumentException, NullPointerException {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,312,if (rows <= cols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,292,RealMatrix inverse =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,286,jTj[j][i] = sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,285,jTj[i][j] = sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,283,sum += jacobian[k][i] * jacobian[k][j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,282,for (int k = 0; k < rows; ++k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,281,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,280,for (int j = i; j < cols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,279,for (int i = 0; i < cols; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,278,double[][] jTj = new double[cols][cols];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,275,updateJacobian();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,147,return m;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,145,m.setEntry(i, i, 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,144,for (int i = 0; i < dimension; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,143,final RealMatrix m = createRealMatrix(dimension, dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,107,return (data.length * data[0].length <= 4096) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/MatrixUtils.java,62,return (rows * columns <= 4096) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,618,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,617,setSubMatrix(in, 0, 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,603,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,601,System.arraycopy(data[i], 0, out[i], 0, data[i].length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,600,for (int i = 0; i < nRows; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,598,final double[][] out = new double[nRows][this.getColumnDimension()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,597,final int nRows = this.getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,407,return ((data == null) || (data[0] == null)) ? 0 : data[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,401,return (data == null) ? 0 : data.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,372,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,371,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,367,data[row][column] = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,348,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,344,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,342,System.arraycopy(subMatrix[i], 0, data[i + row], column, nCols);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,338,if (subMatrix[i].length != nCols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,337,for (int i = 0; i < data.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,336,data = new double[subMatrix.length][nCols];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,332,if (nCols == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,331,final int nCols = subMatrix[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,326,if (nRows == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,325,final int nRows = subMatrix.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,321,if (column > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,317,if (row > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,316,if (data == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,298,return copyOut();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,97,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,96,copyIn(d);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,95,throws IllegalArgumentException, NullPointerException {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,79,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,78,data = new double[rowDimension][columnDimension];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/65/src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,77,super(rowDimension, columnDimension);

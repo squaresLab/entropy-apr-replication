@@ -1,0 +1,96 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,33,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,32,invocationMarker.markVerified(actualInvocations, wanted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,41,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,38,missingInvocation.check(data.getAllInvocations(), data.getWanted());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/Mockito.java,2038,return times(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,27,if (wantedCount > actualCount) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,26,int actualCount = actualInvocations.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,24,List<Invocation> actualInvocations = finder.findInvocations(invocations, wanted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,21,InvocationMarker invocationMarker = new InvocationMarker();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,20,InvocationsFinder finder = new InvocationsFinder();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,19,Reporter reporter = new Reporter();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,17,public class AtLeastXNumberOfInvocationsChecker {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,40,numberOfInvocations.check(data.getAllInvocations(), data.getWanted(), wantedCount);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,37,if (wantedCount == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,35,AtLeastXNumberOfInvocationsChecker numberOfInvocations = new AtLeastXNumberOfInvocationsChecker();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,34,MissingInvocationChecker missingInvocation = new MissingInvocationChecker();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/VerificationModeFactory.java,13,return atLeast(1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/VerificationWrapper.java,29,return copySelfWithNewVerificationMode(VerificationModeFactory.atLeastOnce());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,31,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,30,this.wantedCount = wantedNumberOfInvocations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,27,if (wantedNumberOfInvocations < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/AtLeast.java,26,public AtLeast(int wantedNumberOfInvocations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/VerificationModeFactory.java,17,return new AtLeast(minNumberOfInvocations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/Timeout.java,44,return new Timeout(wrappedVerification.getPollingPeriod(), wrappedVerification.getDuration(), newVerificationMode);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/Mockito.java,2017,return VerificationModeFactory.times(wantedNumberOfInvocations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/VerificationOverTimeImpl.java,127,return durationMillis;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/VerificationOverTimeImpl.java,123,return pollingPeriodMillis;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/Timeout.java,26,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/Timeout.java,25,this(10, millis, delegate);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/Mockito.java,2163,return new Timeout(millis, VerificationModeFactory.times(1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/configuration/plugins/Plugins.java,17,return registry.getStackTraceCleanerProvider();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/configuration/plugins/PluginRegistry.java,23,return stackTraceCleanerProvider;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/VerificationOverTimeImpl.java,84,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleaner.java,8,public class DefaultStackTraceCleaner implements StackTraceCleaner {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.java,12,return defaultCleaner;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/VerificationWrapper.java,16,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/Timeout.java,33,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/Timeout.java,32,super(new VerificationOverTimeImpl(pollingPeriodMillis, millis, delegate, true));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,45,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,34,if (actualInvocations.isEmpty()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,32,List<Invocation> actualInvocations = finder.findInvocations(invocations, wanted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,49,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,48,invocationMarker.markVerified(actualInvocations, wanted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,37,if (wantedCount > actualCount) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,36,int actualCount = actualInvocations.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,34,List<Invocation> actualInvocations = finder.findInvocations(invocations, wanted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,31,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,30,this.finder = finder;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,29,this.reporter = reporter;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,22,private final InvocationMarker invocationMarker = new InvocationMarker();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,28,NumberOfInvocationsChecker(Reporter reporter, InvocationsFinder finder) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,26,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,25,this(new Reporter(), new InvocationsFinder());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/Times.java,40,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/Times.java,39,numberOfInvocations.check(data.getAllInvocations(), data.getWanted(), wantedCount);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/Times.java,38,NumberOfInvocationsChecker numberOfInvocations = new NumberOfInvocationsChecker();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/Times.java,34,if (wantedCount > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/Timer.java,25,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/Timer.java,24,startTime = System.currentTimeMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/Timer.java,17,return System.currentTimeMillis() - startTime <= durationMillis;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/Timer.java,16,assert startTime != -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/VerificationOverTimeImpl.java,83,if (returnOnSuccess) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/Mockito.java,1579,return MOCKITO_CORE.verify(mock, mode);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationImpl.java,117,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationImpl.java,116,this.verified = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/creation/cglib/CGLIBHacker.java,22,namingPolicyField.set(createInfo, MockitoNamingPolicy.INSTANCE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,29,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,28,this.reporter = reporter;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,27,this.finder = finder;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,26,MissingInvocationChecker(InvocationsFinder finder, Reporter reporter) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,24,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,23,this(new InvocationsFinder(), new Reporter());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationsFinder.java,20,return ListUtil.filter(invocations, new RemoveNotMatching(wanted));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/MockAwareVerificationMode.java,22,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationMarker.java,23,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationMarker.java,22,wanted.captureArgumentsFrom(invocation);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationMarker.java,21,invocation.markVerified();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationMarker.java,18,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationMarker.java,17,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationMarker.java,16,markVerified(invocation, wanted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/invocation/InvocationMarker.java,15,for (Invocation invocation : invocations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/verification/VerificationDataImpl.java,28,return invocations.getInvocations();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/handler/MockHandlerImpl.java,73,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/verification/VerificationWrapper.java,15,wrappedVerification.verify(data);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/collections/ListUtil.java,20,return filtered;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/collections/ListUtil.java,19,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/collections/ListUtil.java,17,filtered.add(t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/collections/ListUtil.java,16,if (!filter.isOut(t)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/collections/ListUtil.java,15,for (T t : collection) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/util/collections/ListUtil.java,14,LinkedList<T> filtered = new LinkedList<T>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,37,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,36,threadSafely().verificationStarted(verify);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/progress/MockingProgressImpl.java,59,return temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/progress/MockingProgressImpl.java,58,verificationMode = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/progress/MockingProgressImpl.java,57,VerificationMode temp = verificationMode.getObject();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/5/src/org/mockito/internal/progress/MockingProgressImpl.java,43,}

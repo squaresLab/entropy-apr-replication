@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,689,val.add(fields[i][0], 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,676,if (field == DateUtils.SEMI_MONTH) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,443,return gval.getTime();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,442,modify(gval, field, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,441,gval.setTime(date);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,440,Calendar gval = Calendar.getInstance();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,437,if (date == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,739,val.set(fields[i][0], val.get(fields[i][0]) - offset);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,738,if (offset != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,735,roundUp = offset > ((max - min) / 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,733,offset = val.get(fields[i][0]) - min;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,731,int max = val.getActualMaximum(fields[i][0]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,730,int min = val.getActualMinimum(fields[i][0]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,729,if (!offsetSet) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,699,switch (field) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,697,boolean offsetSet = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,696,int offset = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,692,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,675,if (round && roundUp) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,673,if (fields[i][j] == field) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,672,for (int j = 0; j < fields[i].length; j++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,671,for (int i = 0; i < fields.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,670,boolean roundUp = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,666,val.setTime(date);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,665,date.setTime(time);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,664,if (date.getTime() != time) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,660,time = time - (minutes * 60000L);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,659,if (!done && (!round || minutes < 30)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,658,int minutes = val.get(Calendar.MINUTE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,650,if (!done && (!round || seconds < 30)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,649,int seconds = val.get(Calendar.SECOND);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,641,if (!round || millisecs < 500) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,640,int millisecs = val.get(Calendar.MILLISECOND);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,637,boolean done = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,636,long time = date.getTime();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,635,Date date = val.getTime();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,625,if (field == Calendar.MILLISECOND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,621,if (val.get(Calendar.YEAR) > 280000000) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,904,throw new ClassCastException("Could not iterate based on " + focus);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,902,return iterator((Calendar) focus, rangeStyle);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,901,} else if (focus instanceof Calendar) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,900,return iterator((Date) focus, rangeStyle);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,899,if (focus instanceof Date) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,897,throw new IllegalArgumentException("The date must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,896,if (focus == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,873,return new DateIterator(start, end);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,871,end.add(Calendar.DATE, 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,870,while (end.get(Calendar.DAY_OF_WEEK) != endCutoff) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,868,start.add(Calendar.DATE, -1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,867,while (start.get(Calendar.DAY_OF_WEEK) != startCutoff) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,865,endCutoff -= 7;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,864,if (endCutoff > Calendar.SATURDAY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,862,endCutoff += 7;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,861,if (endCutoff < Calendar.SUNDAY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,859,startCutoff -= 7;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,858,if (startCutoff > Calendar.SATURDAY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,856,startCutoff += 7;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,855,if (startCutoff < Calendar.SUNDAY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,853,throw new IllegalArgumentException("The range style " + rangeStyle + " is not valid.");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,851,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,848,endCutoff = focus.get(Calendar.DAY_OF_WEEK) + 3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,847,startCutoff = focus.get(Calendar.DAY_OF_WEEK) - 3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,845,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,844,endCutoff = startCutoff - 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,843,startCutoff = focus.get(Calendar.DAY_OF_WEEK);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,841,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,840,endCutoff = Calendar.SUNDAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,839,startCutoff = Calendar.MONDAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,837,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,834,switch (rangeStyle) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,833,end = truncate(focus, Calendar.DATE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,832,start = truncate(focus, Calendar.DATE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,824,endCutoff = Calendar.SUNDAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,823,startCutoff = Calendar.MONDAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,822,if (rangeStyle == RANGE_MONTH_MONDAY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,820,end.add(Calendar.DATE, -1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,819,end.add(Calendar.MONTH, 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,818,end = (Calendar) start.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,816,start = truncate(focus, Calendar.MONTH);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,812,switch (rangeStyle) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,811,int endCutoff = Calendar.SATURDAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,810,int startCutoff = Calendar.SUNDAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,809,Calendar end = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,808,Calendar start = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,806,throw new IllegalArgumentException("The date must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,805,if (focus == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,777,return iterator(gval, rangeStyle);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,776,gval.setTime(focus);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,775,Calendar gval = Calendar.getInstance();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,773,throw new IllegalArgumentException("The date must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,772,if (focus == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,742,throw new IllegalArgumentException("The field " + field + " is not supported");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,725,offsetSet = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,724,roundUp = offset > 6;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,722,offset -= 12;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,721,if (offset >= 12) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,720,offset = val.get(Calendar.HOUR_OF_DAY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,717,if (fields[i][0] == Calendar.HOUR_OF_DAY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,713,offsetSet = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/53/src/java/org/apache/commons/lang/time/DateUtils.java,712,roundUp = offset > 7;

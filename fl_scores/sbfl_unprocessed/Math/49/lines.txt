@@ -1,0 +1,81 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,217,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,216,if (states[index] == FREE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,373,res.setEntry(iter.key(), iter.value() * v.getEntry(iter.key()));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,372,iter.advance();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,371,while (iter.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,370,Iterator iter = res.entries.iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,369,OpenMapRealVector res = new OpenMapRealVector(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,368,checkVectorDimensions(v.getDimension());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/AbstractRealVector.java,67,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,400,return previous;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,399,++count;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,398,--size;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,397,values[index] = missingEntries;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,396,final double previous = values[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,395,states[index] = REMOVED;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,394,keys[index]   = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,357,return doRemove(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,356,if (containsKey(key, index)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,355,int index = hash & mask;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,354,final int hash  = hashOf(key);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,187,return missingEntries;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,186,if (states[index] == FREE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,667,entries.remove(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,666,} else if (entries.containsKey(index)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/AbstractRealVector.java,64,if (d != n) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/AbstractRealVector.java,63,int d = getDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,213,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,212,if (containsKey(key, index)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,211,int index = hash & mask;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,210,final int hash  = hashOf(key);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,145,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,144,count = source.count;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,143,mask  = source.mask;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,142,size  = source.size;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,141,missingEntries = source.missingEntries;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,140,System.arraycopy(source.states, 0, states, 0, length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,139,states = new byte[length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,138,System.arraycopy(source.values, 0, values, 0, length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,137,values = new double[length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,136,System.arraycopy(source.keys, 0, keys, 0, length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,135,keys = new int[length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,134,final int length = source.keys.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,133,public OpenIntToDoubleHashMap(final OpenIntToDoubleHashMap source) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,183,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,182,epsilon = v.epsilon;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,181,entries = new OpenIntToDoubleHashMap(v.getEntries());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,180,virtualSize = v.getDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,179,public OpenMapRealVector(OpenMapRealVector v) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,78,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,77,this.epsilon = epsilon;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,76,entries = new OpenIntToDoubleHashMap(0.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,75,virtualSize = dimension;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,74,public OpenMapRealVector(int dimension, double epsilon) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,669,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,665,entries.put(index, value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,664,if (!isDefaultValue(value)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,663,checkIndex(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,208,return entries;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,241,return new Iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,480,return entries.get(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java,479,checkIndex(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,385,return (key != 0 || states[index] == FULL) && keys[index] == key;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,182,if (containsKey(key, index)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,181,int index = hash & mask;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,180,final int hash  = hashOf(key);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/AbstractRealVector.java,81,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/linear/AbstractRealVector.java,76,if (index < 0 ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/FastMath.java,3757,return y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,479,return h ^ (h >>> 7) ^ (h >>> 4);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,478,final int h = key ^ ((key >>> 20) ^ (key >>> 12));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,469,return size > (mask + 1) * LOAD_FACTOR;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,428,return previous;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,426,++count;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,423,if (shouldGrowTable()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,422,++size;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,421,if (newMapping) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,420,values[index] = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,419,states[index] = FULL;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,418,keys[index]   = key;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,413,if (index < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/49/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java,412,boolean newMapping = true;

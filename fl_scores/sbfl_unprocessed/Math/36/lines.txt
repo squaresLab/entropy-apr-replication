@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,735,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,732,float result = numerator.floatValue() / denominator.floatValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,372,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,371,this.sourceFormat = sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,370,private LocalizedFormats(final String sourceFormat) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,145,denominator = den;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,144,numerator   = num;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,138,if (BigInteger.ZERO.compareTo(den) > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,132,if (BigInteger.ONE.compareTo(gcd) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,131,final BigInteger gcd = num.gcd(den);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,247,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,244,if (o == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,148,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,125,if (BigInteger.ZERO.equals(num)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,122,if (BigInteger.ZERO.equals(den)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,121,MathUtils.checkNotNull(den, LocalizedFormats.DENOMINATOR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,120,MathUtils.checkNotNull(num, LocalizedFormats.NUMERATOR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,119,public BigFraction(BigInteger num, BigInteger den) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,367,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,366,this(BigInteger.valueOf(num), BigInteger.ONE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,134,den = den.divide(gcd);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,133,num = num.divide(gcd);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,127,denominator = BigInteger.ONE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,126,numerator   = BigInteger.ZERO;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,688,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,685,double result = numerator.doubleValue() / denominator.doubleValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,382,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,381,this(BigInteger.valueOf(num), BigInteger.valueOf(den));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,260,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,258,throw new NullArgumentException();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,257,if (o == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,245,throw new NullArgumentException(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,231,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,228,throw new NotFiniteNumberException(LocalizedFormats.ARRAY_ELEMENT, x, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,227,if (Double.isInfinite(x) || Double.isNaN(x)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,226,final double x = val[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,225,for (int i = 0; i < val.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,215,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,213,throw new NotFiniteNumberException(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,212,if (Double.isInfinite(x) || Double.isNaN(x)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,201,return -magnitude; // Flip sign.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,199,throw new MathArithmeticException(LocalizedFormats.OVERFLOW);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,197,} else if (sign >= 0 &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,196,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,194,if ((magnitude >= 0 && sign >= 0) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,179,return -magnitude; // Flip sign.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,177,throw new MathArithmeticException(LocalizedFormats.OVERFLOW);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,175,} else if (sign >= 0 &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,174,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,172,if ((magnitude >= 0 && sign >= 0) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,157,return (short) -magnitude; // Flip sign.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,155,throw new MathArithmeticException(LocalizedFormats.OVERFLOW);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,153,} else if (sign >= 0 &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,152,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,150,if ((magnitude >= 0 && sign >= 0) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,135,return (byte) -magnitude; // Flip sign.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,133,throw new MathArithmeticException(LocalizedFormats.OVERFLOW);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,131,} else if (sign >= 0 &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,130,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,128,if ((magnitude >= 0 && sign >= 0) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,114,return a - p * FastMath.floor((a - offset) / p) - offset;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,113,final double p = FastMath.abs(period);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,91,return a - TWO_PI * FastMath.floor((a + FastMath.PI - center) / TWO_PI);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,68,return Arrays.hashCode(value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,57,return new Double(value).hashCode();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,47,private MathUtils() {}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,395,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,389,} catch (MissingResourceException mre) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,391,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,386,return bundle.getString(toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,384,if (bundle.getLocale().getLanguage().equals(locale.getLanguage())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,382,ResourceBundle bundle =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,376,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,75,return context.getLocalizedMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,69,return context.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,63,return context;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,59,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,58,context.addMessage(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,57,context = new ExceptionContext(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,56,Object ... args) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,46,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,45,context.addMessage(LocalizedFormats.ARITHMETIC_EXCEPTION);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,44,context = new ExceptionContext(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathArithmeticException.java,43,public MathArithmeticException() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NotFiniteNumberException.java,54,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NotFiniteNumberException.java,53,super(specific, wrong, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NotFiniteNumberException.java,41,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NotFiniteNumberException.java,40,this(LocalizedFormats.NOT_FINITE_NUMBER, wrong, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NullArgumentException.java,51,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NullArgumentException.java,50,super(pattern, arguments);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NullArgumentException.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/NullArgumentException.java,41,this(LocalizedFormats.NULL_NOT_ALLOWED);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathIllegalArgumentException.java,63,return context.getLocalizedMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathIllegalArgumentException.java,57,return context.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathIllegalArgumentException.java,51,return context;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathIllegalArgumentException.java,47,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathIllegalArgumentException.java,46,context.addMessage(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/MathIllegalArgumentException.java,45,context = new ExceptionContext(this);

@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,433,return scale * d * v;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,432,if (FastMath.log(u) < 0.5 * x2 + d * (1 - v + FastMath.log(v))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,429,return scale * d * v;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,428,if (u < 1 - 0.0331 * x2 * x2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,425,final double u = random.nextDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,424,final double x2 = x * x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,420,if (v <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,418,final double v = (1 + c * x) * (1 + c * x) * (1 + c * x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,417,final double x = random.nextGaussian();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,414,final double c = 1 / (3 * FastMath.sqrt(d));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,413,final double d = shape - 0.333333333333333333;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java,374,if (shape < 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java,312,return FastMath.exp(scale + shape * n);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java,311,final double n = random.nextGaussian();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,248,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,247,randomData.reSeed(seed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java,246,random.setSeed(seed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataImpl.java,462,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataImpl.java,461,delegate.reSeed(seed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,649,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,648,getRan().setSeed(seed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,80,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,79,super(K, M1, M2, M3, seed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,726,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,725,rand = new Well19937c(System.currentTimeMillis() + System.identityHashCode(this));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,717,return rand;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,715,initRan();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java,714,if (rand == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/AbstractWell.java,133,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/AbstractWell.java,132,this(k, m1, m2, m3, new int[] { (int) (seed >>> 32), (int) (seed & 0xffffffffl) });
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,111,return z4 >>> (32 - bits);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,109,z4 = z4 ^ ((z4 << 15) & 0x9b868000);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,108,z4 = z4 ^ ((z4 <<  7) & 0xe46e1700);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,103,index        = indexRm1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,102,v[indexRm2] &= 0x80000000;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,101,v[indexRm1]  = z4;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,100,v[index]     = z3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,98,int z4 = z0 ^ (z1 ^ (z1 << 9)) ^ (z2 ^ (z2 << 21)) ^ (z3 ^ (z3 >>> 21));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,97,final int z3 = z1      ^ z2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,96,final int z2 = (vM2 >>> 9) ^ (vM3 ^ (vM3 >>> 1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,95,final int z1 = (v0 ^ (v0 << 25))  ^ (vM1 ^ (vM1 >>> 27));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,94,final int z0 = (0x80000000 & v[indexRm1]) ^ (0x7FFFFFFF & v[indexRm2]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,92,final int vM3      = v[i3[index]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,91,final int vM2      = v[i2[index]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,90,final int vM1      = v[i1[index]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,89,final int v0       = v[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,87,final int indexRm2 = iRm2[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/Well19937c.java,86,final int indexRm1 = iRm1[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,115,return random;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,112,nextGaussian = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,111,random = nextGaussian;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,109,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,108,nextGaussian = r * FastMath.sin(alpha);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,107,random       = r * FastMath.cos(alpha);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,106,final double r      = FastMath.sqrt(-2 * FastMath.log(y));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,105,final double alpha = 2 * FastMath.PI * x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,104,final double y = nextDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,103,final double x = nextDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java,101,if (Double.isNaN(nextGaussian)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2328,return cosQ(xa, xb);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2326,switch (quadrant) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2307,if (xa > 3294198.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2306,double xb = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2301,if (xa != xa || xa == Double.POSITIVE_INFINITY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2297,if (x < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2296,double xa = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2293,int quadrant = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2274,return sinQ(xa, xb);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2272,switch (quadrant) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2268,if (negative) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2252,if (xa > 3294198.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2247,if (xa != xa || xa == Double.POSITIVE_INFINITY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2239,if (xa == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2233,if (x < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2232,xa = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2229,double xb = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2227,int quadrant = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,2226,boolean negative = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1848,return sinQ(a, b);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1846,b += pi2b - xb;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1845,double b = -(a - pi2a + xa);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1844,final double a = pi2a - xa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1842,final double pi2b = 6.123233995736766E-17;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1841,final double pi2a = 1.5707963267948966;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1825,b = b + d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1824,a = c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1823,d = -(c - a - t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1822,c = a + t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1820,t = ((costA + costB) * (cosEpsA + cosEpsB) -
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1830,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1828,result = a + b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1819,if (xb != 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1792,b = b + sintB + costB * sinEpsA + sintB * cosEpsB + costB * sinEpsB;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1777,b = b + sintA * cosEpsB + costA * sinEpsB;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1775,b = b + d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1774,a = c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1773,d = -(c - a - t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1772,c = a + t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1771,t = costA * sinEpsA;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/12/src/main/java/org/apache/commons/math3/util/FastMath.java,1769,b = b + d;

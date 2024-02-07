@@ -1,0 +1,88 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,178,return getWrappedField().getMaximumValue(instant, values) + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,138,return 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,111,return 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,148,return getWrappedField().getMaximumValue() + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,449,if (rangeField.compareTo(loopRangeField) > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,448,DurationField loopRangeField = loopType.getRangeDurationType().getField(iChronology);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,447,DurationField rangeField = fieldType.getRangeDurationType().getField(iChronology);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,445,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDurationField.java,150,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,446,} else if (compare == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,444,if (compare > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,443,int compare = unitField.compareTo(loopUnitField);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,442,if (loopUnitField.isSupported()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,441,DurationField loopUnitField = loopType.getDurationType().getField(iChronology);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,440,DateTimeFieldType loopType = iTypes[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,439,for (; i < iTypes.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/DateTimeFieldType.java,227,return CLOCKHOUR_OF_DAY_TYPE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,466,return newPartial;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,465,iChronology.validate(newPartial, newValues);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,464,Partial newPartial = new Partial(iChronology, newTypes, newValues);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,461,System.arraycopy(iValues, i, newValues, i + 1, newValues.length - i - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,460,System.arraycopy(iTypes, i, newTypes, i + 1, newTypes.length - i - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,459,newValues[i] = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,458,newTypes[i] = fieldType;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,457,System.arraycopy(iValues, 0, newValues, 0, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,456,System.arraycopy(iTypes, 0, newTypes, 0, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,438,if (unitField.isSupported()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,437,DurationField unitField = fieldType.getDurationType().getField(iChronology);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,436,int i = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,433,int[] newValues = new int[newTypes.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,432,DateTimeFieldType[] newTypes = new DateTimeFieldType[iTypes.length + 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,431,if (index == -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,430,int index = indexOf(fieldType);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,427,if (fieldType == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,300,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,299,iValues = values;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,298,iTypes = types;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,297,iChronology = chronology;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,296,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/chrono/AssembledChronology.java,200,return iClockhourOfDay;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/base/AbstractPartial.java,175,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,221,} else if (compare == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,218,if (compare < 0 || (compare != 0 && loopUnitField.isSupported() == false)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,217,int compare = lastUnitField.compareTo(loopUnitField);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDurationField.java,155,return 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,249,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,248,iValues = (int[]) values.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,247,chronology.validate(this, values);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,246,iTypes = (DateTimeFieldType[]) types.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,243,lastUnitField = loopUnitField;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,216,if (i > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,215,DurationField loopUnitField = loopType.getDurationType().getField(iChronology);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,214,DateTimeFieldType loopType = types[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,213,for (int i = 0; i < types.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,212,DurationField lastUnitField = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,208,if (types[i] == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,207,for (int i = 0; i < types.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,202,if (types.length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,199,if (values.length != types.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,196,if (values == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDurationField.java,152,if (thisMillis < otherMillis) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDurationField.java,149,if (thisMillis == otherMillis) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDurationField.java,147,long thisMillis = getUnitMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDurationField.java,146,long otherMillis = otherField.getUnitMillis();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,193,if (types == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,192,iChronology = chronology;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,191,chronology = DateTimeUtils.getChronology(chronology).withUTC();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,190,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,344,return iTypes[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,333,return iTypes[index].getField(chrono);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,71,return iField;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,321,return iChronology;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/Partial.java,309,return iTypes.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/base/AbstractPartial.java,171,if (getFieldType(i) == type) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/base/AbstractPartial.java,170,for (int i = 0, isize = size(); i < isize; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/chrono/AssembledChronology.java,220,return iDays;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDurationField.java,66,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/chrono/AssembledChronology.java,180,return iMinutes;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/PreciseDurationField.java,63,return iUnitMillis;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/chrono/AssembledChronology.java,192,return iHours;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/chrono/AssembledChronology.java,184,return iMinuteOfHour;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/chrono/AssembledChronology.java,196,return iHourOfDay;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/DateTimeFieldType.java,200,return MINUTE_OF_HOUR_TYPE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/PreciseDateTimeField.java,132,return iRange - 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,151,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDateTimeField.java,818,return getMaximumValue(instant);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/field/BaseDateTimeField.java,804,return getMaximumValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/4/src/main/java/org/joda/time/chrono/BaseChronology.java,213,}

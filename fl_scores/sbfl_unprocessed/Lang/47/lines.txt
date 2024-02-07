@@ -1,0 +1,90 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,158,return nullText;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1186,int strLen = str.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1185,String str = (obj == null ? getNullText() : obj.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1184,ensureCapacity(size + width);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1183,if (width > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1230,int strLen = str.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1229,String str = (obj == null ? getNullText() : obj.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1228,ensureCapacity(size + width);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,1227,if (width > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,99,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,98,this(CAPACITY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,112,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,111,buffer = new char[initialCapacity];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,108,if (initialCapacity <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,107,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,233,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrBuilder.java,228,if (capacity > buffer.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1121,return "StrTokenizer" + getTokenList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1119,return "StrTokenizer[not tokenized yet]";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1118,if (tokens == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1108,return cloned;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1107,cloned.reset();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1105,cloned.chars = (char[]) cloned.chars.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1104,if (cloned.chars != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1103,StrTokenizer cloned = (StrTokenizer) super.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1090,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1089,} catch (CloneNotSupportedException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1088,return cloneReset();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1075,return new String(chars);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1073,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1072,if (chars == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1062,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1061,this.ignoreEmptyTokens = ignoreEmptyTokens;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1050,return ignoreEmptyTokens;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1039,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1038,this.emptyAsNull = emptyAsNull;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1027,return this.emptyAsNull;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1016,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1014,this.trimmerMatcher = trimmer;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1013,if (trimmer != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,1000,return trimmerMatcher;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,985,return setIgnoredMatcher(StrMatcher.charMatcher(ignored));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,972,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,970,this.ignoredMatcher = ignored;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,969,if (ignored != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,956,return ignoredMatcher;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,941,return setQuoteMatcher(StrMatcher.charMatcher(quote));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,928,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,926,this.quoteMatcher = quote;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,925,if (quote != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,912,return quoteMatcher;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,897,return setDelimiterMatcher(StrMatcher.stringMatcher(delim));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,887,return setDelimiterMatcher(StrMatcher.charMatcher(delim));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,877,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,875,this.delimMatcher = delim;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,873,this.delimMatcher = StrMatcher.noneMatcher();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,872,if (delim == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,860,return this.delimMatcher;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,849,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,846,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,845,if ((pos + i) >= len || chars[pos + i] != chars[quoteStart + i]) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,844,for (int i = 0; i < quoteLen; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,829,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,828,addToken(tokens, workArea.substring(0, trimStart));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,824,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,823,trimStart = workArea.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,822,workArea.append(chars[pos++]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,818,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,817,pos += trimmedLen;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,816,workArea.append(chars, pos, trimmedLen);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,815,if (trimmedLen > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,814,int trimmedLen = getTrimmerMatcher().isMatch(chars, pos, start, len);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,808,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,807,pos += ignoredLen;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,806,if (ignoredLen > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,805,int ignoredLen = getIgnoredMatcher().isMatch(chars, pos, start, len);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,800,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,799,pos += quoteLen;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,798,quoting = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,797,if (isQuote(chars, pos, len, quoteStart, quoteLen)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,796,if (quoteLen > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,792,return pos + delimLen;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,791,addToken(tokens, workArea.substring(0, trimStart));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,789,if (delimLen > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,788,int delimLen = getDelimiterMatcher().isMatch(chars, pos, start, len);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,782,trimStart = workArea.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,781,workArea.append(chars[pos++]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,777,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,776,pos += quoteLen;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/47/src/java/org/apache/commons/lang/text/StrTokenizer.java,775,quoting = false;

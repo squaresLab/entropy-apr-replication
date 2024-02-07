@@ -1,0 +1,92 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,439,return newdiff;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,438,end.add( field, newdiff );
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,437,int newdiff = startValue - endValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,316,years -= 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,315,months += 12;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,312,months -= 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,306,days += 31;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,357,seconds = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,356,milliseconds += 1000 * seconds;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,353,minutes = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,352,seconds += 60 * minutes;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,349,hours = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,348,minutes += 60 * hours;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,345,days = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,344,hours += 24 * days;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,332,years = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,331,months += 12 * years;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,330,if (Token.containsTokenWithValue(tokens, M)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,247,return formatPeriod(startMillis, endMillis, format, true, TimeZone.getDefault());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,441,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,436,if (endValue < startValue) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,435,int startValue = start.get(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,434,int endValue = end.get(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,433,end.add( field, -1 * difference );
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,360,return format(tokens, years, months, days, hours, minutes, seconds, milliseconds, padWithZeros);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,355,if (!Token.containsTokenWithValue(tokens, s)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,351,if (!Token.containsTokenWithValue(tokens, m)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,347,if (!Token.containsTokenWithValue(tokens, H)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,343,if (!Token.containsTokenWithValue(tokens, d)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,339,if (!Token.containsTokenWithValue(tokens, M)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,329,if (!Token.containsTokenWithValue(tokens, y)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,324,years -= reduceAndCorrect(start, end, Calendar.YEAR, years);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,323,months -= reduceAndCorrect(start, end, Calendar.MONTH, months);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,322,days -= reduceAndCorrect(start, end, Calendar.DAY_OF_MONTH, days);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,321,hours -= reduceAndCorrect(start, end, Calendar.HOUR_OF_DAY, hours);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,320,minutes -= reduceAndCorrect(start, end, Calendar.MINUTE, minutes);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,319,seconds -= reduceAndCorrect(start, end, Calendar.SECOND, seconds);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,318,milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,314,while (months < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,305,while (days < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,301,while (hours < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,297,while (minutes < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,293,while (seconds < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,289,while (milliseconds < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,286,int years = end.get(Calendar.YEAR) - start.get(Calendar.YEAR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,285,int months = end.get(Calendar.MONTH) - start.get(Calendar.MONTH);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,284,int days = end.get(Calendar.DAY_OF_MONTH) - start.get(Calendar.DAY_OF_MONTH);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,283,int hours = end.get(Calendar.HOUR_OF_DAY) - start.get(Calendar.HOUR_OF_DAY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,282,int minutes = end.get(Calendar.MINUTE) - start.get(Calendar.MINUTE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,281,int seconds = end.get(Calendar.SECOND) - start.get(Calendar.SECOND);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,280,int milliseconds = end.get(Calendar.MILLISECOND) - start.get(Calendar.MILLISECOND);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,277,end.setTime(new Date(endMillis));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,276,Calendar end = Calendar.getInstance(timezone);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,275,start.setTime(new Date(startMillis));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,274,Calendar start = Calendar.getInstance(timezone);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,270,Token[] tokens = lexx(format);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,266,if (millis < 28 * DateUtils.MILLIS_PER_DAY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,265,long millis = endMillis - startMillis;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,397,lastOutputSeconds = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,395,buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,487,case 'M'  : value = M; break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/StringUtils.java,3870,return str; // returns original String when possible
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/StringUtils.java,3869,if (pads <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/StringUtils.java,3868,int pads = size - str.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/StringUtils.java,3865,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,503,previous.increment();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,430,return buffer.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,394,} else if (value == M) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,390,if (value == y) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,387,if (value instanceof StringBuffer) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,386,int count = token.getCount();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,385,Object value = token.getValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,384,Token token = tokens[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,383,for (int i = 0; i < sz; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,382,int sz = tokens.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,381,boolean lastOutputSeconds = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,380,StringBuffer buffer = new StringBuffer();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,512,return (Token[]) list.toArray( new Token[0] );
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,509,buffer = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,507,previous = token;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,506,list.add(token);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,505,Token token = new Token(value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,502,if(previous != null && previous.getValue() == value) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,501,if(value != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,474,switch(ch) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,473,Object value = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,469,if(inLiteral && ch != '\'') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,468,char ch = array[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,467,for(int i=0; i<sz; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,466,int sz = array.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,465,Token previous = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/63/src/java/org/apache/commons/lang/time/DurationFormatUtils.java,464,StringBuffer buffer = null;

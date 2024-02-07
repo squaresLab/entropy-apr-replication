@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,1183,return "(" + real + ", " + imaginary + ")";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,260,return isZero ? NaN : INF;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,587,return this.add(I).divide(I.subtract(this)).log()
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,258,if (divisor.isZero) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,1288,return Double.POSITIVE_INFINITY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,1284,if (hiPrec != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,583,if (isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,254,if (isNaN || divisor.isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,253,MathUtils.checkNotNull(divisor);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3005,return Math.PI/4.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3004,if (x == Double.POSITIVE_INFINITY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,329,return isNaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,430,return INF;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,278,return createComplex((imaginary * q + real) / denominator,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,277,double denominator = d * q + c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,276,double q = d / c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,122,return Double.POSITIVE_INFINITY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,270,if (FastMath.abs(c) < FastMath.abs(d)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,268,final double d = divisor.getImaginary();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,267,final double c = divisor.getReal();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,263,if (divisor.isInfinite() && !isInfinite()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,1256,return log(x, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,754,return createComplex(FastMath.log(abs()),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/MathUtils.java,2337,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/MathUtils.java,2334,if (o == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,1283,if (x == Double.POSITIVE_INFINITY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,1272,if ((bits & 0x8000000000000000L) != 0 || x != x) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,1269,long bits = Double.doubleToLongBits(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3003,if (y == Double.POSITIVE_INFINITY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,1266,if (x==0) { // Handle special case of +0/-0
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,164,return createComplex(real + addend.getReal(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,2977,if (y == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,750,if (isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,379,return isNaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,2973,if (x !=x || y != y) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,497,return createComplex(real - subtrahend.getReal(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,160,if (isNaN || addend.isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,159,MathUtils.checkNotNull(addend);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,493,if (isNaN || subtrahend.isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,492,MathUtils.checkNotNull(subtrahend);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,425,if (Double.isInfinite(real) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,121,if (isInfinite()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,422,if (isNaN || factor.isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,421,MathUtils.checkNotNull(factor);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,118,if (isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3410,return (x < 0.0) ? -x : (x == 0.0) ? 0.0 : x; // -0.0 => +0.0
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,328,if (c.isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,327,Complex c = (Complex)other;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,392,return isInfinite;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,326,if (other instanceof Complex){
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,107,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,106,isZero = real == 0 && imaginary == 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,104,isInfinite = !isNaN &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,103,isNaN = Double.isNaN(real) || Double.isNaN(imaginary);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,101,this.imaginary = imaginary;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,100,this.real = real;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,99,public Complex(double real, double imaginary) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,323,if (this == other) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,1131,return new Complex(realPart, imaginaryPart);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,368,return real;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/complex/Complex.java,359,return imaginary;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4074,return ((Float.floatToIntBits(f) >>> 23) & 0xff) - 127;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4061,return (int) ((Double.doubleToLongBits(d) >>> 52) & 0x7ff) - 1023;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4048,return -magnitude; // flip sign
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4046,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4045,if ((m >= 0 && s >= 0) || (m < 0 && s < 0)) { // Sign is currently OK
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4044,int s = Float.floatToIntBits(sign);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4043,int m = Float.floatToIntBits(magnitude);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4031,return -magnitude; // flip sign
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4029,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4028,if ((m >= 0 && s >= 0) || (m < 0 && s < 0)) { // Sign is currently OK
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4027,long s = Double.doubleToLongBits(sign);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4026,long m = Double.doubleToLongBits(magnitude);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,4014,return StrictMath.IEEEremainder(dividend, divisor); // TODO provide our own implementation
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3986,return scalb(scaledH, middleExp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3983,final double scaledH = sqrt(scaledX * scaledX + scaledY * scaledY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3980,final double scaledY = scalb(y, -middleExp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3979,final double scaledX = scalb(x, -middleExp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3976,final int middleExp = (expX + expY) / 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3972,return abs(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3970,} else if (expY > expX + 27) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3969,return abs(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3967,if (expX > expY + 27) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3966,final int expY = getExponent(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3965,final int expX = getExponent(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3962,return Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3961,} else if (Double.isNaN(x) || Double.isNaN(y)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3960,return Double.POSITIVE_INFINITY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3959,if (Double.isInfinite(x) || Double.isInfinite(y)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3941,return a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3939,return b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3938,if (bits == 0x8000000000000000L) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3937,long bits = Double.doubleToRawLongBits(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3933,return Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3932,if (a != b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3929,return b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3928,if (a < b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3926,return a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3925,if (a > b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/46/src/main/java/org/apache/commons/math/util/FastMath.java,3916,return a;

@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,786,out[row] = sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,784,sum += dataRow[i] * v[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,783,for (int i = 0; i < nCols; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,782,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,781,final double[] dataRow = data[row];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,780,for (int row = 0; row < nRows; row++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,779,final double[] out = new double[v.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,776,if (v.length != nCols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,775,final int nCols = this.getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,774,final int nRows = this.getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,997,out[row] = sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,995,sum = sum.add(data[row][i].multiply(v[i]));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,994,for (int i = 0; i < nCols; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,993,BigDecimal sum = ZERO;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,992,for (int row = 0; row < nRows; row++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,991,final BigDecimal[] out = new BigDecimal[v.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,990,final int nCols = this.getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,989,final int nRows = this.getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,986,if (v.length != this.getColumnDimension()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,154,if (d[r].length != nCols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,161,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,160,lu = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,158,data = d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,153,for (int r = 1; r < nRows; r++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,150,if (nCols == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,149,final int nCols = d[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,146,if (nRows == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,145,final int nRows = d.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,142,if (d == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,139,if (copyArray) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,138,public BigMatrixImpl(BigDecimal[][] d, boolean copyArray) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,956,return data[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,947,return data.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,73,private int scale = 64;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,70,private int roundingMode = BigDecimal.ROUND_HALF_UP;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,67,protected int parity = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,64,protected int[] permutation = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,61,protected BigDecimal lu[][] = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/BigMatrixImpl.java,56,protected BigDecimal data[][] = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,146,if (d[r].length != nCols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,153,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,152,lu = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,150,data = d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,145,for (int r = 1; r < nRows; r++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,142,if (nCols == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,141,final int nCols = d[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,138,if (nRows == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,137,final int nRows = d.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,134,if (d == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,131,if (copyArray) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,130,public RealMatrixImpl(double[][] d, boolean copyArray) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,750,return data[0].length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,743,return data.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,69,protected int parity = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,66,protected int[] permutation = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,63,protected double lu[][] = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,58,protected double data[][] = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1175,return !(row < 0 || row > nRows - 1 || col < 0 || col > nCols -1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1174,final int nCols = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1173,final int nRows = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1163,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1162,setSubMatrix(in,0,0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1148,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1146,System.arraycopy(data[i], 0, out[i], 0, data[i].length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1145,for (int i = 0; i < nRows; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1143,final double[][] out = new double[nRows][this.getColumnDimension()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1142,final int nRows = this.getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1131,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1130,System.arraycopy(permutation, 0, out, 0, permutation.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1129,final int[] out = new int[permutation.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1113,return new RealMatrixImpl(lu);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1111,luDecompose();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1110,if (lu == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1077,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1073,ret = ret * 31 + (11 * (row+1) + 17 * (col+1)) *
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1072,for (int col = 0; col < nCols; col++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1071,final double[] dataRow = data[row];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1070,for (int row = 0; row < nRows; row++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1069,ret = ret * 31 + nCols;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1068,ret = ret * 31 + nRows;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1067,final int nCols = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1066,final int nRows = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1065,int ret = 7;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1056,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1052,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1050,if (Double.doubleToLongBits(dataRow[col]) !=
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1049,for (int col = 0; col < nCols; col++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1048,final double[] dataRow = data[row];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1047,for (int row = 0; row < nRows; row++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1045,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1044,if (m.getColumnDimension() != nCols || m.getRowDimension() != nRows) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1043,final int nCols = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1042,final int nRows = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1041,RealMatrix m = (RealMatrix) object;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1039,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1038,if (object instanceof RealMatrixImpl == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1036,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1035,if (object == this ) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1022,return res.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/98/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,1021,res.append("}");

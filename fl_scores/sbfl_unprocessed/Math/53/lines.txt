@@ -1,0 +1,92 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,153,return createComplex(real + rhs.getReal(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,152,MathUtils.checkNotNull(rhs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,319,return isNaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2334,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2331,if (o == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,997,return new Complex(realPart, imaginaryPart);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,308,return real;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,299,return imaginary;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,97,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,95,isInfinite = !isNaN &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,94,isNaN = Double.isNaN(real) || Double.isNaN(imaginary);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,92,this.imaginary = imaginary;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,91,this.real = real;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,90,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2332,throw new NullArgumentException();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2321,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2319,throw new NullArgumentException(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2318,if (o == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2304,return output;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2303,System.arraycopy(source, 0, output, 0, FastMath.min(len, source.length));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2302,final double[] output = new double[len];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2289,return output;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2288,System.arraycopy(source, 0, output, 0, FastMath.min(len, source.length));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2287,final int[] output = new int[len];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2274,return copyOf(source, source.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2264,return copyOf(source, source.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2255,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2252,yList[j][i] = yValues[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2251,for (int j = 0; j < yListLen; j++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2250,final double[] yValues = e.getValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2249,x[i] = e.getKey();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2248,final Pair<Double, double[]> e = list.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2247,for (int i = 0; i < len; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2245,Collections.sort(list, comp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2225,final Comparator<Pair<Double, double[]>> comp
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2222,list.add(new Pair<Double, double[]>(x[i], yValues));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2220,yValues[j] = y[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2218,throw new DimensionMismatchException(y.length, len);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2217,if (y.length != len) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2216,double[] y = yList[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2215,for (int j = 0; j < yListLen; j++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2214,final double[] yValues = new double[yListLen];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2213,for (int i = 0; i < len; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2212,final int yListLen = yList.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2209,final List<Pair<Double, double[]>> list
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2208,final int len = x.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2205,throw new NullArgumentException();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2203,if (x == null ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2188,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2187,sortInPlace(x, OrderDirection.INCREASING, yList);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2172,return norm;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2168,norm = Math.sqrt(x3max * ((s2 / x3max) + (x3max * s3)));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2166,norm = Math.sqrt(s2 * (1 + (x3max / s2) * (x3max * s3)));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2165,if (s2 >= x3max) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2163,norm = x3max * Math.sqrt(s3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2162,if (s2 == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2160,norm = x1max * Math.sqrt(s1 + (s2 / x1max) / x1max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2159,if (s1 != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2155,s2 += xabs * xabs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2151,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2150,s3 += r * r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2149,double r = xabs / x3max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2148,if (xabs != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2147,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2146,x3max = xabs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2145,s3= 1 + s3 * r * r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2144,double r = x3max / xabs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2143,if (xabs > x3max) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2141,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2140,s1 += r * r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2139,double r = xabs / x1max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2138,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2137,x1max = xabs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2136,s1= 1 + s1 * r * r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2135,double r = x1max / xabs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2134,if (xabs > x1max) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2133,if (xabs > rdwarf) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2132,if (xabs < rdwarf || xabs > agiant) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2131,double xabs = Math.abs(v[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2130,for (int i = 0; i < v.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2129,double agiant = rgiant / floatn;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2128,double floatn = (double) v.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2127,double x3max = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2126,double x1max = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2125,double s3 = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2124,double s2 = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2123,double s1 = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2122,double rgiant = 1.304e+19;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2121,double rdwarf = 3.834e-20;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2058,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2055,throw new NotFiniteNumberException(LocalizedFormats.ARRAY_ELEMENT, x, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2054,if (Double.isInfinite(x) || Double.isNaN(x)) {

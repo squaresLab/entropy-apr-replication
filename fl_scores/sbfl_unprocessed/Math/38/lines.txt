@@ -1,0 +1,98 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2457,return e.getMethodName() + " (at line " + e.getLineNumber() + ")";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2456,final StackTraceElement e = elements[n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2455,final StackTraceElement[] elements = t.getStackTrace();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2454,final Throwable t = new Throwable();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1752,throw new PathIsExploredException(); // XXX
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1751,modelSecondDerivativesValues.setEntry(ih, (fbeg - fAtInterpolationPoints.getEntry(ipt) - fAtInterpolationPoints.getEntry(jpt) + f) / tmp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1750,final double tmp = interpolationPoints.getEntry(nfm, ipt - 1) * interpolationPoints.getEntry(nfm, jpt - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1749,final int ih = ipt * (ipt - 1) / 2 + jpt - 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1747,zMatrix.setEntry(jpt, nfxm, -recip);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1746,zMatrix.setEntry(ipt, nfxm, -recip);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1745,zMatrix.setEntry(nfm, nfxm, recip);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1744,zMatrix.setEntry(0, nfxm, recip);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1665,interpolationPoints.setEntry(nfm, jptMinus1, interpolationPoints.getEntry(jpt, jptMinus1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1664,interpolationPoints.setEntry(nfm, iptMinus1, interpolationPoints.getEntry(ipt, iptMinus1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1663,final int jptMinus1 = jpt;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1662,final int iptMinus1 = ipt;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1656,if (ipt > n) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1655,ipt = jpt + tmp1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1654,jpt = nfm - tmp1 * n - n;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1653,final int tmp1 = (nfm - np) / n;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2413,initialTrustRegionRadius = minDiff / 3.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,134,upperBound = upper.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,126,lowerBound = lower.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,113,if (v > hi) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,112,final double hi = upper[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,111,final double v = startPoint[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,110,for (int i = 0; i < dim; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,107,if (upper.length != dim) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,101,if (v < lo) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,100,final double lo = lower[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,99,final double v = startPoint[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,98,for (int i = 0; i < dim; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,95,if (lower.length != dim) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1738,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1736,zMatrix.setEntry(nfm - n, nfxm,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1734,zMatrix.setEntry(nfm, nfxm, Math.sqrt(HALF) / rhosq);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1733,zMatrix.setEntry(0, nfxm, Math.sqrt(TWO) / (stepa * stepb));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1731,bMatrix.setEntry(nfm - n, nfxm,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1730,bMatrix.setEntry(nfm, nfxm, -HALF / interpolationPoints.getEntry(nfm - n, nfxm));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1729,bMatrix.setEntry(0, nfxm, -(stepa + stepb) / (stepa * stepb));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1726,interpolationPoints.setEntry(nfm, nfxm, stepa);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1725,interpolationPoints.setEntry(nfm - n, nfxm, stepb);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1722,if (trustRegionCenterInterpolationPointIndex == nfm) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1721,fAtInterpolationPoints.setEntry(nfm - n, f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1720,fAtInterpolationPoints.setEntry(nfm, fAtInterpolationPoints.getEntry(nfm - n));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1719,if (f < fAtInterpolationPoints.getEntry(nfm - n)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1718,if (stepa * stepb < ZERO) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1717,gradientAtTrustRegionCenter.setEntry(nfxm, (gradientAtTrustRegionCenter.getEntry(nfxm) * stepb - tmp * stepa) / diff);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1716,modelSecondDerivativesValues.setEntry(ih, TWO * (tmp - gradientAtTrustRegionCenter.getEntry(nfxm)) / diff);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1715,final double diff = stepb - stepa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1714,final double tmp = (f - fbeg) / stepb;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1713,final int ih = nfx * (nfx + 1) / 2 - 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1650,interpolationPoints.setEntry(nfm, nfxm, stepb);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1646,if (upperDifference.getEntry(nfxm) == ZERO) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1642,if (lowerDifference.getEntry(nfxm) == ZERO) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1641,stepb = -initialTrustRegionRadius;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1640,stepa = interpolationPoints.getEntry(nfx, nfxm);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,47,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,46,this.value = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,45,this.point = (point == null) ? null : point.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,44,public RealPointValuePair(final double[] point, final double value) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/util/Incrementor.java,153,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/util/Incrementor.java,150,if (++count > maximalCount) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/util/Incrementor.java,109,return count;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2435,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2434,modelSecondDerivativesValues = new ArrayRealVector(dimension * (dimension + 1) / 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2433,lagrangeValuesAtNewPoint = new ArrayRealVector(dimension + numberOfInterpolationPoints);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2432,trialStepPoint = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2431,alternativeNewPoint = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2430,newPoint = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2429,modelSecondDerivativesParameters = new ArrayRealVector(numberOfInterpolationPoints);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2428,upperDifference = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2427,lowerDifference = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2426,gradientAtTrustRegionCenter = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2425,trustRegionCenterOffset = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2424,fAtInterpolationPoints = new ArrayRealVector(numberOfInterpolationPoints);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2423,originShift = new ArrayRealVector(dimension);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2421,interpolationPoints = new Array2DRowRealMatrix(numberOfInterpolationPoints,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2419,zMatrix = new Array2DRowRealMatrix(numberOfInterpolationPoints,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2417,bMatrix = new Array2DRowRealMatrix(dimension + numberOfInterpolationPoints,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2412,if (minDiff < requiredMinDiff) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2410,minDiff = Math.min(minDiff, boundDifference[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2409,boundDifference[i] = upperBound[i] - lowerBound[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2408,for (int i = 0; i < dimension; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2407,double minDiff = Double.POSITIVE_INFINITY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2406,double requiredMinDiff = 2 * initialTrustRegionRadius;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2404,boundDifference = new double[dimension];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2395,if (numberOfInterpolationPoints < nPointsInterval[0] ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,2394,final int[] nPointsInterval = { dimension + 2, (dimension + 2) * (dimension + 1) / 2 };
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1754,} while (getEvaluations() < npt);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1712,} else if (numEval >= n + 2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1705,if (npt < numEval + n) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1704,gradientAtTrustRegionCenter.setEntry(nfmm, (f - fbeg) / stepa);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1702,if (numEval >= 2 &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1701,if (numEval <= 2 * n + 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1691,} else if (f < fAtInterpolationPoints.getEntry(trustRegionCenterInterpolationPointIndex)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1690,trustRegionCenterInterpolationPointIndex = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/38/src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java,1689,fbeg = f;

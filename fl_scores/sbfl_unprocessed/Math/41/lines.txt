@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,370,return evaluate(values, weights, 0, values.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,531,return var;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,525,var = (accum - (accum2 * accum2 / sumWts)) / (sumWts - 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,524,if (isBiasCorrected) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,521,sumWts += weights[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,520,for (int i = 0; i < weights.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,519,double sumWts = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,516,accum2 += weights[i] * dev;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,515,accum += weights[i] * (dev * dev);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,514,dev = values[i] - mean;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,513,for (int i = begin; i < begin + length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,512,double accum2 = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,511,double dev = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,510,double accum = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,509,} else if (length > 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,507,if (length == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,506,if (test(values, weights, begin, length)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,504,double var = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,328,return var;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,325,var = evaluate(values, weights, m, begin, length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,324,double m = mean.evaluate(values, weights, begin, length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,323,Mean mean = new Mean();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,322,} else if (length > 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,320,if (length == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,319,clear();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,318,if (test(values, weights,begin, length)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,316,double var = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,217,return xbarw + (correction/sumw);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,215,correction += weights[i] * (values[i] - xbarw);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,214,for (int i = begin; i < begin + length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,213,double correction = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,210,double xbarw = sum.evaluate(values, weights, begin, length) / sumw;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,209,double sumw = sum.evaluate(weights,begin,length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,206,Sum sum = new Sum();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,205,if (test(values, weights, begin, length)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,166,return sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,163,sum += values[i] * weights[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,162,for (int i = begin; i < begin + length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,161,sum = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,160,if (test(values, weights, begin, length, true)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,159,double sum = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,286,return test(values, begin, length, allowEmpty);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,282,if (!containsPositiveWeight) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,278,containsPositiveWeight = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,277,if (!containsPositiveWeight && weights[i] > 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,274,if (weights[i] < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,271,if (Double.isInfinite(weights[i])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,268,if (Double.isNaN(weights[i])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,267,for (int i = begin; i < begin + length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,266,boolean containsPositiveWeight = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,262,if (weights.length != values.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,258,if (weights == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,222,return test(values, weights, begin, length, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,207,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,205,moment.clear();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,204,if (incMoment) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,127,return sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,124,sum += values[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,123,for (int i = begin; i < begin + length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,122,sum = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,121,if (test(values, begin, length, true)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,120,double sum = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,99,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,98,moment = new SecondMoment();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,97,public Variance() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java,94,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java,93,m2 = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java,92,super.clear();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,121,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,120,nDev = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,119,dev = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,118,n = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,117,m1 = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,82,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,81,moment = new FirstMoment();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,80,incMoment = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java,79,public Mean() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,184,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,180,if (length == 0 && !allowEmpty) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,175,if (begin + length > values.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,171,if (length < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,167,if (begin < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java,163,if (values == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,59,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,58,value = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,57,n = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java,56,public Sum() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,91,private boolean isBiasCorrected = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,84,protected boolean incMoment = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java,75,protected SecondMoment moment = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/util/FastMath.java,375,return Math.sqrt(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java,62,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java,61,m2 = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java,60,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,84,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,83,nDev = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,82,dev = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,81,m1 = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,80,n = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/41/src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java,79,public FirstMoment() {

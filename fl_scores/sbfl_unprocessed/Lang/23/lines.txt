@@ -1,0 +1,89 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/StrMatcher.java,217,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/StrMatcher.java,216,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,500,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,499,if (iter.next() != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,498,for (Iterator<?> iter = coll.iterator(); iter.hasNext();) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,495,if (coll == null || coll.size() == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,434,return pos;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,433,pos.setIndex(pos.getIndex() + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,424,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,423,} while (len > 0 && pos.getIndex() < pattern.length());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,422,pos.setIndex(pos.getIndex() + len);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,421,len = StrMatcher.splitMatcher().isMatch(buffer, pos.getIndex());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,419,char[] buffer = pattern.toCharArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,418,int len = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,408,return sb.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,407,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,405,next(pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,404,sb.append(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,401,depth--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,398,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,396,sb.append(START_FMT).append(customPattern);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,395,if (customPattern != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,394,String customPattern = customPatterns.get(fe);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,392,sb.append(START_FE).append(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,391,fe++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,390,if (depth == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,389,depth++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,384,switch (c) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,383,char c = pattern.charAt(pos.getIndex());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,382,while (pos.getIndex() < pattern.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,381,int depth = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,380,int fe = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,379,ParsePosition pos = new ParsePosition(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,378,StringBuilder sb = new StringBuilder(pattern.length() * 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,375,if (!containsElements(customPatterns)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,355,return pattern.substring(text, pos.getIndex());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,354,if (depth == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,353,depth--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,348,switch (pattern.charAt(pos.getIndex())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,347,for (; pos.getIndex() < pattern.length(); next(pos)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,346,int depth = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,345,int text = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,344,seekNonWs(pattern, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,343,int start = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,324,result.append(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,323,error = !Character.isDigit(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,317,return Integer.parseInt(result.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,315,if ((c == START_FMT || c == END_FE) && result.length() > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,307,if (Character.isWhitespace(c)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,306,char c = pattern.charAt(pos.getIndex());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,305,for (; !error && pos.getIndex() < pattern.length(); next(pos)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,304,boolean error = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,303,StringBuffer result = new StringBuffer();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,302,seekNonWs(pattern, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,301,int start = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,287,return factory.getFormat(name, args, getLocale());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,286,if (factory != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,285,FormatFactory factory = registry.get(name);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,281,if (i > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,280,int i = desc.indexOf(START_FMT);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,279,String args = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,278,String name = desc;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,277,if (registry != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,209,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,207,super.setFormats(origFormats);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,204,origFormats[i] = f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,203,if (f != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,202,Format f = it.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,201,for (Iterator<Format> it = foundFormats.iterator(); it.hasNext(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,200,int i = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,197,Format[] origFormats = getFormats();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,196,if (containsElements(foundFormats)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,195,toPattern = insertFormats(super.toPattern(), foundDescriptions);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,194,super.applyPattern(stripCustom.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,191,next(pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,190,stripCustom.append(c[pos.getIndex()]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,184,if (c[pos.getIndex()] != END_FE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,183,Validate.isTrue(foundDescriptions.size() == fmtCount);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,182,Validate.isTrue(foundFormats.size() == fmtCount);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,181,foundDescriptions.add(format == null ? null : formatDescription);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,180,foundFormats.add(format);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,176,if (format == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,175,format = getFormat(formatDescription);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,173,formatDescription = parseFormatDescription(pattern,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,172,if (c[pos.getIndex()] == START_FMT) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,171,String formatDescription = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,170,Format format = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,169,seekNonWs(pattern, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/23/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,168,stripCustom.append(START_FE).append(index);

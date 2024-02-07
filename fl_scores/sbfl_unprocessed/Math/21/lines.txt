@@ -1,0 +1,86 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3523,return a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3520,if (bits == 0x8000000000000000L) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3519,long bits = Double.doubleToRawLongBits(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3514,if (a != b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3511,return b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3508,return a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,528,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,523,if ((left.getRowDimension()    != right.getRowDimension()) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,134,return (data.length * data[0].length <= 4096) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,130,if (data == null ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,464,return visitor.end();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,461,visitor.visit(i, j, data[i][j]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,460,for (int i = 0; i < rows; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,459,for (int j = 0; j < columns; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,458,visitor.start(rows, columns, 0, rows - 1, 0, columns - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,457,final int columns = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,456,final int rows    = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,241,return walkInColumnOrder(new RealMatrixPreservingVisitor() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,108,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,104,out.setEntry(row, col, getEntry(row, col) - m.getEntry(row, col));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,103,for (int col = 0; col < columnCount; ++col) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,102,for (int row = 0; row < rowCount; ++row) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,101,final RealMatrix out = createMatrix(rowCount, columnCount);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,100,final int columnCount = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,99,final int rowCount    = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java,97,MatrixUtils.checkSubtractionCompatible(this, m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3510,if (a < b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,3507,if (a > b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,160,return root;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,151,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,147,root.setEntry(index[i], j, b[i][j]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,146,for (int j = 0; j < r; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,145,for (int i = 0; i < order; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,144,root = MatrixUtils.createRealMatrix(order, r);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,143,rank = r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,140,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,138,loop = ++r < order;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,133,c[ij][ii] = f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,132,c[ii][ij] = f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,131,final double f = c[ii][ij] - e * b[j][r];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,130,final int ij = index[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,129,for (int j = r + 1; j < i; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,128,c[ii][ii] -= e * e;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,127,b[i][r] = e;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,126,final double e = inverse * c[ii][ir];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,125,final int ii = index[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,124,for (int i = r + 1; i < order; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,123,final double inverse  = 1 / sqrt;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,122,b[r][r] = sqrt;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,121,final double sqrt = FastMath.sqrt(c[ir][ir]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,116,loop = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,115,++r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,106,if (c[index[i]][index[i]] < -small) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,105,for (int i = r; i < order; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,100,if (r == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,98,if (c[ir][ir] < small) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,97,int ir = index[r];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,93,index[swap[r]] = tmp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,92,index[r] = index[swap[r]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,91,int tmp = index[r];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,90,if (swap[r] != r) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,84,swap[r] = i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,83,if (c[ii][ii] > c[isi][isi]) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,82,int isi = index[swap[i]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,81,int ii  = index[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,80,for (int i = r + 1; i < order; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,79,swap[r] = r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,76,for (boolean loop = true; loop;) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,75,int r = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,72,index[i] = i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,71,for (int i = 0; i < order; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,70,int[] index = new int[order];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,69,int[] swap  = new int[order];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,67,final double[][] b = new double[order][order];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,66,final double[][] c = matrix.getData();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,65,final int order = matrix.getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java,63,throws NonPositiveDefiniteMatrixException {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/FastMath.java,375,return Math.sqrt(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/CompositeFormat.java,56,return nf;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/CompositeFormat.java,55,nf.setMaximumFractionDigits(10);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/CompositeFormat.java,54,final NumberFormat nf = NumberFormat.getInstance(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/util/CompositeFormat.java,43,return getDefaultNumberFormat(Locale.getDefault());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,545,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,541,if (left.getColumnDimension() != right.getRowDimension()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,401,return visitor.end();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/21/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java,398,visitor.visit(i, j, rowI[j]);

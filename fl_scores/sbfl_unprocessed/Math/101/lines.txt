@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,350,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,349,sign = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,237,return getDefaultNumberFormat(Locale.getDefault());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,59,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,58,this(DEFAULT_IMAGINARY_CHARACTER, getDefaultNumberFormat());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,377,if (
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,376,int endIndex = startIndex + n;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,375,startIndex = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,374,int n = getImaginaryCharacter().length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,365,if (im == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,364,Number im = parseNumber(source, getRealFormat(), pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,361,parseAndIgnoreWhitespace(source, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,487,return number;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,476,if (startIndex == endIndex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,473,int endIndex = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,472,Number number = format.parse(source, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,471,int startIndex = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,427,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,423,ret = c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,422,if (index < n) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,420,pos.setIndex(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,419,} while (Character.isWhitespace(c) && index < n);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,418,c = source.charAt(index++);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,415,if (index < n) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,413,char ret = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,412,int n = source.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,411,int index = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,401,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,400,pos.setIndex(pos.getIndex() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,399,parseNextCharacter(source, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,340,switch (c) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,339,int sign = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,338,char c = parseNextCharacter(source, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,337,int startIndex = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,328,if (re == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,327,Number re = parseNumber(source, getRealFormat(), pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,324,parseAndIgnoreWhitespace(source, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,321,int initialIndex = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,258,return imaginaryCharacter;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,292,return realFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,541,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,540,this.realFormat = realFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,536,if (realFormat == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,527,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,526,this.imaginaryFormat = imaginaryFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,522,if (imaginaryFormat == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,513,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,512,this.imaginaryCharacter = imaginaryCharacter;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,508,if (imaginaryCharacter == null || imaginaryCharacter.length() == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,284,return new ComplexFormat(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,283,NumberFormat f = getDefaultNumberFormat(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,250,return nf;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,249,nf.setMaximumFractionDigits(2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,248,NumberFormat nf = NumberFormat.getInstance(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,114,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,113,setRealFormat(realFormat);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,112,setImaginaryFormat(imaginaryFormat);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,111,setImaginaryCharacter(imaginaryCharacter);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,110,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,98,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,97,this(imaginaryCharacter, format, (NumberFormat)format.clone());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,68,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,67,this(DEFAULT_IMAGINARY_CHARACTER, format);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,537,throw new IllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,523,throw new IllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,509,throw new IllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,499,return parse(source, pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,482,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,481,if (number != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,480,number = parseNumber(source, special[i], pos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,479,for (int i = 0; i < special.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,478,double[] special = {Double.NaN, Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY};
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,457,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,453,pos.setIndex(endIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,452,ret = new Double(value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,451,if (source.substring(startIndex, endIndex).compareTo(sb.toString()) == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,450,if (endIndex < source.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,449,int endIndex = startIndex + n;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,448,int startIndex = pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,447,int n = sb.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,445,sb.append(')');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,444,sb.append(value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,443,sb.append('(');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,442,StringBuffer sb = new StringBuffer();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,440,Number ret = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,388,return new Complex(re.doubleValue(), im.doubleValue() * sign);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,386,pos.setIndex(endIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,384,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,383,pos.setErrorIndex(startIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,382,pos.setIndex(initialIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,370,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,369,pos.setIndex(initialIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,357,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,356,pos.setErrorIndex(startIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,355,pos.setIndex(initialIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,347,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,346,sign = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,344,return new Complex(re.doubleValue(), 0.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,333,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/101/src/java/org/apache/commons/math/complex/ComplexFormat.java,332,pos.setIndex(initialIndex);

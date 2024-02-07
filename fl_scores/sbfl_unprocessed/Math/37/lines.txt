@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,453,return exp(x)/2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,393,return exp(x)/2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1182,return new Complex(realPart, imaginaryPart);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1178,if (Double.isNaN(realPart) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1070,return createComplex(FastMath.sinh(real2) / d,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1068,double d = FastMath.cosh(real2) + FastMath.cos(imaginary2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1067,double imaginary2 = 2.0 * imaginary;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1066,double real2 = 2.0 * real;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1026,return createComplex(FastMath.sin(real2) / d,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1024,double d = FastMath.cos(real2) + FastMath.cosh(imaginary2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1023,double imaginary2 = 2.0 * imaginary;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1022,double real2 = 2.0 * real;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,871,return Double.POSITIVE_INFINITY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,867,if (hiPrec != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,452,if (x > 20.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,443,if (x != x) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,442,boolean negate = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,392,if (x > 20.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,383,if (x != x) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1063,if (isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/complex/Complex.java,1018,if (isNaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,807,return exp(x, 0.0, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,549,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,545,if (negate) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,506,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,505,result *= 0.5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,504,result = ya + yb;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,502,ya = temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,501,yb += -(temp - ya - recipb);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,500,temp = ya + recipb;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,499,ya = temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,498,yb += -(temp - ya - recipa);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,497,temp = ya + recipa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,494,recipb = -recipb;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,493,recipa = -recipa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,491,recipb += -yb * recip * recip;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,489,recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,486,double recipb = recip - recipa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,485,double recipa = recip + temp - temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,484,temp = recip * HEX_40000000;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,483,double recip = 1.0/ya;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,480,double yab = ya - yaa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,479,double yaa = ya + temp - temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,478,double temp = ya * HEX_40000000;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,476,double yb = -(ya - hiPrec[0] - hiPrec[1]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,475,double ya = hiPrec[0] + hiPrec[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,473,exp(x, 0.0, hiPrec);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,472,double hiPrec[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,471,if (x > 0.25) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,464,if (x < 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,928,hiPrec[1] = tempC*extra*z + tempC*extra + tempC*z + tempB;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,927,hiPrec[0] = tempA;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,460,if (x == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,456,if (x < -20) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,434,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,433,result *= 0.5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,432,double result = ya + yb;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,430,ya = temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,429,yb += -(temp - ya - recipb);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,428,temp = ya + recipb;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,427,ya = temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,426,yb += -(temp - ya - recipa);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,425,temp = ya + recipa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,422,recipb += -yb * recip * recip;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,420,recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,417,double recipb = recip - recipa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,416,double recipa = recip + temp - temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,415,temp = recip * HEX_40000000;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,414,double recip = 1.0/ya;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,411,double yab = ya - yaa;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,410,double yaa = ya + temp - temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,409,double temp = ya * HEX_40000000;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,407,double yb = -(ya - hiPrec[0] - hiPrec[1]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,406,double ya = hiPrec[0] + hiPrec[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,404,exp(x, 0.0, hiPrec);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,401,if (x < 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,400,double hiPrec[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,396,if (x < -20) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,866,if (intVal > 709) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,864,intVal = (int) x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,826,if (x < 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMathLiteralArrays.java,6166,return EXP_FRAC_B.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMathLiteralArrays.java,6158,return EXP_FRAC_A.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMathLiteralArrays.java,6150,return EXP_INT_B.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMathLiteralArrays.java,6142,return EXP_INT_A.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,922,result = tempC*z + tempB + tempA;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,931,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,925,if (hiPrec != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,919,if (extra != 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,917,final double tempC = tempB + tempA;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,911,double tempB = intPartA * fracPartB + intPartB * fracPartA + intPartB * fracPartB;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,910,double tempA = intPartA * fracPartA;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,903,z = z * epsilon + -3.940510424527919E-20;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,902,z = z * epsilon + 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,901,z = z * epsilon + 0.5000000000042687;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,900,z = z * epsilon + 0.1666666505023083;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,899,double z = 0.04168701738764507;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,890,final double epsilon = x - (intVal + intFrac / 1024.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,884,final double fracPartB = ExpFracTable.EXP_FRAC_TABLE_B[intFrac];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/37/src/main/java/org/apache/commons/math/util/FastMath.java,883,final double fracPartA = ExpFracTable.EXP_FRAC_TABLE_A[intFrac];

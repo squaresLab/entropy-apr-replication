@@ -1,0 +1,99 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,72,return solve(min, max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,66,return solve(f, min, max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,223,return (a + b) * .5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,213,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,208,if (lower >= upper) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,167,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,166,this.resultComputed = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,165,this.iterationCount = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,88,fmin = f.value(min);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,87,m = UnivariateRealSolverUtils.midpoint(min, max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,86,while (i < maximalIterationCount) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,85,int i = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,80,verifyInterval(min,max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,79,clearResult();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,53,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java,52,super(100, 1E-6);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,96,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,95,this.functionValueAccuracy = defaultFunctionValueAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,94,this.defaultFunctionValueAccuracy = 1.0e-15;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,93,super(defaultMaximalIterationCount, defaultAbsoluteAccuracy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,41,protected boolean resultComputed = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,69,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,68,this.iterationCount = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,67,this.maximalIterationCount = defaultMaximalIterationCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,66,this.defaultMaximalIterationCount = defaultMaximalIterationCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,65,this.relativeAccuracy = defaultRelativeAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,64,this.absoluteAccuracy = defaultAbsoluteAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,63,this.defaultRelativeAccuracy = 1.0e-14;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,62,this.defaultAbsoluteAccuracy = defaultAbsoluteAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,61,final double defaultAbsoluteAccuracy) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,235,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,233,throw MathRuntimeException.createIllegalArgumentException(NULL_FUNCTION_MESSAGE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,232,if (f == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,212,return new double[]{a, b};
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,204,throw new ConvergenceException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,203,if (fa * fb > 0.0 ) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,200,} while ((fa * fb > 0.0) && (numIterations < maximumIterations) &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,199,numIterations++ ;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,198,fb = function.value(b);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,196,fa = function.value(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,195,b = Math.min(b + 1.0, upperBound);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,194,a = Math.max(a - 1.0, lowerBound);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,191,int numIterations = 0 ;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,188,double b = initial;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,187,double a = initial;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,183,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,182,if (initial < lowerBound || initial > upperBound || lowerBound >= upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,179,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,178,if (maximumIterations <= 0)  {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,176,throw MathRuntimeException.createIllegalArgumentException(NULL_FUNCTION_MESSAGE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,175,if (function == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,132,return bracket( function, initial, lowerBound, upperBound,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,85,return solver.solve(f, x0, x1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,84,solver.setAbsoluteAccuracy(absoluteAccuracy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,83,UnivariateRealSolver solver = LazyHolder.FACTORY.newDefaultSolver();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,82,setup(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,59,return LazyHolder.FACTORY.newDefaultSolver().solve(f, x0, x1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,58,setup(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,40,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java,39,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,254,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,249,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,248,if (!isBracketing(lower, upper, function)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,247,verifyInterval(lower, upper);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,230,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,226,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,225,if (!isSequence(lower, initial, upper)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,209,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,196,return (start < mid) && (mid < end);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,184,return (f1 > 0 && f2 < 0) || (f1 < 0 && f2 > 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,183,final double f2 = function.value(upper);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,182,final double f1 = function.value(lower);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,159,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,158,this.resultComputed = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,157,this.iterationCount = iterationCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,156,this.functionValue  = fx;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,155,this.result         = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,144,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,143,this.resultComputed = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,142,this.iterationCount = iterationCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,141,this.result         = newResult;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,132,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,131,functionValueAccuracy = defaultFunctionValueAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,126,return functionValueAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,122,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,121,functionValueAccuracy = accuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,116,return functionValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,115,checkResultComputed();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,110,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,109,checkResultComputed();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,105,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,103,throw MathRuntimeException.createIllegalStateException("no result available");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,102,if (!resultComputed) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,81,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,80,this.functionValueAccuracy = defaultFunctionValueAccuracy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,79,this.defaultFunctionValueAccuracy = 1.0e-15;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,78,this.f = f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,76,throw MathRuntimeException.createIllegalArgumentException("function to solve cannot be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/70/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,75,if (f == null) {

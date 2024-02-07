@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2547,state = new PlotRenderingInfo(null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/AxisState.java,194,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/AxisState.java,193,this.max = max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/AxisState.java,184,return this.max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryLabelPosition.java,228,return this.widthRatio;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryLabelPosition.java,219,return this.widthType;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryLabelPositions.java,302,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryLabelPositions.java,293,else if (edge == RectangleEdge.BOTTOM) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryLabelPositions.java,290,if (edge == RectangleEdge.TOP) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryLabelPositions.java,289,CategoryLabelPosition result = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,1027,return ticks;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,1026,state.setMax(max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,1007,while (iterator.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,1006,Iterator iterator = categories.iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,1005,int categoryIndex = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,993,if (position.getWidthType() == CategoryLabelWidthType.CATEGORY) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,992,float l = 0.0f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,989,r = position.getWidthRatio();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,988,if (r <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,987,float r = this.maximumCategoryLabelWidthRatio;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,985,CategoryLabelPosition position
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,984,if (categories != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,982,double max = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,981,List categories = plot.getCategoriesForAxis(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,980,CategoryPlot plot = (CategoryPlot) getPlot();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,976,if (dataArea.getHeight() <= 0.0 || dataArea.getWidth() < 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,973,List ticks = new java.util.ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,781,return space;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,771,if (RectangleEdge.isTopOrBottom(edge)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,770,double labelWidth = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,769,double labelHeight = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,768,Rectangle2D labelEnclosure = getLabelEnclosure(g2, edge);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,756,else if (edge == RectangleEdge.BOTTOM) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,753,if (edge == RectangleEdge.TOP) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,752,refreshTicks(g2, state, plotArea, edge);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,750,AxisState state = new AxisState();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,749,g2.setFont(getTickLabelFont());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,748,if (isTickLabelsVisible()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,747,double tickLabelWidth = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,746,double tickLabelHeight = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,741,if (!isVisible()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/axis/CategoryAxis.java,736,if (space == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/Plot.java,1385,if (orientation == PlotOrientation.HORIZONTAL) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3267,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3257,while (iterator.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3256,Iterator iterator = datasets.iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3255,List datasets = datasetsMappedToDomainAxis(axisIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3254,int axisIndex = this.domainAxes.indexOf(axis);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3253,List result = new ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3124,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3106,datasetIndex++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3108,if (dataset != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3107,Object dataset = this.datasets.get(datasetIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3105,for (int datasetIndex = 0; datasetIndex < this.datasets.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,3104,List result = new ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2708,while (iterator.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2707,Iterator iterator = axisCollection.getAxesAtTop().iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2705,double cursor = dataArea.getMinY() - this.axisOffset.calculateTopOutset(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2702,Map axisStateMap = new HashMap();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2698,axisCollection.add(yAxis, getRangeAxisEdge(index));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2697,if (yAxis != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2696,ValueAxis yAxis = (ValueAxis) this.rangeAxes.get(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2695,for (int index = 0; index < this.rangeAxes.size(); index++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2690,axisCollection.add(xAxis, getDomainAxisEdge(index));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2689,if (xAxis != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2688,CategoryAxis xAxis = (CategoryAxis) this.domainAxes.get(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2687,for (int index = 0; index < this.domainAxes.size(); index++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2684,AxisCollection axisCollection = new AxisCollection();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2571,Map axisStateMap = drawAxes(g2, area, dataArea, state);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2565,getRenderer().drawBackground(g2, this, dataArea);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2564,if (getRenderer() != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2560,state.setDataArea(dataArea);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2558,this.axisOffset.trim(dataArea);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2557,Rectangle2D dataArea = space.shrink(area, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2556,AxisSpace space = calculateAxisSpace(g2, area);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2553,insets.trim(area);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2552,RectangleInsets insets = getInsets();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2549,state.setPlotArea(area);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2543,if (state == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2538,if (b1 || b2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2537,boolean b2 = (area.getHeight() <= MINIMUM_HEIGHT_TO_DRAW);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2536,boolean b1 = (area.getWidth() <= MINIMUM_WIDTH_TO_DRAW);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2511,return space;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2510,space = calculateDomainAxisSpace(g2, plotArea, space);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2509,space = calculateRangeAxisSpace(g2, plotArea, space);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2508,AxisSpace space = new AxisSpace();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2494,return space;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2490,space = yAxis.reserveSpace(g2, this, plotArea, edge, space);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2489,RectangleEdge edge = getRangeAxisEdge(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2488,if (yAxis != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2487,Axis yAxis = (Axis) this.rangeAxes.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2486,for (int i = 0; i < this.rangeAxes.size(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2470,if (this.fixedRangeAxisSpace != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2465,if (space == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2448,return space;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2443,space = xAxis.reserveSpace(g2, this, plotArea, edge, space);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2442,RectangleEdge edge = getDomainAxisEdge(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2441,if (xAxis != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2440,Axis xAxis = (Axis) this.domainAxes.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/26/source/org/jfree/chart/plot/CategoryPlot.java,2439,for (int i = 0; i < this.domainAxes.size(); i++) {

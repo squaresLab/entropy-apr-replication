@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,818,return new Object[] {Literal.EMPTY, Literal.EMPTY};
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,818,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,197,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,197,throw new IllegalArgumentException("No formatter supplied");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,196,append0(formatter.getPrinter(), formatter.getParser());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,196,if (formatter == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,195,clearPrefix();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,195,public PeriodFormatterBuilder append(PeriodFormatter formatter) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,192,if (formatter == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,192,*
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatter.java,324,newPos = ~newPos;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatter.java,326,throw new IllegalArgumentException(FormatUtils.createErrorMessage(text, newPos));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadablePeriodConverter.java,81,return ReadablePeriod.class;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableDurationConverter.java,88,return ReadableDuration.class;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/LongConverter.java,41,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/LongConverter.java,40,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/DateConverter.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/DateConverter.java,41,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableInstantConverter.java,43,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableInstantConverter.java,42,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableIntervalConverter.java,43,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableIntervalConverter.java,42,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadablePeriodConverter.java,43,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadablePeriodConverter.java,42,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableDurationConverter.java,43,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableDurationConverter.java,42,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadablePartialConverter.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadablePartialConverter.java,41,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/CalendarConverter.java,50,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/CalendarConverter.java,49,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,90,INSTANCE = new ConverterManager();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,90,INSTANCE = new ConverterManager();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,147,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,147,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,142,iIntervalConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,142,iIntervalConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,134,iPeriodConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,134,iPeriodConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,126,iDurationConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,126,iDurationConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,116,iPartialConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,116,iPartialConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,107,iInstantConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,107,iInstantConverters = new ConverterSet(new Converter[] {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterManager.java,105,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterManager.java,105,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/NullConverter.java,46,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/NullConverter.java,45,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/StringConverter.java,51,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/StringConverter.java,50,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/ISOPeriodFormat.java,66,cStandard = new PeriodFormatterBuilder()
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/AbstractConverter.java,39,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/AbstractConverter.java,38,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/MutablePeriod.java,948,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/MutablePeriod.java,948,super.setField(DurationFieldType.millis(), millis);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/MutablePeriod.java,947,super.setField(DurationFieldType.millis(), millis);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/MutablePeriod.java,947,public void setMillis(int millis) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/MutablePeriod.java,926,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/MutablePeriod.java,926,super.setField(DurationFieldType.seconds(), seconds);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/MutablePeriod.java,925,super.setField(DurationFieldType.seconds(), seconds);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/MutablePeriod.java,925,public void setSeconds(int seconds) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,652,return appendSeparator(text, text, null, false, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,652,* @return this PeriodFormatterBuilder
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,555,return appendSuffix(new SimpleAffix(text));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,555,public PeriodFormatterBuilder appendSuffix(String text) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,501,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,501,* @return this PeriodFormatterBuilder
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,500,appendField(SECONDS_OPTIONAL_MILLIS);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,500,*
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,552,if (text == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,552,* @throws IllegalStateException if no field exists to append to
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ReadableIntervalConverter.java,113,return ReadableInterval.class;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterSet.java,271,return converters[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterSet.java,271,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterSet.java,269,if (length == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterSet.java,269,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/convert/ConverterSet.java,266,if (type == null || length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/convert/ConverterSet.java,266,//                length = converters.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,611,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,611,iElementPairs.set(iElementPairs.size() - 2, newField);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,609,iFieldFormatters[newField.getFieldType()] = newField;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,609,clearPrefix();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,608,iElementPairs.set(iElementPairs.size() - 1, newField);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,608,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,607,iElementPairs.set(iElementPairs.size() - 2, newField);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,607,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,606,FieldFormatter newField = new FieldFormatter((FieldFormatter) originalPrinter, suffix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,606,throw new IllegalStateException("No field to apply suffix to");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,605,clearPrefix();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,605,!(originalPrinter instanceof FieldFormatter)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,593,originalParser = iElementPairs.get(iElementPairs.size() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,593,final Object originalPrinter;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java,592,originalPrinter = iElementPairs.get(iElementPairs.size() - 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/PeriodFormatterBuilder.java,592,private PeriodFormatterBuilder appendSuffix(PeriodFieldAffix suffix) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/chrono/ISOChronology.java,180,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/chrono/ISOChronology.java,169,if (getBase().getZone() == DateTimeZone.UTC) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/chrono/ISOChronology.java,108,cCache.put(zone, chrono);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/chrono/ISOChronology.java,107,chrono = new ISOChronology(ZonedChronology.getInstance(INSTANCE_UTC, zone));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/chrono/ISOChronology.java,123,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/27/src/main/java/org/joda/time/chrono/ISOChronology.java,122,super(base, null);

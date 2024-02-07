@@ -1,0 +1,99 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/Incrementor.java,85,throw new MaxCountExceededException(maximalCount);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java,296,throw new TooManyEvaluationsException(e.getMax());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java,295,} catch (MaxCountExceededException e) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,380,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,374,} catch (MissingResourceException mre) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,367,ResourceBundle bundle =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,84,return context.getLocalizedMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,72,return context;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,68,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,67,this(LocalizedFormats.ILLEGAL_STATE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,47,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,46,context.addMessage(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,36,private final ExceptionContext context = new ExceptionContext();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,45,Object ... args) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,62,return max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,56,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,55,this.max = max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,54,getContext().addMessage(specific, max, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,53,Object ... args) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,43,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,42,this(LocalizedFormats.MAX_COUNT_EXCEEDED, max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/TooManyEvaluationsException.java,39,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/TooManyEvaluationsException.java,38,getContext().addMessage(LocalizedFormats.EVALUATIONS);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/TooManyEvaluationsException.java,37,super(max);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,165,return sb.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,161,sb.append(separator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,159,if (++count < len) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,158,sb.append(fmt.format(args));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,156,final MessageFormat fmt = new MessageFormat(pat.getLocalizedString(locale),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,155,final Object[] args = msgArguments.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,154,final Localizable pat = msgPatterns.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,153,for (int i = 0; i < len; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,152,final int len = msgPatterns.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,151,int count = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,150,final StringBuilder sb = new StringBuilder();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,126,return buildMessage(locale, ": ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,116,return getMessage(Locale.getDefault());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,357,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,356,this.sourceFormat = sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,355,private LocalizedFormats(final String sourceFormat) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/analysis/solvers/AllowedSolution.java,41,public enum AllowedSolution {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,54,return list.toArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,50,list.add(o);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,46,for (Object oR : flatten((Object[]) o)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,45,if (o instanceof Object[]) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,44,for (Object o : array) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,43,if (array != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ArgUtils.java,42,final List<Object> list = new ArrayList<Object>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,68,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,67,msgArguments.add(ArgUtils.flatten(arguments));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,66,msgPatterns.add(pattern);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,55,private Map<String, Object> context = new HashMap<String, Object>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,51,private List<Object[]> msgArguments = new ArrayList<Object[]>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,45,private List<Localizable> msgPatterns = new ArrayList<Localizable>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/exception/util/ExceptionContext.java,39,public class ExceptionContext implements Serializable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1965,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1962,TANGENT_TABLE_B[i] = as[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1961,TANGENT_TABLE_A[i] = as[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1959,splitMult(xs, ys, as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1957,xs[1] = SINE_TABLE_B[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1956,xs[0] = SINE_TABLE_A[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1954,splitReciprocal(as, ys);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1952,as[1] = COSINE_TABLE_B[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1951,as[0] = COSINE_TABLE_A[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1949,double as[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1948,double ys[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1947,double xs[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1946,for (int i = 0; i < 14; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1941,COSINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1940,COSINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1939,splitAdd(result, temps, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1938,temps[1] = -temps[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1937,temps[0] = -temps[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1936,splitMult(xs, as, temps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1935,splitMult(ys, bs, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1932,SINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1931,SINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1930,splitAdd(result, temps, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1929,splitMult(ys, as, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1928,splitMult(xs, bs, temps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1925,bs[1] = COSINE_TABLE_B[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1924,bs[0] = COSINE_TABLE_A[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1923,as[1] = SINE_TABLE_B[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1922,as[0] = SINE_TABLE_A[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1921,ys[1] = COSINE_TABLE_B[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1920,ys[0] = COSINE_TABLE_A[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1919,xs[1] = SINE_TABLE_B[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1918,xs[0] = SINE_TABLE_A[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1916,COSINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1915,COSINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1914,splitAdd(as, temps, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1913,temps[1] = -temps[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1912,temps[0] = -temps[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1911,splitMult(xs, xs, temps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1910,splitMult(ys, ys, as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1907,SINE_TABLE_B[i] = result[1] * 2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1906,SINE_TABLE_A[i] = result[0] * 2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1905,splitMult(xs, ys, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/48/src/main/java/org/apache/commons/math/util/FastMath.java,1902,ys[1] = COSINE_TABLE_B[i/2];

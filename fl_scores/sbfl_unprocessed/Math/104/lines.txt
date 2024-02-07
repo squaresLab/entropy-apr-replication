@@ -1,0 +1,97 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,200,return regularizedGammaQ(a, x, DEFAULT_EPSILON, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,257,ret = Math.exp(-x + (a * Math.log(x)) - logGamma(a)) * ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,256,ret = 1.0 / cf.evaluate(x, epsilon, maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,243,ContinuedFraction cf = new ContinuedFraction() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,237,} else if (x < a || a < 1.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,235,} else if (x == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,120,return regularizedGammaP(a, x, DEFAULT_EPSILON, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,260,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,233,if (Double.isNaN(a) || Double.isNaN(x) || (a <= 0.0) || (x < 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,182,ret = Math.exp(-x + (a * Math.log(x)) - logGamma(a)) * sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,179,if (n >= maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,177,sum = sum + an;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,174,an = an * (x / (a + n));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,173,n = n + 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,171,while (Math.abs(an) > epsilon && n < maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,170,double sum = an; // partial sum
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,169,double an = 1.0 / a; // n-th element in the series
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,168,double n = 0.0; // current element index
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,162,} else if (a >= 1.0 && x > a) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,160,} else if (x == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,186,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,158,if (Double.isNaN(a) || Double.isNaN(x) || (a <= 0.0) || (x < 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,178,return c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,172,if (n >= maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,170,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,169,q1 = q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,168,q0 = q1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,167,p1 = p2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,166,p0 = p1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,165,c = p2 / q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,162,relativeError = Math.abs(r / c - 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,161,double r = p2 / q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,146,if (Double.isInfinite(p2) || Double.isInfinite(q2)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,145,double q2 = a * q1 + b * q0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,144,double p2 = a * p1 + b * p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,143,double b = getB(n, x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,142,double a = getA(n, x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,141,++n;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,140,while (n < maxIterations && relativeError > epsilon) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,139,double relativeError = Double.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,138,int n = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,137,double c = p1 / q1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,136,double q1 = 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,135,double q0 = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,134,double p1 = getA(0, x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,133,double p0 = 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,52,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,51,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,102,ret = ((x + .5) * Math.log(tmp)) - tmp +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,101,double tmp = x + g + .5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,99,sum = sum + lanczos[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,97,sum = sum + (lanczos[i] / (x + i));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,96,for (int i = lanczos.length - 1; i > 0; --i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,95,double sum = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,93,double g = 607.0 / 128.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,106,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,90,if (Double.isNaN(x) || (x <= 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/MaxIterationsExceededException.java,58,return maxIterations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/MaxIterationsExceededException.java,52,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/MaxIterationsExceededException.java,51,this.maxIterations = maxIterations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/MaxIterationsExceededException.java,50,super(pattern, arguments);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/MaxIterationsExceededException.java,39,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/MaxIterationsExceededException.java,38,this.maxIterations = maxIterations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/MaxIterationsExceededException.java,36,super("Maximal number of iterations ({0}) exceeded",
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,90,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,89,super(msg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,78,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,77,super(msg, rootCause);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,64,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,63,super(pattern, arguments, cause);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,53,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,52,super(cause);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,45,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,44,super(pattern, arguments);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,35,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/ConvergenceException.java,34,super("Convergence failed", new Object[0]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,240,ret = 1.0 - regularizedGammaP(a, x, epsilon, maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,236,ret = 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,234,ret = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,180,throw new MaxIterationsExceededException(maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,165,ret = 1.0 - regularizedGammaQ(a, x, epsilon, maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,161,ret = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,159,ret = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,91,ret = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,68,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/special/Gamma.java,67,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,173,throw new MaxIterationsExceededException(maxIterations,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,156,throw new ConvergenceException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,153,q2 = (a / b * q1) + q0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,152,p2 = (a / b * p1) + p0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,151,} else if (b != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,150,q2 = q1 + (b / a * q0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,149,p2 = p1 + (b / a * p0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,148,if (a != 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,101,return evaluate(x, DEFAULT_EPSILON, maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,90,return evaluate(x, epsilon, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/104/src/java/org/apache/commons/math/util/ContinuedFraction.java,79,return evaluate(x, DEFAULT_EPSILON, Integer.MAX_VALUE);

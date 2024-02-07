@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java,93,return iterations.getCount();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java,451,if (bestFitness < (isMinimize ? stopFitness : -stopFitness)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java,1113,return new Array2DRowRealMatrix(d, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java,1111,d[i][0] = m.getEntry(i, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java,1110,for (int i = 0; i < m.getColumnDimension(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java,1109,final double[][] d = new double[m.getRowDimension()][1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,402,if (FastMath.abs(mij - mji) >
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,401,final double mji = matrix.getEntry(j, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,400,final double mij = matrix.getEntry(i, j);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,247,hI[j] -= hK[i] * z[j] + z[i] * hK[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,246,for (int j = i; j < m; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,245,final double[] hI = householderVectors[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,244,for (int i = k + 1; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,239,z[i] -= gamma * hK[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,238,for (int i = k + 1; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,235,gamma *= beta / 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,233,gamma += z[i] * hK[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,232,for (int i = k + 1; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,231,double gamma = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,227,z[i] = beta * (z[i] + zI);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,225,z[j] += hIJ * hKI;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,224,zI   += hIJ * hK[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,223,final double hIJ = hI[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,222,for (int j = i + 1; j < m; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,221,double zI = hI[i] * hKI;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,220,final double hKI = hK[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,219,final double[] hI = householderVectors[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,218,for (int i = k + 1; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,217,Arrays.fill(z, k + 1, m, 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,211,final double beta = -1 / (a * hK[k + 1]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,210,hK[k + 1] -= a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,207,if (a != 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,206,secondary[k] = a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,205,final double a = (hK[k + 1] > 0) ? -FastMath.sqrt(xNormSqr) : FastMath.sqrt(xNormSqr);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,203,xNormSqr += c * c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,202,final double c = hK[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,201,for (int j = k + 1; j < m; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,200,double xNormSqr = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,199,main[k] = hK[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,198,final double[] hK = householderVectors[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,121,qta[j][i] += beta * hK[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,120,for (int i = k + 1; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,119,qta[j][k] = beta * hK[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,118,beta *= inv;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,116,beta += qta[j][i] * hK[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,115,for (int i = k + 1; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,114,beta = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,113,for (int j = k + 1; j < m; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,111,qta[k][i] = beta * hK[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,110,for (int i = k + 1; i < m; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,109,qta[k][k] = 1 + beta * hK[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,108,double beta = 1.0 / secondary[k - 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,107,final double inv = 1.0 / (secondary[k - 1] * hK[k]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,106,if (hK[k] != 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,105,qta[k][k] = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java,104,final double[] hK = householderVectors[k - 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,693,z[j][k] = p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,692,z[j][i] = z[j][k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,691,p = z[j][i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,690,for (int j = 0; j < n; j++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,689,realEigenvalues[i] = p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,688,realEigenvalues[k] = realEigenvalues[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,684,p = realEigenvalues[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,683,k = j;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,682,if (realEigenvalues[j] > p) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,672,e[m] = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,671,e[j] = q;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,670,realEigenvalues[j] -= u;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,667,if (t == 0.0 && i >= j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,664,z[ia][i] = c * z[ia][i] - s * p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,663,z[ia][i + 1] = s * z[ia][i] + c * p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,662,p = z[ia][i + 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,661,for (int ia = 0; ia < n; ia++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,660,q = c * t - h;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,659,realEigenvalues[i + 1] = q + u;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,658,u = s * t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,657,t = (realEigenvalues[i] - q) * s + 2.0 * c * h;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,656,q = realEigenvalues[i + 1] - u;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,651,if (e[i + 1] == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,649,s = s * c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,648,c = 1.0 / t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,647,e[i + 1] = q * t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,646,t = FastMath.sqrt(s * s + 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,645,s = p / q;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,643,c = c * s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,642,s = 1.0 / t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,641,e[i + 1] = p * t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,640,t = FastMath.sqrt(c * c + 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,639,c = q / p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,638,if (FastMath.abs(p) >= FastMath.abs(q)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,637,double h = c * e[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,636,double p = s * e[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,635,for (i = m - 1; i >= j; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,633,double c = 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,632,double s = 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,631,double u = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,629,q = realEigenvalues[m] - realEigenvalues[j] + e[j] / (q + t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,627,q = realEigenvalues[m] - realEigenvalues[j] + e[j] / (q - t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,626,if (q < 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/6/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java,625,double t = FastMath.sqrt(1 + q * q);

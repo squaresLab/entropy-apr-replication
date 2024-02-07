@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,63,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,62,longest = _longest;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,61,shortest = _shortest;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,57,_longest = sz;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,56,if (sz > _longest) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,54,_shortest = sz;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,53,if (sz < _shortest) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,52,final int sz = seq[0].length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,51,this.lookupMap.put(seq[0], seq[1]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,50,for (final CharSequence[] seq : lookup) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,49,if (lookup != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,48,int _longest = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,47,int _shortest = Integer.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,46,lookupMap = new HashMap<CharSequence, CharSequence>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,45,public LookupTranslator(final CharSequence[]... lookup) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,32,public abstract class CharSequenceTranslator {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,83,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,78,if (result != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,77,final CharSequence result = lookupMap.get(subSeq);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,76,final CharSequence subSeq = input.subSequence(index, index + i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,75,for (int i = max; i >= shortest; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,71,if (index + longest > input.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,70,int max = longest;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,80,return i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,79,out.write(result.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,72,max = input.length() - index;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,57,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,54,return consumed;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,53,if(consumed != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,52,final int consumed = translator.translate(input, index, out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,51,for (final CharSequenceTranslator translator : translators) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,41,this.translators = ArrayUtils.clone(translators);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,40,public AggregateTranslator(final CharSequenceTranslator... translators) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,122,return Integer.toHexString(codepoint).toUpperCase(Locale.ENGLISH);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,111,return new AggregateTranslator(newArray);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,110,System.arraycopy(translators, 0, newArray, 1, translators.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,109,newArray[0] = this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,108,final CharSequenceTranslator[] newArray = new CharSequenceTranslator[translators.length + 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,98,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,97,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,95,pos += Character.charCount(Character.codePointAt(input, pt));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,94,for (int pt = 0; pt < consumed; pt++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,90,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,89,pos+= c.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,88,out.write(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,87,final char[] c = Character.toChars(Character.codePointAt(input, pos));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,86,if (consumed == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,85,final int consumed = translate(input, pos, out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,84,while (pos < len) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,83,final int len = input.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,82,int pos = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,80,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,79,if (input == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,77,throw new IllegalArgumentException("The Writer must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,76,if (out == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,63,throw new RuntimeException(ioe);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,61,} catch (final IOException ioe) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,60,return writer.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,59,translate(input, writer);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,58,final StringWriter writer = new StringWriter(input.length() * 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,55,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,54,if (input == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,63,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,62,longest = _longest;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,61,shortest = _shortest;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,57,_longest = sz;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,56,if (sz > _longest) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,54,_shortest = sz;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,53,if (sz < _shortest) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,52,final int sz = seq[0].length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,51,this.lookupMap.put(seq[0], seq[1]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,50,for (final CharSequence[] seq : lookup) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,49,if (lookup != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,48,int _longest = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,47,int _shortest = Integer.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,46,lookupMap = new HashMap<CharSequence, CharSequence>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,45,public LookupTranslator(final CharSequence[]... lookup) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,32,public abstract class CharSequenceTranslator {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,83,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,78,if (result != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,77,final CharSequence result = lookupMap.get(subSeq);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,76,final CharSequence subSeq = input.subSequence(index, index + i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,75,for (int i = max; i >= shortest; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,71,if (index + longest > input.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,70,int max = longest;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,80,return i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,79,out.write(result.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,72,max = input.length() - index;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,57,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,54,return consumed;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,53,if(consumed != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,52,final int consumed = translator.translate(input, index, out);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,51,for (final CharSequenceTranslator translator : translators) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,41,this.translators = ArrayUtils.clone(translators);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,40,public AggregateTranslator(final CharSequenceTranslator... translators) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,122,return Integer.toHexString(codepoint).toUpperCase(Locale.ENGLISH);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,111,return new AggregateTranslator(newArray);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/4/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,110,System.arraycopy(translators, 0, newArray, 1, translators.length);

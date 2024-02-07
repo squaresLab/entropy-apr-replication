@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,564,this.data.add(-index - 1, new XYDataItem(x, y));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,527,return addOrUpdate(new Double(x), new Double(y));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,570,if (getItemCount() > this.maximumItemCount) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,563,if (this.autoSort) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,575,return overwritten;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,574,fireSeriesChanged();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,548,if (index >= 0 && !this.allowDuplicateXValues) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,547,int index = indexOf(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,546,XYDataItem overwritten = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,541,if (x == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,590,return Collections.binarySearch(this.data, new XYDataItem(x, null));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,191,result = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,589,if (this.autoSort) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,203,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,194,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,187,if (compare < 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,183,if (compare > 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,181,double compare = this.x.doubleValue()
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,180,XYDataItem dataItem = (XYDataItem) o1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,179,if (o1 instanceof XYDataItem) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,96,return this.x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,78,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,77,this.y = y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,76,this.x = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,73,if (x == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,72,public XYDataItem(Number x, Number y) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,186,return this.data.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/SeriesChangeEvent.java,62,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/SeriesChangeEvent.java,61,super(source);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,334,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,327,for (int i = listenerList.length - 2; i >= 0; i -= 2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,326,Object[] listenerList = this.listeners.getListenerList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,316,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,314,notifyListeners(new SeriesChangeEvent(this));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,313,if (this.notify) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,157,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,156,this.allowDuplicateXValues = allowDuplicateXValues;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,155,this.autoSort = autoSort;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,154,this.data = new java.util.ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,109,private int maximumItemCount = Integer.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYSeries.java,153,super(key);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,120,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,119,this.notify = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,118,this.propertyChangeSupport = new PropertyChangeSupport(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,117,this.listeners = new EventListenerList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,116,this.description = description;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,115,this.key = key;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,112,if (key == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,111,protected Series(Comparable key, String description) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,103,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,102,this(key, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,263,return "[" + getXValue() + ", " + getYValue() + "]";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,253,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,252,result = 29 * result + (this.y != null ? this.y.hashCode() : 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,251,result = this.x.hashCode();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,241,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,239,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,238,if (!ObjectUtilities.equal(this.y, that.y)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,236,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,235,if (!this.x.equals(that.x)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,234,XYDataItem that = (XYDataItem) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,232,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,231,if (!(obj instanceof XYDataItem)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,229,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,228,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,216,return super.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,200,result = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,188,result = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,184,result = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,159,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,158,this.y = y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,149,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,148,setY(new Double(y));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,138,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,136,result = this.y.doubleValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,135,if (this.y != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,134,double result = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,120,return this.y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,111,return this.x.doubleValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,88,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,87,this(new Double(x), new Double(y));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/xy/XYDataItem.java,74,throw new IllegalArgumentException("Null 'x' argument.");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/SeriesException.java,62,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/SeriesException.java,61,super(message);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,295,this.listeners.add(SeriesChangeListener.class, listener);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,365,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,363,this.propertyChangeSupport.firePropertyChange(property, oldValue,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,352,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,351,this.propertyChangeSupport.removePropertyChangeListener(listener);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,343,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,342,this.propertyChangeSupport.addPropertyChangeListener(listener);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,329,((SeriesChangeListener) listenerList[i + 1]).seriesChanged(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,328,if (listenerList[i] == SeriesChangeListener.class) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,306,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,305,this.listeners.remove(SeriesChangeListener.class, listener);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,296,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,295,this.listeners.add(SeriesChangeListener.class, listener);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,282,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,280,result = 29 * result + (this.description != null
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/5/source/org/jfree/data/general/Series.java,279,result = this.key.hashCode();

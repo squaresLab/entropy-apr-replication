@@ -1,0 +1,98 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,342,return getPct(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,303,return getCumPct((Comparable<?>) v);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,331,return getPct(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,444,return getCumFreq(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,386,return getCumFreq(((Integer) v).longValue());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,408,return getSumFreq();    // v is comparable, but greater than the last value
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,320,return (double) getCount(v) / (double) sumFreq;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,178,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,177,addValue(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,495,return (double) getCumFreq(v) / (double) sumFreq;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,407,if (c.compare(v, freqTable.lastKey()) >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,403,if (c.compare(v, freqTable.firstKey()) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,401,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,397,result = value.longValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,396,if (value != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,395,Long value = freqTable.get(v);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,392,long result = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,390,c = new NaturalComparator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,389,if (c == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,388,Comparator<Comparable<?>> c = (Comparator<Comparable<?>>) freqTable.comparator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,385,if (v instanceof Integer) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,317,if (sumFreq == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,316,final long sumFreq = getSumFreq();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,251,result = count.longValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,218,result += iterator.next().longValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,142,freqTable.put(obj, Long.valueOf(count.longValue() + 1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,492,if (sumFreq == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,491,final long sumFreq = getSumFreq();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,382,if (getSumFreq() == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,256,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,255,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,250,if (count != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,249,Long count =  freqTable.get(v);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,247,long result = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,244,if (v instanceof Integer) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,220,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,217,while (iterator.hasNext())  {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,216,Iterator<Long> iterator = freqTable.values().iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,215,long result = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,159,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,158,addValue(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,150,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,149,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,140,freqTable.put(obj, Long.valueOf(1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,139,if (count == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,138,Long count = freqTable.get(obj);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,134,if (v instanceof Integer) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,133,Comparable<?> obj = v;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,61,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,60,freqTable = new TreeMap<Comparable<?>, Long>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,59,public Frequency() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,590,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,589,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,588,} else if (!freqTable.equals(other.freqTable))
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,587,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,586,if (other.freqTable != null)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,585,if (freqTable == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,584,Frequency other = (Frequency) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,583,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,582,if (!(obj instanceof Frequency))
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,581,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,580,if (obj == null)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,579,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,578,if (this == obj)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,572,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,570,result = prime * result +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,569,int result = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,568,final int prime = 31;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,534,return getCumPct(Character.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,521,return getCumPct(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,508,return getCumPct(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,493,return Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,475,return getCumPct((Comparable<?>) v);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,456,return getCumFreq(Character.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,432,return getCumFreq(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,420,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,419,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,417,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,415,result += getCount(nextValue);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,414,if (c.compare(v, nextValue) > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,413,Comparable<?> nextValue = values.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,412,while (values.hasNext()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,411,Iterator<Comparable<?>> values = valuesIterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,404,return 0;  // v is comparable, but less than first value
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,400,return result;   // v is not comparable
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,399,} catch (ClassCastException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,383,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,369,return getCumFreq((Comparable<?>) v);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,353,return getPct(Character.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,318,return Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,286,return getCount(Character.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,276,return getCount(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,266,return getCount(Long.valueOf(v));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,253,} catch (ClassCastException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,245,return getCount(((Integer) v).longValue());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,233,return getCount((Comparable<?>) v);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,204,return freqTable.keySet().iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/75/src/main/java/org/apache/commons/math/stat/Frequency.java,192,}

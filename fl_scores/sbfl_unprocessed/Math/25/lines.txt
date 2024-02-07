@@ -1,0 +1,35 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,71,return y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,64,return x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,51,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,50,this.y      = y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,49,this.x      = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,48,this.weight = weight;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,47,public WeightedObservedPoint(final double weight, final double x, final double y) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,392,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,386,} catch (MissingResourceException mre) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,388,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,383,return bundle.getString(toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,381,if (bundle.getLocale().getLanguage().equals(locale.getLanguage())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,379,ResourceBundle bundle =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,378,final String path = LocalizedFormats.class.getName().replaceAll("\\.", "/");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,372,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,368,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,367,this.sourceFormat = sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,366,private LocalizedFormats(final String sourceFormat) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,54,return list.toArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,50,list.add(o);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,47,list.add(oR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,46,for (Object oR : flatten((Object[]) o)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,45,if (o instanceof Object[]) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,44,for (Object o : array) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,43,if (array != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,42,final List<Object> list = new ArrayList<Object>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,32,private ArgUtils() {}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,86,return context.getLocalizedMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,80,return context.getMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,74,return context;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,70,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,69,this(LocalizedFormats.ILLEGAL_STATE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,63,}

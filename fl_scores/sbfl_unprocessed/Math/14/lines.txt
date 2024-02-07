@@ -1,0 +1,92 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,94,return evaluate(coefficients, x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,80,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,79,System.arraycopy(c, 0, this.coefficients, 0, n);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,78,this.coefficients = new double[n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,75,while ((n > 1) && (c[n - 1] == 0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,72,if (n == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,71,int n = c.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,70,MathUtils.checkNotNull(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,69,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/PolynomialFitter.java,68,return fit(new PolynomialFunction.Parametric(), guess);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/PolynomialFitter.java,38,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/PolynomialFitter.java,37,super(optimizer);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,139,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,136,for (int j = n - 2; j >= 0; j--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,135,double result = coefficients[n - 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,132,if (n == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,131,int n = coefficients.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java,130,MathUtils.checkNotNull(coefficients);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,136,return fit(Integer.MAX_VALUE, f, initialGuess);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,107,blocks = createBlocksLayout(rows, columns);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,104,blockColumns = (columns + BLOCK_SIZE - 1) / BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,103,blockRows = (rows + BLOCK_SIZE - 1) / BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,100,this.columns = columns;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,99,this.rows = rows;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,98,super(rows, columns);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,272,++blockIndex;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,271,blocks[blockIndex] = new double[iHeight * jWidth];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,270,final int jWidth = qEnd - qStart;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,269,final int qEnd = FastMath.min(qStart + BLOCK_SIZE, columns);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,268,final int qStart = jBlock * BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,267,for (int jBlock = 0; jBlock < blockColumns; ++jBlock) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,266,final int iHeight = pEnd - pStart;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,265,final int pEnd = FastMath.min(pStart + BLOCK_SIZE, rows);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,264,final int pStart = iBlock * BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,263,for (int iBlock = 0; iBlock < blockRows; ++iBlock) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,262,int blockIndex = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,261,final double[][] blocks = new double[blockRows * blockColumns][];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,259,final int blockColumns = (columns + BLOCK_SIZE - 1) / BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java,258,final int blockRows = (rows    + BLOCK_SIZE - 1) / BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java,57,return weight;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,172,final PointVectorValuePair optimum
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,169,final TheoreticalValuesFunction model = new TheoreticalValuesFunction(f);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,166,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,165,++i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,164,weights[i] = point.getWeight();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,163,target[i]  = point.getY();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,162,for (WeightedObservedPoint point : observations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,161,int i = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,160,double[] weights = new double[observations.size()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,159,double[] target  = new double[observations.size()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java,75,return y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,93,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,92,observations.add(new WeightedObservedPoint(weight, x, y));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java,49,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java,48,this.y      = y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java,47,this.x      = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java,46,this.weight = weight;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java,45,public WeightedObservedPoint(final double weight, final double x, final double y) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,66,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,65,observations = new ArrayList<WeightedObservedPoint>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,64,this.optimizer = optimizer;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java,63,public CurveFitter(final MultivariateVectorOptimizer optimizer) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,157,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,156,this(100, 1e-10, 1e-10, 1e-10, Precision.SAFE_MIN);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,274,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,273,this.qrRankingThreshold = threshold;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,272,this.orthoTolerance = orthoTolerance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,271,this.parRelativeTolerance = parRelativeTolerance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,270,this.costRelativeTolerance = costRelativeTolerance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,269,this.initialStepBoundFactor = initialStepBoundFactor;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java,268,super(null); // No custom convergence criterion.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunctionJacobian.java,37,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunctionJacobian.java,36,jacobian = j;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunctionJacobian.java,35,public ModelFunctionJacobian(MultivariateMatrixFunction j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/util/FastMath.java,3421,return (a <= b) ? a : b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/util/MathUtils.java,267,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/util/MathUtils.java,264,if (o == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/MaxEval.java,41,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/MaxEval.java,40,maxEval = max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/MaxEval.java,36,if (max <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/MaxEval.java,35,public MaxEval(int max) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Weight.java,43,weightMatrix = org.apache.commons.math3.linear.MatrixUtils.createRealMatrix(dim, dim);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Weight.java,42,final int dim = weight.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Weight.java,41,public Weight(double[] weight) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Target.java,40,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Target.java,39,target = observations.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Target.java,38,public Target(double[] observations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunction.java,37,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunction.java,36,model = m;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunction.java,35,public ModelFunction(MultivariateVectorFunction m) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java,81,return (rows * columns <= 4096) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/14/src/main/java/org/apache/commons/math3/linear/RealLinearOperator.java,53,public abstract class RealLinearOperator {

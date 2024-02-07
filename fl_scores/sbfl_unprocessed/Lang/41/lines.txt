@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,230,return StringUtils.EMPTY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,170,return StringUtils.EMPTY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,232,return getPackageName(cls.getName());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,229,if (cls == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,256,return className.substring(0, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,253,if (i == -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,252,int i = className.lastIndexOf(PACKAGE_SEPARATOR_CHAR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,245,if (className == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,201,out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,118,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,117,reverseAbbreviationMap.put(abbreviation, primitive);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,116,abbreviationMap.put(primitive, abbreviation);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,172,return getShortClassName(cls.getName());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,169,if (cls == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,203,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,200,if (innerIdx != -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,199,String out = className.substring(lastDotIdx + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,197,int innerIdx = className.indexOf(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,196,int lastDotIdx = className.lastIndexOf(PACKAGE_SEPARATOR_CHAR);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,187,if (className.length() == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,184,if (className == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,1014,return canonicalClassNameBuffer.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,1012,canonicalClassNameBuffer.append("[]");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,1011,for (int i = 0; i < dim; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,1010,StringBuffer canonicalClassNameBuffer = new StringBuffer(className);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,1007,className = reverseAbbreviationMap.get(className.substring(0, 1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,1006,if (className.length() > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,1000,className = className.substring(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,999,if (className.startsWith("L")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,997,return className;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,996,if (dim < 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,994,className = className.substring(1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,993,dim++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,992,while (className.startsWith("[")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,991,int dim = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,989,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,988,if (className == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,987,className = StringUtils.deleteWhitespace(className);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,967,return ClassUtils.getPackageName(getCanonicalName(canonicalName));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,953,return getPackageCanonicalName(cls.getName());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,951,return StringUtils.EMPTY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,950,if (cls == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,939,return getPackageCanonicalName(object.getClass().getName());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,937,return valueIfNull;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,936,if (object == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,922,return ClassUtils.getShortClassName(getCanonicalName(canonicalName));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,909,return getShortCanonicalName(cls.getName());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,907,return StringUtils.EMPTY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,906,if (cls == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,895,return getShortCanonicalName(object.getClass().getName());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,893,return valueIfNull;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,892,if (object == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,878,return classes;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,876,classes[i] = array[i].getClass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,875,for (int i = 0; i < array.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,874,Class<?>[] classes = new Class[array.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,872,return ArrayUtils.EMPTY_CLASS_ARRAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,871,} else if (array.length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,870,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,869,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,856,return className;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,854,className = classNameBuffer.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,852,classNameBuffer.append("L").append(className).append(";");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,850,classNameBuffer.append(abbreviation);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,849,if (abbreviation != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,848,String abbreviation = abbreviationMap.get(className);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,846,classNameBuffer.append("[");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,845,className = className.substring(0, className.length() - 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,844,while (className.endsWith("[]")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,843,StringBuffer classNameBuffer = new StringBuffer();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,842,} else if (className.endsWith("[]")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,841,throw new NullPointerException("className must not be null.");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,840,if (className == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,839,className = StringUtils.deleteWhitespace(className);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,827,throw new NoSuchMethodException("Can't find a public method for " +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,825,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,823,return candidateMethod;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,822,if (Modifier.isPublic(candidateMethod.getDeclaringClass().getModifiers())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,820,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,819,} catch (NoSuchMethodException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,821,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,818,candidateMethod = candidateClass.getMethod(methodName, parameterTypes);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,814,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,813,if (!Modifier.isPublic(candidateClass.getModifiers())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,812,for (Class<?> candidateClass : candidateClasses) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,810,candidateClasses.addAll(getAllSuperclasses(cls));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,809,candidateClasses.addAll(getAllInterfaces(cls));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,808,List<Class<?>> candidateClasses = new ArrayList<Class<?>>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,805,return declaredMethod;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,804,if (Modifier.isPublic(declaredMethod.getDeclaringClass().getModifiers())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,803,Method declaredMethod = cls.getMethod(methodName, parameterTypes);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,774,return getClass(loader, className, initialize );
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,773,ClassLoader loader = contextCL == null ? ClassUtils.class.getClassLoader() : contextCL;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,772,ClassLoader contextCL = Thread.currentThread().getContextClassLoader();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,757,return getClass(className, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,743,return getClass(classLoader, className, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,728,return clazz;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,726,clazz = Class.forName(toCanonicalName(className), initialize, classLoader);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,725,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/41/src/java/org/apache/commons/lang/ClassUtils.java,724,clazz = Class.forName(clsName, initialize, classLoader).getComponentType();

@@ -163,5 +163,5 @@ def llmao_gen(pretrain_type, output_dir):
 
 if __name__ == "__main__":
     current_path = os.getcwd()
-    output_dir = f"{current_path}/score_llmao/"
+    output_dir = f"{current_path}/fl_scores/score_llmao/"
     llmao_gen("6B", output_dir)

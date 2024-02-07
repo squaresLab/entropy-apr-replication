@@ -1,0 +1,12 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,121,filename = filename.substring(filenamePrefix.length());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,55,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,54,this(compiler, filenamePrefix, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,124,return filename;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,120,if (filename.indexOf(filenamePrefix) == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,89,return MODULE_NAME_PREFIX +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,72,return toModuleName(normalizeSourceName(filename));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,63,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,62,this.reportDependencies = reportDependencies;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,60,this.filenamePrefix = filenamePrefix.endsWith(MODULE_SLASH) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,59,this.compiler = compiler;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/9/src/com/google/javascript/jscomp/ProcessCommonJSModules.java,58,boolean reportDependencies) {

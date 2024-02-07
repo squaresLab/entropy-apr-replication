@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,140,return 0L;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,70,return sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,66,if ((val1 ^ sum) < 0 && (val1 ^ val2) >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,64,int sum = val1 + val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,88,return sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,84,if ((val1 ^ sum) < 0 && (val1 ^ val2) >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,82,long sum = val1 + val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,237,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,232,if ((value < lowerBound) || (value > upperBound)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,219,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,214,if ((value < lowerBound) || (value > upperBound)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,138,return -val1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,142,return val1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,148,return total;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,145,if (total / val2 != val1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,144,long total = val1 * val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,136,switch (val2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,324,return object1.equals(object2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,322,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,321,if (object1 == null || object2 == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,319,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,318,if (object1 == object2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,305,return (wrapRange - remByRange) + minValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,303,return 0 + minValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,302,if (remByRange == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,300,int remByRange = (-value) % wrapRange;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,297,return (value % wrapRange) + minValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,296,if (value >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,294,value -= minValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,293,int wrapRange = maxValue - minValue + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,290,throw new IllegalArgumentException("MIN > MAX");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,289,if (minValue >= maxValue) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,273,return getWrappedValue(currentValue + wrapValue, minValue, maxValue);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,254,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,250,throw new IllegalFieldValueException
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,249,if ((value < lowerBound) || (value > upperBound)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,233,throw new IllegalFieldValueException
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,215,throw new IllegalFieldValueException
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,200,return FieldUtils.safeToInt(val);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,199,long val = FieldUtils.safeMultiply(val1, val2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,187,throw new ArithmeticException("Value cannot fit in an int: " + value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,185,return (int) value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,184,if (Integer.MIN_VALUE <= value && value <= Integer.MAX_VALUE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,173,return total;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,171,throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,170,if (total / val2 != val1 || val1 == Long.MIN_VALUE && val2 == -1 || val2 == Long.MIN_VALUE && val1 == -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,169,long total = val1 * val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,167,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,166,if (val1 == 0 || val2 == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,164,return val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,163,if (val1 == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,161,return val1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,160,if (val2 == 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,146,throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,123,return (int) total;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,121,throw new ArithmeticException("Multiplication overflows an int: " + val1 + " * " + val2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,120,if (total < Integer.MIN_VALUE || total > Integer.MAX_VALUE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,119,long total = (long) val1 * (long) val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,106,return diff;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,103,throw new ArithmeticException
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,102,if ((val1 ^ diff) < 0 && (val1 ^ val2) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,100,long diff = val1 - val2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,85,throw new ArithmeticException
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,67,throw new ArithmeticException
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,52,return -value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,50,throw new ArithmeticException("Integer.MIN_VALUE cannot be negated");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,49,if (value == Integer.MIN_VALUE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,37,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,36,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,328,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,326,iMessage = message + ": " + iMessage;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,325,} else if (message != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,324,iMessage = message;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,323,if (iMessage == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,314,return iMessage;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,310,return iUpperBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,301,return iLowerBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,292,return value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,290,value = String.valueOf(iNumberValue);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,289,if (value == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,288,String value = iStringValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,279,return iStringValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,270,return iNumberValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,261,return iFieldName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,252,return iDurationFieldType;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,243,return iDateTimeFieldType;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,86,return buf.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,84,buf.append(" for ").append(fieldName).append(' ').append("is not supported");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,81,buf.append('"');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,80,buf.append(value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,79,buf.append('"');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,77,buf.append("null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,76,if (value == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,74,StringBuffer buf = new StringBuffer().append("Value ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,63,return buf.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,60,buf.append(": ").append(explain);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,59,if (explain != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,53,buf.append("must be in the range [")
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,51,buf.append("must not be smaller than ").append(lowerBound);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,50,} else if (upperBound == null) {

@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,3044,return abs(x - Double.longBitsToDouble(Double.doubleToLongBits(x) ^ 1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1618,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1615,TANGENT_TABLE_B[i] = as[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1614,TANGENT_TABLE_A[i] = as[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1612,splitMult(xs, ys, as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1610,xs[1] = SINE_TABLE_B[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1609,xs[0] = SINE_TABLE_A[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1607,splitReciprocal(as, ys);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1605,as[1] = COSINE_TABLE_B[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1604,as[0] = COSINE_TABLE_A[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1602,double as[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1601,double ys[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1600,double xs[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1599,for (int i = 0; i < 14; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1594,COSINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1593,COSINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1592,splitAdd(result, temps, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1591,temps[1] = -temps[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1590,temps[0] = -temps[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1589,splitMult(xs, as, temps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1588,splitMult(ys, bs, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1585,SINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1584,SINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1583,splitAdd(result, temps, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1582,splitMult(ys, as, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1581,splitMult(xs, bs, temps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1578,bs[1] = COSINE_TABLE_B[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1577,bs[0] = COSINE_TABLE_A[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1576,as[1] = SINE_TABLE_B[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1575,as[0] = SINE_TABLE_A[i/2+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1574,ys[1] = COSINE_TABLE_B[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1573,ys[0] = COSINE_TABLE_A[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1572,xs[1] = SINE_TABLE_B[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1571,xs[0] = SINE_TABLE_A[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1569,COSINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1568,COSINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1567,splitAdd(as, temps, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1566,temps[1] = -temps[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1565,temps[0] = -temps[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1564,splitMult(xs, xs, temps);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1563,splitMult(ys, ys, as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1560,SINE_TABLE_B[i] = result[1] * 2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1559,SINE_TABLE_A[i] = result[0] * 2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1558,splitMult(xs, ys, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1555,ys[1] = COSINE_TABLE_B[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1554,ys[0] = COSINE_TABLE_A[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1553,xs[1] = SINE_TABLE_B[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1552,xs[0] = SINE_TABLE_A[i/2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1550,if ( (i & 1) == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1548,double temps[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1547,double bs[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1546,double as[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1545,double ys[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1544,double xs[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1543,for (int i = 7; i < 14; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1539,COSINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1538,COSINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1537,slowCos(x, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1535,SINE_TABLE_B[i] = result[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1534,SINE_TABLE_A[i] = result[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1533,slowSin(x, result);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1531,double x = i / 8.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1530,for (int i = 0; i < 7; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1527,final double result[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1521,return ys[0] + ys[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1518,result[1] = ys[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1517,result[0] = ys[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1516,if (result != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1513,ys[0] = as[0]; ys[1] = as[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1512,splitAdd(ys, facts, as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1509,facts[1] = -facts[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1508,facts[0] = -facts[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1507,if ( (i & 2) != 0 ) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1505,splitReciprocal(as, facts);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1504,split(FACT[i], as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1501,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1500,if ( (i & 1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1498,ys[0] = as[0]; ys[1] = as[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1497,splitMult(xs, ys, as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1496,for (int i = 19; i >= 0; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1494,ys[0] = ys[1] = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1493,split(x, xs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1492,final double as[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1491,final double facts[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1490,final double ys[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1489,final double xs[] = new double[2];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1478,return ys[0] + ys[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1475,result[1] = ys[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1474,result[0] = ys[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1473,if (result != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1470,ys[0] = as[0]; ys[1] = as[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1469,splitAdd(ys, facts, as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1466,facts[1] = -facts[1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1465,facts[0] = -facts[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1464,if ( (i & 2) != 0 ) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1462,splitReciprocal(as, facts);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1461,split(FACT[i], as);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1458,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1457,if ( (i & 1) == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/62/src/main/java/org/apache/commons/math/util/FastMath.java,1455,ys[0] = as[0]; ys[1] = as[1];

@@ -1,0 +1,14 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/rhino/Node.java,1459,return res;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/rhino/Node.java,1446,return new NodeMismatch(this, node2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/rhino/Node.java,1430,return "Node tree inequality:" +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/jscomp/parsing/IRFactory.java,1397,return Token.SHEQ;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/jscomp/NodeUtil.java,2185,case Token.SHEQ: return "===";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/jscomp/NodeUtil.java,1223,case Token.SHNE:   return 8;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/jscomp/NodeUtil.java,1607,return n.getNext();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/jscomp/AstValidator.java,205,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/jscomp/AstValidator.java,204,validateBinaryOp(n);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/rhino/Node.java,963,sb.append(first.getString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/rhino/Node.java,960,if (first == null || first.getType() != Token.NAME) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/rhino/Node.java,956,sb.append(' ');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/rhino/Node.java,133,case FREE_CALL:          return "free_call";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/121/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java,146,return processInfixExpression((InfixExpression) node);

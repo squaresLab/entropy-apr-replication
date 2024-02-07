@@ -1,0 +1,96 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/OptimizationException.java,51,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/OptimizationException.java,50,super(cause);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/MaxIterationsExceededException.java,45,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/MaxIterationsExceededException.java,44,this.maxIterations = maxIterations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/MaxIterationsExceededException.java,43,super("Maximal number of iterations ({0}) exceeded", maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,132,return simplex[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,131,evaluateSimplex(comparator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,127,simplex[i] = new RealPointValuePair(xTransformed, Double.NaN, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,125,xTransformed[j] = xSmallest[j] + coeff * (xSmallest[j] - xOriginal[j]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,124,for (int j = 0; j < n; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,123,final double[] xTransformed = new double[n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,122,final double[] xOriginal    = original[i].getPointRef();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,121,for (int i = 1; i <= n; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,120,simplex[0] = original[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,119,simplex = new RealPointValuePair[n + 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,116,final int n = xSmallest.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,115,final double[] xSmallest = original[0].getPointRef();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,97,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,90,if (comparator.compare(contracted, best) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,89,final RealPointValuePair contracted = evaluateNewSimplex(original, gamma, comparator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,74,if (comparator.compare(reflected, best) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,73,final RealPointValuePair reflected = evaluateNewSimplex(original, 1.0, comparator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,70,final RealPointValuePair best = original[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,69,final RealPointValuePair[] original = simplex;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,66,incrementIterationsCounter();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,48,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,47,this.gamma = 0.5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,46,this.khi   = 2.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java,45,public MultiDirectional() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,403,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,401,Arrays.sort(simplex, comparator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,322,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,320,throw new OptimizationException(new MaxIterationsExceededException(maxIterations));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,319,if (++iterations > maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,307,iterateSimplex(comparator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,306,System.arraycopy(simplex, 0, previous, 0, simplex.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,294,if (iterations > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,291,RealPointValuePair[] previous = new RealPointValuePair[simplex.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,155,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,152,System.arraycopy(steps, 0, vertexI, 0, j + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,147,if (steps[j] == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,146,for (int j = 0; j < i + 1; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,145,final double[] vertexI = startConfiguration[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,144,for (int i = 0; i < n; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,143,startConfiguration = new double[n][n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,142,final int n = steps.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,70,return point.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,64,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,63,this.value  = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,62,this.point = copyArray ? point.clone() : point;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/RealPointValuePair.java,61,final boolean copyArray) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/ConvergenceException.java,54,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/ConvergenceException.java,53,super(cause);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/ConvergenceException.java,46,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/ConvergenceException.java,45,super(pattern, arguments);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/MathException.java,172,return getMessage(Locale.getDefault());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/MathException.java,166,return buildMessage(locale, pattern, arguments);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/SimpleScalarValueChecker.java,53,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/SimpleScalarValueChecker.java,52,this.absoluteThreshold = DEFAULT_ABSOLUTE_THRESHOLD;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/SimpleScalarValueChecker.java,51,this.relativeThreshold = DEFAULT_RELATIVE_THRESHOLD;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/SimpleScalarValueChecker.java,50,public SimpleScalarValueChecker() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,396,simplex[i] = new RealPointValuePair(point, evaluate(point), false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,395,if (Double.isNaN(vertex.getValue())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,394,final double[] point = vertex.getPointRef();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,393,final RealPointValuePair vertex = simplex[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,392,for (int i = 0; i < simplex.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,381,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,378,simplex[i + 1] = new RealPointValuePair(vertexI, Double.NaN);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,376,vertexI[k] = startPoint[k] + confI[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,375,for (int k = 0; k < n; ++k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,374,final double[] vertexI = new double[n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,373,final double[] confI   = startConfiguration[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,372,for (int i = 0; i < n; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,369,simplex[0] = new RealPointValuePair(startPoint, Double.NaN);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,368,simplex = new RealPointValuePair[n + 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,361,if (n != startConfiguration.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,360,final int n = startPoint.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,349,return f.value(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,345,if (++evaluations > maxEvaluations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,289,evaluateSimplex(comparator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,288,buildSimplex(startPoint);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,287,evaluations = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,286,iterations  = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,274,final Comparator<RealPointValuePair> comparator =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,273,this.f = f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,265,if (startConfiguration == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,251,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,250,this.checker = checker;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,231,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,230,this.maxEvaluations = maxEvaluations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,221,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,220,this.maxIterations = maxIterations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,120,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,119,setMaxEvaluations(Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,118,setMaxIterations(Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/84/src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java,117,setConvergenceChecker(new SimpleScalarValueChecker());

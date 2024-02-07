@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,699,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,692,return
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,691,if (ch == 'T') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,686,return
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,685,if (ch == 't') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,684,char ch = str.charAt(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,678,return
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,677,if (ch == 'Y') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,673,return
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,672,if (ch == 'y') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,671,char ch = str.charAt(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,666,return
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,665,char ch1 = str.charAt(1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,664,char ch0 = str.charAt(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,662,switch (str.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,660,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,659,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,657,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,656,if (str == "true") {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,969,return xor(primitive) ? Boolean.TRUE : Boolean.FALSE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,967,throw new IllegalArgumentException("The array must not contain any null elements");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,966,} catch (NullPointerException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,968,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,965,primitive = ArrayUtils.toPrimitive(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,963,boolean[] primitive = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,961,throw new IllegalArgumentException("Array is empty");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,960,} else if (array.length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,959,throw new IllegalArgumentException("The Array must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,958,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,939,return trueCount == 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,933,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,931,trueCount++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,930,if (trueCount < 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,929,if (array[i]) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,926,for (int i = 0; i < array.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,925,int trueCount = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,921,throw new IllegalArgumentException("Array is empty");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,920,} else if (array.length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,919,throw new IllegalArgumentException("The Array must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,918,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,897,return bool ? trueString : falseString;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,878,return toString(bool, "yes", "no");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,861,return toString(bool, "on", "off");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,844,return toString(bool, "true", "false");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,825,return bool.booleanValue() ? trueString : falseString;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,823,return nullString;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,822,if (bool == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,800,return toString(bool, "yes", "no", null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,782,return toString(bool, "on", "off", null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,764,return toString(bool, "true", "false", null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,744,throw new IllegalArgumentException("The String did not match either specified value");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,741,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,740,} else if (str.equals(falseString)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,739,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,738,} else if (str.equals(trueString)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,736,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,735,} else if (falseString == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,734,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,733,if (trueString == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,732,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,619,throw new IllegalArgumentException("The String did not match any specified value");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,616,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,615,} else if (str.equals(nullString)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,614,return Boolean.FALSE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,613,} else if (str.equals(falseString)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,612,return Boolean.TRUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,611,} else if (str.equals(trueString)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,609,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,608,} else if (nullString == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,607,return Boolean.FALSE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,606,} else if (falseString == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,605,return Boolean.TRUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,604,if (trueString == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,603,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,577,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,574,return Boolean.FALSE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,573,} else if ("no".equalsIgnoreCase(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,572,return Boolean.TRUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,571,} else if ("yes".equalsIgnoreCase(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,570,return Boolean.FALSE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,569,} else if ("off".equalsIgnoreCase(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,568,return Boolean.TRUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,567,} else if ("on".equalsIgnoreCase(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,566,return Boolean.FALSE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,565,} else if ("false".equalsIgnoreCase(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,564,return Boolean.TRUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,563,if ("true".equalsIgnoreCase(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,533,return bool.booleanValue() ? trueValue : falseValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,531,return nullValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,530,if (bool == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,508,return bool ? trueValue : falseValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,489,return bool.booleanValue() ? trueValue : falseValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,487,return nullValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,486,if (bool == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,467,return bool ? trueValue : falseValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,450,return bool.booleanValue() ? NumberUtils.INTEGER_ONE : NumberUtils.INTEGER_ZERO;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,448,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,447,if (bool == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,429,return bool ? NumberUtils.INTEGER_ONE : NumberUtils.INTEGER_ZERO;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/51/src/java/org/apache/commons/lang/BooleanUtils.java,413,return bool ? 1 : 0;

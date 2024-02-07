@@ -1,0 +1,98 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/Mockito.java,1637,return new Timeout(millis, VerificationModeFactory.times(1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/stubbing/BaseStubbing.java,49,return thenAnswer(new CallsRealMethods());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/Mockito.java,1536,return times(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/Invocation.java,215,return this.getMethod().getDeclaringClass().isInterface();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,55,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,54,field.setAccessible(wasAccessible);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,49,field.set(testClass, Mockito.spy(instance));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,45,if (new MockUtil().isMock(instance)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,67,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,37,if (instance == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,36,Object instance = field.get(testClass);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,34,field.setAccessible(true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,33,boolean wasAccessible = field.isAccessible();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/util/MockUtil.java,47,ancillaryTypes = interfaces == null ? new Class<?>[] {Serializable.class} : new ArrayUtils().concat(interfaces, Serializable.class);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/MethodInterceptorFilter.java,66,return new SerializableMethod(method);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/MethodInterceptorFilter.java,60,return new SerializableMockitoMethodProxy(methodProxy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,63,if (field.isAnnotationPresent(u)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,62,for (Class u : undesiredAnnotations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,32,assertNoAnnotations(Spy.class, field, Mock.class, org.mockito.MockitoAnnotations.Mock.class, Captor.class);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,82,enhancer.setInterfaces(interfaces);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,81,enhancer.setSuperclass(mockedType);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,59,constructor.setAccessible(accessible);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/MockSettingsImpl.java,25,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/MockSettingsImpl.java,24,this.serializable = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,30,return message;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/cglib/MockitoNamingPolicy.java,15,return "ByMockitoWithCGLIB";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/Matchers.java,200,return (T) reportMatcher(Any.ANY).returnNull();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,114,if (type == Boolean.TYPE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,75,return primitiveOf(type);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/cglib/CGLIBHacker.java,26,namingPolicyField.set(createInfo, MockitoNamingPolicy.INSTANCE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/InvocationsFinder.java,74,return invocation;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,48,return StringDescription.toString(m).equals(arg == null? "null" : arg.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,39,reporter.argumentsAreDifferent(smartPrinter.getWanted(), smartPrinter.getActual(), similar.getLocation());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,38,SmartPrinter smartPrinter = new SmartPrinter(wanted, similar, indexesOfSuspiciousArgs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,37,Integer[] indexesOfSuspiciousArgs = argumentMatchingTool.getSuspiciouslyNotMatchingArgsIndexes(wanted.getMatchers(), similar.getArguments());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,36,ArgumentMatchingTool argumentMatchingTool = new ArgumentMatchingTool();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,41,return m.matches(arg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,35,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,34,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,28,if (m instanceof ContainsExtraTypeInformation
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,26,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,25,filter.filter(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,24,ConditionalStackTraceFilter filter = new ConditionalStackTraceFilter();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,23,unfilteredStackTrace = getStackTrace();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,21,this.message = message;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,20,super(message, wanted, actual);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/JUnitTool.java,30,return throwable;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/JUnitTool.java,29,AssertionError throwable = (AssertionError) clazz.getConstructors()[0].newInstance(message, wanted, actual);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/JUnitTool.java,28,Class<?> clazz = Class.forName("org.mockito.exceptions.verification.junit.ArgumentsAreDifferent");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/verification/junit/JUnitTool.java,23,return hasJUnit;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/Reporter.java,237,throw JUnitTool.createArgumentsAreDifferentException(message, wanted, actual);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/Reporter.java,236,if (JUnitTool.hasJUnit()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/exceptions/Reporter.java,227,String message = join("Argument(s) are different! Wanted:",
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/stubbing/answers/CallsRealMethods.java,32,public class CallsRealMethods implements Answer<Object>, Serializable {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/configuration/DefaultAnnotationEngine.java,45,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/InvocationsFinder.java,73,if (wanted.hasSameMethod(invocation)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/InvocationsFinder.java,71,firstSimilar = invocation;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/InvocationsFinder.java,70,if (firstSimilar == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,36,return suspicious.toArray(new Integer[0]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,27,for (Matcher m : matchers) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,26,int i = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,25,List<Integer> suspicious = new LinkedList<Integer>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/InvocationMatcher.java,118,return invocation.toString(matchers, printSettings);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/util/reflection/LenientCopyTool.java,37,continue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/Mockito.java,997,return MOCKITO_CORE.mock((Class<T>) object.getClass(), withSettings()
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,23,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,22,this(new InvocationsFinder(), new Reporter());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,33,if (actualInvocations.isEmpty()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,31,List<Invocation> actualInvocations = finder.findInvocations(invocations, wanted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/Times.java,33,if (wantedCount > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/util/MockUtil.java,57,new LenientCopyTool().copyToMock(spiedInstance, mock);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,32,return actual;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,28,return wanted;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,25,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,24,this.actual = actual.toString(printSettings);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,23,this.wanted = wanted.toString(printSettings);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,21,printSettings.setMatchersToBeDescribedWithExtraTypeInfo(indexesOfMatchersToBeDescribedWithExtraTypeInfo);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,20,printSettings.setMultiline(wanted.toString().contains("\n") || actual.toString().contains("\n"));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,19,PrintSettings printSettings = new PrintSettings();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/SmartPrinter.java,18,public SmartPrinter(PrintingFriendlyInvocation wanted, PrintingFriendlyInvocation actual, Integer ... indexesOfMatchersToBeDescribedWithExtraTypeInfo) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/PrintSettings.java,18,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/PrintSettings.java,17,this.multiline = multiline;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/Invocation.java,219,return toString(argumentsToMatchers(), printSettings);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,28,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,27,this.reporter = reporter;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,26,this.finder = finder;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,25,MissingInvocationChecker(InvocationsFinder finder, Reporter reporter) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/util/MockCreationValidator.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/MockSettingsImpl.java,63,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/creation/MockSettingsImpl.java,62,this.spiedInstance = spiedInstance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/VerificationModeFactory.java,12,return atLeast(1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/InvocationMatcher.java,89,return !overloadedButSameArgs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/invocation/InvocationMatcher.java,87,final boolean overloadedButSameArgs = !methodEquals && safelyArgumentsMatch(candidate.getArguments());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,21,if (matchers.size() != arguments.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,15,public class ArgumentMatchingTool {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/util/MockCreationValidator.java,39,if (!classToMock.equals(spiedInstance.getClass())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/PrintSettings.java,36,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/32/src/org/mockito/internal/reporting/PrintSettings.java,35,this.withTypeInfo = Arrays.asList(indexesOfMatchers);

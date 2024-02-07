@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,576,return f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,575,if (!(f.isInfinite() || (f.floatValue() == 0.0F && !allZeros))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,574,Float f = createFloat(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,572,boolean allZeros = isAllZeros(mant) && isAllZeros(exp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,564,return createLong(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,560,} catch (NumberFormatException nfe) { // NOPMD
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,559,return createInteger(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,556,if (dec == null && exp == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,554,exp = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,551,if (expPos > -1 && expPos < str.length() - 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,545,throw new NumberFormatException(str + " is not a valid number.");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,533,return d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,532,if (!(d.isInfinite() || (d.floatValue() == 0.0D && !allZeros))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,531,Double d = NumberUtils.createDouble(numeric);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,521,return f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,518,if (!(f.isInfinite() || (f.floatValue() == 0.0F && !allZeros))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,517,Float f = NumberUtils.createFloat(numeric);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,484,mant = str.substring(0, expPos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,481,if (expPos > str.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,478,mant = str.substring(0, decPos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,476,dec = str.substring(decPos + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,470,if (expPos > -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,459,return createInteger(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,664,return Integer.decode(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,660,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,646,return Double.valueOf(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,643,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,630,return Float.valueOf(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,627,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,610,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,609,if (str.charAt(i) != '0') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,608,for (int i = str.length() - 1; i >= 0; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,605,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,506,return createLong(numeric);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,502,if (dec == null
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,499,switch (lastChar) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,498,boolean allZeros = isAllZeros(mant) && isAllZeros(exp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,497,String numeric = str.substring(0, str.length() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,494,exp = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,491,if (expPos > -1 && expPos < str.length() - 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,490,if (!Character.isDigit(lastChar) && lastChar != '.') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,488,dec = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,486,mant = str;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,480,if (expPos > -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,468,if (decPos > -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,466,int expPos = str.indexOf('e') + str.indexOf('E') + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,465,int decPos = str.indexOf('.');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,461,char lastChar = str.charAt(str.length() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,458,if (str.startsWith("0x") || str.startsWith("-0x")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,451,if (str.startsWith("--")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,448,if (StringUtils.isBlank(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,445,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1295,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1291,if (!Character.isDigit(str.charAt(i))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1290,for (int i = 0; i < str.length(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1287,if (StringUtils.isEmpty(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,680,return Long.valueOf(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,677,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/StringUtils.java,228,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/StringUtils.java,227,if ((Character.isWhitespace(cs.charAt(i)) == false)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/StringUtils.java,226,for (int i = 0; i < strLen; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/StringUtils.java,223,if (cs == null || (strLen = cs.length()) == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/StringUtils.java,183,return cs == null || cs.length() == 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,165,return name;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,151,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,149,return JAVA_1_8;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,148,} else if ("1.8".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,147,return JAVA_1_7;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,146,} else if ("1.7".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,145,return JAVA_1_6;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,144,} else if ("1.6".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,143,return JAVA_1_5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,142,} else if ("1.5".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,141,return JAVA_1_4;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,140,} else if ("1.4".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,139,return JAVA_1_3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,138,} else if ("1.3".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,137,return JAVA_1_2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,136,} else if ("1.2".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,135,return JAVA_1_1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,134,} else if ("1.1".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,133,return JAVA_0_9;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,132,if ("0.9".equals(nom)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,119,return get(nom);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,105,return this.value >= requiredVersion.value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,27,public enum JavaVersion {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,27,public enum JavaVersion {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,92,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,91,this.name = name;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,90,this.value = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/JavaVersion.java,89,JavaVersion(final float value, final String name) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1402,return osName.startsWith(osNamePrefix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1400,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1399,if (osName == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1385,return osName.startsWith(osNamePrefix) && osVersion.startsWith(osVersionPrefix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1383,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1382,if (osName == null || osVersion == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1366,return version.startsWith(versionPrefix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1364,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/16/src/main/java/org/apache/commons/lang3/SystemUtils.java,1363,if (version == null) {

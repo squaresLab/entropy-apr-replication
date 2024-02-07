@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,302,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,301,if (s.charAt(i) != '0') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,300,for (int i = s.length() - 1; i >= 0; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,297,if (s == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,193,if (dec == null
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,190,switch (lastChar) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,189,boolean allZeros = isAllZeros(mant) && isAllZeros(exp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,188,String numeric = val.substring(0, val.length() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,185,exp = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,182,if (expPos > -1 && expPos < val.length() - 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,181,if (!Character.isDigit(lastChar)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,179,dec = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,177,mant = val;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,174,if (expPos > -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,162,if (decPos > -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,160,int expPos = val.indexOf('e') + val.indexOf('E') + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,159,int decPos = val.indexOf('.');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,155,char lastChar = val.charAt(val.length() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,152,if (val.startsWith("0x") || val.startsWith("-0x")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,145,if (val.startsWith("--")) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,142,if (val.length() == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,139,if (val == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,710,return !allowSigns && foundDigit;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,706,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,703,return foundDigit && !hasExp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,700,if (chars[i] == 'l'
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,698,return foundDigit;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,693,if (!allowSigns
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,691,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,689,if (chars[i] == 'e' || chars[i] == 'E') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,687,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,685,if (chars[i] >= '0' && chars[i] <= '9') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,684,if (i < chars.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,682,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,680,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,678,foundDigit = false; // we need a digit after the E
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,677,allowSigns = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,675,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,674,if (!allowSigns) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,673,} else if (chars[i] == '+' || chars[i] == '-') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,672,allowSigns = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,671,hasExp = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,669,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,668,if (!foundDigit) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,666,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,664,if (hasExp) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,662,} else if (chars[i] == 'e' || chars[i] == 'E') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,661,hasDecPoint = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,659,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,657,if (hasDecPoint || hasExp) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,656,} else if (chars[i] == '.') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,654,allowSigns = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,653,foundDigit = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,652,if (chars[i] >= '0' && chars[i] <= '9') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,651,while (i < sz || (i < sz + 1 && allowSigns && !foundDigit)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,648,int i = start;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,646,sz--; // don't want to loop to the last char, check it afterwords
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,643,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,640,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,637,if ((chars[i] < '0' || chars[i] > '9')
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,636,for (; i < chars.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,633,return false; // str == "0x"
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,632,if (i == sz) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,631,int i = start + 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,630,if (chars[start] == '0' && chars[start + 1] == 'x') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,629,if (sz > start + 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,628,int start = (chars[0] == '-') ? 1 : 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,626,boolean foundDigit = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,625,boolean allowSigns = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,624,boolean hasDecPoint = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,623,boolean hasExp = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,622,int sz = chars.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,621,char[] chars = str.toCharArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,619,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,618,if (StringUtils.isEmpty(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,601,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,598,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,597,if (!Character.isDigit(str.charAt(i))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,596,for (int i = 0; i < str.length(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,594,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,593,if ((str == null) || (str.length() == 0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,576,return +1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,574,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,573,if (lhsBits < rhsBits) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,565,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,564,if (lhsBits == rhsBits) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,563,int rhsBits = Float.floatToIntBits(rhs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,562,int lhsBits = Float.floatToIntBits(lhs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,556,return +1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,555,if (lhs > rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,553,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,552,if (lhs < rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,515,return +1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,513,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,512,if (lhsBits < rhsBits) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,504,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,503,if (lhsBits == rhsBits) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,502,long rhsBits = Double.doubleToLongBits(rhs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,501,long lhsBits = Double.doubleToLongBits(lhs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/44/src/java/org/apache/commons/lang/NumberUtils.java,495,return +1;

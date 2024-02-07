@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,253,ch = (char) (random.nextInt(gap) + start);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,252,if (chars == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,250,while (count-- != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,248,int gap = end - start;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,247,char[] buffer = new char[count];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,234,if (start == 0 && end == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,163,return random(count, start, end, letters, numbers, null, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,230,if (chars != null && chars.length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,227,} else if (count < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,225,if (count == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,328,return random(count, 0, chars.length, false, false, chars, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,326,return random(count, 0, 0, false, false, null, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,325,if (chars == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,309,return random(count, chars.toCharArray());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,307,return random(count, 0, 0, false, false, null, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,306,if (chars == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,288,return new String(buffer);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,287,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,285,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,282,buffer[count] = ch;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,280,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,278,} else if(ch >= 56192 && ch <= 56319) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,276,buffer[count] = ch;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,275,count--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,274,buffer[count] = (char) (56320 + random.nextInt(128));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,271,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,270,if(count == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,269,} else if(ch >= 55296 && ch <= 56191) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,267,buffer[count] = (char) (55296 + random.nextInt(128));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,266,count--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,265,buffer[count] = ch;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,262,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,261,if(count == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,260,if(ch >= 56320 && ch <= 57343) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,257,if (letters && Character.isLetter(ch)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,255,ch = chars[random.nextInt(gap) + start];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,242,start = ' ';
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,241,end = 'z' + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,239,end = Integer.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,238,if (!letters && !numbers) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,236,end = chars.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,235,if (chars != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,231,throw new IllegalArgumentException("The chars array must not be empty");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,228,throw new IllegalArgumentException("Requested random string length " + count + " is less than 0.");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,226,return "";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,187,return random(count, start, end, letters, numbers, chars, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,143,return random(count, 0, 0, letters, numbers);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,125,return random(count, false, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,111,return random(count, true, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,97,return random(count, true, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,83,return random(count, 32, 127, false, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,69,return random(count, false, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,55,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,54,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,253,ch = (char) (random.nextInt(gap) + start);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,252,if (chars == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,250,while (count-- != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,248,int gap = end - start;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,247,char[] buffer = new char[count];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,234,if (start == 0 && end == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,163,return random(count, start, end, letters, numbers, null, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,230,if (chars != null && chars.length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,227,} else if (count < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,225,if (count == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,328,return random(count, 0, chars.length, false, false, chars, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,326,return random(count, 0, 0, false, false, null, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,325,if (chars == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,309,return random(count, chars.toCharArray());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,307,return random(count, 0, 0, false, false, null, RANDOM);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,306,if (chars == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,288,return new String(buffer);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,287,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,285,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,282,buffer[count] = ch;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,280,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,278,} else if(ch >= 56192 && ch <= 56319) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,276,buffer[count] = ch;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,275,count--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,274,buffer[count] = (char) (56320 + random.nextInt(128));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,271,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,270,if(count == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,269,} else if(ch >= 55296 && ch <= 56191) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,267,buffer[count] = (char) (55296 + random.nextInt(128));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,266,count--;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,265,buffer[count] = ch;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,262,count++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,261,if(count == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,260,if(ch >= 56320 && ch <= 57343) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,257,if (letters && Character.isLetter(ch)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,255,ch = chars[random.nextInt(gap) + start];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,242,start = ' ';
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,241,end = 'z' + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,239,end = Integer.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,238,if (!letters && !numbers) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,236,end = chars.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,235,if (chars != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,231,throw new IllegalArgumentException("The chars array must not be empty");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,228,throw new IllegalArgumentException("Requested random string length " + count + " is less than 0.");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,226,return "";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/11/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,187,return random(count, start, end, letters, numbers, chars, RANDOM);

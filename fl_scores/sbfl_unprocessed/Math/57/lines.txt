@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,194,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,191,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,190,resultSet.add(new Cluster<T>(p));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,189,final T p = pointSet.remove(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,188,if (dx2[i] >= r) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,187,for (int i = 0 ; i < dx2.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,186,final double r = random.nextDouble() * sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,181,dx2[i] = sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,180,sum += d * d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,179,final double d = p.distanceFrom(nearest.getCenter());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,178,final Cluster<T> nearest = getNearestCluster(resultSet, p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,177,final T p = pointSet.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,176,for (int i = 0; i < pointSet.size(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,175,int sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,134,return clusters;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,70,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,69,this(random, EmptyClusterStrategy.LARGEST_VARIANCE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,277,return Math.sqrt(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1878,return FastMath.sqrt(sum);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1876,sum += dp * dp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1875,final double dp = p1[i] - p2[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1874,for (int i = 0; i < p1.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1873,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,86,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,85,if (point[i] != otherPoint[i]) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,84,for (int i = 0; i < point.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,81,if (point.length != otherPoint.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,80,final int[] otherPoint = ((EuclideanIntegerPoint) other).getPoint();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,77,if (!(other instanceof EuclideanIntegerPoint)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,57,return MathUtils.distance(point, p.getPoint());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,52,return point;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,45,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,44,this.point = point;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,43,public EuclideanIntegerPoint(final int[] point) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,71,return center;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,56,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,55,points.add(point);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,48,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,47,points = new ArrayList<T>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,46,this.center = center;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,45,public Cluster(final T center) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,330,return minCluster;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,329,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,327,minCluster = c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,326,minDistance = distance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,325,if (distance < minDistance) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,324,final double distance = point.distanceFrom(c.getCenter());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,323,for (final Cluster<T> c : clusters) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,322,Cluster<T> minCluster = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,321,double minDistance = Double.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,196,return resultSet;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,172,while (resultSet.size() < k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,171,final double[] dx2 = new double[pointSet.size()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,169,resultSet.add(new Cluster<T>(firstPoint));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,168,final T firstPoint = pointSet.remove(random.nextInt(pointSet.size()));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,165,final List<Cluster<T>> resultSet = new ArrayList<Cluster<T>>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,164,final List<T> pointSet = new ArrayList<T>(points);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,150,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,149,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,148,cluster.addPoint(p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,147,Cluster<T> cluster = getNearestCluster(clusters, p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,146,for (final T p : points) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,100,for (int count = 0; count < max; count++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,99,final int max = (maxIterations < 0) ? Integer.MAX_VALUE : maxIterations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,96,assignPointsToClusters(clusters, points);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,95,List<Cluster<T>> clusters = chooseInitialCenters(points, k, random);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,81,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,80,this.emptyStrategy = emptyStrategy;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,79,this.random        = random;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,78,public KMeansPlusPlusClusterer(final Random random, final EmptyClusterStrategy emptyStrategy) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4044,return ((Float.floatToIntBits(f) >>> 23) & 0xff) - 127;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4031,return (int) ((Double.doubleToLongBits(d) >>> 52) & 0x7ff) - 1023;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4018,return -magnitude; // flip sign
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4016,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4015,if ((m >= 0 && s >= 0) || (m < 0 && s < 0)) { // Sign is currently OK
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4014,int s = Float.floatToIntBits(sign);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4013,int m = Float.floatToIntBits(magnitude);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,4001,return -magnitude; // flip sign
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3999,return magnitude;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3998,if ((m >= 0 && s >= 0) || (m < 0 && s < 0)) { // Sign is currently OK
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3997,long s = Double.doubleToLongBits(sign);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3996,long m = Double.doubleToLongBits(magnitude);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3984,return StrictMath.IEEEremainder(dividend, divisor); // TODO provide our own implementation
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3956,return scalb(scaledH, middleExp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3953,final double scaledH = sqrt(scaledX * scaledX + scaledY * scaledY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3950,final double scaledY = scalb(y, -middleExp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3949,final double scaledX = scalb(x, -middleExp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3946,final int middleExp = (expX + expY) / 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3942,return abs(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3940,} else if (expY > expX + 27) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3939,return abs(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3937,if (expX > expY + 27) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3936,final int expY = getExponent(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3935,final int expX = getExponent(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3932,return Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3931,} else if (Double.isNaN(x) || Double.isNaN(y)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3930,return Double.POSITIVE_INFINITY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3929,if (Double.isInfinite(x) || Double.isInfinite(y)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3911,return a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,3909,return b;

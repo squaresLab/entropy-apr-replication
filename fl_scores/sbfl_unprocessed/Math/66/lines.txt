@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/AbstractUnivariateRealOptimizer.java,152,return evaluations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/ConvergingAlgorithmImpl.java,82,return iterationCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/random/JDKRandomGenerator.java,28,public class JDKRandomGenerator extends Random implements RandomGenerator {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/AbstractUnivariateRealOptimizer.java,113,return functionValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/AbstractUnivariateRealOptimizer.java,105,if (functionValue == Double.NaN) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,308,return optima[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,301,if (Double.isNaN(optima[0])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,278,if ((goalType == GoalType.MAXIMIZE) ^ (currY < prevY)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,277,currY = optimaValues[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,276,currX = optima[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,275,final double prevY = currY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,274,for (int j = 1; j < lastNaN; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,273,double currY = optimaValues[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,272,double currX = optima[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,264,if (Double.isNaN(optima[i])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,263,for (int i = 0; i < lastNaN; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,262,int lastNaN = optima.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,257,totalEvaluations += optimizer.getEvaluations();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,256,totalIterations  += optimizer.getIterationCount();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,254,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,247,optimaValues[i] = optimizer.getFunctionValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,244,optima[i]       = optimizer.optimize(f, goalType,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,243,final double bound2 = (i == 0) ? max : min + generator.nextDouble() * (max - min);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,242,final double bound1 = (i == 0) ? min : min + generator.nextDouble() * (max - min);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,241,optimizer.setMaxEvaluations(maxEvaluations - totalEvaluations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,240,optimizer.setMaximalIterationCount(maxIterations - totalIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,237,for (int i = 0; i < starts; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,234,totalEvaluations = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,233,totalIterations  = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,232,optimaValues     = new double[starts];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,231,optima           = new double[starts];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,219,if (optimaValues == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,193,if (optima == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,158,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,157,this.maxEvaluations = maxEvaluations;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,153,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,152,this.maxIterations = count;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,88,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,87,setMaxEvaluations(Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,86,setMaximalIterationCount(Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,85,this.optima           = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,84,this.generator        = generator;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,83,this.starts           = starts;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,82,this.totalIterations  = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,81,this.optimizer        = optimizer;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java,80,final RandomGenerator generator) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,182,e = b - x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,175,e = a - x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,162,if (u - a < tol2
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,159,u = x + d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,158,d = p / q;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,108,b = hi;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,107,a = lo;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,242,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,241,++count;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,239,return x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,238,setResult(x, (goalType == GoalType.MAXIMIZE) ? -fx : fx, count);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,237,} else { // termination
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,217,fx = fu;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,216,x = u;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,215,fw = fx;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,214,w = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,213,fv = fw;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,212,v = w;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,210,a = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,208,b = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,207,if (u < x) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,206,if (fu <= fx) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,201,if (goalType == GoalType.MAXIMIZE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,200,double fu = computeObjectiveValue(f, u);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,197,u = x + d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,190,if (Math.abs(d) < tol1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,186,d = GOLDEN_SECTION * e;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,181,if (x < m) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,177,d = GOLDEN_SECTION * e;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,173,e = b - x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,172,if (x < m) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,154,if (p > q * (a - x)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,152,e = d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,151,r = e;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,148,q = -q;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,146,p = -p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,145,if (q > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,143,q = 2 * (q - r);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,142,p = (x - v) * q - (x - w) * r;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,141,q = (x - v) * (fx - fw);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,140,r = (x - w) * (fx - fv);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,139,if (Math.abs(e) > tol1) { // Fit parabola.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,137,double u = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,136,double r = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,135,double q = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,134,double p = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,133,if (Math.abs(x - m) > tol2 - 0.5 * (b - a)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,130,final double tol2 = 2 * tol1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,129,final double tol1 = eps * Math.abs(x) + t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,128,double m = 0.5 * (a + b);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,127,while (count < maximalIterationCount) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,126,int count = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,124,double fw = fx;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/66/src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java,123,double fv = fx;

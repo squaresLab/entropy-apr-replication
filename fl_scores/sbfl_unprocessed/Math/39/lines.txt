@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3267,return Double.longBitsToDouble(sign | ((bits & 0x7fffffffffffffffL) + 1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3266,if ((direction < d) ^ (sign == 0L)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3265,final long sign = bits & 0x8000000000000000L;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3264,final long bits = Double.doubleToLongBits(d);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3259,return (direction < 0) ? -Double.MIN_VALUE : Double.MIN_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3258,} else if (d == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3256,} else if (Double.isInfinite(d)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3254,} else if (d == direction) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3252,if (Double.isNaN(d) || Double.isNaN(direction)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,409,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,407,if (currentState == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,311,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,310,vectorsInitialized = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,309,super.storeTime(t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,304,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,302,vectorsInitialized = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,299,v[k]  = new double[dimension];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,298,for (int k = 0; k < v.length; ++k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,297,v = new double[7][];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,294,yDotKLast[k] = new double[dimension];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,293,for (int k = 0; k < yDotKLast.length; ++k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,292,yDotKLast = new double[3][];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,290,final int dimension = currentState.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,288,super.reinitialize(integrator, y, yDotK, forward, primaryMapper, secondaryMappers);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,278,return new DormandPrince853StepInterpolator(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,273,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,250,vectorsInitialized = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,249,v         = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,248,yDotKLast = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,246,if (interpolator.currentState == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,244,super(interpolator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java,223,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java,220,super(METHOD_NAME, true, STATIC_C, STATIC_A, STATIC_B,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java,247,return 8;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,235,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,234,vectorsInitialized = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,233,v         = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,232,yDotKLast = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java,231,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3474,return a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,3473,if (a < b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,237,scale[i] = scalAbsoluteTolerance + scalRelativeTolerance * FastMath.abs(y[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,236,for (int i = 0; i < scale.length; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,130,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,128,setMaxGrowth(10.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,127,setMinReduction(0.2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,126,setSafety(0.9);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,123,exp = -1.0 / getOrder();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,121,this.prototype = prototype;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,120,this.b         = b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,119,this.a         = a;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,118,this.c         = c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,117,this.fsal      = fsal;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,115,super(name, minStep, maxStep, scalAbsoluteTolerance, scalRelativeTolerance);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,166,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,164,vecRelativeTolerance  = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,163,vecAbsoluteTolerance  = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,162,scalRelativeTolerance = relativeTolerance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,161,scalAbsoluteTolerance = absoluteTolerance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,159,initialStep = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,158,maxStep     = FastMath.abs(maximalStep);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,157,minStep     = FastMath.abs(minimalStep);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,114,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,112,resetInternalState();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,111,setStepSizeControl(minStep, maxStep, scalAbsoluteTolerance, scalRelativeTolerance);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,110,super(name);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,862,intVal = -intVal;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,860,intPartB = ExpIntTable.EXP_INT_TABLE_B[EXP_INT_TABLE_MAX_INDEX-intVal];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,859,intPartA = ExpIntTable.EXP_INT_TABLE_A[EXP_INT_TABLE_MAX_INDEX-intVal];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,857,intVal++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,847,if (intVal == 709) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,837,if (intVal > 709) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,829,if (intVal > 746) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/util/FastMath.java,827,intVal = (int) -x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java,98,return primaryMapper.getDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,369,return maxStep;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,362,return minStep;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,305,return h;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,301,if (! forward) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,298,if (h > getMaxStep()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,295,if (h < getMinStep()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,294,h = FastMath.max(h, 1.0e-12 * FastMath.abs(t0));  // avoids cancellation when computing t1 - t0
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,293,h = FastMath.min(100.0 * FastMath.abs(h), h1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,290,final double h1 = (maxInv2 < 1.0e-15) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,289,final double maxInv2 = FastMath.max(FastMath.sqrt(yDotOnScale2), yDDotOnScale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,285,yDDotOnScale = FastMath.sqrt(yDDotOnScale) / h;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,283,yDDotOnScale += ratio * ratio;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,282,ratio         = (yDot1[j] - yDot0[j]) / scale[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,281,for (int j = 0; j < scale.length; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,280,double yDDotOnScale = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,277,computeDerivatives(t0 + h, y1, yDot1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,275,y1[j] = y0[j] + h * yDot0[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,274,for (int j = 0; j < y0.length; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,269,if (! forward) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,267,double h = ((yOnScale2 < 1.0e-10) || (yDotOnScale2 < 1.0e-10)) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,264,yDotOnScale2 += ratio * ratio;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,263,ratio         = yDot0[j] / scale[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,262,yOnScale2    += ratio * ratio;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,261,ratio         = y0[j] / scale[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/39/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,260,for (int j = 0; j < scale.length; ++j) {

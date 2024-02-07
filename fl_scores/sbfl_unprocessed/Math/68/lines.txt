@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,608,paru = Math.min(paru, lmPar);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,607,} else if (fp < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,381,tmp = 0.1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,612,lmPar = Math.max(parl, lmPar + correction);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,605,if (fp > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,602,double correction = fp / (delta * sum2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,600,sum2 += s * s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,599,double s = work1[permutation[j]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,598,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,597,sum2 = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,594,work1[permutation[i]] -= jacobian[i][pj] * tmp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,593,for (int i = j + 1; i < solvedCols; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,592,double tmp = work1[pj];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,591,work1[pj] /= work2[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,590,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,589,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,587,work1[pj] = work3[pj] * diag[pj] / dxNorm;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,586,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,585,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,525,parl = fp / (delta * sum2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,523,sum2 += s * s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,522,work1[pj] = s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,521,double s = (work1[pj] - sum) / diagR[pj];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,519,sum += jacobian[i][pj] * work1[permutation[i]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,518,for (int i = 0; i < j; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,517,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,516,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,515,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,514,sum2 = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,512,work1[pj] *= diag[pj] / dxNorm;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,511,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,510,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,739,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,736,lmDir[permutation[j]] = work[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,735,for (int j = 0; j < lmDir.length; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,730,work[j] = (work[j] - sum) / lmDiag[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,728,sum += jacobian[i][pj] * work[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,727,for (int i = j + 1; i < nSing; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,726,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,725,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,724,for (int j = nSing - 1; j >= 0; --j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,723,if (nSing > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,719,if (nSing < solvedCols) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,716,if ((lmDiag[j] == 0) && (nSing == solvedCols)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,715,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,714,int nSing = solvedCols;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,708,jacobian[j][permutation[j]] = lmDir[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,707,lmDiag[j] = jacobian[j][permutation[j]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,699,jacobian[i][pk] = temp2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,698,lmDiag[i] = -sin * rik + cos * lmDiag[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,697,final double temp2 = cos * rik + sin * lmDiag[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,696,double rik = jacobian[i][pk];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,695,for (int i = k + 1; i < solvedCols; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,692,work[k] = temp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,691,qtbpj = -sin * work[k] + cos * qtbpj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,690,final double temp = cos * work[k] + sin * qtbpj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,689,jacobian[k][pk] = cos * rkk + sin * lmDiag[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,684,sin = cos * tan;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,683,cos = 1.0 / Math.sqrt(1.0 + tan * tan);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,682,final double tan = lmDiag[k] / rkk;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,681,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,680,cos   = sin * cotan;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,679,sin   = 1.0 / Math.sqrt(1.0 + cotan * cotan);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,678,final double cotan = rkk / lmDiag[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,677,if (Math.abs(rkk) < Math.abs(lmDiag[k])) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,676,double rkk = jacobian[k][pk];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,672,if (lmDiag[k] != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,668,int pk = permutation[k];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,667,for (int k = j; k < solvedCols; ++k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,666,double qtbpj = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,661,lmDiag[j] = dpj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,659,Arrays.fill(lmDiag, j + 1, lmDiag.length, 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,658,if (dpj != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,657,double dpj = diag[pj];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,656,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,652,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,648,work[j]  = qy[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,647,lmDir[j] = diagR[pj];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,645,jacobian[i][pj] = jacobian[j][permutation[i]];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,644,for (int i = j + 1; i < solvedCols; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,643,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,642,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,581,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,579,if ((Math.abs(fp) <= 0.1 * delta) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,575,fp = dxNorm - delta;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,574,double previousFP = fp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,573,dxNorm = Math.sqrt(dxNorm);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,571,dxNorm += s * s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,570,work3[pj] = s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,569,double s = diag[pj] * lmDir[pj];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,568,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,567,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,566,dxNorm = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,564,determineLMDirection(qy, work1, work2, work3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,562,work1[pj] = sPar * diag[pj];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,561,int pj = permutation[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,560,for (int j = 0; j < solvedCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,559,double sPar = Math.sqrt(lmPar);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,556,if (lmPar == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/68/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,553,for (int countdown = 10; countdown >= 0; --countdown) {

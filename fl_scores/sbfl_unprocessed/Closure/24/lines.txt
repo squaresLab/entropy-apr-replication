@@ -1,0 +1,36 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,241,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,240,validateBinaryOp(n);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/parsing/IRFactory.java,1177,return Token.ADD;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java,234,return processElementGet((ElementGet) node);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,204,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,203,validateBinaryOp(n);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeTraversal.java,682,return JSError.make(getSourceName(), n, type, arguments);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java,146,return processInfixExpression((InfixExpression) node);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,752,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,751,validateExpression(n.getLastChild());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,750,validateExpression(n.getFirstChild());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/AstValidator.java,749,validateChildCount(n, 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/ScopedAliases.java,139,compiler.reportCodeChange();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/ScopedAliases.java,134,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/ScopedAliases.java,133,NodeUtil.tryMergeBlock(scopeClosureBlock);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/ScopedAliases.java,130,expressionWithScopeCall.getParent().replaceChild(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/ScopedAliases.java,129,scopeClosureBlock.detachFromParent();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/ScopedAliases.java,128,Node scopeClosureBlock = scopeCall.getLastChild().getLastChild();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/ScopedAliases.java,127,Node expressionWithScopeCall = scopeCall.getParent();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/SuppressDocWarningsGuard.java,66,info = NodeUtil.getFunctionJSDocInfo(current);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,2028,return (NodeUtil.isAssignmentOp(parent) && parent.getFirstChild() == n)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,2027,Node parent = n.getParent();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,2025,Preconditions.checkArgument(n.isName() || n.isGetProp() ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/rhino/SourcePosition.java,93,if (startLineno > endLineno) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/Scope.java,585,return vars.values();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1831,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1830,previous = child;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1829,parent.addChildAfter(child, previous);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1828,Node child = block.removeFirstChild();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1833,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1832,parent.removeChild(block);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1827,while (block.hasChildren()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,1826,Node previous = block;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/rhino/Node.java,683,last = lastSibling;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,446,return name != null && name.length() != 0 ? name : null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/24/src/com/google/javascript/jscomp/NodeUtil.java,433,switch (parent.getType()) {

@@ -1,0 +1,108 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,533,if (tokenLen >= 4) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,533,case 'z': // time zone (text)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,83,return (String[])byNameKeyCache.get(nameKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,63,if (byNameKeyCache == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,62,Map<String, Object> byNameKeyCache = byIdCache.get(id);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,58,if (byIdCache == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,57,Map<String, Map<String, Object>> byIdCache = iByLocaleCache.get(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,44,return nameSet == null ? null : nameSet[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,43,String[] nameSet = getNameSet(locale, id, nameKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,754,return printOffset(getOffset(instant));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,754,public final String getName(long instant) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,751,if (name != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,751,* @param instant  milliseconds from 1970-01-01T00:00:00Z to get the name for
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,750,String name = cNameProvider.getShortName(locale, iID, nameKey);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,750,*
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,538,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,538,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,536,builder.appendTimeZoneShortName();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,536,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,991,return append0(new TimeZoneName(TimeZoneName.SHORT_NAME), null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormatterBuilder.java,991,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/DefaultNameProvider.java,53,if (locale == null || id == null || nameKey == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,747,if (nameKey == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,747,* <p>
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,746,String nameKey = getNameKey(instant);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,746,* the default locale.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,743,if (locale == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,743,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,107,return getInfo(instant).getNameKey(instant);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/tz/CachedDateTimeZone.java,107,public String getNameKey(long instant) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,512,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,512,builder.appendSecondOfMinute(tokenLen);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,511,builder.appendSecondOfMinute(tokenLen);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,511,case 's': // second of minute (number)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,647,return buf.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,647,FormatUtils.appendPaddedInteger(buf, offset, 3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,646,if (offset == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,646,buf.append('.');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,645,offset -= minutes * DateTimeConstants.MILLIS_PER_MINUTE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,645,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,644,FormatUtils.appendPaddedInteger(buf, minutes, 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,644,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,643,buf.append(':');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,643,return buf.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,642,int minutes = offset / DateTimeConstants.MILLIS_PER_MINUTE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,642,if (offset == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,640,offset -= hours * (int) DateTimeConstants.MILLIS_PER_HOUR;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,640,FormatUtils.appendPaddedInteger(buf, seconds, 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,639,FormatUtils.appendPaddedInteger(buf, hours, 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,639,buf.append(':');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,638,int hours = offset / DateTimeConstants.MILLIS_PER_HOUR;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,638,int seconds = offset / DateTimeConstants.MILLIS_PER_SECOND;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,631,if (offset >= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,631,buf.append(':');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,630,StringBuffer buf = new StringBuffer();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,630,int minutes = offset / DateTimeConstants.MILLIS_PER_MINUTE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,632,buf.append('+');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,632,FormatUtils.appendPaddedInteger(buf, minutes, 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,1735,return ISODateTimeFormat.date().print(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,509,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,509,builder.appendMinuteOfHour(tokenLen);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,508,builder.appendMinuteOfHour(tokenLen);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,508,case 'm': // minute of hour (number)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,737,return f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,737,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,736,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,736,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,734,cStyleCache[index] = f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,734,f = new DateTimeFormatter(llf, llf);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,733,f = new DateTimeFormatter(llf, llf);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,733,dateStyle, timeStyle, type);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,731,StyleFormatter llf = new StyleFormatter(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,731,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,726,if (dateStyle == NONE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,726,int type = DATETIME;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,725,int type = DATETIME;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,725,if (f == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,724,if (f == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,724,f = cStyleCache[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,723,f = cStyleCache[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,723,synchronized (cStyleCache) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,722,synchronized (cStyleCache) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,722,DateTimeFormatter f = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,721,DateTimeFormatter f = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,721,int index = ((dateStyle << 2) + dateStyle) + timeStyle;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,720,int index = ((dateStyle << 2) + dateStyle) + timeStyle;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,720,private static DateTimeFormatter createFormatterForStyleIndex(int dateStyle, int timeStyle) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,709,return createFormatterForStyleIndex(dateStyle, timeStyle);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,709,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/base/AbstractInstant.java,235,return new Date(getMillis());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,347,return instant;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,338,if (instant < iCutoverMillis) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,336,long instant = iGregorianChronology.getDateTimeMillis
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,331,if ((base = getBase()) != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,515,return type.getField(getChronology()).isSupported();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,496,return fieldType.getField(getChronology()).get(getLocalMillis());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,747,switch (ch) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,747,private static int selectStyle(char ch) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,706,if (dateStyle == NONE && timeStyle == NONE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,706,int timeStyle = selectStyle(style.charAt(1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,705,int timeStyle = selectStyle(style.charAt(1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,705,int dateStyle = selectStyle(style.charAt(0));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,704,int dateStyle = selectStyle(style.charAt(0));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,704,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,500,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,500,builder.appendHourOfDay(tokenLen);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,499,builder.appendHourOfDay(tokenLen);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,499,case 'H': // hour of day (number, 0..23)

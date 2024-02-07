@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,912,return classes;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,910,classes[i] = array[i].getClass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,909,for (int i = 0; i < array.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,908,Class<?>[] classes = new Class[array.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,906,return ArrayUtils.EMPTY_CLASS_ARRAY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,905,} else if (array.length == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,904,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ClassUtils.java,903,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4964,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4961,System.arraycopy(array, index + 1, result, index, length - index - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4960,if (index < length - 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4959,System.arraycopy(array, 0, result, 0, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4958,Object result = Array.newInstance(array.getClass().getComponentType(), length - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4955,throw new IndexOutOfBoundsException("Index: " + index + ", Length: " + length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4954,if (index < 0 || index >= length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4953,int length = getLength(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4928,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4926,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4925,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4924,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4895,return (short[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4863,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4861,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4860,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4859,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4830,return (long[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4798,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4796,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4795,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4794,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4765,return (int[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4733,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4731,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4730,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4729,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4700,return (float[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4668,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4666,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4665,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4664,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4635,return (double[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4603,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4601,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4600,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4599,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4570,return (char[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4538,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4536,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4535,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4534,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4505,return (byte[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4473,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4471,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4470,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4469,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4440,return (boolean[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4408,return remove(array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4406,return clone(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4405,if (index == INDEX_NOT_FOUND) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4404,int index = indexOf(array, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4375,return (T[]) remove((Object) array, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4342,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4340,System.arraycopy(array, index, result, index + 1, length - index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4339,if (index < length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4338,Array.set(result, index, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4337,System.arraycopy(array, 0, result, 0, index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4336,Object result = Array.newInstance(clss, length + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4334,throw new IndexOutOfBoundsException("Index: " + index + ", Length: " + length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4333,if (index > length || index < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4332,int length = Array.getLength(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4330,return joinedArray;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4329,Array.set(joinedArray, 0, element);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4328,Object joinedArray = Array.newInstance(clss, 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4326,throw new IndexOutOfBoundsException("Index: " + index + ", Length: 0");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4325,if (index != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4324,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4309,return (double[]) add(array, index, Double.valueOf(element), Double.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4278,return (float[]) add(array, index, Float.valueOf(element), Float.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4247,return (long[]) add(array, index, Long.valueOf(element), Long.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4216,return (int[]) add(array, index, Integer.valueOf(element), Integer.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4185,return (short[]) add(array, index, Short.valueOf(element), Short.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4154,return (byte[]) add(array, index, Byte.valueOf(element), Byte.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4123,return (char[]) add(array, index, Character.valueOf(element), Character.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4091,return (boolean[]) add(array, index, Boolean.valueOf(element), Boolean.TYPE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4060,return newArray;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4059,final T[] newArray = (T[]) add(array, index, element, clss);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4056,throw new IllegalArgumentException("Array and element cannot both be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4054,clss = element.getClass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4053,} else if (element != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4052,clss = array.getClass().getComponentType();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4051,if (array != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4050,Class<?> clss = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4017,return Array.newInstance(newArrayComponentType, 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4015,return newArray;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4014,System.arraycopy(array, 0, newArray, 0, arrayLength);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4013,Object newArray = Array.newInstance(array.getClass().getComponentType(), arrayLength + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4012,int arrayLength = Array.getLength(array);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,4011,if (array != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,3998,return newArray;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/33/src/main/java/org/apache/commons/lang3/ArrayUtils.java,3997,newArray[newArray.length - 1] = element;

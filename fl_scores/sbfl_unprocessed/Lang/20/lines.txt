@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3257,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3308,return buf.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3305,buf.append(array[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3304,if (array[i] != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3302,buf.append(separator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3301,if (i > startIndex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3300,for (int i = startIndex; i < endIndex; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3298,StringBuilder buf = new StringBuilder((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3295,return EMPTY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3294,if (noOfItems <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3293,int noOfItems = (endIndex - startIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3290,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3260,return join(array, separator, 0, array.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3256,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3380,return EMPTY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3336,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3230,return join(elements, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3393,return buf.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3389,if (array[i] != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3386,if (i > startIndex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3385,for (int i = startIndex; i < endIndex; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3383,StringBuilder buf = new StringBuilder((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + separator.length());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3379,if (noOfItems <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3378,int noOfItems = (endIndex - startIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3373,separator = EMPTY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3372,if (separator == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3369,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3338,return join(array, separator, 0, array.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,3335,if (array == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6561,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6558,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6557,if (StringUtils.endsWith(string, searchString)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6556,CharSequence searchString = searchStrings[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6555,for (int i = 0; i < searchStrings.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6553,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6552,if (isEmpty(string) || ArrayUtils.isEmpty(searchStrings)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6530,return WHITESPACE_BLOCK.matcher(trim(str)).replaceAll(" ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6528,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6527,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6482,return CharSequenceUtils.regionMatches(str, ignoreCase, strOffset, suffix, 0, suffix.length());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6481,int strOffset = str.length() - suffix.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6479,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6478,if (suffix.length() > str.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6476,return str == null && suffix == null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6475,if (str == null || suffix == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6460,return endsWith(str, suffix, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6433,return endsWith(str, suffix, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6403,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6400,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6399,if (StringUtils.startsWith(string, searchString)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6398,CharSequence searchString = searchStrings[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6397,for (int i = 0; i < searchStrings.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6395,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6394,if (isEmpty(string) || ArrayUtils.isEmpty(searchStrings)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6371,return CharSequenceUtils.regionMatches(str, ignoreCase, 0, prefix, 0, prefix.length());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6369,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6368,if (prefix.length() > str.length()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6366,return (str == null && prefix == null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6365,if (str == null || prefix == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6350,return startsWith(str, prefix, true);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6324,return startsWith(str, prefix, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6294,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6292,return p[n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6291,if (p[n] <= threshold) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6286,d = _d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6285,p = d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6284,_d = p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6279,d[i] = 1 + Math.min(Math.min(d[i - 1], p[i]), p[i - 1]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6276,d[i] = p[i - 1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6274,if (s.charAt(i - 1) == t_j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6273,for (int i = min; i <= max; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6269,d[min - 1] = Integer.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6268,if (min > 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6264,return -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6263,if (min > max) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6260,int max = Math.min(n, j + threshold);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6259,int min = Math.max(1, j - threshold);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6256,d[0] = j;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6255,char t_j = t.charAt(j - 1); // jth character of t
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6254,for (int j = 1; j <= m; j++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6251,Arrays.fill(d, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6250,Arrays.fill(p, boundary, p.length, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6246,p[i] = i;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6245,for (int i = 0; i < boundary; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6244,int boundary = Math.min(n, threshold) + 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6240,int d[] = new int[n + 1]; // cost array, horizontally
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6239,int p[] = new int[n + 1]; // 'previous' cost array, horizontally
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6236,m = t.length();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6235,n = m;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6234,t = tmp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6233,s = t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6232,CharSequence tmp = s;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6230,if (n > m) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6227,return n <= threshold ? n : -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6226,} else if (m == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6225,return m <= threshold ? m : -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6224,if (n == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6221,int m = t.length(); // length of t
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6220,int n = s.length(); // length of s
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/20/src/main/java/org/apache/commons/lang3/StringUtils.java,6173,throw new IllegalArgumentException("Threshold must not be negative");

@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,217,return line.contains(closest) ? closest : null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,216,final Vector3D closest = closestPoint(line);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,206,return new Vector3D(1, zero, (a - b * cos) / n, direction);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,204,final double b        = delta0.dotProduct(line.direction);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,203,final double a        = delta0.dotProduct(direction);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,202,final Vector3D delta0 = line.zero.subtract(zero);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,197,if (n < Precision.EPSILON) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,196,final double n = 1 - cos * cos;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,195,final double cos = direction.dotProduct(line.direction);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,166,return n.getNorm();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,165,final Vector3D n = new Vector3D(1.0, d, -d.dotProduct(direction), direction);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,164,final Vector3D d = p.subtract(zero);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,156,return distance(p) < 1.0e-10;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,116,Location loc1 = remainingRegion.checkPoint(line.toSubSpace(v1D));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,113,Vector3D v1D = line.intersection(subLine.line);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,57,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,56,this(new Line(start, end), buildIntervalSet(start, end));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,120,Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(v2D));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,117,Vector2D v2D = line1.intersection(line2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,114,Line line2 = (Line) subLine.getHyperplane();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,113,Line line1 = (Line) getHyperplane();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,129,return new Vector1D(getAbscissa((Vector3D) point));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java,114,return point.subtract(zero).dotProduct(direction);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,138,return new IntervalsSet(line.toSubSpace(start).getX(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,137,final Line line = new Line(start, end);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,57,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,56,super(new Line(start, end), buildIntervalSet(start, end));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java,120,return new BSPTree<Euclidean1D>(lowerCut,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java,118,final SubHyperplane<Euclidean1D> upperCut =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,140,return new IntervalsSet(line.toSubSpace(start).getX(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,139,final Line line = new Line(start, end);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java,109,if (Double.isInfinite(upper) && (upper > 0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java,107,final SubHyperplane<Euclidean1D> lowerCut =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java,94,if (Double.isInfinite(lower) && (lower < 0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java,48,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java,47,super(buildTree(lower, upper));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/SubOrientedPoint.java,40,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/SubOrientedPoint.java,39,super(hyperplane, remainingRegion);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint.java,74,return new SubOrientedPoint(this, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint.java,45,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint.java,44,this.direct   = direct;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint.java,43,this.location = location;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint.java,42,public OrientedPoint(final Vector1D location, final boolean direct) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,123,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,122,minus.parent   = this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,121,plus.parent    = this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,120,this.attribute = attribute;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,119,this.parent    = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,118,this.minus     = minus;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,117,this.plus      = plus;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,116,this.cut       = cut;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,115,final Object attribute) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Vector1D.java,128,return x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Vector1D.java,67,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Vector1D.java,66,this.x = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Vector1D.java,65,public Vector1D(double x) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane.java,53,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane.java,52,this.remainingRegion = remainingRegion;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane.java,51,this.hyperplane      = hyperplane;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane.java,50,final Region<T> remainingRegion) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,69,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,68,this.tree = tree;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,67,protected AbstractRegion(final BSPTree<S> tree) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java,243,return FastMath.sqrt (x * x + y * y + z * z);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,47,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,46,this.remainingRegion = remainingRegion;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,45,this.line            = line;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java,44,public SubLine(final Line line, final IntervalsSet remainingRegion) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,99,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,98,this.attribute = attribute;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,97,parent = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,96,minus  = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,95,plus   = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,94,cut    = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java,93,public BSPTree(final Object attribute) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1031,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1025,if (Double.isNaN(result)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1023,double result = s123High + (prod1Low + prod2Low + prod3Low + s12Low + s123Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1019,final double s123Low    = (prod3High - (s123High - s123Prime)) + (s12High - s123Prime);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1018,final double s123Prime  = s123High - prod3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1017,final double s123High   = s12High + prod3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1014,final double s12Low     = (prod2High - (s12High - s12Prime)) + (prod1High - s12Prime);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1013,final double s12Prime   = s12High - prod2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1012,final double s12High    = prod1High + prod2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1009,final double prod3Low   = a3Low * b3Low - (((prod3High - a3High * b3High) - a3Low * b3High) - a3High * b3Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1008,final double prod3High  = a3 * b3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1005,final double b3Low      = b3 - b3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1004,final double b3High     = cb3 - (cb3 - b3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1003,final double cb3        = SPLIT_FACTOR * b3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1002,final double a3Low      = a3 - a3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1001,final double a3High     = ca3 - (ca3 - a3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,1000,final double ca3        = SPLIT_FACTOR * a3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,997,final double prod2Low   = a2Low * b2Low - (((prod2High - a2High * b2High) - a2Low * b2High) - a2High * b2Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,996,final double prod2High  = a2 * b2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,993,final double b2Low      = b2 - b2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,992,final double b2High     = cb2 - (cb2 - b2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,991,final double cb2        = SPLIT_FACTOR * b2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,990,final double a2Low      = a2 - a2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,989,final double a2High     = ca2 - (ca2 - a2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/4/src/main/java/org/apache/commons/math3/util/MathArrays.java,988,final double ca2        = SPLIT_FACTOR * a2;

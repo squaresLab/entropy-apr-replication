@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,372,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,381,isEquals = lhs.equals(rhs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,408,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,379,if (!lhsClass.isArray()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,378,Class lhsClass = lhs.getClass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,374,if (lhs == null || rhs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,371,if (lhs == rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,368,if (isEquals == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,831,return this.isEquals;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,102,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,92,private boolean isEquals = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,100,public EqualsBuilder() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,842,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,841,this.isEquals = isEquals;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,821,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,819,append(lhs[i], rhs[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,818,for (int i = 0; i < lhs.length && isEquals; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,816,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,815,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,814,if (lhs.length != rhs.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,812,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,811,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,810,if (lhs == null || rhs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,808,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,807,if (lhs == rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,805,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,804,if (isEquals == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,790,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,788,append(lhs[i], rhs[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,787,for (int i = 0; i < lhs.length && isEquals; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,785,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,784,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,783,if (lhs.length != rhs.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,781,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,780,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,779,if (lhs == null || rhs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,777,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,776,if (lhs == rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,774,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,773,if (isEquals == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,759,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,757,append(lhs[i], rhs[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,756,for (int i = 0; i < lhs.length && isEquals; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,754,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,753,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,752,if (lhs.length != rhs.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,750,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,749,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,748,if (lhs == null || rhs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,746,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,745,if (lhs == rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,743,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,742,if (isEquals == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,728,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,726,append(lhs[i], rhs[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,725,for (int i = 0; i < lhs.length && isEquals; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,723,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,722,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,721,if (lhs.length != rhs.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,719,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,718,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,717,if (lhs == null || rhs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,715,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,714,if (lhs == rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,712,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,711,if (isEquals == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,697,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,695,append(lhs[i], rhs[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,694,for (int i = 0; i < lhs.length && isEquals; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,692,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,691,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,690,if (lhs.length != rhs.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,688,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,687,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,686,if (lhs == null || rhs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,684,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,683,if (lhs == rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,681,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,680,if (isEquals == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,666,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,664,append(lhs[i], rhs[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,663,for (int i = 0; i < lhs.length && isEquals; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,661,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,660,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,659,if (lhs.length != rhs.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,657,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,656,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,655,if (lhs == null || rhs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,653,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,652,if (lhs == rhs) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,650,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,649,if (isEquals == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,635,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,633,append(lhs[i], rhs[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,632,for (int i = 0; i < lhs.length && isEquals; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,630,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,629,this.setEquals(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,628,if (lhs.length != rhs.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,626,return this;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/48/src/java/org/apache/commons/lang/builder/EqualsBuilder.java,625,this.setEquals(false);

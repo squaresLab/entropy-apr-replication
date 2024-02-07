@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1013,return res.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1012,res.append("}");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1009,res.append("}");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1007,res.append(getEntry(i, j));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1005,res.append(",");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1004,if (j > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1003,for (int j = 0; j < nCols; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1002,res.append("{");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,1000,res.append(",");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,999,if (i > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,998,for (int i = 0; i < nRows; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,996,res.append(shortClassName).append("{");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,995,String shortClassName = fullClassName.substring(fullClassName.lastIndexOf('.') + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,994,String fullClassName = getClass().getName();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,993,final StringBuffer res = new StringBuffer();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,992,final int nCols = getColumnDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/AbstractRealMatrix.java,991,final int nRows = getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/MatrixUtils.java,633,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/MatrixUtils.java,627,if (left.getColumnDimension() != right.getRowDimension()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,610,return out;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,605,++blockIndex;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,599,outBlock[k++] += sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,597,n += jWidth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,596,sum += tBlock[l++] * mBlock[n];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,595,while (l < lEnd) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,593,n += jWidth4;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,592,l += 4;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,588,sum += tBlock[l] * mBlock[n] +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,587,while (l < lEnd - 3) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,586,int n = nStart;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,585,int l = lStart;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,584,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,583,for (int nStart = 0; nStart < jWidth; ++nStart) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,582,final int lEnd   = lStart + kWidth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,581,final int lStart = (p - pStart) * kWidth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,580,for (int p = pStart, k = 0; p < pEnd; ++p) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,579,final double[] mBlock = m.blocks[kBlock * m.blockColumns + jBlock];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,578,final double[] tBlock = blocks[iBlock * blockColumns + kBlock];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,577,final int kWidth = blockWidth(kBlock);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,576,for (int kBlock = 0; kBlock < blockColumns; ++kBlock) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,573,final double[] outBlock = out.blocks[blockIndex];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,570,final int jWidth4 = jWidth3 + jWidth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,569,final int jWidth3 = jWidth2 + jWidth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,568,final int jWidth2 = jWidth  + jWidth;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,567,final int jWidth = out.blockWidth(jBlock);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,566,for (int jBlock = 0; jBlock < out.blockColumns; ++jBlock) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,564,final int pEnd   = Math.min(pStart + BLOCK_SIZE, rows);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,563,final int pStart = iBlock * BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,561,for (int iBlock = 0; iBlock < out.blockRows; ++iBlock) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,560,int blockIndex = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,557,final DenseRealMatrix out = new DenseRealMatrix(rows, m.columns);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,555,MatrixUtils.checkMultiplicationCompatible(this, m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,492,return multiply((DenseRealMatrix) m);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,151,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,145,ltQ[p] -= ltI[q] * ltI[p];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,144,for (int p = q; p < order; ++p) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,143,final double[] ltQ = lTData[q];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,142,ltI[q] *= inverse;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,141,for (int q = order - 1; q > i; --q) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,139,final double inverse = 1.0 / ltI[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,138,ltI[i] = Math.sqrt(ltI[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,134,final double[] ltI = lTData[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,132,for (int i = 0; i < order; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,76,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,640,return data;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,636,lastPos    += lastColumns;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,635,regularPos += BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,634,System.arraycopy(blocks[blockIndex], lastPos, dataP, dataPos, lastColumns);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,630,for (int jBlock = 0; jBlock < blockColumns - 1; ++jBlock) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,629,int dataPos    = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,628,int blockIndex = iBlock * blockColumns;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,627,final double[] dataP = data[p];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,626,for (int p = pStart; p < pEnd; ++p) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,625,int lastPos      = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,624,int regularPos   = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,623,final int pEnd   = Math.min(pStart + BLOCK_SIZE, rows);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,622,final int pStart = iBlock * BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,621,for (int iBlock = 0; iBlock < blockRows; ++iBlock) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,619,final int lastColumns = columns - (blockColumns - 1) * BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,618,final double[][] data = new double[getRowDimension()][getColumnDimension()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,127,lJ[i] = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,124,if (Math.abs(lIJ - lJI) > maxDelta) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,122,final double maxDelta =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,121,final double lJI = lJ[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,120,final double lIJ = lI[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,119,final double[] lJ = lTData[j];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,118,for (int j = i + 1; j < order; ++j) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,114,if (lTData[i][i] < absolutePositivityThreshold) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,112,final double[] lI = lTData[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,110,for (int i = 0; i < order; ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,107,cachedLT = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,106,cachedL  = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,105,lTData   = matrix.getData();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java,104,final int order = matrix.getRowDimension();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/MatrixUtils.java,88,return new DenseRealMatrix(data);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,1635,return (blockColumn == blockColumns - 1) ? columns - blockColumn * BLOCK_SIZE : BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,1626,return (blockRow == blockRows - 1) ? rows - blockRow * BLOCK_SIZE : BLOCK_SIZE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,1323,return columns;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,1317,return rows;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/86/src/java/org/apache/commons/math/linear/DenseRealMatrix.java,1218,return blocks[iBlock * blockColumns + jBlock][k];

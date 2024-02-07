@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/RendererChangeEvent.java,65,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/RendererChangeEvent.java,64,this.renderer = renderer;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/RendererChangeEvent.java,63,super(renderer);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,174,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,171,this.notifyListeners(new RendererChangeEvent(this));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,170,this.plotLines = draw;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,169,if (this.plotLines != draw) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2345,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2340,for (int i = ls.length - 2; i >= 0; i -= 2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2339,Object[] ls = this.listenerList.getListenerList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/ChartChangeEvent.java,98,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/ChartChangeEvent.java,97,this.type = type;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/ChartChangeEvent.java,96,this.chart = chart;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/ChartChangeEvent.java,95,super(source);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/ChartChangeEvent.java,72,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/event/ChartChangeEvent.java,71,this(source, null, ChartChangeEventType.GENERAL);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/text/TextAnchor.java,150,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/text/TextAnchor.java,149,if (this == obj) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelAnchor.java,193,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelAnchor.java,192,if (this == o) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,195,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,192,if (this.angle != that.angle) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,189,if (!this.rotationAnchor.equals(that.rotationAnchor)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,186,if (!this.textAnchor.equals(that.textAnchor)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,183,if (!this.itemLabelAnchor.equals(that.itemLabelAnchor)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,182,ItemLabelPosition that = (ItemLabelPosition) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,179,if (!(obj instanceof ItemLabelPosition)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/ItemLabelPosition.java,176,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintUtilities.java,100,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintUtilities.java,98,result = p1.equals(p2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintUtilities.java,87,if (p1 instanceof GradientPaint && p2 instanceof GradientPaint) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintUtilities.java,85,boolean result = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintUtilities.java,81,if (p2 == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintUtilities.java,78,if (p1 == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ObjectUtilities.java,131,return o1.equals(o2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ObjectUtilities.java,130,if (o1 != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ObjectUtilities.java,128,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ObjectUtilities.java,127,if (o1 == o2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java,152,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java,149,if (!this.formatPattern.equals(that.formatPattern)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java,147,StandardCategorySeriesLabelGenerator that
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java,144,if (!(obj instanceof StandardCategorySeriesLabelGenerator)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java,141,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ShapeList.java,113,return super.equals(obj);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ShapeList.java,112,if (obj instanceof ShapeList) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ShapeList.java,108,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/ShapeList.java,104,if (obj == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/StrokeList.java,114,return super.equals(obj);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/StrokeList.java,113,if (obj instanceof StrokeList) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/StrokeList.java,109,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/StrokeList.java,105,if (obj == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintList.java,109,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintList.java,103,for (int i = 0; i < listSize; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintList.java,102,int listSize = size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintList.java,101,PaintList that = (PaintList) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintList.java,100,if (obj instanceof PaintList) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintList.java,97,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/PaintList.java,94,if (obj == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/BooleanList.java,96,return super.equals(obj);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/BooleanList.java,95,if (obj instanceof BooleanList) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/AbstractObjectList.java,197,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/AbstractObjectList.java,192,for (int i = 0; i < listSize; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/AbstractObjectList.java,191,int listSize = size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/AbstractObjectList.java,190,AbstractObjectList other = (AbstractObjectList) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/AbstractObjectList.java,186,if (!(obj instanceof AbstractObjectList)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/AbstractObjectList.java,182,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/util/AbstractObjectList.java,178,if (obj == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1343,return super.equals(obj);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1339,if (!ObjectUtilities.equal(this.foregroundAnnotations,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1335,if (!ObjectUtilities.equal(this.backgroundAnnotations,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1331,if (!ObjectUtilities.equal(this.legendItemURLGenerator,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1327,if (!ObjectUtilities.equal(this.legendItemToolTipGenerator,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1323,if (!ObjectUtilities.equal(this.legendItemLabelGenerator,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1319,if (!ObjectUtilities.equal(this.baseURLGenerator,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1315,if (!ObjectUtilities.equal(this.urlGeneratorList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1311,if (!ObjectUtilities.equal(this.baseToolTipGenerator,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1307,if (!ObjectUtilities.equal(this.toolTipGeneratorList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1303,if (!ObjectUtilities.equal(this.baseItemLabelGenerator,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1299,if (!ObjectUtilities.equal(this.itemLabelGeneratorList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1297,AbstractCategoryItemRenderer that = (AbstractCategoryItemRenderer) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1294,if (!(obj instanceof AbstractCategoryItemRenderer)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,1291,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2465,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2462,if (this.baseCreateEntities != that.baseCreateEntities) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2458,if (!ObjectUtilities.equal(this.createEntitiesList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2455,if (this.itemLabelAnchorOffset != that.itemLabelAnchorOffset) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2451,if (!ObjectUtilities.equal(this.baseNegativeItemLabelPosition,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2447,if (!ObjectUtilities.equal(this.negativeItemLabelPositionList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2443,if (!ObjectUtilities.equal(this.basePositiveItemLabelPosition,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2439,if (!ObjectUtilities.equal(this.positiveItemLabelPositionList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2435,if (!PaintUtilities.equal(this.baseItemLabelPaint,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2431,if (!ObjectUtilities.equal(this.itemLabelPaintList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2427,if (!ObjectUtilities.equal(this.baseItemLabelFont,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2423,if (!ObjectUtilities.equal(this.itemLabelFontList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2420,if (this.baseItemLabelsVisible != that.baseItemLabelsVisible) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2416,if (!ObjectUtilities.equal(this.itemLabelsVisibleList,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2413,if (!ObjectUtilities.equal(this.baseShape, that.baseShape)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2410,if (!ObjectUtilities.equal(this.shapeList, that.shapeList)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2405,if (!ObjectUtilities.equal(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/23/source/org/jfree/chart/renderer/AbstractRenderer.java,2401,if (!ObjectUtilities.equal(this.outlineStrokeList,

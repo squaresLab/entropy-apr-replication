@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,597,return multiply(100).doubleValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,555,return new Fraction(numerator * i, denominator);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,319,return (double)numerator / (double)denominator;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,430,u = -t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,426,t /= 2; // cast out twos
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,400,u = -u;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,439,return -u * (1 << k); // gcd is u*2^k
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,438,} while (t != 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,435,t = (v - u) / 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,429,if (t > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,425,while ((t & 1) == 0) { // while t is even..
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,419,int t = ((u & 1) == 1) ? v : -(u / 2)/* B3 */;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,413,if (k == 31) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,407,while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,406,int k = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,403,v = -v;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,402,if (v > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,399,if (u > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,387,if ((u == 0) || (v == 0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,386,int v = q;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,385,int u = p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,284,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,283,this.denominator = den;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,282,this.numerator   = num;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,278,if (den < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,272,if (d > 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,271,final int d = ArithmeticUtils.gcd(num, den);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,261,if (den < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,257,if (den == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,256,public Fraction(int num, int den) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,956,return (n > 0) && ((n & (n - 1)) == 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,947,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,945,throw new NotPositiveException(LocalizedFormats.BINOMIAL_NEGATIVE_PARAMETER, n);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,944,if (n < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,941,throw new NumberIsTooLargeException(LocalizedFormats.BINOMIAL_INVALID_PARAMETERS_ORDER,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,940,if (n < k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,928,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,924,throw new MathArithmeticException(pattern, a, b);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,922,ret = a + b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,921,if (a <= Long.MAX_VALUE - b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,914,ret = a + b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,910,throw new MathArithmeticException(pattern, a, b);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,908,ret = a + b;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,907,if (Long.MIN_VALUE - b <= a) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,905,if (b < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,904,if (a < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,900,ret = addAndCheck(b, a, pattern);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,898,if (a > b) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,882,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,879,e = e.shiftRight(1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,878,k2p = k2p.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,876,result = result.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,875,if (e.testBit(0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,874,while (!BigInteger.ZERO.equals(e)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,873,BigInteger k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,872,BigInteger result = BigInteger.ONE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,869,throw new NotPositiveException(LocalizedFormats.EXPONENT, e);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,868,if (e.compareTo(BigInteger.ZERO) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,855,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,852,e = e >> 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,851,k2p = k2p.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,849,result = result.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,848,if ((e & 0x1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,847,while (e != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,846,BigInteger k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,845,BigInteger result = BigInteger.ONE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,842,throw new NotPositiveException(LocalizedFormats.EXPONENT, e);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,841,if (e < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,829,return k.pow(e);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,826,throw new NotPositiveException(LocalizedFormats.EXPONENT, e);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,825,if (e < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,813,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,810,e = e >> 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,809,k2p *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,807,result *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,806,if ((e & 0x1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,805,while (e != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,804,long k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,803,long result = 1l;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,800,throw new NotPositiveException(LocalizedFormats.EXPONENT, e);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,799,if (e < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,787,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,784,e = e >> 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,783,k2p *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,781,result *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,780,if ((e & 0x1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,779,while (e != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,778,long k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,777,long result = 1l;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,774,throw new NotPositiveException(LocalizedFormats.EXPONENT, e);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,773,if (e < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,761,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,758,e = e >> 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,757,k2p *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,755,result *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,754,if ((e & 0x1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,753,while (e != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,752,int k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,751,int result = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,748,throw new NotPositiveException(LocalizedFormats.EXPONENT, e);

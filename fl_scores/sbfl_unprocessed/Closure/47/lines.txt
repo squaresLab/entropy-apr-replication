@@ -1,0 +1,54 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,98,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,97,} while (value > 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,96,out.append(Base64.toBase64(digit));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,93,if (value > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,92,value >>>= VLQ_BASE_SHIFT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,91,int digit = value & VLQ_BASE_MASK;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,89,value = toVLQSigned(value);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,67,return (value << 1) + 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/Base64VLQ.java,64,if (value < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,681,return originalNameIndex;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,679,originalNameMap.put(symbolName, originalNameIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,678,originalNameIndex = originalNameMap.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,675,if (index != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,674,Integer index = originalNameMap.get(symbolName);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,669,return lastSourceFileIndex;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,666,sourceFileMap.put(sourceName, lastSourceFileIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,665,lastSourceFileIndex = sourceFileMap.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,662,if (index != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,661,Integer index = sourceFileMap.get(sourceName);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,660,lastSourceFile = sourceName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,659,if (sourceName != lastSourceFile) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,391,maxLine = Math.max(maxLine, endPositionLine);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,390,int endPositionLine = m.endPosition.getLine();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,389,m.id = id++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,332,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,331,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,330,out.append(escapeString(key));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,327,if (i != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,326,String key = entry.getKey();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,217,Preconditions.checkState(nextLine > lastLine
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,216,int nextColumn = mapping.startPosition.getColumn();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,215,int nextLine = mapping.startPosition.getLine();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,214,int lastColumn = lastMapping.startPosition.getColumn();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,213,int lastLine = lastMapping.startPosition.getLine();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorFactory.java,41,return new SourceMapGeneratorV3();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,393,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,388,if (m.used) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,226,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,225,mappings.add(mapping);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,224,lastMapping = mapping;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,212,if (lastMapping != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,209,mapping.endPosition = adjustedEnd;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,208,mapping.startPosition = adjustedStart;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,207,mapping.originalName = symbolName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,206,mapping.originalPosition = sourceStartPosition;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,205,mapping.sourceFile = sourceName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,204,Mapping mapping = new Mapping();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,176,if (offsetPosition.getLine() != 0
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,174,FilePosition adjustedEnd = endPosition;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,173,FilePosition adjustedStart = startPosition;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,169,if (sourceName == null || sourceStartPosition.getLine() < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,155,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,154,offsetPosition = new FilePosition(offsetLine, offsetIndex);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/47/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java,153,Preconditions.checkState(offsetIndex >= 0);

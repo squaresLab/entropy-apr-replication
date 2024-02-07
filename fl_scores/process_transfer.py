@@ -31,7 +31,7 @@ def transfer(output_dir):
     nomatch_counter = 0
     total_counter = 0
     current_path = os.getcwd()
-    transfer_path = f"{current_path}/transferfl_raw"
+    transfer_path = f"{current_path}/fl_scores/transferfl_unprocessed"
     for subdir, _, files in os.walk(transfer_path):
         for file in files:
             result_dict = {}
@@ -78,5 +78,5 @@ def transfer(output_dir):
 
 if __name__ == "__main__":
     current_path = os.getcwd()
-    output_dir = f"{current_path}/score_transferfl/"
+    output_dir = f"{current_path}/fl_scores/score_transferfl/"
     transfer(output_dir)

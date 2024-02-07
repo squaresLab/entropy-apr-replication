@@ -28,7 +28,7 @@ def find_metadata(proj, bug):
 def transfer(output_dir):
     nomatch_counter = 0
     current_path = os.getcwd()
-    transfer_path = f"{current_path}/sbfl_raw"
+    transfer_path = f"{current_path}/fl_scores/sbfl_unprocessed"
     for subdir, _, files in os.walk(transfer_path):
         for file in files:
             if "stmt-susps.txt" not in file:
@@ -74,5 +74,5 @@ def transfer(output_dir):
 
 if __name__ == "__main__":
     current_path = os.getcwd()
-    output_dir = f"{current_path}/score_sbfl/"
+    output_dir = f"{current_path}/fl_scores/score_sbfl/"
     transfer(output_dir)

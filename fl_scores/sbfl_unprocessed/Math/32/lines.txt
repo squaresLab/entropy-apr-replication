@@ -1,0 +1,82 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSet.java,84,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSet.java,83,super(boundary);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,330,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,136,if ((Boolean) tree.getAttribute()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,135,final BSPTree<Euclidean2D> tree = getTree(false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,140,return new IntervalsSet(line.toSubSpace(start).getX(),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,139,final Line line = new Line(start, end);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,57,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,56,super(new Line(start, end), buildIntervalSet(start, end));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/AVLTree.java,167,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2484,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2483,yb = epsB * denom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2482,ya = epsA * denom;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2480,final double denom = 1d / (1d + (xa + xb) * (TANGENT_TABLE_A[idx] + TANGENT_TABLE_B[idx]));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,82,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,81,this(p1, p2.subtract(p1).crossProduct(p3.subtract(p1)));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,106,return (global < -1.0e-10) ?
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,105,final double global = otherPlane.getOffset(thisPlane);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,64,return (global < -1.0e-10) ? Side.MINUS : ((global > 1.0e-10) ? Side.PLUS : Side.HYPER);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,63,final double global = otherPlane.getOffset(thisPlane);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,427,return (((Plane) other).w).dotProduct(w) > 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,406,return originOffset + (sameOrientationAs(plane) ? -plane.originOffset : plane.originOffset);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,324,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,207,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,206,minusList.add(split.getMinus());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,205,plusList.add(split.getPlus());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,204,final SubHyperplane.SplitSubHyperplane<S> split = other.split(inserted);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,809,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,803,if (Double.isNaN(result)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,801,double result = s123High + (prod1Low + prod2Low + prod3Low + s12Low + s123Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,797,final double s123Low    = (prod3High - (s123High - s123Prime)) + (s12High - s123Prime);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,796,final double s123Prime  = s123High - prod3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,795,final double s123High   = s12High + prod3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,792,final double s12Low     = (prod2High - (s12High - s12Prime)) + (prod1High - s12Prime);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,791,final double s12Prime   = s12High - prod2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,790,final double s12High    = prod1High + prod2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,787,final double prod3Low   = a3Low * b3Low - (((prod3High - a3High * b3High) - a3Low * b3High) - a3High * b3Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,786,final double prod3High  = a3 * b3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,783,final double b3Low      = b3 - b3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,782,final double b3High     = cb3 - (cb3 - b3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,781,final double cb3        = SPLIT_FACTOR * b3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,780,final double a3Low      = a3 - a3High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,779,final double a3High     = ca3 - (ca3 - a3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,778,final double ca3        = SPLIT_FACTOR * a3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,775,final double prod2Low   = a2Low * b2Low - (((prod2High - a2High * b2High) - a2Low * b2High) - a2High * b2Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,774,final double prod2High  = a2 * b2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,771,final double b2Low      = b2 - b2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,770,final double b2High     = cb2 - (cb2 - b2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,769,final double cb2        = SPLIT_FACTOR * b2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,768,final double a2Low      = a2 - a2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,767,final double a2High     = ca2 - (ca2 - a2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,766,final double ca2        = SPLIT_FACTOR * a2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,763,final double prod1Low   = a1Low * b1Low - (((prod1High - a1High * b1High) - a1Low * b1High) - a1High * b1Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,762,final double prod1High  = a1 * b1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,759,final double b1Low      = b1 - b1High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,758,final double b1High     = cb1 - (cb1 - b1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,757,final double cb1        = SPLIT_FACTOR * b1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,756,final double a1Low      = a1 - a1High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,755,final double a1High     = ca1 - (ca1 - a1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,754,final double ca1        = SPLIT_FACTOR * a1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,712,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,706,if (Double.isNaN(result)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,704,double result = s12High + (prod1Low + prod2Low + s12Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,700,final double s12Low     = (prod2High - (s12High - s12Prime)) + (prod1High - s12Prime);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,699,final double s12Prime   = s12High - prod2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,698,final double s12High    = prod1High + prod2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,695,final double prod2Low   = a2Low * b2Low - (((prod2High - a2High * b2High) - a2Low * b2High) - a2High * b2Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,694,final double prod2High  = a2 * b2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,691,final double b2Low      = b2 - b2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,690,final double b2High     = cb2 - (cb2 - b2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,689,final double cb2        = SPLIT_FACTOR * b2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,688,final double a2Low      = a2 - a2High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,687,final double a2High     = ca2 - (ca2 - a2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,686,final double ca2        = SPLIT_FACTOR * a2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,683,final double prod1Low   = a1Low * b1Low - (((prod1High - a1High * b1High) - a1Low * b1High) - a1High * b1Low);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,682,final double prod1High  = a1 * b1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,679,final double b1Low      = b1 - b1High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,678,final double b1High     = cb1 - (cb1 - b1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,677,final double cb1        = SPLIT_FACTOR * b1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,676,final double a1Low      = a1 - a1High;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,675,final double a1High     = ca1 - (ca1 - a1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/MathArrays.java,674,final double ca1        = SPLIT_FACTOR * a1;

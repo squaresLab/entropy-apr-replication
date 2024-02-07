@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,162,return minCluster;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,161,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,157,if (distance < minDistance) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,156,final double distance = point.distanceFrom(c.getCenter());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,155,for (final Cluster<T> c : clusters) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,154,Cluster<T> minCluster = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,153,double minDistance = Double.MAX_VALUE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,139,return resultSet;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,115,while (resultSet.size() < k) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,114,final double[] dx2 = new double[pointSet.size()];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,112,resultSet.add(new Cluster<T>(firstPoint));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,111,final T firstPoint = pointSet.remove(random.nextInt(pointSet.size()));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,108,final List<Cluster<T>> resultSet = new ArrayList<Cluster<T>>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,107,final List<T> pointSet = new ArrayList<T>(points);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,91,cluster.addPoint(p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,90,Cluster<T> cluster = getNearestCluster(clusters, p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,89,for (final T p : points) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,57,assignPointsToClusters(clusters, points);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,56,List<Cluster<T>> clusters = chooseInitialCenters(points, k, random);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,42,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,41,this.random = random;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,40,public KMeansPlusPlusClusterer(final Random random) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,71,return center;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,48,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,47,points = new ArrayList<T>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,46,this.center = center;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,45,public Cluster(final T center) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,57,return MathUtils.distance(point, p.getPoint());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1629,return Math.sqrt(sum);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1627,sum += dp * dp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1626,final int dp = p1[i] - p2[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1625,for (int i = 0; i < p1.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1624,int sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,52,return point;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,45,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,44,this.point = point;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,43,public EuclideanIntegerPoint(final int[] point) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1659,return max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1657,max = Math.max(max, Math.abs(p1[i] - p2[i]));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1656,for (int i = 0; i < p1.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1655,int max = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1644,return max;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1642,max = Math.max(max, Math.abs(p1[i] - p2[i]));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1641,for (int i = 0; i < p1.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1640,double max = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1613,return Math.sqrt(sum);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1611,sum += dp * dp;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1610,final double dp = p1[i] - p2[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1609,for (int i = 0; i < p1.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1608,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1597,return sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1595,sum += Math.abs(p1[i] - p2[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1594,for (int i = 0; i < p1.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1593,int sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1582,return sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1580,sum += Math.abs(p1[i] - p2[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1579,for (int i = 0; i < p1.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1578,double sum = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1566,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1563,e = e.shiftRight(1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1562,k2p = k2p.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1560,result = result.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1559,if (e.testBit(0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1558,while (!BigInteger.ZERO.equals(e)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1557,BigInteger k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1556,BigInteger result = BigInteger.ONE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1551,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1550,if (e.compareTo(BigInteger.ZERO) < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1536,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1533,e = e >> 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1532,k2p = k2p.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1530,result = result.multiply(k2p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1529,if ((e & 0x1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1528,while (e != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1527,BigInteger k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1526,BigInteger result = BigInteger.ONE;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1521,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1520,if (e < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1506,return k.pow(e);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1501,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1500,if (e < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1486,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1483,e = e >> 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1482,k2p *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1480,result *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1479,if ((e & 0x1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1478,while (e != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1477,long k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1476,long result = 1l;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1471,throw MathRuntimeException.createIllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1470,if (e < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1456,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1453,e = e >> 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1452,k2p *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1450,result *= k2p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1449,if ((e & 0x1) != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1448,while (e != 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1447,long k2p    = k;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1446,long result = 1l;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/79/src/main/java/org/apache/commons/math/util/MathUtils.java,1441,throw MathRuntimeException.createIllegalArgumentException(

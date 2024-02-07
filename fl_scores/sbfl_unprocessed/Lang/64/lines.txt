@@ -1,0 +1,94 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,128,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,127,iValue = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,126,super(name);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,183,return iValue - ((ValuedEnum) other).iValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,495,return entry;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,486,while (cls != null && cls != Enum.class && cls != ValuedEnum.class) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,485,Class cls = enumClass.getSuperclass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,484,Entry entry = new Entry();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,359,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,358,entry.list.add(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,357,entry.map.put(name, this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,354,if (entry.map.containsKey(name)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,352,cEnumClasses.put(enumClass, entry);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,351,entry = createEntry(enumClass);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,350,if (entry == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,349,Entry entry = (Entry) cEnumClasses.get(enumClass);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,340,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,339,ok = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,317,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,315,iHashCode = 7 + getEnumClass().hashCode() + 3 * name.hashCode();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,314,iName = name;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,519,return getClass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,344,if (ok == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,338,if (cls == enumClass) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,337,while (cls != null && cls != Enum.class && cls != ValuedEnum.class) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,336,boolean ok = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,335,Class cls = getClass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,332,if (enumClass == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,331,Class enumClass = getEnumClass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,327,if (StringUtils.isEmpty(name)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,313,init(name);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,270,protected transient String iToString = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,312,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/StringUtils.java,185,return str == null || str.length() == 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,208,return iToString;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,206,iToString = shortName + "[" + getName() + "=" + getValue() + "]";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,205,String shortName = ClassUtils.getShortClassName(getEnumClass());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,204,if (iToString == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,162,return iValue;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,153,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,152,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,150,return enumeration;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,149,if (enumeration.getValue() == value) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,148,ValuedEnum enumeration = (ValuedEnum) it.next();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,147,for (Iterator it = list.iterator(); it.hasNext();) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,146,List list = Enum.getEnumList(enumClass);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,144,throw new IllegalArgumentException("The Enum Class must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/ValuedEnum.java,143,if (enumClass == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,337,while (cls != null && cls != Enum.class && cls != ValuedEnum.class) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,626,return iToString;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,624,iToString = shortName + "[" + getName() + "]";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,623,String shortName = ClassUtils.getShortClassName(getEnumClass());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,622,if (iToString == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,611,throw new IllegalStateException("This should not happen");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,608,} catch (InvocationTargetException e) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,606,} catch (IllegalAccessException e) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,610,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,604,} catch (NoSuchMethodException e) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,603,return name;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,602,String name = (String) mth.invoke(other, null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,601,Method mth = other.getClass().getMethod("getName", null);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,590,return iName.compareTo(((Enum) other).iName);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,587,throw new ClassCastException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,585,return iName.compareTo( getNameInOtherClassLoader(other) );
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,584,if (other.getClass().getName().equals(this.getClass().getName())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,583,if (other.getClass() != this.getClass()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,581,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,580,if (other == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,560,return iHashCode;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,550,return iName.equals( getNameInOtherClassLoader(other) );
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,548,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,547,if (other.getClass().getName().equals(this.getClass().getName()) == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,544,return iName.equals(((Enum) other).iName);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,540,} else if (other.getClass() == this.getClass()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,539,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,538,} else if (other == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,537,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,536,if (other == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,505,return iName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,494,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,493,cls = cls.getSuperclass();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,491,break;  // stop here, as this will already have had superclasses added
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,490,entry.map.putAll(loopEntry.map);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,489,entry.list.addAll(loopEntry.list);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,488,if (loopEntry != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,487,Entry loopEntry = (Entry) cEnumClasses.get(cls);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,472,return entry;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,471,Entry entry = (Entry) cEnumClasses.get(enumClass);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,469,throw new IllegalArgumentException("The Class must be a subclass of Enum");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,468,if (Enum.class.isAssignableFrom(enumClass) == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,466,throw new IllegalArgumentException("The Enum Class must not be null");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,465,if (enumClass == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,454,return Enum.getEnumList(enumClass).iterator();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/64/src/java/org/apache/commons/lang/enums/Enum.java,436,return entry.unmodifiableList;

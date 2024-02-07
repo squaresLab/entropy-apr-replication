@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,223,return cAvailableLocaleSet.contains(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1347,return new File(System.getProperty(USER_HOME_KEY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1333,return new File(System.getProperty(USER_DIR_KEY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1319,return new File(System.getProperty(JAVA_IO_TMPDIR_KEY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1305,return new File(System.getProperty(JAVA_HOME_KEY));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1292,return JAVA_AWT_HEADLESS != null ? JAVA_AWT_HEADLESS.equals(Boolean.TRUE.toString()) : false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1278,return JAVA_VERSION_INT >= requiredVersion;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1260,return JAVA_VERSION_FLOAT >= requiredVersion;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1242,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1238,System.err.println(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1236,} catch (SecurityException ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1235,return System.getProperty(property);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1219,return OS_NAME.startsWith(osNamePrefix) && OS_VERSION.startsWith(osVersionPrefix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1217,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1216,if (OS_NAME == null || OS_VERSION == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1205,return OS_NAME.startsWith(osNamePrefix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1203,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1202,if (OS_NAME == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1192,return JAVA_VERSION_TRIMMED.startsWith(versionPrefix);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1190,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1189,if (JAVA_VERSION_TRIMMED == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1179,return null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1175,return JAVA_VERSION.substring(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1174,if (ch >= '0' && ch <= '9') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1173,char ch = JAVA_VERSION.charAt(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1172,for (int i = 0; i < JAVA_VERSION.length(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1171,if (JAVA_VERSION != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1161,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1160,} catch (Exception ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1159,return Integer.parseInt(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1156,str = str + "0";
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1154,str = str + JAVA_VERSION_TRIMMED.substring(4, 5);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1153,if (JAVA_VERSION_TRIMMED.length() >= 5) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1152,str = str + JAVA_VERSION_TRIMMED.substring(2, 3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1151,String str = JAVA_VERSION_TRIMMED.substring(0, 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1149,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1148,if (JAVA_VERSION_TRIMMED == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1129,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1128,} catch (Exception ex) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1127,return Float.parseFloat(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1124,str = str + JAVA_VERSION_TRIMMED.substring(4, 5);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1123,if (JAVA_VERSION_TRIMMED.length() >= 5) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1122,String str = JAVA_VERSION_TRIMMED.substring(0, 3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1120,return 0f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1119,if (JAVA_VERSION_TRIMMED == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1101,return JAVA_VERSION_FLOAT;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1084,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/SystemUtils.java,1083,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,288,return countries;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,286,cCountriesByLanguage.put(languageCode, countries);  //syncd
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,284,countries = Collections.EMPTY_LIST;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,283,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,282,countries = Collections.unmodifiableList(countries);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,279,countries.add(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,276,if (languageCode.equals(locale.getLanguage()) &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,275,Locale locale = (Locale) locales.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,274,for (int i = 0; i < locales.size(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,273,List locales = availableLocaleList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,272,countries = new ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,271,if (languageCode != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,270,if (countries == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,269,List countries = (List) cCountriesByLanguage.get(languageCode);  //syncd
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,255,return langs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,253,cLanguagesByCountry.put(countryCode, langs);  //syncd
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,251,langs = Collections.EMPTY_LIST;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,250,} else {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,249,langs = Collections.unmodifiableList(langs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,246,langs.add(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,244,if (countryCode.equals(locale.getCountry()) &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,243,Locale locale = (Locale) locales.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,242,for (int i = 0; i < locales.size(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,241,List locales = availableLocaleList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,240,langs = new ArrayList();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,239,if (countryCode != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,238,if (langs == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,237,List langs = (List) cLanguagesByCountry.get(countryCode);  //syncd
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,212,return set;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,210,cAvailableLocaleSet = set;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,209,set = Collections.unmodifiableSet(set);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,208,set = new HashSet(availableLocaleList());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,207,if (set == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,206,Set set = cAvailableLocaleSet;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,192,return cAvailableLocaleList;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,178,return Collections.unmodifiableList(list);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,175,list.add(defaultLocale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,174,if (list.contains(defaultLocale) == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,172,list.add(new Locale(locale.getLanguage(), ""));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,171,if (locale.getCountry().length() > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,169,list.add(new Locale(locale.getLanguage(), locale.getCountry()));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,168,if (locale.getVariant().length() > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,167,list.add(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,166,if (locale != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,165,List list = new ArrayList(4);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,143,return localeLookupList(locale, locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,124,return new Locale(str.substring(0, 2), str.substring(3, 5), str.substring(6));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,122,throw new IllegalArgumentException("Invalid locale format: " + str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,121,if (str.charAt(5) != '_') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,119,return new Locale(str.substring(0, 2), str.substring(3, 5));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,118,if (len == 5) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/57/src/java/org/apache/commons/lang/LocaleUtils.java,116,throw new IllegalArgumentException("Invalid locale format: " + str);

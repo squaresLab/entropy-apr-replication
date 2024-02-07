@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,216,result = HashUtilities.hashCode(result,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,215,if (size > 2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,214,result = HashUtilities.hashCode(result, this.objects[size - 1]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,213,if (size > 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,212,result = HashUtilities.hashCode(result, this.objects[0]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,165,setShape(index, SerialUtilities.readShape(stream));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,164,if (index != -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,163,int index = stream.readInt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,143,stream.writeInt(-1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,140,SerialUtilities.writeShape(shape, stream);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,139,stream.writeInt(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,138,if (shape != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,137,Shape shape = getShape(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,121,return super.hashCode();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,194,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,82,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,81,set(index, shape);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,265,stream.writeInt(-1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,193,if (!ObjectUtilities.equal(get(i), other.get(i))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,367,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,366,stream.writeDouble(line.getY2());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,365,stream.writeDouble(line.getX2());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,364,stream.writeDouble(line.getY1());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,363,stream.writeDouble(line.getX1());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,362,stream.writeObject(Line2D.class);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,361,Line2D line = (Line2D) shape;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,276,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,275,result = new Line2D.Double(x1, y1, x2, y2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,274,double y2 = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,273,double x2 = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,272,double y1 = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,271,double x1 = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,288,set(index, stream.readObject());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,262,stream.writeObject(object);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,261,stream.writeInt(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,287,if (index != -1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,286,int index = stream.readInt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,260,if (object != null && object instanceof Serializable) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,259,final Object object = get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,70,return (Shape) get(index);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,221,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,211,if (size > 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,208,result = HashUtilities.hashCode(result, size());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,207,int size = size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,206,int result = 127;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,113,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,111,result = this.objects[index];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,110,if (index >= 0 && index < this.size) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,109,Object result = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,133,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,132,this.size = Math.max(this.size, index + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,131,this.objects[index] = object;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,126,if (index >= this.objects.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,123,if (index < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,111,return super.equals(obj);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,108,if (!(obj instanceof ShapeList)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,105,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,192,for (int i = 0; i < listSize; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,191,int listSize = size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,190,AbstractObjectList other = (AbstractObjectList) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,186,if (!(obj instanceof AbstractObjectList)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,182,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,178,if (obj == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,92,return Serializable.class.isAssignableFrom(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ObjectUtilities.java,129,return o1.equals(o2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ObjectUtilities.java,128,if (o1 != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ObjectUtilities.java,125,if (o1 == o2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,169,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,162,for (int i = 0; i < count; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,161,int count = stream.readInt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,160,stream.defaultReadObject();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,147,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,136,for (int i = 0; i < count; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,135,stream.writeInt(count);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,134,int count = size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/ShapeList.java,133,stream.defaultWriteObject();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,292,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,285,for (int i = 0; i < count; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,284,int count = stream.readInt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,283,this.objects = new Object[this.size];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,282,stream.defaultReadObject();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,269,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,258,for (int i = 0; i < count; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,257,stream.writeInt(count);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,256,int count = size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/AbstractObjectList.java,255,stream.defaultWriteObject();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,375,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,374,stream.writeDouble(rectangle.getHeight());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,373,stream.writeDouble(rectangle.getWidth());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,372,stream.writeDouble(rectangle.getY());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,371,stream.writeDouble(rectangle.getX());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,370,stream.writeObject(Rectangle2D.class);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,369,Rectangle2D rectangle = (Rectangle2D) shape;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,283,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,282,result = new Rectangle2D.Double(x, y, w, h);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,281,double h = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,280,double w = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,279,double y = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,278,double x = stream.readDouble();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/6/source/org/jfree/chart/util/SerialUtilities.java,421,}

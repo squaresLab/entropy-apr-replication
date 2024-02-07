@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,494,dec = str.substring(decPos + 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,595,return f;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,594,if (!(f.isInfinite() || (f.floatValue() == 0.0F && !allZeros))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,573,exp = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,593,final Float f = createFloat(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,591,final boolean allZeros = isAllZeros(mant) && isAllZeros(exp);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,575,if (dec == null && exp == null) { // no decimal point and no exponent
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,571,exp = str.substring(expPos + 1, str.length());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,570,if (expPos > -1 && expPos < str.length() - 1) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,497,numDecimals = dec.length(); // gets number of digits past the decimal to ensure no loss of precision for floating point numbers.
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,496,mant = str.substring(0, decPos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,492,dec = str.substring(decPos + 1, expPos);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,489,if (expPos < decPos || expPos > str.length()) { // prevents double exponent causing IOOBE
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,488,if (expPos > -1) { // there is an exponent
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,646,return Float.valueOf(str);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,643,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,626,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,625,if (str.charAt(i) != '0') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,624,for (int i = str.length() - 1; i >= 0; i--) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,621,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,509,if (!Character.isDigit(lastChar) && lastChar != '.') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,486,if (decPos > -1) { // there is a decimal point
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,485,int numDecimals = 0; // Check required precision (LANG-693)
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,481,final int expPos = str.indexOf('e') + str.indexOf('E') + 1; // assumes both not present
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,480,final int decPos = str.indexOf('.');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,476,final char lastChar = str.charAt(str.length() - 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,466,if (pfxLen > 0) { // we have a hex number
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,461,if (str.startsWith(pfx)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,460,for(final String pfx : hex_prefixes) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,459,int pfxLen = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,458,final String[] hex_prefixes = {"0x", "0X", "-0x", "-0X", "#", "-#"};
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,454,if (StringUtils.isBlank(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,451,if (str == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/StringUtils.java,262,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/StringUtils.java,261,if (Character.isWhitespace(cs.charAt(i)) == false) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/StringUtils.java,260,for (int i = 0; i < strLen; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/StringUtils.java,257,if (cs == null || (strLen = cs.length()) == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1420,return !allowSigns && foundDigit;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1416,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1413,return foundDigit && !hasExp && !hasDecPoint;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1410,if (chars[i] == 'l'
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1408,return foundDigit;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1403,if (!allowSigns
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1401,return foundDigit;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1398,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1396,if (hasDecPoint || hasExp) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1395,if (chars[i] == '.') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1393,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1391,if (chars[i] == 'e' || chars[i] == 'E') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1389,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1387,if (chars[i] >= '0' && chars[i] <= '9') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1386,if (i < chars.length) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1384,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1382,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1380,foundDigit = false; // we need a digit after the E
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1379,allowSigns = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1377,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1376,if (!allowSigns) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1375,} else if (chars[i] == '+' || chars[i] == '-') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1374,allowSigns = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1373,hasExp = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1371,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1370,if (!foundDigit) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1368,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1366,if (hasExp) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1364,} else if (chars[i] == 'e' || chars[i] == 'E') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1363,hasDecPoint = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1361,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1359,if (hasDecPoint || hasExp) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1358,} else if (chars[i] == '.') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1356,allowSigns = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1355,foundDigit = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1354,if (chars[i] >= '0' && chars[i] <= '9') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1353,while (i < sz || (i < sz + 1 && allowSigns && !foundDigit)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1350,int i = start;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1348,sz--; // don't want to loop to the last char, check it afterwords
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1346,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1343,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1340,if ((chars[i] < '0' || chars[i] > '9')
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1339,for (; i < chars.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1336,return false; // str == "0x"
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1335,if (i == sz) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1334,int i = start + 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1333,if (sz > start + 1 && chars[start] == '0' && chars[start + 1] == 'x') {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1332,final int start = (chars[0] == '-') ? 1 : 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1330,boolean foundDigit = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1329,boolean allowSigns = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1328,boolean hasDecPoint = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1327,boolean hasExp = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1326,int sz = chars.length;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1325,final char[] chars = str.toCharArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1323,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1322,if (StringUtils.isEmpty(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1305,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1302,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1301,if (!Character.isDigit(str.charAt(i))) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1300,for (int i = 0; i < str.length(); i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1298,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1297,if (StringUtils.isEmpty(str)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/3/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1282,return Math.max(Math.max(a, b), c);

@@ -1,0 +1,100 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,746,return y.multiply(two);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,743,py = new Dfp(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,741,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,740,if (y.equals(py)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,739,y = y.add(t);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,738,Dfp t = num.divide(den);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,737,den = den + 2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,736,num = num.multiply(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,735,num = num.multiply(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,734,for (int i = 0; i < 10000; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,733,Dfp py = new Dfp(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,732,Dfp num = new Dfp(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,731,Dfp y = new Dfp(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,729,Dfp x = a.add(new Dfp(a.getField(), -1)).divide(a.add(one));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,728,int den = 1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,662,return y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,659,py = new Dfp(y);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,657,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,656,if (y.equals(py)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,655,f = f.multiply(fi);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,654,fi = fi.add(one);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,653,y = y.add(x.divide(f));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,652,x = x.multiply(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,651,for (int i = 0; i < 10000; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,649,Dfp x  = new Dfp(one);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,648,Dfp fi = new Dfp(one);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,647,Dfp f  = new Dfp(one);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,646,Dfp py = new Dfp(one);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,645,Dfp y  = new Dfp(one);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,634,return one.divide(ak);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,630,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,629,if (yk.equals(ykM1)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,627,ak = ak.multiply(p2.multiply(p2)).subtract(two2kp3.multiply(yk).multiply(one.add(yk).add(yk.multiply(yk))));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,626,final Dfp p2 = p.multiply(p);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,625,final Dfp p = one.add(yk);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,623,two2kp3 = two2kp3.multiply(four);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,621,yk = one.subtract(s).divide(one.add(s));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,620,final Dfp s          = oneMinusY4.sqrt().sqrt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,619,final Dfp oneMinusY4 = one.subtract(y2.multiply(y2));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,618,final Dfp y2         = yk.multiply(yk);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,616,final Dfp ykM1 = yk;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,615,for (int i = 1; i < 20; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,607,Dfp ak      = two.multiply(three.subtract(two.multiply(sqrt2)));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,606,Dfp two2kp3 = two;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,605,Dfp four    = two.add(two);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,604,Dfp yk      = sqrt2.subtract(one);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,603,Dfp sqrt2   = two.sqrt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,590,ln10String = computeLn(new Dfp(highPrecisionField, 10), highPrecisionOne, highPrecisionTwo).toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,589,ln5String  = computeLn(new Dfp(highPrecisionField, 5),  highPrecisionOne, highPrecisionTwo).toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,588,ln2String  = computeLn(highPrecisionTwo, highPrecisionOne, highPrecisionTwo).toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,587,eString    = computeExp(highPrecisionOne, highPrecisionOne).toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,586,piString   = computePi(highPrecisionOne, highPrecisionTwo, highPrecisionThree).toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,584,sqr3ReciprocalString = highPrecisionOne.divide(highPrecisionSqr3).toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,583,sqr3String           = highPrecisionSqr3.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,582,final Dfp highPrecisionSqr3 = highPrecisionThree.sqrt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,580,sqr2ReciprocalString = highPrecisionOne.divide(highPrecisionSqr2).toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,579,sqr2String           = highPrecisionSqr2.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,578,final Dfp highPrecisionSqr2 = highPrecisionTwo.sqrt();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,576,final Dfp highPrecisionThree      = new Dfp(highPrecisionField, 3);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,575,final Dfp highPrecisionTwo        = new Dfp(highPrecisionField, 2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,574,final Dfp highPrecisionOne        = new Dfp(highPrecisionField, 1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,573,final DfpField highPrecisionField = new DfpField(highPrecisionDecimalDigits, false);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,239,ln10           = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,238,ln5Split       = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,237,ln5            = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,236,ln2Split       = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,235,ln2            = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,234,eSplit         = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,233,e              = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,232,piSplit        = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,231,pi             = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,230,sqr3Reciprocal = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,229,sqr3           = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,228,sqr2Reciprocal = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,227,sqr2Split      = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/DfpField.java,226,sqr2           = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1915,x.mant[mant.length-1] = 3000;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1907,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1906,x.mant[mant.length-1] = x.mant[mant.length-1]/2+1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,717,return 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,715,dotrap(DfpField.FLAG_INEXACT, ALIGN_TRAP, this, this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,714,field.setIEEEFlagsBits(DfpField.FLAG_INEXACT);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,712,exp = e;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,711,Arrays.fill(mant, 0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1946,return x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1942,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1941,if (dx.mant[mant.length-1] == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1934,if (x.equals(ppx)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1932,x = x.add(dx);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1931,px = x;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1930,ppx = px;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1929,dx = dx.divide(2);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1928,dx = dx.add(this.divide(x));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1927,dx.sign = -1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1926,dx = newInstance(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1925,while (x.unequal(px)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1924,Dfp ppx = getZero();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1923,Dfp px  = getZero();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1918,Dfp dx = newInstance(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/54/src/main/java/org/apache/commons/math/dfp/Dfp.java,1904,switch (x.mant[mant.length-1] / 2000) {

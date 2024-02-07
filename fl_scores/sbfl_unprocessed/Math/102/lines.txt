@@ -1,0 +1,97 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,355,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,351,if (in[i] <= 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,350,for (int i = 0; i < in.length; i ++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,98,return 1.0 - distribution.cumulativeProbability(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,97,distribution.setDegreesOfFreedom(expected.length - 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,80,return sumSq;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,78,sumSq += dev * dev / expected[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,77,dev = ((double) observed[i] - expected[i]);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,76,for (int i = 0; i < observed.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,75,double dev = 0.0d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,74,double sumSq = 0.0d;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,70,if (!isPositive(expected) || !isNonNegative(observed)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,66,if ((expected.length < 2) || (expected.length != observed.length)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,372,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,368,if (in[i] < 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,367,for (int i = 0; i < in.length; i ++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,186,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,162,} else if (a >= 1.0 && x > a) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,160,} else if (x == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,158,if (Double.isNaN(a) || Double.isNaN(x) || (a <= 0.0) || (x < 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,120,return regularizedGammaP(a, x, DEFAULT_EPSILON, Integer.MAX_VALUE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,142,return beta;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,122,return alpha;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,78,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,75,ret = Gamma.regularizedGammaP(getAlpha(), x / getBeta());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,72,if (x <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,82,return getGamma().cumulativeProbability(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/TestUtils.java,278,return chiSquareTest.chiSquare(expected, observed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,115,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,114,this.alpha = alpha;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,111,if (alpha <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,189,return gamma;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,64,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,63,getGamma().setAlpha(degreesOfFreedom / 2.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,403,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,402,distribution = value;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,51,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,50,setDistribution(x);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,49,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,40,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java,39,this(new ChiSquaredDistributionImpl(1.0));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,106,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,102,ret = ((x + .5) * Math.log(tmp)) - tmp +
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,101,double tmp = x + g + .5;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,99,sum = sum + lanczos[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,97,sum = sum + (lanczos[i] / (x + i));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,96,for (int i = lanczos.length - 1; i > 0; --i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,95,double sum = 0.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,93,double g = 607.0 / 128.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,90,if (Double.isNaN(x) || (x <= 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,135,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,134,this.beta = beta;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,131,if (beta <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,50,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,49,setBeta(beta);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,48,setAlpha(alpha);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java,47,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,182,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,180,this.gamma = g;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,56,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,55,setDegreesOfFreedom(df);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,54,setGamma(g);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,53,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,44,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,43,this(df, new GammaDistributionImpl(df / 2.0, 2.0));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/AbstractDistribution.java,39,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/AbstractDistribution.java,38,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,46,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java,45,super();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,182,ret = Math.exp(-x + (a * Math.log(x)) - logGamma(a)) * sum;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,179,if (n >= maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,177,sum = sum + an;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,174,an = an * (x / (a + n));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,173,n = n + 1.0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,171,while (Math.abs(an) > epsilon && n < maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,170,double sum = an; // partial sum
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,169,double an = 1.0 / a; // n-th element in the series
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,168,double n = 0.0; // current element index
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/TestUtils.java,303,return chiSquareTest.chiSquareTest(expected, observed);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,260,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,257,ret = Math.exp(-x + (a * Math.log(x)) - logGamma(a)) * ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,256,ret = 1.0 / cf.evaluate(x, epsilon, maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,243,ContinuedFraction cf = new ContinuedFraction() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,237,} else if (x < a || a < 1.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,235,} else if (x == 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,233,if (Double.isNaN(a) || Double.isNaN(x) || (a <= 0.0) || (x < 0.0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/special/Gamma.java,165,ret = 1.0 - regularizedGammaQ(a, x, epsilon, maxIterations);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/stat/inference/TestUtils.java,102,return unknownDistributionChiSquareTest;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,178,return c;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,172,if (n >= maxIterations) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,170,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,169,q1 = q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,168,q0 = q1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,167,p1 = p2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,166,p0 = p1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,165,c = p2 / q2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/102/src/java/org/apache/commons/math/util/ContinuedFraction.java,162,relativeError = Math.abs(r / c - 1.0);

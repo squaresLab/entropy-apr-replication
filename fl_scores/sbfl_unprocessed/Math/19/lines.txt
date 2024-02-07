@@ -1,0 +1,75 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3236,return Double.longBitsToDouble(sign | ((bits & 0x7fffffffffffffffL) + 1));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3235,if ((direction < d) ^ (sign == 0L)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3234,final long sign = bits & 0x8000000000000000L;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3233,final long bits = Double.doubleToLongBits(d);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3227,} else if (d == 0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3225,} else if (Double.isInfinite(d)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3223,} else if (d == direction) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,3221,if (Double.isNaN(d) || Double.isNaN(direction)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,767,return nextAfter(a, Double.POSITIVE_INFINITY);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,394,return sourceFormat;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,388,} catch (MissingResourceException mre) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,381,ResourceBundle bundle =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,380,final String path = LocalizedFormats.class.getName().replaceAll("\\.", "/");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,186,return sb.toString();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,180,if (++count < len) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,179,sb.append(fmt.format(args));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,177,final MessageFormat fmt = new MessageFormat(pat.getLocalizedString(locale),
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,176,final Object[] args = msgArguments.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,175,final Localizable pat = msgPatterns.get(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,174,for (int i = 0; i < len; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,173,final int len = msgPatterns.size();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,172,int count = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,171,final StringBuilder sb = new StringBuilder();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,147,return buildMessage(locale, ": ");
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,137,return getMessage(Locale.getDefault());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,86,return context.getLocalizedMessage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,70,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,69,this(LocalizedFormats.ILLEGAL_STATE);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,48,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,47,context.addMessage(pattern, args);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,46,context = new ExceptionContext(this);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java,45,Object ... args) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,570,lambda = 4 + (int) (3. * Math.log(dimension));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,256,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,253,this(lambda, null, DEFAULT_MAXITERATIONS, DEFAULT_STOPFITNESS,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,247,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,246,this(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,537,boundaries[1] = uB;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,536,boundaries[0] = lB;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,535,boundaries = new double[2][];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,136,upperBound = upper.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,128,lowerBound = lower.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,529,if (hasInfiniteBounds) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,522,if (Double.isInfinite(lB[i]) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,521,for (int i = 0; i < lB.length; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,515,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,514,hasFiniteBounds = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,115,if (v > hi) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,114,final double hi = upper[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,113,final double v = startPoint[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,112,for (int i = 0; i < dim; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,109,if (upper.length != dim) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,54,return list.toArray();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,44,for (Object o : array) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,43,if (array != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,42,final List<Object> list = new ArrayList<Object>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,89,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,88,msgArguments.add(ArgUtils.flatten(arguments));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,87,msgPatterns.add(pattern);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,69,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,68,context        = new HashMap<String, Object>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,67,msgArguments   = new ArrayList<Object[]>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,66,msgPatterns    = new ArrayList<Localizable>();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,65,this.throwable = throwable;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java,64,public ExceptionContext(final Throwable throwable) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,103,if (v < lo) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,102,final double lo = lower[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,101,final double v = startPoint[i];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,100,for (int i = 0; i < dim; i++) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java,97,if (lower.length != dim) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/FastMath.java,375,return Math.sqrt(a);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/Incrementor.java,158,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/Incrementor.java,155,if (++count > maximalCount) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/util/Incrementor.java,105,return maximalCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/19/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java,155,return goal;

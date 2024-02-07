@@ -1,0 +1,50 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,128,return new Color(g, g, g);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,126,int g = (int) ((value - this.lowerBound) / (this.upperBound
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,125,v = Math.min(v, this.upperBound);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,124,double v = Math.max(value, this.lowerBound);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,73,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,72,this(0.0, 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,91,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,90,this.upperBound = upperBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,89,this.lowerBound = lowerBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,85,if (lowerBound >= upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,84,public GrayPaintScale(double lowerBound, double upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,170,return super.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,158,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,156,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,155,if (this.upperBound != that.upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,153,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,152,if (this.lowerBound != that.lowerBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,151,GrayPaintScale that = (GrayPaintScale) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,149,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,148,if (!(obj instanceof GrayPaintScale)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,146,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,145,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,112,return this.upperBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,101,return this.lowerBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,86,throw new IllegalArgumentException(
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,128,return new Color(g, g, g);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,126,int g = (int) ((value - this.lowerBound) / (this.upperBound
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,125,v = Math.min(v, this.upperBound);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,124,double v = Math.max(value, this.lowerBound);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,73,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,72,this(0.0, 1.0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,91,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,90,this.upperBound = upperBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,89,this.lowerBound = lowerBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,85,if (lowerBound >= upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,84,public GrayPaintScale(double lowerBound, double upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,170,return super.clone();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,158,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,156,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,155,if (this.upperBound != that.upperBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,153,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,152,if (this.lowerBound != that.lowerBound) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,151,GrayPaintScale that = (GrayPaintScale) obj;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,149,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,148,if (!(obj instanceof GrayPaintScale)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,146,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,145,if (obj == this) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,112,return this.upperBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,101,return this.lowerBound;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/24/source/org/jfree/chart/renderer/GrayPaintScale.java,86,throw new IllegalArgumentException(

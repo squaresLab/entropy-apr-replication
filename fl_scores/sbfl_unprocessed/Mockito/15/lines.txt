@@ -1,0 +1,96 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/runners/util/FrameworkUsageValidator.java,29,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/runners/util/FrameworkUsageValidator.java,28,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/runners/util/FrameworkUsageValidator.java,25,Mockito.validateMockitoUsage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/runners/util/FrameworkUsageValidator.java,23,super.testFinished(description);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/MockitoCore.java,147,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/MockitoCore.java,146,mockingProgress.validateState();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/Mockito.java,1704,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/Mockito.java,1703,MOCKITO_CORE.validateMockitoUsage();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,115,return field.get(testClass);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,114,initializeField(testClass, field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,106,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,103,if(Modifier.isAbstract(field.getType().getModifiers())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,100,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,97,if(field.getType().isInterface()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,94,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,91,if(field.getType().isMemberClass() && !Modifier.isStatic(field.getType().getModifiers())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,88,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,85,if(field.getType().isLocalClass()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,82,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,79,changer.safelyDisableAccess(constructor);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,78,if(constructor != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,68,new FieldSetter(testClass, field).set(newFieldInstance);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,67,Object newFieldInstance = constructor.newInstance(noArg);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,66,final Object[] noArg = new Object[0];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,64,changer.enableAccess(constructor);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,63,constructor = field.getType().getDeclaredConstructor();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,61,Constructor<?> constructor = null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,60,final AccessibilityChanger changer = new AccessibilityChanger();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,40,checkNotAbstract(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,39,checkNotInterface(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,38,checkNotInner(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,37,checkNotLocal(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/MockHandler.java,116,return mockSettings;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockName.java,41,return mockName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/MockSettingsImpl.java,45,return mockName;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/MethodInterceptorFilter.java,51,return handler;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,104,return getMockHandler(mock).getMockSettings().getMockName();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,77,return (MockHandlerInterface) getInterceptor(mock).getHandler();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,76,if (isMockitoMock(mock)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,72,if (mock == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/injection/NameBasedCandidateFilter.java,26,return next.filterCandidate(mockNameMatches, field, fieldInstance);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/injection/NameBasedCandidateFilter.java,25,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/injection/NameBasedCandidateFilter.java,23,mockNameMatches.add(mock);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/injection/NameBasedCandidateFilter.java,22,if (field.getName().equals(mockUtil.getMockName(mock).toString())) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/injection/NameBasedCandidateFilter.java,21,for (Object mock : mocks) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,98,return (MethodInterceptorFilter) callback;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,97,if (callback instanceof MethodInterceptorFilter) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,96,Callback callback = factory.getCallback(0);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,95,Factory factory = (Factory) mock;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,92,if (!(mock instanceof Factory)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockUtil.java,84,return getInterceptor(mock) != null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,120,return all;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,119,System.arraycopy(rest, 0, all, 1, rest.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,118,all[0] = first;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,117,Class<?>[] all = new Class<?>[rest.length+1];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,79,enhancer.setInterfaces(prepend(mockedType, interfaces));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,78,enhancer.setSuperclass(Object.class);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,137,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,134,if (alreadyAssigned) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,128,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,124,new FieldSetter(testClass, field).set(mock);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,122,alreadyAssigned = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,121,throwIfAlreadyAssigned(field, alreadyAssigned);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/InjectingAnnotationEngine.java,30,return delegate.createMockFor(annotation, field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java,34,return new OngoingInjecter() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,131,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,120,if (mock != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,119,Object mock = annotationEngine.createMockFor(annotation, field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,118,for(Annotation annotation : field.getAnnotations()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,117,boolean alreadyAssigned = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/MockitoAnnotations.java,108,processAnnotationDeprecatedWay(annotationEngine, testClass, field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldReader.java,25,return field.get(target) == null;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldReader.java,21,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldReader.java,20,changer.enableAccess(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldReader.java,19,this.field = field;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldReader.java,18,this.target = target;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldReader.java,15,final AccessibilityChanger changer = new AccessibilityChanger();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldReader.java,17,public FieldReader(Object target, Field field) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,110,if(fieldInstance != null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,109,Object fieldInstance = field.get(testClass);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,55,changer.safelyDisableAccess(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,51,return acquireFieldInstance(testClass, field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,48,changer.enableAccess(field);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,47,final AccessibilityChanger changer = new AccessibilityChanger();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,44,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,43,this.field = field;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,42,this.testClass = testClass;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,36,if(new FieldReader(testClass, field).isNull()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/reflection/FieldInitializer.java,35,public FieldInitializer(Object testClass, Field field) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/util/MockCreationValidator.java,37,return;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/MethodInterceptorFilter.java,55,return System.identityHashCode(mock);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/MethodInterceptorFilter.java,37,return hashCodeForMock(proxy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/MethodInterceptorFilter.java,36,} else if (objectMethodsGuru.isHashCodeMethod(method)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/creation/MethodInterceptorFilter.java,34,if (objectMethodsGuru.isEqualsMethod(method)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/SpyAnnotationEngine.java,30,if (field.isAnnotationPresent(Spy.class)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/15/src/org/mockito/internal/configuration/DefaultAnnotationEngine.java,104,}

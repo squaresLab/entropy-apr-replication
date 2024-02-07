@@ -1,0 +1,57 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,260,return date;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,290,return cal.getTime();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,289,pos.setIndex(offset+matcher.end());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,288,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,287,strategy.setCalendar(this, cal, matcher.group(i));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,286,Strategy strategy= strategies[i++];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,285,for(int i=0; i<strategies.length;) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,283,cal.clear();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,282,Calendar cal= Calendar.getInstance(timeZone, locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,251,if(date==null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,250,Date date= parse(source, new ParsePosition(0));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,278,if(!matcher.lookingAt()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,277,Matcher matcher= parsePattern.matcher(source.substring(offset));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,276,int offset= pos.getIndex();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,550,return ERA_STRATEGY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,415,return eras;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,414,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,413,eras[idx] = key;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,410,if (key == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,409,final String key = me.getKey();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,408,int idx = me.getValue().intValue();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,407,for(Map.Entry<String, Integer> me : era.entrySet()) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,406,String[] eras = new String[era.size()]; // assume no gaps in entry values
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,384,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,383,fieldKeyValues= createKeyValues(longEras, shortEras);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,382,String[] longEras = toArray(c.getDisplayNames(Calendar.ERA, Calendar.LONG, locale));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,381,String[] shortEras = toArray(c.getDisplayNames(Calendar.ERA, Calendar.SHORT, locale));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,379,Calendar c = Calendar.getInstance(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,308,if(unquote) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,562,break;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,180,return parsePattern;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,566,return DAY_OF_MONTH_STRATEGY;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,590,return tzs;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,583,if(tzs==null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,582,TimeZoneStrategy tzs= tzsCache.get(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,329,regex.append('\\');
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,586,if(inCache!=null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,585,TimeZoneStrategy inCache= tzsCache.putIfAbsent(locale, tzs);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,584,tzs= new TimeZoneStrategy(locale);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,145,collector.add(currentStrategy);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,542,return new CopyQuotedStrategy(formatField);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,333,return regex;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,331,regex.append(c);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,306,switch(c) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,305,char c= value.charAt(i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,304,for(int i= 0; i<value.length(); ++i) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,109,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,108,init();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,107,this.locale = locale;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,106,this.timeZone = timeZone;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,105,this.pattern = pattern;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,104,protected FastDateParser(String pattern, TimeZone timeZone, Locale locale) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,535,switch(formatField.charAt(0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,485,return nextStrategy!=null && nextStrategy.isNumber();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,150,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,149,parsePattern= Pattern.compile(regex.toString());
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/9/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,148,strategies= collector.toArray(new Strategy[collector.size()]);

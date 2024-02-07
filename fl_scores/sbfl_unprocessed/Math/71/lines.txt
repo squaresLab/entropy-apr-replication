@@ -1,0 +1,99 @@
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,300,loop     = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java,180,loop     = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,211,return forward ? initialStep : -initialStep;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,155,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,153,initialStep = initialStepSize;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,150,if ((initialStepSize < minStep) || (initialStepSize > maxStep)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java,292,filteredH = maxStep;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,335,x1 = x1 + 0.5 * tolerance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/DummyStepInterpolator.java,109,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/DummyStepInterpolator.java,108,System.arraycopy(currentDerivative, 0, interpolatedDerivatives, 0, currentDerivative.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/DummyStepInterpolator.java,107,System.arraycopy(currentState,      0, interpolatedState,       0, currentState.length);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/DummyStepInterpolator.java,74,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/DummyStepInterpolator.java,73,currentDerivative = yDot;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/DummyStepInterpolator.java,72,super(y, forward);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,122,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,120,this.dirtyState   = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,119,this.forward      = forward;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,118,finalized         = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,116,interpolatedDerivatives = new double[y.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,115,interpolatedState       = new double[y.length];
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,114,currentState            = y;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,112,interpolatedTime  = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,111,h                 = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,110,currentTime       = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,109,previousTime      = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java,107,protected AbstractStepInterpolator(final double[] y, final boolean forward) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java,128,return false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/CombinedEventsManager.java,109,return states.isEmpty();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java,217,interpolator = new DummyStepInterpolator(yTmp, yDotK[stages - 1], forward);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java,123,interpolator = new DummyStepInterpolator(yTmp, yDotK[stages - 1], forward);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator.java,65,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator.java,64,public ClassicalRungeKuttaStepInterpolator() {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegrator.java,73,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegrator.java,71,super("classical Runge-Kutta", STATIC_C, STATIC_A, STATIC_B,
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,337,x1 = x1 - 0.5 * tolerance;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,336,} else if (dx <= 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,334,} else if (dx > 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,314,p = -p;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,286,return result;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,285,setResult(x1, i);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,312,p1 = -p1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,344,oldDelta = delta;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,343,delta = x1 - x0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,342,y2 = y0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,341,x2 = x0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,340,return (nextAction == EventHandler.RESET_STATE) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,338,pendingEventTime  = Double.NaN;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,337,pendingEvent      = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,334,if (nextAction == EventHandler.RESET_STATE) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,272,y2 = y0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,271,y1 = y2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,270,y0 = y1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,269,x2 = x0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,268,x1 = x2;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,267,x0 = x1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,347,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,346,i++;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,340,if ((y1 > 0) == (y2 > 0)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,339,y1 = f.value(x1);
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,332,if (Math.abs(delta) > tolerance) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,330,y0 = y1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,329,x0 = x1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,325,delta = p / p1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,324,oldDelta = delta;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,316,if (2.0 * p >= 1.5 * dx * p1 - Math.abs(tolerance * p1) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,311,if (p > 0.0) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,303,p1 = 1.0 - r3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,302,p = dx * r3;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,300,if (x0 == x2) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,294,double r3 = y1 / y0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,288,if ((Math.abs(oldDelta) < tolerance) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,284,if (Math.abs(dx) <= tolerance) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,282,double tolerance =
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,281,double dx = x2 - x1;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,144,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,143,this.resultComputed = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,142,this.iterationCount = iterationCount;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,141,this.result         = newResult;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java,234,return ret;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/CombinedEventsManager.java,217,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/CombinedEventsManager.java,187,return (first == null) ? Double.NaN : first.getEventTime();
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/CombinedEventsManager.java,154,first = state;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/CombinedEventsManager.java,153,if (first == null) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,303,nextAction        = handler.eventOccurred(t, y, !(increasing ^ forward));
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,302,g0Positive        = increasing;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,301,previousEventTime = t;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,282,return pendingEventTime;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,248,return true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,247,pendingEvent = true;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,238,if (pendingEvent && (Math.abs(t1 - pendingEventTime) <= convergence)) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,237,pendingEventTime = root;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,235,} else if (Double.isNaN(previousEventTime) ||
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/ode/events/EventState.java,230,if ((Math.abs(root - ta) <= convergence) &&
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,213,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,208,if (lower >= upper) {
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,167,}
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,166,this.resultComputed = false;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,165,this.iterationCount = 0;
+/home/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/71/src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java,96,}
