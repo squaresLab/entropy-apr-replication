@@ -2,9 +2,10 @@ import os
 import subprocess
 from colorama import Fore, Style
 import time
-from ebfl.infiller import *
 import argparse
-
+import sys
+sys.path.append('ebfl')
+from infiller import *
 
 model_infiller = "facebook/incoder-6B"
 infiller = Infiller(model_infiller)
