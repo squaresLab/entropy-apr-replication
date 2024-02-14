@@ -50,26 +50,29 @@ bash DEAR/approach/sbfl/setup.sh
 python3 dear-auto-fix/approach/get_fl_data.py
 
 ## TBar
-### Docker for TBar
-docker run --name=tbar -it \
---mount type=bind,src=/home/aidan/entropy/ebfl,dst=/home \
-kuiliu/tbar
-
 ./installD4J.sh
 
-export PATH=$PATH:/home/TBar/D4J/defects4j/framework/bin
+export PATH=$PATH:/home/defects4j/framework/bin
 
-D4J_HOME='/home/TBar/D4J/defects4j'
-DEFECTS4J_HOME='/home/TBar/D4J/defects4j'
+D4J_HOME='/home/defects4j'
+DEFECTS4J_HOME='/home/defects4j'
 export D4J_HOME
 export DEFECTS4J_HOME
 
 ./checkoutD4JBugs.sh
 
 ### Run Tbar
-mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.MainPerfectFL -Dexec.args="/home/TBar/D4J/projects/ Chart_4 /home/defects4j/ false"
+mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/SuspiciousCodePositionsEntropy -faultLocStrategy normal -failedTests /home/TBar/FailedTestCases"
+
+mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases" 
+
+mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_8 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -storePatchJson -recordAllPatches" 
+
 ### compile Tbar
 mvn compile -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dhttps.protocols=TLSv1.2
+
+## New run tbar
+
 
 ## remove git history
 git filter-branch --tree-filter "rm -rf patches/patches_shibboleth" --prune-empty HEAD
@@ -81,6 +84,9 @@ git gc
 git push origin master --force
 
 cp -a /home/aidan/entropy/ebfl/TBar/D4J/. //home/aidan/TBar/D4J/
+
+
+cp -a /home/aidan/entropy-apr-replication/TBar/D4J/projects/. /data/aidan/bugsdata/
 
 ## Docker
 docker commit 41762c01b56f aidanben/aidan

@@ -1,0 +1,129 @@
+import os
+import subprocess
+from colorama import Fore, Style
+import time
+import json
+import sys
+
+sys.path.append("ebfl")
+from infiller import *
+
+model_infiller = "facebook/incoder-6B"
+infiller = Infiller(model_infiller)
+tokenizer = infiller.load_tokenizer()
+start = time.time()
+infiller.load_model()
+end = time.time()
+print(
+    f"{Fore.BLUE}{Style.BRIGHT}Time to load model: {end - start} sec{Style.RESET_ALL}"
+)
+print(f"{Fore.BLUE}{Style.BRIGHT}Starting entropy calculation...{Style.RESET_ALL}")
+
+
+def form_gen_prompt(code_before, code_after):
+    prompt = code_before + "<|mask:0|>" + "\n" + code_after + "<|mask:1|><|mask:0|>"
+    return prompt
+
+
+def get_first_line(gen_ids):
+    eom = tokenizer.encode("<|endofmask|>")[1]
+    newline = tokenizer.encode("\n")[1]
+    two_newlines = tokenizer.encode("\n\n")[1]
+    if eom in gen_ids:
+        gen_ids = gen_ids[: gen_ids.index(eom)]
+    if len(gen_ids) == 1:
+        return gen_ids
+    if newline in gen_ids:
+        gen_ids = gen_ids[: gen_ids.index(newline)]
+    if two_newlines in gen_ids:
+        gen_ids = gen_ids[: gen_ids.index(two_newlines)]
+    return gen_ids
+
+
+def form_entropy_prompt(gen_prompt_toks, gen_ids):
+    eom = tokenizer.encode("<|endofmask|>")[1]
+    start_loc = len(gen_prompt_toks)
+    entropy_prompt = gen_prompt_toks + gen_ids + [eom]
+    return entropy_prompt, start_loc
+
+
+def get_line_entropy(line, gen_prompt_toks):
+    line_ids = tokenizer.encode(line, add_special_tokens=False)
+    if len(line_ids) == 0:
+        line_ids = tokenizer.encode("\n", add_special_tokens=False)
+    entropy_prompt, start_loc = form_entropy_prompt(gen_prompt_toks, line_ids)
+    line_entropy, per_tok_entropy = infiller.entropy(
+        entropy_prompt, start_loc, len(line_ids)
+    )
+    return line_entropy, line_ids, per_tok_entropy
+
+
+def defects4j(patch_data):
+    patch_code = patch_data["patchCode"]
+    buggy_code = patch_data["buggyCode"]
+    codeBeforePatch = patch_data["codeBeforePatch"]
+    codeAfterPatch = patch_data["codeAfterPatch"]
+
+    maximum_window = 100
+    codeBeforePatch = codeBeforePatch.split("\n")
+    codeAfterPatch = codeAfterPatch.split("\n")
+
+    if len(codeBeforePatch) > maximum_window:
+        code_before = codeBeforePatch[-maximum_window:]
+    if len(codeAfterPatch) > maximum_window:
+        code_after = codeAfterPatch[:maximum_window]
+
+    code_before = "".join(code_before)
+    code_after = "".join(code_after)
+
+    prompt = form_gen_prompt(code_before, code_after)
+    gen_prompt_toks = tokenizer.encode(prompt)
+    entropy = 0
+    original_entropy = 0
+    try:
+        entropy, _, _ = get_line_entropy(patch_code, gen_prompt_toks)
+        original_entropy, _, _ = get_line_entropy(buggy_code, gen_prompt_toks)
+        print(entropy)
+    except:
+        pass
+    return original_entropy - entropy
+
+
+if __name__ == "__main__":
+    current_path = os.getcwd()
+    patch_directory = f"{current_path}/TBar/stored_patches"
+    repos_directory = f"{current_path}/repos"
+    results_directoy = f"{current_path}/patches/patches_entropy_TBar"
+    edelta_dict = {}
+    for subdir, _, files in os.walk(patch_directory):
+        for file in files:
+
+            proj_bug = subdir.split("/")[-1]
+            project = proj_bug.split("_")[0]
+            bug = proj_bug.split("_")[1]
+            if proj_bug not in edelta_dict:
+                edelta_dict[proj_bug] = {}
+
+            file_path = os.path.join(subdir, file)
+
+            # read json file into json object
+            with open(file_path, "r") as f:
+                patch_data = json.load(f)
+
+            print(
+                f"{Fore.GREEN}{Style.BRIGHT}{proj_bug} patch {patch_data['patchID']}{Style.RESET_ALL}"
+            )
+            edelta = defects4j(patch_data)
+            edelta_dict[proj_bug][patch_data["patchID"]] = edelta
+    sorted_edelta_dict = {}
+    for proj_bug in edelta_dict:
+        sorted_edelta_dict[proj_bug] = []
+        sorted_edelta = sorted(
+            edelta_dict[proj_bug].items(), key=lambda x: x[1], reverse=True
+        )
+        for s in sorted_edelta:
+            sorted_edelta_dict[proj_bug].append(s[0])
+    with open(
+        f"{current_path}/TBar/edelta_patch_ranking.json", "w"
+    ) as f:
+        json.dump(sorted_edelta_dict, f)

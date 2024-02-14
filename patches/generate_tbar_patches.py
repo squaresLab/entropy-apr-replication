@@ -6,10 +6,11 @@ from colorama import Fore, Style
 if __name__ == "__main__":
     current_path = os.getcwd()
     tbar_directory = f"{current_path}/TBar"
-    patch_directory = f"{tbar_directory}/Results/PerfectFL/TBar/FixedBugs"
+    patch_directory = f"{tbar_directory}/Results/PerfectFL/TBar"
     output_fixed = f"{tbar_directory}/OUTPUT/PerfectFL/TBar/FixedBugs"
     output_partial = f"{tbar_directory}/OUTPUT/PerfectFL/TBar/PartiallyFixedBugs"
     output_unfix = f"{tbar_directory}/OUTPUT/PerfectFL/TBar/UnfixedBugs"
+    output_patches = f"{tbar_directory}/stored_patches/"
 
     for subdir, _, files in os.walk(patch_directory):
         for file in files:
@@ -24,10 +25,14 @@ if __name__ == "__main__":
                 os.path.exists(f"{output_fixed}/{proj_bug}")
                 or os.path.exists(f"{output_partial}/{proj_bug}")
                 or os.path.exists(f"{output_unfix}/{proj_bug}")
+                or os.path.exists(f"{output_patches}/{proj_bug}")
             ):
+                print(f"{Fore.RED}{Style.BRIGHT}Already processed {proj_bug}{Style.RESET_ALL}")
                 continue
 
-            checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.MainPerfectFL -Dexec.args="/home/TBar/D4J/projects/ {proj_bug} /home/defects4j/ false"'
+            # checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/SuspiciousCodePositionsEntropy -faultLocStrategy normal -failedTests /home/TBar/FailedTestCases"'
+            
+            checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -compileOnly -recordAllPatches -storePatchJson" '
             print(checkout_command)
             try:
                 output = subprocess.check_output(
