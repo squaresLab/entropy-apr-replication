@@ -53,7 +53,10 @@ python3 dear-auto-fix/approach/get_fl_data.py
 ./installD4J.sh
 
 export PATH=$PATH:/home/defects4j/framework/bin
+export PATH=$PATH:/home/defects4j/framework/bin
 
+D4J_HOME='/home/defects4j'
+DEFECTS4J_HOME='/home/defects4j'
 D4J_HOME='/home/defects4j'
 DEFECTS4J_HOME='/home/defects4j'
 export D4J_HOME
