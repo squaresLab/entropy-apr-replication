@@ -22,10 +22,10 @@ if __name__ == "__main__":
             print(f"{Fore.GREEN}{Style.BRIGHT}{proj_bug}{Style.RESET_ALL}")
 
             if (
-                os.path.exists(f"{output_fixed}/{proj_bug}")
-                or os.path.exists(f"{output_partial}/{proj_bug}")
-                or os.path.exists(f"{output_unfix}/{proj_bug}")
-                or os.path.exists(f"{output_patches}/{proj_bug}")
+                os.path.exists(f"{output_patches}/{proj_bug}")
+                # os.path.exists(f"{output_fixed}/{proj_bug}")
+                # or os.path.exists(f"{output_partial}/{proj_bug}")
+                # or os.path.exists(f"{output_unfix}/{proj_bug}")
             ):
                 print(f"{Fore.RED}{Style.BRIGHT}Already processed {proj_bug}{Style.RESET_ALL}")
                 continue
