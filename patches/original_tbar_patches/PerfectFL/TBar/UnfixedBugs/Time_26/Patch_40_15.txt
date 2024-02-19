@@ -1,0 +1,12 @@
+diff --git a/src/main/java/org/joda/time/chrono/ZonedChronology.java b/src/main/java/org/joda/time/chrono/ZonedChronology.java
+index f165f3dd..f5153dc6 100644
+--- a/src/main/java/org/joda/time/chrono/ZonedChronology.java
++++ b/src/main/java/org/joda/time/chrono/ZonedChronology.java
+@@ -457,7 +457,7 @@ public final class ZonedChronology extends AssembledChronology {
+             } else {
+                 long localInstant = iZone.convertUTCToLocal(instant);
+                 localInstant = iField.addWrapField(localInstant, value);
+-                return iZone.convertLocalToUTC(localInstant, false);
++                return iZone.convertLocalToUTC(instant, false);
+             }
+         }

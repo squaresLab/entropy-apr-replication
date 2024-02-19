@@ -1,0 +1,18 @@
+diff --git a/src/main/java/org/joda/time/MutableDateTime.java b/src/main/java/org/joda/time/MutableDateTime.java
+index 310f55d2..c32cfe02 100644
+--- a/src/main/java/org/joda/time/MutableDateTime.java
++++ b/src/main/java/org/joda/time/MutableDateTime.java
+@@ -633,10 +633,11 @@ public class MutableDateTime
+      * @throws ArithmeticException if the result exceeds the capacity of the instant
+      */
+     public void add(DurationFieldType type, int amount) {
+-        if (type == null) {
++        setMillis(type.getField(getChronology()).add(getMillis(), amount));
++	if (type == null) {
+             throw new IllegalArgumentException("Field must not be null");
+         }
+-            setMillis(type.getField(getChronology()).add(getMillis(), amount));
++            
+     }
+ 
+     //-----------------------------------------------------------------------
