@@ -137,7 +137,7 @@ def defects4j(repos_directory, file_path, project, bug_id, diff_line_dict):
 
 if __name__ == "__main__":
     current_path = os.getcwd()
-    patch_directory = f"{current_path}/TBar/OUTPUT"
+    patch_directory = f"{current_path}/patches/original_tbar_patches"
     repos_directory = f"{current_path}/repos"
     results_directoy = f"{current_path}/patches/patches_entropy_TBar"
     for subdir, _, files in os.walk(patch_directory):
