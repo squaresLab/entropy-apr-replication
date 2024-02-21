@@ -13,6 +13,7 @@ export PATH=$PATH:/home/defects4j/framework/bin
 cd /home
 
 ## Give access to folders
+chmod -R a+rw /home/patches
 chmod -R a+rw /home/TBar
 
 ## Defects4j
@@ -73,7 +74,9 @@ mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bu
 mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases" 
 
 # perfect tbar and use ranked patches
-mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -patchRankFile /home/TBar/entropy_patch_rank.json" 
+mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_8 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -patchRankFile /home/TBar/entropy_patch_rank.json" 
+
+mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -storePatchJson" 
 
 # perfect tbar store and record all patches
 mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -storePatchJson -recordAllPatches -compileOnly" 
