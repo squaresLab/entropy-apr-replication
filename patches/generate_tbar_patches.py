@@ -7,7 +7,10 @@ import argparse
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("run_option", help="Options: store_patches, tbar or tbar_ranked")
+    ap.add_argument(
+        "run_option",
+        help="Options: store_patches, tbar_testcache_ranked, tbar_testcache, tbar_vanilla, tbar_vanilla_ranked",
+    )
     args = ap.parse_args()
     run_option = args.run_option
 
@@ -32,22 +35,28 @@ if __name__ == "__main__":
             bug = proj_bug.split("_")[1]
 
             if "tbar" in run_option:
-                if run_option == "tbar_ranked":
-
-                    time_file = "time_spent_entropy"
+                if run_option == "tbar_testcache_ranked":
+                    time_file = "time_entropy_testcache"
                     checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -patchRankFile /home/TBar/entropy_patch_rank.json" '
-                elif run_option == "tbar":
-                    time_file = "time_spent_tbar"
+                elif run_option == "tbar_testcache":
+                    time_file = "time_tbar_testcache"
                     checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches" '
+                elif run_option == "tbar_vanilla_ranked":
+                    time_file = "time_entropy_vanilla"
+                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache -patchRankFile /home/TBar/entropy_patch_rank.json" '
+                elif run_option == "tbar_vanilla":
+                    time_file = "time_tbar_vanilla"
+                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache" '
 
                 # read entire file as string
-                with open(f"{current_path}/patches/{time_file}.csv", "r") as f:
-                    data = f.read()
-                    if f"{proj_bug}," in data:
-                        print(
-                            f"{Fore.RED}{Style.NORMAL}Already processed {proj_bug}{Style.RESET_ALL}"
-                        )
-                        continue
+                if os.path.exists(f"{current_path}/patches/{time_file}.csv"):
+                    with open(f"{current_path}/patches/{time_file}.csv", "r") as f:
+                        data = f.read()
+                        if f"{proj_bug}," in data:
+                            print(
+                                f"{Fore.RED}{Style.NORMAL}Already processed {proj_bug}{Style.RESET_ALL}"
+                            )
+                            continue
             else:
                 checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -compileOnly -recordAllPatches -storePatchJson" '
 

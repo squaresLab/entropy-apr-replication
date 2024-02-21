@@ -84,8 +84,6 @@ mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="
 ### compile Tbar
 mvn compile -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dhttps.protocols=TLSv1.2
 
-## New run tbar
-
 
 ## remove git history
 git filter-branch --tree-filter "rm -rf patches/patches_shibboleth" --prune-empty HEAD
