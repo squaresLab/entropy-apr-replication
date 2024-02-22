@@ -75,9 +75,6 @@ mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="
 
 # perfect tbar and use ranked patches
 mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_8 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -patchRankFile /home/TBar/entropy_patch_rank.json" 
-
-mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -storePatchJson" 
-
 # perfect tbar store and record all patches
 mvn exec:java -e -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId Chart_1 -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -storePatchJson -recordAllPatches -compileOnly" 
 

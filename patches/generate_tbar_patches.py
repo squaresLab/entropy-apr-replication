@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     current_path = os.getcwd()
     tbar_directory = f"{current_path}/TBar"
-    patch_directory = f"{tbar_directory}/Results/PerfectFL/TBar/FixedBugs"
+    patch_directory = f"{tbar_directory}/Results/PerfectFL/TBar"
     output_fixed = f"{tbar_directory}/OUTPUT/PerfectFL/TBar/FixedBugs"
     output_partial = f"{tbar_directory}/OUTPUT/PerfectFL/TBar/PartiallyFixedBugs"
     output_unfix = f"{tbar_directory}/OUTPUT/PerfectFL/TBar/UnfixedBugs"
@@ -37,16 +37,16 @@ if __name__ == "__main__":
             if "tbar" in run_option:
                 if run_option == "tbar_testcache_ranked":
                     time_file = "time_entropy_testcache"
-                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -patchRankFile /home/TBar/entropy_patch_rank.json" '
+                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -patchRankFile /home/TBar/entropy_patch_rank.json" '
                 elif run_option == "tbar_testcache":
                     time_file = "time_tbar_testcache"
-                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches" '
+                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches" '
                 elif run_option == "tbar_vanilla_ranked":
                     time_file = "time_entropy_vanilla"
-                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache -patchRankFile /home/TBar/entropy_patch_rank.json" '
+                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache -patchRankFile /home/TBar/entropy_patch_rank.json" '
                 elif run_option == "tbar_vanilla":
                     time_file = "time_tbar_vanilla"
-                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache" '
+                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache" '
 
                 # read entire file as string
                 if os.path.exists(f"{current_path}/patches/{time_file}.csv"):
@@ -58,7 +58,7 @@ if __name__ == "__main__":
                             )
                             continue
             else:
-                checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/TBar/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -compileOnly -recordAllPatches -storePatchJson" '
+                checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -compileOnly -recordAllPatches -storePatchJson" '
 
             start = time.time()
             try:
@@ -69,7 +69,7 @@ if __name__ == "__main__":
                     checkout_command,
                     shell=True,
                     cwd=tbar_directory,
-                    timeout=650,
+                    timeout=600,
                 ).decode()
             except subprocess.TimeoutExpired as e:
                 print(
