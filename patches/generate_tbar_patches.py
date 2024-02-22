@@ -9,7 +9,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "run_option",
-        help="Options: store_patches, tbar_testcache_ranked, tbar_testcache, tbar_vanilla, tbar_vanilla_ranked",
+        help="Options: store_patches, tbar_testcache_ranked, tbar_testcache, tbar_vanilla",
     )
     args = ap.parse_args()
     run_option = args.run_option
@@ -41,9 +41,6 @@ if __name__ == "__main__":
                 elif run_option == "tbar_testcache":
                     time_file = "time_tbar_testcache"
                     checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches" '
-                elif run_option == "tbar_vanilla_ranked":
-                    time_file = "time_entropy_vanilla"
-                    checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache -patchRankFile /home/TBar/entropy_patch_rank.json" '
                 elif run_option == "tbar_vanilla":
                     time_file = "time_tbar_vanilla"
                     checkout_command = f'mvn exec:java -Dexec.mainClass=edu.lu.uni.serval.tbar.main.Main -Dexec.args="-bugDataPath /home/bugdata -bugId {proj_bug} -d4jHome /home/defects4j/ -faultLocFile /home/TBar/BugPositions.txt -faultLocStrategy perfect -failedTests /home/TBar/FailedTestCases -recordAllPatches -noTestCache" '
