@@ -31,6 +31,9 @@ if __name__ == "__main__":
                 .replace("---", "")
             )
 
+            # if "Chart_8" not in proj_bug:
+            #     continue
+
             project = proj_bug.split("_")[0]
             bug = proj_bug.split("_")[1]
 
@@ -68,6 +71,9 @@ if __name__ == "__main__":
                     cwd=tbar_directory,
                     timeout=600,
                 ).decode()
+                for line in output.split("\n"):
+                    if 'Final patch ID ' in line:
+                        final_patch_id = line.split('Final patch ID ')[1].strip()
             except subprocess.TimeoutExpired as e:
                 print(
                     f"{Fore.RED}{Style.NORMAL}Timeout expired for {proj_bug}{Style.RESET_ALL}"
@@ -76,7 +82,7 @@ if __name__ == "__main__":
                 continue
             if "tbar" in run_option:
                 time_spent = time.time() - start
-                fields = [proj_bug, time_spent]
+                fields = [proj_bug, time_spent, final_patch_id]
                 with open(f"{current_path}/patches/{time_file}.csv", "a") as f:
                     writer = csv.writer(f)
                     writer.writerow(fields)
