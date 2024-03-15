@@ -2,7 +2,7 @@
 docker run --name=entropy -it --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=8,9 \
 --mount type=bind,src=/home/aidan/entropy-apr-replication/,dst=/home \
 --mount type=bind,src=/data/huggingface/,dst=/models/huggingface \
-aidan
+docker.io/aidanben/aidan
 
 ## Initialize container
 XDG_CACHE_HOME='/models'
@@ -92,8 +92,6 @@ git gc
 git push origin master --force
 
 cp -a /home/aidan/entropy/ebfl/TBar/D4J/. //home/aidan/TBar/D4J/
-
-
 cp -a /home/aidan/entropy-apr-replication/TBar/D4J/projects/. /data/aidan/bugsdata/
 
 ## Docker
