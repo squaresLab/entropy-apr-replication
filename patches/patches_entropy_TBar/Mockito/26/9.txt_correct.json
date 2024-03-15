@@ -1,0 +1,1 @@
+{"project": "Mockito", "bug_id": 26, "file_path": "/home/patches/original_tbar_patches/PerfectFL/TBar/FixedBugs/Mockito_26/Patch_9.txt", "patched_entropy": {"65": 4.65625, "66": 2.744140625}, "original_entropy": {"65": 0.65966796875, "66": 5.4296875}, "correct": true}

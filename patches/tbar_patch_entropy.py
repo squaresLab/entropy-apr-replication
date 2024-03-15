@@ -61,11 +61,11 @@ def d4j_checkout(repos_directory, project, bug_id, file_path):
         f"defects4j checkout -p {project} -v {bug_id}b -w {repos_directory}/{project}"
     )
     try:
-        subprocess.check_output(
+        output = subprocess.check_output(
             checkout_command,
             shell=True,
             cwd=repos_directory,
-        ).decode()
+        ).decode()        
     except:
         return []
     java_file = f"{repos_directory}/{project}/{file_path}"
@@ -145,8 +145,6 @@ if __name__ == "__main__":
             proj_bug = subdir.split("/")[-1]
             project = proj_bug.split("_")[0]
             bug = proj_bug.split("_")[1]
-            # if "Chart_4" != proj_bug:
-            #     continue
             print(f"{Fore.GREEN}{Style.BRIGHT}{proj_bug}{Style.RESET_ALL}")
             file_id = file.split("_")[1]
             file_path = os.path.join(subdir, file)
@@ -208,6 +206,7 @@ if __name__ == "__main__":
                 repos_directory, java_path, project, bug, diff_line_dict
             )
             if not entropy_dict:
+                print(f"{Fore.RED}{Style.NORMAL}D4J checkout failed{Style.RESET_ALL}")
                 continue
             metadata = {
                 "project": project,
