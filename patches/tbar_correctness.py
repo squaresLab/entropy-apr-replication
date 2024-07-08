@@ -19,20 +19,10 @@ def find_buggy_file(proj_bug):
 
                 for line in artifact_file:
                     if line.startswith("-  "):
-                        target_line = (
-                            line.replace("-  ", "")
-                            .replace("\n", "")
-                            .strip()
-                            .replace(" ", "")
-                        )
+                        target_line = line.replace("-  ", "").replace("\n", "").strip()
                         delete_list.append(target_line)
                     elif line.startswith("+  "):
-                        target_line = (
-                            line.replace("+  ", "")
-                            .replace("\n", "")
-                            .strip()
-                            .replace(" ", "")
-                        )
+                        target_line = line.replace("+  ", "").replace("\n", "").strip()
                         add_list.append(target_line)
                 break
 
@@ -77,11 +67,11 @@ if __name__ == "__main__":
             for i, patch_line in enumerate(patch_data):
                 if patch_line.startswith(" - "):
                     correct_delete_list.append(
-                        patch_line.replace(" - ", "").replace("\n", "").replace(" ", "")
+                        patch_line.replace(" - ", "").replace("\n", "")
                     )
                 elif patch_line.startswith(" + "):
                     correct_add_list.append(
-                        patch_line.replace(" + ", "").replace("\n", "").replace(" ", "")
+                        patch_line.replace(" + ", "").replace("\n", "")
                     )
 
             diff_line_dict["bugID"] = proj_bug
@@ -95,6 +85,14 @@ if __name__ == "__main__":
             #     f"Correct Delete: {correct_delete_list}, Correct Add: {correct_add_list}"
             # )
             json_output.append(diff_line_dict)
+
+            # remove all spaces from delete_list and add_list
+            delete_list = [delete.replace(" ", "") for delete in delete_list]
+            add_list = [add.replace(" ", "") for add in add_list]
+            correct_delete_list = [
+                delete.replace(" ", "") for delete in correct_delete_list
+            ]
+            correct_add_list = [add.replace(" ", "") for add in correct_add_list]
 
             if any(delete in correct_delete_list for delete in delete_list) and any(
                 add in correct_add_list for add in add_list
