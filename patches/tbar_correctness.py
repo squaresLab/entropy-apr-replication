@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 
 
 def find_buggy_file(proj_bug):
@@ -11,9 +12,7 @@ def find_buggy_file(proj_bug):
         for file in files:
             file_path = os.path.join(subdir, file)
             artifact_proj_bug = subdir.split("/")[-1].replace("_", "")
-
             if artifact_proj_bug == proj_bug:
-                # open file
                 with open(file_path, "r") as f:
                     artifact_file = f.readlines()
 
@@ -35,17 +34,12 @@ if __name__ == "__main__":
     repos_directory = f"{current_path}/repos"
     results_directoy = f"{current_path}/patches/patches_entropy_iter"
 
-    json_output = []
+    pandas_output = []
     exact_match = 0
     total_counter = 0
     for subdir, _, files in os.walk(patch_directory):
         for file in files:
             proj_bug = subdir.split("/")[-1]
-
-            # print(proj_bug)
-
-            # if "Chart1" != proj_bug:
-            #     continue
 
             file_path = os.path.join(subdir, file)
             if "plausible" in file_path:
@@ -79,14 +73,8 @@ if __name__ == "__main__":
             diff_line_dict["Tbar_add"] = add_list
             diff_line_dict["Correct_delete"] = correct_delete_list
             diff_line_dict["Correct_add"] = correct_add_list
-            # print("Tbar Delete: ", delete_list)
-            # print("Tbar Add: ", add_list)
-            # print(
-            #     f"Correct Delete: {correct_delete_list}, Correct Add: {correct_add_list}"
-            # )
-            json_output.append(diff_line_dict)
+            pandas_output.append(diff_line_dict)
 
-            # remove all spaces from delete_list and add_list
             delete_list = [delete.replace(" ", "") for delete in delete_list]
             add_list = [add.replace(" ", "") for add in add_list]
             correct_delete_list = [
@@ -99,7 +87,6 @@ if __name__ == "__main__":
             ):
                 exact_match += 1
             total_counter += 1
-    # output json_output to file
-    with open("tbar_correctness.json", "w") as f:
-        f.write(str(json_output))
+    df = pd.DataFrame(pandas_output)
+    df.to_csv("tbar_correctness.csv", index=False)
     print(f"Exact Match: {exact_match}, Total Counter: {total_counter}")
