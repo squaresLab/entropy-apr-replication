@@ -92,9 +92,6 @@ if __name__ == "__main__":
         for file in files:
             proj_bug = subdir.split("/")[-1]
 
-            # if "Chart1" != proj_bug:
-            #     continue
-
             file_path = os.path.join(subdir, file)
 
             correct = True
@@ -109,9 +106,9 @@ if __name__ == "__main__":
 
             original_d4j_lines = find_buggy_file(proj_bug)
             if original_d4j_lines == "":
-                # No plausible patch, only correct
-                better_rank_counter += 1
-                total_counter += 1
+                if correct:
+                    better_rank_counter += 1
+                    total_counter += 1
                 continue
 
             diff_line_dict = {}
@@ -163,10 +160,10 @@ if __name__ == "__main__":
 
             if correct:
                 correct_entropy_dict[proj_bug] = entropy_delta
+                total_counter += 1
             else:
-                # if proj_bug already in correct_entropy_dict
                 if proj_bug in correct_entropy_dict:
                     if entropy_delta <= correct_entropy_dict[proj_bug]:
                         better_rank_counter += 1
-                    total_counter += 1
+
     print(f"Better rank counter: {better_rank_counter}, Total counter: {total_counter}")
